@@ -1782,3 +1782,1086 @@ buildtoolbar_quickbuild_smallLand						Základní štempl s dlaždicemi písku, 
 buildtoolbar_quickbuild_largeLand						Základní štempl s dlaždicemi písku, hlíny a trávy, který můžete použít při rozšiřování pozemku.
 
 online_check_fail									V současné době nemáte oprávnění k přístupu k této funkci hry.
+
+############################### Green Machine Pack ###############################
+
+# =============================================================================
+# Materials - Names
+# =============================================================================
+
+material_ReclaimedWoodWall    Stěna z regenerovaného dřeva
+material_BottleWall           Stěna z lahví
+material_WhitePicketFence     Bílý plaňkový plot
+material_ReclaimedBrickFloor  Recyklovaná cihla
+material_ReclaimedRubberFloor Recelovaná podlaha z gumy
+
+material_HayBailWall          Stěna z balíků sena
+material_WoodenFence          Dřevěný plot
+material_GardenWall           Zahradní zeď
+material_SellMaterial         Prodej materiálu
+material_SellFlooring         Prodej podlahové krytiny
+
+# =============================================================================
+# Object - Names
+# =============================================================================
+
+object_shed                  Přístřešek
+object_BasicAutoGatherer     Základní automatický sběrač
+object_AdvancedAutoGatherer  Pokročilý automatický sběrač
+object_AutoHarvester         Automatický sklízeč
+object_AutoScythe            Automatická kosa
+
+object_farmer                Farmář
+object_CompostFertilizer     Kompostové hnojivo
+object_HighQualityFertilizer Vysoce kvalitní hnojivo
+
+object_CropCarrotPlant       Rostlina mrkve
+object_CropPotatoPlant       Rostlina bramboru
+object_CropTomatoPlant       Rostlina rajčete
+object_CropCabbagePlant      Rostlina zelí
+object_CropAppleTree         Jabloň
+object_CropBananaTree        Banánovník
+object_CropOrangeTree        Pomerančovník
+object_CropPeachTree         Broskvoňový strom
+object_CropCornPlant         Rostlina kukuřice
+object_CropWheatPlant        Rostlina pšenice
+object_CropBarleyPlant       Rostlina ječmene
+
+object_CropAppleTreeSeed     Semena jabloní
+object_CropBananaTreeSeed    Semeno banánovníku
+object_CropOrangeTreeSeed    Semeno pomerančovníku
+object_CropPeachTreeSeed     Semeno broskvoně
+
+object_CropCarrotPlantSeed   Semeno mrkve
+object_CropPotatoPlantSeed   Semeno bramboru
+object_CropTomatoPlantSeed   Semeno rajčete
+object_CropCabbagePlantSeed  Semeno zelí
+object_CropCornPlantSeed     Semeno kukuřice
+object_CropWheatPlantSeed    Semeno pšenice
+object_CropBarleyPlantSeed   Semeno ječmene
+
+
+
+object_apple                 Jablko
+object_banana                Banán
+object_Peach                 Broskev
+object_orange                Pomeranč
+object_carrot                Mrkev
+object_cabbage               Zelí
+object_potato                Brambora
+object_tomato                Rajče
+object_barley                Ječmen
+object_wheat                 Pšenice
+object_corn                  Kukuřice
+object_OrganicWaste          Organický odpad
+
+object_SolarPanels           Solární panely
+object_Transformer           Transformátor
+object_WindTurbine           Větrná turbína
+object_SolarWindHybrid       Hybridní solární větrná elektrárna
+object_Battery               Baterie
+object_PowerExportMeter      Měřič exportu energie
+object_PracticeSolarPanel    Solární panel pro praxi
+
+object_TallFridge            Vysoká lednice
+object_StorageShelf          Skladovací police
+object_DripPipe              Odkapávací potrubí
+
+object_CompostBin            Kompostovací koš
+object_RecyclingBin          Recyklační koš
+object_RecyclingBag          Recyklační pytel
+
+objekt_GardenGnome              Zahradní trpaslík
+objekt_TopiaryBush              Tvarovaný keř
+objekt_TopiaryBushBall          Tvarovaný keř (Koule)
+objekt_TopiaryBushWarden        Tvarovaný keř (Správce)
+objekt_TopiaryBushSwan          Tvarovaný keř (Labuť)
+objekt_TopiaryBushDeer          Tvarovaný keř (Jelen)
+objekt_TopiaryBushDog           Tvarovaný keř (Pes)
+objekt_TopiaryBushCat           Tvarovaný keř (Kočka)
+objekt_TopiaryBushRex           Tvarovaný keř (Rex)
+objekt_SolarLight               Světlo (Solární)
+objekt_PinkFlamingo             Růžový plameňák
+objekt_HayBale                  Balík sena
+objekt_FlowerPlanterWateringCan Květináč (konev)
+objekt_FlowerPlanterWellies     Květináč (gumovky)
+objekt_FlowerPlanterWheelbarrow Květináč (trakař)
+objekt_SmallServingTable        Servírovací stolek (Malý)
+objekt_TrayDispenser            Zásobník na tácky
+objekt_SolarWallLight           Nástěnné světlo (Solární)
+
+objekt_BowtieBandit             Bowtie Bandit (motýlek)
+objekt_Shepherd                 Pastýř
+objekt_DumpObject               Objekt skládky
+objekt_FlowerRoseBush           Růžový keř
+objekt_FlowerSunflower          Slunečnice
+objekt_FlowerMixedBegonias      Smíšené begonie
+objekt_FlowerHeatherBushes      Vřesové keře
+objekt_FlowerHydrangeaPlant     Rostlina hortenzie
+objekt_BarnDoor                 Dveře stodoly
+objekt_FlowerRoseBushSeed       Semena růžových keřů
+objekt_FlowerSunflowerSeed      Semena slunečnice
+objekt_FlowerMixedBegoniasSeed  Smíšená semena begónie
+objekt_FlowerHeatherBushesSeed  Semena vřesu
+objekt_FlowerHydrangeaPlantSeed Semena hortenzie
+
+objekt_WhitePicketGate          Bílá brána s plůtky
+objekt_DoubleDoor               Dvojité dveře
+objekt_DoubleStaffDoor          Dvojité dveře s personálem
+objekt_DoubleVisitorDoor        Dvojité dveře pro návštěvníky
+objekt_SellUtility              Prodej komunálních služeb
+objekt_quickconnect             Rychlé připojení
+
+equipment_trowel                Stěrka
+equipment_handFork              Ruční vidle
+equipment_Kicker                Kopačky
+equipment_Drink                 Nápoj
+equipment_BoozeBag              Sáček na alkohol
+equipment_Orange                Pomeranč
+equipment_ProducedDrugs         Produkované drogy
+equipment_ProducedBooze         Vyrobený alkohol
+equipment_ProducedNarcotics     Přísada do chlastu
+
+equipment_HerbPlant             Drogy
+
+# =============================================================================
+# Room - Names
+# =============================================================================
+
+room_VegetableAllotment Zeleninová parcela
+room_FruitOrchard       Ovocný sad
+room_FarmingField       Zemědělské pole
+room_pantry             Spíž
+room_flowergarden       Květná zahrada
+
+buildtoolbar_popup_room_Pantry             Místnost pro uskladnění veškerého čerstvě vypěstovaného ovoce a zeleniny, místnost je chlazená, aby se vězeňsky vypěstované suroviny uchovaly.
+buildtoolbar_popup_room_VegetableAllotment Místnost pro pěstování zeleniny. Zeleninu v ní vypěstovanou lze použít jak pro vězeňská jídla, tak prodat na vývoz, přičemž možnost Rozdělení plodin v nabídce Logistika umožňuje nastavit preferované rozdělení plodin.
+buildtoolbar_popup_room_FruitOrchard       Místnost pro pěstování ovocných stromů. Ovocné stromy po první sklizni průběžně plodí a lze je použít pro jídlo pro vězně nebo prodat jako export, volba Rozdělení plodin v nabídce Logistika umožňuje nastavit preferované přidělení plodin.
+buildtoolbar_popup_room_FarmingField       Místnost pro pěstování obilovin a obilí, tyto plodiny lze prodat pouze jako export, možnost Rozdělení plodin v nabídce Logistika umožňuje nastavit předvolené přidělení plodin. Buďte opatrní, protože plodiny, které v ní rostou, mohou vězni zfalšovat a pěstovat v ní narkotika.
+buildtoolbar_popup_room_flowergarden       Rekreační zahradní oblast, kde mohou vězni pěstovat rostliny a starat se o ně.
+
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_popup_mat_PerimeterWall        Vodovodní potrubí nelze zabudovat pod něj.
+buildtoolbar_popup_mat_ReclaimedWoodWall    Dřevěné stěny vytvořené opětovným použitím starých materiálů.
+buildtoolbar_popup_mat_BottleWall           Krásné a barevné stěny, vytvořené opětovným použitím starých materiálů.
+buildtoolbar_popup_mat_WhitePicketFence     Skvěle se hodí k zabezpečení vašich květinových zahrad, ale ne tak skvěle k zabezpečení vězňů.
+buildtoolbar_popup_mat_ReclaimedBrickFloor  Podlahová dlažba se vzorem rybí kosti, vytvořená opětovným použitím starých materiálů.
+buildtoolbar_popup_mat_ReclaimedRubberFloor Gumová podlahová dlažba, vytvořená opětovným použitím starých materiálů.
+buildtoolbar_popup_mat_HayBailWall          Vysoké, ale slabé balíky sena. Spíše doplněk než seriózní možnost zabezpečení. Pouze pro venkovní použití
+buildtoolbar_popup_mat_WoodenFence          Dřevěný plot vyrobený člověkem, který poskytuje přirozenější vzhled. Pouze pro venkovní použití.
+buildtoolbar_popup_mat_GardenWall           Dodá hranicím vašeho vězení trochu života a barev. Pro vnitřní i venkovní použití.
+
+buildtoolbar_popup_obj_Shed                 Plocha pro uložení všech semen, nářadí a dalších zemědělských předmětů. Součástí je také vodovodní kohoutek umožňující základní zavlažování.
+buildtoolbar_popup_obj_BasicAutoGatherer    Aktivuje se každých 6 hodin, aby shromáždil a uskladnil všechny ingredience v oblasti 5x5.
+buildtoolbar_popup_obj_AdvancedAutoGatherer Aktivuje se každých 6 hodin, aby shromáždil a uskladnil všechny přísady v oblasti 10x10.
+buildtoolbar_popup_obj_AutoHarvester        Aktivuje se každých 6 hodin a sklízí všechny plodiny v oblasti o délce 10 políček před sebou - tato sklizeň bude blokována zdmi a dveřmi.
+buildtoolbar_popup_obj_AutoScythe           Robotický zemědělský nástroj, který se ve hře aktivuje každých 6 hodin a sklízí všechny plodiny v oblasti 5x5 políček.
+
+
+buildtoolbar_popup_obj_CropCarrotPlant  Vypěstujte si vlastní mrkev! Zakoupíte-li balíček 20 semen, z nichž každé při sklizni obvykle dává 1 přísadu, sklizenou mrkev lze prodat za 4 dolary za kus.
+buildtoolbar_popup_obj_CropPotatoPlant  Vypěstujte si vlastní brambory! Zakoupeno jako balení 20 semen, která při sklizni obvykle dávají po 3 bramborách, sklizené brambory lze prodat za 3 USD/kus.
+buildtoolbar_popup_obj_CropTomatoPlant  Vypěstujte si vlastní rajčata! Zakoupeno jako balení 10 semen, které obvykle při sklizni dávají po 5 rajčatech, sklizená rajčata lze prodat za 4 USD/kus.
+buildtoolbar_popup_obj_CropCabbagePlant Vypěstujte si vlastní zelí! Zakoupeno v balení po 30 semenech, která při sklizni obvykle dávají po 1 přísadě, sklizené zelí lze prodat za 4 dolary za kus.
+buildtoolbar_popup_obj_CropAppleTree    Vyroste ve strom, který pak nepřetržitě pěstuje jablka! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 10 jablek, sklizená jablka lze prodat za 4 $/kus.
+buildtoolbar_popup_obj_CropBananaTree   Vyroste ve strom, který pak nepřetržitě pěstuje banány! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 16 banánů, sklizené banány lze prodat za 6 USD/kus.
+buildtoolbar_popup_obj_CropPeachTree    Vyroste ve strom, který pak nepřetržitě pěstuje Broskve! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 10 broskví, sklizené broskve lze prodat za 6 USD/kus.
+buildtoolbar_popup_obj_CropOrangeTree   Vyroste ve strom, který pak nepřetržitě pěstuje pomeranče! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 8 pomerančů, sklizené pomeranče lze prodat za 3 USD/kus.
+buildtoolbar_popup_obj_CropCornPlant    Vypěstujte si vlastní kukuřici! Zakoupeno jako balení 10 semen, z nichž každé při sklizni obvykle dává 5 klasů kukuřice, sklizenou kukuřici lze prodat za 5 USD/kus.
+buildtoolbar_popup_obj_CropWheatPlant   Vypěstujte si vlastní pšenici! Zakoupeno jako balení 20 semen, která při sklizni obvykle dávají po 4 kusech pšenice, sklizenou pšenici lze prodat za 6 dolarů za kus.
+buildtoolbar_popup_obj_CropBarleyPlant  Vypěstujte si vlastní ječmen! Zakoupeno jako balení 20 semen, která obvykle při sklizni dávají po 2 kusech ječmene, sklizený ječmen lze prodat za 3 USD/kus.
+
+buildtoolbar_popup_obj_TallFridge   Přísady na jídlo lze nyní skladovat ve výšce hlavy!
+buildtoolbar_popup_obj_StorageShelf Skvělé pro zvětšení úložného prostoru.
+buildtoolbar_popup_obj_DripPipe     Automatizujte zavlažování všech plodin na 2 sousedních dlaždicích pomocí tohoto kapače. Tyto položky lze umístit pouze v přímé linii, přičemž vodorovné a svislé linie nelze propojit.
+
+buildtoolbar_popup_uts_SolarPanels        Generátor elektřiny, který využívá sílu Slunce! Lze je připojit k více zeleným zdrojům energie, ale jejich energie musí nejprve projít transformátorem, aby mohla být použita ve vašem vězení.
+buildtoolbar_popup_uts_Transformer        Převádí elektrickou energii generovanou zelenými zdroji energie na energii vhodnou pro spotřebiče, lze připojit více zdrojů energie, ale Transformátory mají vstupní limit 5000 jednotek výkonu. Elektrické kabely musí být připojeny ve směru znázorněném na přiložených obrázcích se šipkami.
+buildtoolbar_popup_uts_WindTurbine        Generátor elektrické energie, který využívá sílu větru! Lze je připojit k více zeleným zdrojům energie, ale jejich energie musí nejprve projít transformátorem, než ji lze použít ve vašem vězení.
+buildtoolbar_popup_uts_SolarWindHybrid    Generátor elektřiny, který využívá sílu větru i Slunce! Lze je připojit k více zeleným zdrojům energie, ale jejich energie musí nejprve projít transformátorem, než ji lze použít ve vašem vězení.
+buildtoolbar_popup_uts_Battery            Uchovává přebytečnou energii přeměněnou Transformátory pro případ nouze nebo k použití jako export, pro svou funkci musí být umístěn vedle Transformátoru.
+buildtoolbar_popup_uts_PowerExportMeter   Objekt, který umožňuje odesílat veškerou uloženou energii zpět do sítě za účelem finanční návratnosti. Pro správnou funkci musí být připojen k Transformátoru, který má připojené Baterie.
+buildtoolbar_popup_obj_PracticeSolarPanel Jediný solární panel položený na malém stole, který mohou používat až 4 vězni v rámci Workshopů, pro Program vývoje solárních panelů.
+
+buildtoolbar_popup_obj_CompostBin            Slouží k opětovnému využití potravinového a organického odpadu na užitečné hnojivo.
+buildtoolbar_popup_obj_RecyclingBin          Recyklace odpadu místo jeho vyhazování do popelnice je prospěšná jak pro životní prostředí, tak po prozkoumání "Recyklační pobídky" i pro vaši peněženku!
+buildtoolbar_popup_obj_CompostFertilizer     Při aplikaci na polní plodiny a zeleninu se jim o 25 % zrychlí doba růstu i zrání a také získají malou šanci na vypadávání semen.
+buildtoolbar_popup_obj_HighQualityFertilizer Při použití na polní plodiny a zeleninu se jim o 50 % zvýší rychlost růstu i doba zrání a také se zvýší šance na vypadávání semen.
+
+buildtoolbar_popup_obj_GardenGnome                Veselá zahradní klasika.
+buildtoolbar_popup_obj_TopiaryBush                Kroucený okrasný keř.
+buildtoolbar_popup_obj_TopiaryBushBall            Okrasný keř ve tvaru lízátka.
+buildtoolbar_popup_obj_TopiaryBushWarden          Okrasný keř ve tvaru lentilky.
+buildtoolbar_popup_obj_TopiaryBushSwan            Okrasný keř ve tvaru elegantní labutě.
+buildtoolbar_popup_obj_TopiaryBushDeer            Okrasný keř ve tvaru majestátního jelena.
+buildtoolbar_popup_obj_TopiaryBushDog             Okrasný keř ve tvaru našich energických nejlepších přátel.
+buildtoolbar_popup_obj_TopiaryBushCat             Okrasný keř ve tvaru našich nejlepších líných přátel.
+buildtoolbar_popup_obj_TopiaryBushRex             Působivě tvarovaný okrasný keř.
+buildtoolbar_popup_obj_SolarLight                 Solární světlo s vlastním napájením, které se v noci automaticky rozsvítí.
+buildtoolbar_popup_obj_PinkFlamingo               Veselá zahradní klasika.
+buildtoolbar_popup_obj_HayBale                    Dekorativní hromada sena.
+buildtoolbar_popup_obj_FlowerPlanterWateringCan   Jednoduchá repasovaná nádoba, ve které jsou nyní květiny.
+buildtoolbar_popup_obj_FlowerPlanterWellies       Přepracovaný pár studenovodů, ve kterých jsou nyní květiny.
+buildtoolbar_popup_obj_FlowerPlanterWheelbararrow Barevný doplněk do vašich venkovních prostor.
+buildtoolbar_popup_obj_SmallServingTable          Naservírujte svým vězňům jídlo.
+buildtoolbar_popup_obj_TrayDispenser              Slouží k ukládání náhradních táců s jídlem, jeho maximální kapacita je 200.
+buildtoolbar_popup_obj_SolarWallLight             Světlo na solární pohon, které lze umístit na stěny a které se v noci automaticky rozsvítí.
+
+buildtoolbar_popup_obj_BowtieBandit Velmi šikovný chlapík.
+buildtoolbar_popup_obj_Shepherd     KDO JE CHYTREJ PEJSEK!?
+
+buildtoolbar_popup_obj_DumpObject   Vyhoď objekty ve svém vězení.
+
+buildtoolbar_popup_staff_farmer     Stará se o růst plodin a řídí všechny práce související s místnostmi Zeleninová záhona, Ovocný sad nebo Zemědělské pole.
+
+buildtoolbar_popup_obj_FlowerRoseBush       Dekorativní keř plný červených květů.
+buildtoolbar_popup_obj_FlowerSunflower      Velký žlutý květ.
+buildtoolbar_popup_obj_FlowerMixedBegonias  Skupina barevných květů.
+buildtoolbar_popup_obj_FlowerHeatherBushes  Barevný a běžný keř.
+buildtoolbar_popup_obj_FlowerHydrangeaPlant Dekorativní rostlina plná modrých květů.
+buildtoolbar_popup_obj_BarnDoor             Nyní již není otázkou, zda byli vězni vychováváni ve stodole.
+buildtoolbar_popup_obj_WhitePicketGate      Skvěle se hodí k zabezpečení květinových zahrad, ale už ne tak skvěle k zabezpečení vězňů.
+buildtoolbar_popup_obj_DoubleDoor           Dvojité dveře použitelné všemi.
+buildtoolbar_popup_obj_DoubleStaffDoor      Dvojité dveře použitelné personálem.
+buildtoolbar_popup_obj_DoubleVisitorDoor    Dvojité dveře použitelné návštěvníky.
+buildtoolbar_popup_obj_SellUtility          Prodej užitkového předmětu.
+buildtoolbar_popup_obj_SellObject           Ruční metoda prodeje exportních předmětů, která také dokáže prodat všechny nepoužívané nebo demontované předměty za 85 % jejich pořizovací ceny.
+buildtoolbar_popup_obj_SellMaterial         Prodej jakýchkoli nevyužitých zásobníků stavebního materiálu, jako jsou kabely a cihly, za 85 % jejich pořizovacích nákladů.
+buildtoolbar_popup_obj_SellFlooring         Prodejte již nepotřebné podlahové dlaždice za 85 % jejich pořizovacích nákladů.
+
+
+buildtoolbar_popup_uts_quickconnect         Rychle propojí libovolné dohledové nebo automatizační systémy s jejich nejbližší položkou příjemce.
+
+
+# =============================================================================
+# Interface
+# =============================================================================
+
+#pc only
+d11_hover_alert_water							Vyžaduje vodu
+d11_hover_alert_electricity						Vyžaduje elektřinu
+
+
+interfacemode_objectPack_filter_all					Všechny balíčky
+dlc_name_psychWard				Psych Ward
+dlc_name_prisonWing				Cleared For Transfer
+dlc_name_seaAirLand				Island Bound
+dlc_name_greenMachine				Going Green
+interfacemode_objectPack_filter_caption					Filtruje počet zobrazených objektů na základě přidruženého rozšiřujícího balíčku.
+
+interfacemode_objectType_filter_all                 Všechny typy
+interfacemode_objectType_filter_requiresWater       Instalatérství
+interfacemode_objectType_filter_requiresElectricity Elektronika
+interfacemode_objectType_filter_entertainment       Zábava
+interfacemode_objectType_filter_rest                Odpočinek
+interfacemode_objectType_filter_exercise            Cvičení
+interfacemode_objectType_filter_decoration          Dekorace
+interfacemode_objectType_filter_foliage             Listí
+interfacemode_objectType_filter_signs               Značky
+interfacemode_objectType_filter_security            Zabezpečení
+interfacemode_objectType_filter_catering            Stravování
+interfacemode_objectType_filter_misc                Různé
+interfacemode_objectType_filter_caption             Filtruje počet zobrazených objektů na základě typu těchto objektů.	
+
+
+# =============================================================================
+# Green energy
+# =============================================================================
+d11_powerstation_overloaded                  Přetížení, odstraňte elektrické prvky nebo přidejte kondenzátory
+d11_powerstation_overloaded_two_stations     Přetížené, napájecí stanice nesmí být vzájemně propojeny.
+
+
+buildtoolbar_deployment_PrioritizeFarmer     Tuto možnost použijte k upřednostnění farmářů, aby vykonávali svou práci v určitých oblastech před ostatními v okolí věznice. Pokud máte nedostatek personálu, Farmáři se budou snažit pokrýt prioritní oblasti jako první. Přiřaďte 1, 2 nebo 3 Farmáře, kteří budou oblast prioritizovat.
+interfacetopbar_tooltip_totalFarmers         *X farmáři celkem
+interfacetopbar_tooltip_farmer               Kolik farmářů máte k dispozici pro práci ve věznici.
+
+#
+
+d11_hover_alert_green_electricity            Vyžaduje zelenou energii.
+d11_powerstation_overloaded_green            Přetíženo, odstraňte elektrické předměty nebo přidejte další zelené zdroje energie
+d11_powerstation_overloaded_two_transformers Přetížené, transformátory nesmí být na stejném obvodu.
+d11_powerstation_overloaded_merged_power     Přetížený, zelená energie se nesmí míchat se standardní energií.
+
+d11_transformer_input_power                  Výroba energie: *X jednotek
+d11_transformer_output_power                 Výdej energie: *X jednotek
+d11_transformer_spare_power                  Přebytek proudu: *X jednotek
+
+d11_powerstation_power_prouduction           Proudový výstupní výkon: *X jednotek
+d11_powerstation_max_capacity                Maximální výkon: *X jednotek
+
+d11_powerexportmeter_sell_desc               Export výkonu:
+finances_category_power_export               Vývoz_energie
+d11_powerexportmeter_powertosell             Finanční kompenzace: $*X
+
+d11_battery_charge_text                      Proudový náboj: *X %
+d11_battery_charging                         Nabíjení
+d11_battery_discharging                      Vybíjení
+
+d11_greenpower_positive_weather_effect       Výroba energie byla pozitivně ovlivněna aktuálním počasím.
+d11_greenpower_negative_weather_effect       Výroba energie byla negativně ovlivněna aktuálním počasím.
+
+# =============================================================================
+# Farming/Recycling
+# =============================================================================
+
+d11_continuous_planting_tooltip          Tato volba automatizuje přesazování stejných plodin po jejich sklizni, podobně jako je tomu u nástroje Lesnictví.
+
+d11_plant_crop                           Zasadit plodinu
+d11_plant_crop_location                  Rostlinná plodina v *X
+d11_crop_time_to_yield                   Doba do sklizně *X hodin
+d11_fertilized                           Pohnojené
+d11_tampered                             Zfalšované
+d11_needsWater                           Plodina potřebuje zalévat, aby mohla pokračovat v růstu
+d11_hover_compostbin                     Shromážděný odpad
+
+misconduct_reporttype_ProducedNarcotics  Vyrobená narkotika
+kontraband_Produced                      Vyrobená narkotika
+contraband_Ingredient                    Chlast Ingredience
+contraband_Kicker                        Kořalka Kicker
+contraband_StashLocation                 Umístění skrýše
+
+d11_crop_stage_seedling                  Semeno
+d11_crop_stage_sapling                   Sazenice
+d11_crop_stage_immature                  Nezralý
+d11_crop_stage_mature                    Dospělý
+d11_crop_stage_ripe                      Zralé
+d11_continuous_planting                  Průběžná výsadba
+
+d11_farm_search_freq_caption             Frekvence vyhledávání na farmě
+d11_farm_search_freq_tooltip             Protože místnosti pro farmaření nejsou zahrnuty do shakedownů, použijte tuto volbu k rozhodnutí, zda se má v těchto místnostech pro farmaření provádět pravidelné prohledávání, nebo ne.
+d11_crop_types_caption                   Typ plodiny
+d11_crop_types_tooltip                   Zvolte, zda budou automaticky zakoupené plodiny přírodní nebo geneticky modifikované. Geneticky modifikované plodiny mají o 50 % kratší dobu růstu, ale také se o stejnou částku snižuje jejich vývozní cena a odstraňuje se zvyšování jejich potřeb, když je snědí vězni.
+d11_farm_search_target_caption           Cíl vyhledávání farem
+d11_farm_search_target_tooltip           Protože místnosti s farmami nejsou zahrnuty do shakedownů, použijte tuto volbu k rozhodnutí, které předměty nebo entity budou prohledávány prostřednictvím volby Frekvence prohledávání.
+d11_continuous_fertilizer_caption        Průběžné hnojivo
+d11_continuous_fertilizer_tooltip        Zvolte, zda chcete automaticky nakupovat hnojivo či nikoli, a úroveň jeho kvality.
+reports_farmingpolicytitle               Zemědělská politika
+
+d11_farm_search_freq_option_never        Nikdy
+d11_farm_search_freq_option_daily        Denně
+d11_farm_search_freq_option_3days        Každé 3 dny
+d11_farm_search_freq_option_5days        Každých 5 dní
+d11_farm_search_freq_option_weekly       Týdenní
+d11_farm_search_target_option_crops      Pouze plodiny
+d11_farm_search_target_option_labourers  Věznění dělníci
+d11_farm_search_target_option_everything Vše
+d11_crop_type_option_natural             Přírodní plodiny
+d11_crop_type_option_GMO                 GM plodiny
+d11_plant_flower                         Rostlina Květina
+d11_plant_flower_location                Rostlinný květ v *X
+
+Ingredients_UsageCaption                 Poměr:
+Ingredients_UsageCaption_tooltip         Ovládejte poměr mezi vězeňskými produkty a dodanými ingrediencemi použitými pro jídlo, ingredience budou objednány, pokud uložené množství nebude stačit.
+finance_cost_recycling                   Recyklace
+
+research_farming            Zemědělství
+research_RecyclingIncentive Recyklační pobídky
+researchtooltip_farming     Odemkne pokročilé zemědělské techniky a vybavení a dražší plodiny.
+
+d11_wiltedCrop              Zvadlé Plodiny
+d11_wiltedCropDesc          Tato plodina nebyla *X dní zalévána a nelze ji již obnovit, bude přesunuta do nejbližšího koše, ať už do standardního koše jako odpad nebo do kompostového koše, kde bude přeměněna na hnojivo.
+
+d11_check_ingredients_menu    Zkontrolujte nabídku Ingredients, abyste získali další podrobnosti.
+d11_meal_cost_per_meal        $*X / jídlo
+d11_meal_cost_total           Celková cena
+d11_meal_estimated_price      Odhadovaná cena
+d11_meal_quantity_description Nastavte počet přísad, které může každý vězeň během jídla zkonzumovat, v rozmezí 1 až 3. Tato možnost řídí počet dodaných přísad na základě zvoleného nastavení, počtu vězňů a aktuální zásoby potravin.
+d11_meal_variety_description  Tato možnost řídí počet typů přísad, které jsou věznici zasílány při dodávce jídla. Změna této volby neovlivní počet objednaných přísad, pouze jejich rozmanitost a tím i náklady na tyto přísady.
+
+#ingredient menu
+d11_meal_system_description         Stravovací systém věznice je založen na 4 faktorech, a to na možnostech jídla (Rozmanitost a Množství), aktuálním počtu vězňů, počtu jídel každý den a množství skladovaných přísad. Na rozdíl od dovážených surovin, které jsou plné konzervačních látek, jsou však vězeňské plodiny mnohem prospěšnější při konzumaci, a proto je kuchaři upřednostňují. Statistiky týkající se ingrediencí vaší věznice a potravinového systému naleznete níže.
+d11_fresh_ingredients               Čerstvé suroviny
+d11_imported_ingredients            Dovezené suroviny
+d11_meal_ingredients_count_per_meal Složky na jídlo
+d11_meal_ingredients_count_per_day  Složky na den
+d11_crops_per_day                   Plodiny na den
+d11_imported_ingredients_cost       Náklady na importované složky
+d11_crop_cost                       Náklady na plodiny
+
+#Ingredient hints
+d11_IngredientRatio_hint                 Zobrazuje aktuální počet obou typů ingrediencí ve skladu.
+d11_meal_ingredients_count_per_meal_hint Počet ingrediencí potřebných k nakrmení aktuálního počtu vězňů pro jedno jídlo na základě vybraných možností jídla.
+d11_meal_ingredients_count_per_day_hint  Celkový počet ingrediencí potřebných k dnešnímu nakrmení aktuálního počtu vězňů na základě vybraných možností stravování.
+d11_crops_per_day_hint                   Počet plodin nakoupených za posledních 24 Hodin.
+d11_imported_ingredients_cost_hint       Celkové náklady na všechny ingredience nakoupené a dodané za posledních 24 Hodin.
+d11_crop_cost_hint                       Celková cena za plodiny nakoupené za posledních 24 Hodin.
+d11_meal_cost_per_meal_hint              Průměrné náklady na výživu jednoho vězně s použitím vybraných možností stravování a privilegií jako reference.
+d11_meal_cost_total_hint                 Celkové náklady potřebné na nakrmení každého vězně při použití možností stravování a aktuálního počtu vězňů jako reference.
+d11_meal_estimated_price_hint            Odhadované celkové náklady potřebné ke stravování každého vězně. Tuto hodnotu lze pouze odhadnout vzhledem k řadě vnějších faktorů, které ji ovlivňují - včetně úbytku osiva, doby růstu plodin a měnících se výnosů plodin.	
+
+#different on console
+researchtooltip_RecyclingIncentive			Využívá vládní iniciativu "Going Green" a za každý nasbíraný pytel recyklace odměňuje věznici částkou 10 dolarů denně.
+#
+# =============================================================================
+# Jobs
+# =============================================================================
+
+job_WaterCrop   Zavlažování plodin
+job_HarvestCrop Sklizeň plodin
+job_TendCrop    Ošetřování plodin
+job_SellUtility Prodej užitkové rostliny
+job_WaterFlower Zalévání květin
+job_TendFlower  Ošetřování květin
+
+
+job_failed_routetomaterial_blocked			Cesta mezi materiálem a prací je blokovaná
+
+# =============================================================================
+# Grants
+# =============================================================================
+objective_grant_greenMachine                    Zelený stroj
+objective_grant_greenMachine_description        Je na čase, aby vězeňský průmysl naskočil na vlnu zelené energie, zakoupil nějaké zelené zdroje energie a pomohl tak s propagací.
+objective_grant_greenMachine_solar              Nákup a instalace solárního panelu.
+objective_grant_greenMachine_wind               Nákup a instalace větrné turbíny.
+objective_grant_greenMachine_hybrid             Zakupte a nainstalujte hybridní zařízení pro solární a větrnou energii.
+
+objective_grant_ecoFriendly                     Ekologicky šetrné
+objective_grant_ecoFriendly_description         Je nejvyšší čas, abychom se všichni pořádně podívali na naši uhlíkovou stopu, a proto vás banka odmění za to, že se vzdáte standardních elektráren a budete používat alternativní ekologické zdroje energie.
+objective_grant_ecoFriendly_days                Po dobu pěti dnů používejte k napájení svého vězení místo elektráren pouze zelené zdroje energie.
+
+objective_grant_givingSomethingBack             Vracíme něco zpět
+objective_grant_givingSomethingBack_description Vzhledem k množství energie, kterou vaše věznice vyrábí, by banka velmi uvítala, kdybyste se o část energie podělili s národní/regionální/místní sítí.
+objective_grant_givingSomethingBack_sell        Prodej 2 500 jednotek energie zpět do sítě.
+
+objective_grant_basicFarming                    Základní zemědělství
+objective_grant_basicFarming_description        Náklady a zásoby dodávek potravin se stávají celostátním problémem, dokažte prosím, že je možné v rámci věznice vybudovat soběstačný potravinový systém. Doufejme, že se tím tyto obavy částečně zmírní.
+objective_grant_basicFarming_hire               Zaměstnejte pracovníka pro práci na farmě.
+objective_grant_basicFarming_veg                Správně vybudujte funkční místnost pro pěstování zeleniny.
+objective_grant_basicFarming_fruit              Správně postavte funkční místnost Ovocný sad.
+objective_grant_basicFarming_farm               Správně postavte funkční místnost Zemědělské pole.
+objective_grant_basicFarming_plant              V každé místnosti vypěstujte 5 plodin libovolného typu.
+
+objective_grant_selfSustaining                  Sebeuspokojení
+objective_grant_selfSustaining_description      Je na čase plně dokázat, že věznice jsou schopny stát se soběstačnými, prodávejte prosím veškeré přebytečné produkty jako příspěvek k otázce zásobování potravinami.
+objective_grant_selfSustaining_hire             Přijměte 5 pracovníků na farmu.
+objective_grant_selfSustaining_buy              Zakoupit 10 pytlů kompostového hnojiva.
+objective_grant_selfSustaining_harvest          Sklízet 50 zemědělských rostlin jakéhokoli druhu.
+objective_grant_selfSustaining_sell             Prodej 50 vypěstovaných plodin libovolného druhu.
+objective_grant_selfSustaining_collect          Nasbírejte 5 semen jakéhokoli druhu ze sklizených plodin.
+
+objective_grant_AdvancedFarming             Pokročilé zemědělství
+objective_grant_AdvancedFarming_description Nyní je čas zjistit, zda jsou věznice schopny masově produkovat čerstvou zeleninu a stát se tak nejen soběstačnými, ale také hlavními dodavateli pro ostatní zařízení.
+objective_grant_AdvancedFarming_research    Výzkum úkolu Zemědělská byrokracie.
+objective_grant_AdvancedFarming_assign      Přiřaďte 10 vězňům práci v zemědělské místnosti.
+objective_grant_AdvancedFarming_buy1        Zakoupit objekt Kompostovací koš.
+objective_grant_AdvancedFarming_produce     Vyrobte 10 kompostových hnojiv.
+objective_grant_AdvancedFarming_harvest     Skliďte 500 dozrálých plodin jakéhokoli typu.
+
+objective_grant_overProduction              Nadprodukce
+objective_grant_overProduction_description  Jelikož se osvědčila masová produkce, plňte tyto objednávky potravin co nejčastěji, budou se obnovovat každých 5 dní.
+objective_grant_overProduction_carrot       Prodejte 50 sklizených ingrediencí z mrkve.
+objective_grant_overProduction_potato       Prodejte 50 sklizených ingrediencí z brambor.
+objective_grant_overProduction_cabbage      Prodejte 50 sklizených přísad zelí.
+objective_grant_overProduction_tomato       Prodejte 50 sklizených ingrediencí rajčat.
+objective_grant_overProduction_apple        Prodejte 50 sklizených přísad jablek.
+objective_grant_overProduction_orange       Prodejte 50 sklizených složek pomeranče.
+objective_grant_overProduction_peach        Prodejte 50 sklizených ingrediencí broskví.
+
+objective_grant_overProduction_banana       Prodejte 50 sklizených složek banánů.
+reformProgram_solarpaneldevelopment         Vývoj solárních panelů
+reformProgram_solarpaneldevelopment_text    Program je navržen tak, aby vězni získali použitelné pracovní dovednosti při odchodu, vězni, kteří jím projdou, získají certifikát pro odvětví zelené energie.
+reformprogram_solarTrained                  Certifikováno : Solární panely
+reform_program_multirequirements            - Každých *X vězňů vyžaduje *Y
+
+status_effect_healthy                       Zdravý
+status_effect_StatusSmelly                  Smradlavý
+
+report_grants_reset_tt                      Dostupné v::
+
+reformProgram_FarmTraining                  Bezpečnost práce v zemědělství
+reformProgram_FarmTraining_text             Všichni vězni, kteří úspěšně absolvují tento kurz bezpečnosti práce, pak budou moci být přiděleni k práci v rámci místností "Zeleninový příděl", "Ovocný sad" nebo "Zemědělské pole" pro vězeňské práce.
+
+reputation_Dealer                           Dealer
+reputationtooltip_Dealer                    Tento vězeň má zkušenosti s obchodem s narkotiky, vždy dokáže získat nejlepší nabídku z jakéhokoli obchodu s kontrabandem.
+reputation_Supplier                         Dodavatel
+reputationtooltip_Supplier                  Tento vězeň má historii s narkotiky, je schopen vyrábět narkotika mnohem snadněji než ostatní vězni.
+
+reputation_GreenThumb         Zelený palec
+reputationtooltip_GreenThumb  Tento vězeň je obzvláště dobrý v zacházení s rostlinami, nevyžaduje žádné školení na podporu pracovníků na farmě a může zvýšit výnos plodin.
+reputation_Foodie             Gurmán
+reputationtooltip_Foodie      Tento vězeň dává přednost zajímavým a organickým jídlům, získá pohodlí při konzumaci vězeňských produktů.
+
+interface_action_searchRoom   Prohledat místnost
+
+interface_action_AllSwitchOn  Všechny zapnout
+interface_action_AllSwitchOff Všechny vypnout
+
+
+d11_utilitylimits_head        Zdroje energie
+d11_utilitylimits_body        Jak zelené zdroje energie (solární panely, větrné turbíny a solární/větrné hybridy), tak standardní zdroje energie (elektrárny a transformátory) mají maximální limit 128 pro každý typ. Pokud chcete po dosažení tohoto limitu zakoupit další zdroje energie, musíte nejprve zlikvidovat stávající zdroje energie pro daný typ.
+
+
+# =============================================================================
+# Crop Distribution
+# =============================================================================
+
+interfacelogistics_CropDistribution Distribuce plodin
+
+d11_manage_crops                    Správa distribuce - *X
+d11_manageCropsDescription          Zde můžete řídit, kolik vypěstovaných plodin tohoto *X se dodá do každé z připojených místností. Ke každé zemědělské místnosti můžete mít připojeno maximálně 8 místností. *Y
+
+d11_logistics_roomTitle             Pokoje
+
+d11_noRoomsConnected                K tomuto *X nejsou připojeny žádné místnosti, takže bude posílat své plodiny do Spižírny, Kuchyně, Exportu a Skladiště, dokud se každá z nich nenaplní.
+d11_noRoomsConnectedField           K tomuto *X nejsou připojeny žádné místnosti, takže bude posílat své plodiny do Exportu a Skladiště, dokud se každá z nich nenaplní.
+
+#pc only
+d11_cropDistributionHint            Klikněte pravým tlačítkem myši: Spravovat distribuci
+
+d11_manageCropsInstructions         Kliknutím na procento jej uzamknete a zabráníte ostatním místnostem měnit jeho množství. V opačném případě můžete pomocí tlačítek se šipkami měnit procenta, přičemž celkové množství na plodinu je omezeno na 100 % ve všech připojených místnostech.
+
+#
+
+
+#===========================================================
+# Quick Rooms
+#===========================================================
+
+quickbuild_grove                     Háj
+quickbuild_flowerGarden              Květná zahrada
+quickbuild_yard                      Dvorek
+quickbuild_hedgeMaze                 Bludiště z živého plotu
+
+buildtoolbar_quickbuild_flowerGarden Klidná odpočinková zóna pro naše vězně.
+buildtoolbar_quickbuild_grove        Skupina stromů, která bude sloužit k oživení našeho pozemku.
+buildtoolbar_quickbuild_hedgeMaze    Základní bludiště vytvořené pomocí živého plotu, které mohou naši vězni prozkoumávat.
+buildtoolbar_quickbuild_yard         Standardní dvůr se vším, co mohou naši vězni potřebovat.
+
+# =============================================================================
+# Staff Alert System
+# =============================================================================
+
+
+d11_staffalert_title_MONEY01         Věznici docházejí peníze.
+d11_staffalert_title_PRISONERS02     Dozorci jsou v přesile.
+d11_staffalert_title_CONTRABAND03    Nalezeno velké množství kontrabandu.
+d11_staffalert_title_CONTRABAND02    Zásoba narkotik ve věznici je nebezpečně vysoká.
+d11_staffalert_title_CONTRABAND01    Zásoba nástrojů a zbraní ve věznici je nebezpečně vysoká.
+d11_staffalert_title_NEEDS04         Příliš mnoho vězňů si stěžuje na hlad.
+d11_staffalert_title_NEEDS03         Příliš mnoho vězňů si stěžuje na nedostatek spánku.
+d11_staffalert_title_NEEDS01         Příliš mnoho vězňů si stěžuje na nedostatek toalet.
+d11_staffalert_title_NEEDS02         Příliš mnoho vězňů si stěžuje na nedostatek toalet.
+d11_staffalert_title_NEEDS08         Naši vězni nejsou příliš čistotní.
+d11_staffalert_title_OBJEKTY04       Věznici chybí systém kontroly dveří.
+d11_staffalert_title_ROOMS01         Místnost ve vaší věznici nesplňuje požadovaná kritéria.
+d11_staffalert_title_INFORMANTS01    Informátor je ve vážném nebezpečí.
+d11_staffalert_title_HOLDINGCELL01   V zadržovacích celách je umístěno příliš mnoho vězňů.
+d11_staffalert_title_NEEDS06         Věznice zoufale potřebuje úklid.
+d11_staffalert_title_NEEDS14         Naši vězni potřebují přístup k čistému oblečení.
+d11_staffalert_title_NEEDS13         Naši vězni potřebují volný čas, aby byli v klidu.
+d11_staffalert_title_NEEDS09         Naši vězni potřebují pohyb.
+d11_staffalert_title_NEEDS10         Naši vězni se tak nudí, že se z toho zblázní.
+d11_staffalert_title_NEEDS11         Vězni si potřebují během volného času někde sednout.
+d11_staffalert_title_POWER01         Oblasti věznice jsou bez proudu.
+d11_staffalert_title_WATER01         Některé oblasti věznice jsou bez tekoucí vody.
+d11_staffalert_title_CELLS01         Věznice není v provozu na maximální kapacitu.
+d11_staffalert_title_OBJEKTY03       Ve věznici chybí komplexní kamerový systém.
+d11_staffalert_title_OBJECTS01       Ve věznici nejsme vybaveni pro případ požáru.
+d11_staffalert_title_POWER02         Jedna z našich elektrocentrál je přetížená.
+d11_staffalert_title_DEATHROW01      Zvažte, zda do věznice nepřidat celu smrti.
+d11_staffalert_title_STAFF01         Většina vašich zaměstnanců je vyčerpaná.
+d11_staffalert_title_NEEDS12         Naši vězni chtějí trochu soukromí.
+d11_staffalert_title_NEEDS19         Našim vězňům chybí základní gramotnost.
+d11_staffalert_title_NEEDS05         Počet vězňů, kterým chybí jejich rodiny, je na nebezpečné úrovni.
+d11_staffalert_title_NEEDS07         Naši vězni se zde necítí bezpečně.
+d11_staffalert_title_NEEDS15         Kontrolujte úroveň drogové závislosti ve vaší věznici.
+d11_staffalert_title_NEEDS16         Kontrolujte úroveň závislosti na alkoholu ve vaší věznici.
+d11_staffalert_title_NEEDS18         Duchovní vedení má na vězně uklidňující účinek.
+d11_staffalert_title_PRISONERS03     Kvalita našich cel je příliš nízká.
+d11_staffalert_title_DOCTOR01        Na ošetřovně nikdo nepracuje.
+d11_staffalert_title_OBJECTS02       Věznice neúčinně likviduje odpad.
+d11_staffalert_details_MONEY01       Věznici zbývá v bance pouze *A.
+d11_staffalert_details_PRISONERS02   Vězňů je více než dozorců *A:*B.
+d11_staffalert_details_CONTRABAND03  *A položek kontrabandu nalezených za posledních 7 dní.
+d11_staffalert_details_CONTRABAND02  Zásoba narkotik je na úrovni *A.
+d11_staffalert_details_CONTRABAND01a Zásoba zbraní je na úrovni *A.
+d11_staffalert_details_CONTRABAND01b Zásoba nástrojů je na úrovni *A.
+d11_staffalert_details_NEEDS04a      *A vězni mají neuvěřitelný hlad.
+d11_staffalert_details_NEEDS04b      Postavte více kuchyní.
+d11_staffalert_details_NEEDS04c      Najmi více kuchařů.
+d11_staffalert_details_NEEDS04d      Přidejte do režimu více slotů "Čas na jídlo".
+d11_staffalert_details_NEEDS03       *Vězni nutně potřebují spánek.
+d11_staffalert_details_NEEDS01       *Vězni naléhavě potřebují na toaletu.
+d11_staffalert_details_NEEDS02       *Vězni naléhavě potřebují toaletu.
+d11_staffalert_details_NEEDS08       *A vězni potřebují zlepšit čistotu.
+d11_staffalert_details_OBJECTS04     Je zapotřebí systém ovládání dveří a dveřní servořízení.
+d11_staffalert_details_ROOMS01       Ujistěte se, že místnosti s blikajícími ikonami červeného vykřičníku splňují všechna uvedená kritéria.
+d11_staffalert_details_INFORMANTS01  Vězni mají silné podezření, že *A je informátor.
+d11_staffalert_details_HOLDINGCELL01 Vězni *A jsou v současné době bez vlastní cely.
+d11_staffalert_details_NEEDS06a      Přijměte více dozorců.
+d11_staffalert_details_NEEDS06b      Postavte více úklidových skříní.
+d11_staffalert_details_NEEDS06c      Přidělte vězňům práci z úklidových skříní.
+d11_staffalert_details_NEEDS14a      *Vězni potřebují čisté oblečení.
+d11_staffalert_details_NEEDS14b      Vybuduj prádelnu.
+d11_staffalert_details_NEEDS14c      Postavte prádelnu.
+d11_staffalert_details_NEEDS14d      Postavte koš na prádlo.
+d11_staffalert_details_NEEDS13       *Vězni chtějí více volného času.
+d11_staffalert_details_NEEDS09       *Vězni potřebují zlepšit svou fyzickou kondici.
+d11_staffalert_details_NEEDS10       *A vězni potřebují volnočasové aktivity, aby zůstali v klidu.
+d11_staffalert_details_NEEDS11       *A vězni si stěžují na nedostatek míst k sezení během volného času.
+d11_staffalert_details_POWER01       Připoj všechny objekty, na kterých jsou ikony blikajících blesků, k elektrárně.
+d11_staffalert_details_WATER01       Připojte všechny objekty, na kterých blikají ikony kapek vody, k vodnímu čerpadlu.
+d11_staffalert_details_CELLS01a      Můžeme ubytovat *A více vězňů s minimální ostrahou.
+d11_staffalert_details_CELLS01b      Můžeme umístit *A více vězňů se střední ostrahou.
+d11_staffalert_details_CELLS01c      Můžeme umístit *A více vězňů s nejvyšším stupněm zabezpečení.
+d11_staffalert_details_CELLS01d      Můžeme umístit *A více vězňů s nejvyšší ostrahou.
+d11_staffalert_details_CELLS01e      Můžeme umístit *A více vězňů odsouzených k smrti.
+d11_staffalert_details_CELLS01f      Můžeme ubytovat *A více vězňů s ochrannou ostrahou.
+d11_staffalert_details_OBJECTS03     Potřebujeme více kamer CCTV.
+d11_staffalert_details_OBJECTS01     Věznice nemá zřízen sprinklerový systém.
+d11_staffalert_details_POWER02       Výkon elektrocentrály ve věznici je na úrovni *A.
+d11_staffalert_details_DEATHROW01    Přidáním elektrického křesla do věznice můžete přijímat vězně s vysokou hodnotou rozsudku smrti.
+d11_staffalert_details_STAFF01       Počet zaměstnanců *A je v současné době vyčerpán.
+d11_staffalert_details_NEEDS12       *Vězni chtějí být někde sami.
+d11_staffalert_details_NEEDS19       *Vězni postrádají základní literární dovednosti.
+d11_staffalert_details_NEEDS05       *Vězni se zoufale snaží kontaktovat své rodiny.
+d11_staffalert_details_NEEDS07       *Vězni se obávají o svůj život.
+d11_staffalert_details_NEEDS15       *Vězni jsou závislí na drogách.
+d11_staffalert_details_NEEDS16       *Vězni mají problémy s alkoholem.
+d11_staffalert_details_NEEDS18       *Vězni chtějí duchovní vedení.
+d11_staffalert_details_PRISONERS03   *Vězni v současné době žijí v celách, které neodpovídají jejich nárokům.
+d11_staffalert_details_DOCTOR01      Potřebujeme najmout několik lékařů, kteří by ošetřovali zraněné vězně a dozorce.
+d11_staffalert_details_OBJECTS02     Potřebujeme více košů.
+d11_staffalert_details_CELLS01       Můžeme ubytovat *A více vězňů.
+d11_staffalert_details_CELLS01Z      Máme *A volných *B cel.
+d11_staffalert_hint_MONEY01          Věznici docházejí peníze, mohu navrhnout, abychom přijali více vězňů a zvýšili tak náš denní příjem nebo splnili podmínky pro získání nového grantu na velkou finanční injekci.
+d11_staffalert_hint_PRISONERS02      Není bezpečné, aby vaši dozorci byli v tak velké přesile vězňů, každý dozorce bezpečně zvládne asi 5 vězňů.
+d11_staffalert_hint_CONTRABAND03     Prověřte zprávu o kontrabandu, kterou jsem podal, a vyhledejte zdroje kontrabandu za posledních 7 dní a zaveďte opatření k jejich uzavření.
+d11_staffalert_hint_CONTRABAND02     Vězni mají snadný přístup k narkotikům, což je velmi nebezpečné. Najměte psovody a nechte je hlídkovat v celách nebo nařiďte celovězeňskou akci Shakedown.
+d11_staffalert_hint_CONTRABAND01     Vězni mají snadný přístup k nástrojům a zbraním, což je velmi nebezpečné. Umístěte detektory kovů do blízkosti zdrojů kontrabandu nebo nařiďte Shakedown v celé věznici.
+d11_staffalert_hint_NEEDS04          Vězni budou mít časem hlad, ujistěte se, že je v jídelně dostatek místa a na jídlo je vyčleněn dostatek času, aby se všichni mohli najíst.
+d11_staffalert_hint_NEEDS03          Vězni potřebují spát, aby byli spokojení. Budou tak činit během přidělených dob spánku nebo během volného času.
+d11_staffalert_hint_NEEDS01          Vězni potřebují přístup na toalety, zvažte, zda do věznice přidáte více toalet nebo zvýšíte příděl Volného času.
+d11_staffalert_hint_NEEDS02          Vězni potřebují přístup na toalety, zvažte, zda do věznice přidat další toalety nebo zvýšit příděl volného času.
+d11_staffalert_hint_NEEDS08          Hygiena je důležitá v každodenním životě, ve vězení je nezbytná. Ujistěte se, že vaši vězni mají dostatek času na to, aby se osprchovali.
+d11_staffalert_hint_OBJECTS04        Naši dozorci musí v současné době trávit většinu času otevíráním dveří věznice lidem, na to je jejich čas příliš důležitý! Nainstalujte systém Door Control a jeden dozorce může na dálku otevírat více dveří.
+d11_staffalert_hint_ROOMS01          Všechny místnosti mají určité požadavky, které musíte splnit, zvýrazněte místnosti blikajícími červenými ikonami vykřičníků, abyste viděli, které požadavky nesplňujete.
+d11_staffalert_hint_INFORMANTS01     Náš informátor zde bez naší ochrany dlouho nevydrží, navrhuji změnit jeho úroveň zabezpečení na "Ochranná vazba" a přesunout ho mimo obecnou populaci.
+d11_staffalert_hint_HOLDINGCELL01    Je příliš nebezpečné nechávat tolik vězňů dlouhodobě v celách předběžného zadržení. Musíš co nejdříve postavit další cely, kam je umístíš, jinak by mohli vyvolat vzpouru!
+d11_staffalert_hint_NEEDS06          Věznice je velmi špinavá a vězni jsou z toho nešťastní, najdi způsob, jak ji co nejrychleji uklidit, než se rozzlobí.
+
+d11_staffalert_hint_NEEDS13                Všichni vězni chtějí jednu věc. Nebýt ve vězení. To jim sice nemůžeme dát, ale můžeme jim pobyt zpříjemnit dostatkem volného času.
+d11_staffalert_hint_NEEDS09                Cvičení udržuje vězně v kondici, zdravé a šťastné. Zajistěte jim snadný přístup k posilovacím lavicím.
+d11_staffalert_hint_NEEDS10                Pomozte vězňům rozbít každodenní monotónnost tím, že jim umožníte přístup k rekreačním předmětům, jako jsou kulečníkové stoly, rádia a televize.
+d11_staffalert_hint_NEEDS11                Odpočinek je důležitý pro každého, ale ve vězení ho lze jen těžko najít. Když vězňům poskytnete lavičky a pohovky k sezení, pomůže jim to odpočívat.
+d11_staffalert_hint_POWER01                Některé předměty musí být připojeny k elektrárně, aby fungovaly, použijte elektrické kabely a připojte k elektrárně všechny předměty, na kterých je ikona blikajícího blesku.
+d11_staffalert_hint_WATER01                Aby některé objekty fungovaly, musí být připojeny k vodnímu čerpadlu, použijte vodovodní potrubí k připojení všech objektů, na kterých je blikající ikona kapky vody, k vodnímu čerpadlu.
+d11_staffalert_hint_CELLS01                Přijetí většího počtu vězňů nám přináší pěkný bonus v podobě peněz předem a také to znamená, že každý den dostaneme od státu více peněz. Pokud je to možné, měli bychom vždy pracovat na plný výkon!
+d11_staffalert_hint_OBJECTS03              Kamery CCTV nám umožňují monitorovat prostory věznice, i když v nich nejsou žádní dozorci. Jeden monitor CCTV umožňuje jednomu dozorci sledovat 8 různých kamer CCTV. Jsou to bezkonkurenční zařízení!
+d11_staffalert_hint_OBJECTS01              V současné době nejsme vážně vybaveni na řešení požáru ve věznici. Měli bychom co nejdříve nainstalovat sprinklerový systém.
+d11_staffalert_hint_POWER02                Naše elektrárna je vážně přetížená, přidejte k ní více kondenzátorů nebo postavte novou, aby se zátěž rozdělila. Buďte však opatrní, Elektrárny nelze spojovat dohromady!
+d11_staffalert_hint_DEATHROW01             Přidat do věznice popraviště je riskantní, protože s popravou je třeba zacházet velmi opatrně, abychom splnili všechny zákonné požadavky... Ale mohli bychom vydělat spoustu peněz, takže to možná za to riziko stojí!
+d11_staffalert_hint_STAFF01                Vaši zaměstnanci nemohou pracovat efektivně, pokud jsou vyčerpaní, postavte jim místnost pro zaměstnance, aby si mohli odpočinout, nebo najměte další zaměstnance jako zálohu, abyste jim ulehčili.
+d11_staffalert_hint_NEEDS12                Někdy vězni prostě potřebují trochu času o samotě, nicméně "to ne ty, to já" nebývá ve věznicích příliš dobře přijato. Zajistěte, aby vězni měli přístup do vlastní cely.
+d11_staffalert_hint_NEEDS19                Čtenář žije tisíc životů, než zemře, člověk, který nikdy nečte, žije jen jeden. Umožněte svým vězňům "únik" do dobré knihy tím, že jim umožníte přístup do knihovny.
+d11_staffalert_hint_NEEDS05                Vězni se mohou rozzlobit, pokud jim není umožněna komunikace s rodinou. Postavte návštěvní místnost, poštovní místnost nebo telefonní budky, abyste zadrželi vězeňské blues.
+d11_staffalert_hint_NEEDS07                Pokud je úroveň nebezpečí ve vaší věznici příliš vysoká, mnoho vězňů se začne cítit nejistě a vystrašeně. Snižte úroveň nebezpečí tím, že budete vycházet vstříc dalším potřebám vězňů.
+d11_staffalert_hint_NEEDS15                Někteří vězni přicházejí do věznice s drogovými návyky. Pokud se nemohou zbavit své závislosti, začnou být vzteklí nebo mohou začít obchodovat s kontrabandem, aby se dostali ke své závislosti. Využijte nápravné programy, které jim pomohou se zotavit.
+d11_staffalert_hint_NEEDS16                Někteří vězni vstupují do věznice se závislostí na alkoholu. Pokud se nemohou zbavit své závislosti, začnou se zlobit nebo mohou začít obchodovat s kontrabandem, aby si obstarali svou dávku. Využijte nápravné programy, které jim pomohou se zotavit.
+d11_staffalert_hint_NEEDS18                Účast na programech duchovního vedení bude mít na vaše vězně uklidňující účinek, budou tento klid šířit i mezi ostatní vězně.
+d11_staffalert_hint_PRISONERS03            Všichni naši vězni mají na základě svého chování nárok na celu určité úrovně kvality. Zlepšete kvalitu cely pomocí obrazovky Logistika.
+d11_staffalert_hint_DOCTOR01               Na ošetřovně nemůžeme nikoho léčit, pokud nenajmeš nějaké lékaře. Lékaři mohou ošetřovnu využívat k ošetření všech zranění, která se stanou zaměstnancům nebo vězňům.
+d11_staffalert_hint_OBJECTS02              Odpadkové koše nám umožňují skladovat velké množství odpadu, než je potřeba je vyprázdnit, což znamená mnohem méně cest do prostoru pro odpadky. Přidejte koše do kuchyně a umístěte je v blízkosti detektorů kovů, abyste zvýšili efektivitu.
+d11_staffalert_tooltip_MONEY01             Přijměte nový grant [[*X]].
+d11_staffalert_tooltip_PRISONERS02         Najměte strážce [[*X]]
+d11_staffalert_tooltip_CONTRABAND03        Zobrazení zpravodajské zprávy [[*X]]
+d11_staffalert_tooltip_CONTRABAND02        Najmout psovody [[*X]]
+d11_staffalert_tooltip_CONTRABAND01        Sestavte detektory kovů [[*X]]
+d11_staffalert_tooltip_NEEDS04             Najměte kuchaře [[*X]]
+d11_staffalert_tooltip_NEEDS03             Úprava režimu [[*X]]
+d11_staffalert_tooltip_NEEDS01             Přidat další toalety [[*X]]
+d11_staffalert_tooltip_NEEDS02             Přidat další toalety [[*X]]
+d11_staffalert_tooltip_NEEDS08             Úprava režimu [[*X]]
+d11_staffalert_tooltip_OBJECTS04           Vybudovat systém kontroly dveří [[*X]]
+d11_staffalert_tooltip_ROOMS01             Kontrola požadavků [[*X]]
+d11_staffalert_tooltip_INFORMANTS01        Změna na ochrannou vazbu [[*X]]
+d11_staffalert_tooltip_HOLDINGCELL01       Vybudování dalších cel [[*X]]
+d11_staffalert_tooltip_NEEDS06             Najmout údržbáře [[*X]]
+d11_staffalert_tooltip_NEEDS14             Postavit prádelnu [[*X]]
+d11_staffalert_tooltip_NEEDS13             Úprava režimu [[*X]]
+d11_staffalert_tooltip_NEEDS09             Postavit lavičku na závaží [[*X]]
+d11_staffalert_tooltip_NEEDS10             Sestavit rádio [[*X]]
+d11_staffalert_tooltip_NEEDS11             Sestavit lavičku [[*X]]
+d11_staffalert_tooltip_POWER01             Sestavení elektrických kabelů [[*X]]
+d11_staffalert_tooltip_WATER01             Sestavte vodovodní potrubí [[*X]]
+d11_staffalert_tooltip_CELLS01             Zvýšení příjmu vězňů [[*X]]
+d11_staffalert_tooltip_OBJECTS03           Vybudovat kamery CCTV [[*X]]
+d11_staffalert_tooltip_OBJECTS01           Vybudovat postřikovače [[*X]]
+d11_staffalert_tooltip_POWER02             Zvýšení napájení [[*X]]
+d11_staffalert_tooltip_DEATHROW01a         Postavit řadu smrti [[*X]]
+d11_staffalert_tooltip_DEATHROW01b         Výzkum řady smrti [[*X]]
+d11_staffalert_tooltip_STAFF01             Postavte místnost pro personál [[*X]]
+d11_staffalert_tooltip_NEEDS12             Vytvořit další buňky [[*X]]
+d11_staffalert_tooltip_NEEDS19             Vybudování knihovny [[*X]]
+d11_staffalert_tooltip_NEEDS05             Postavit telefonní budky [[*X]]
+d11_staffalert_tooltip_NEEDS07             Zobrazení potřeb vězňů [[*X]]
+d11_staffalert_tooltip_NEEDS15             Zahájení farmakologické terapie [[*X]]
+d11_staffalert_tooltip_NEEDS16             Zahájení skupinové terapie alkoholiků [[*X]]
+d11_staffalert_tooltip_NEEDS18             Zahájení programu duchovního vedení [[*X]].
+d11_staffalert_tooltip_PRISONERS03         Zlepšit buňky [[*X]]
+d11_staffalert_tooltip_DOCTOR01            Najměte lékaře [[*X]]
+d11_staffalert_tooltip_OBJECTS02           Sestavte zásobníky [[*X]]
+d11_staffalert_summary_MONEY01             Dochází nám hotovost.
+d11_staffalert_summary_PRISONERS02         Měli bychom najmout více stráží.
+d11_staffalert_summary_CONTRABAND03        Ve věznici je vysoké množství kontrabandu.
+d11_staffalert_summary_CONTRABAND02        Příliš mnoho vězňů má přístup k omamným látkám.
+d11_staffalert_summary_CONTRABAND01        Příliš mnoho vězňů má přístup k nástrojům a zbraním.
+d11_staffalert_summary_NEEDS04             Vaši vězni hladoví.
+d11_staffalert_summary_NEEDS03             Naši vězni vypadají vždy velmi unaveně.
+d11_staffalert_summary_NEEDS01             Měli bychom postavit další toalety.
+d11_staffalert_summary_NEEDS02             Měli bychom postavit další toalety.
+d11_staffalert_summary_NEEDS08             Ach, naši vězni vypadají trochu neupraveně.
+d11_staffalert_summary_OBJECTS04           Měli bychom zvýšit účinnost instalací Ovládání dveří.
+d11_staffalert_summary_ROOMS01             Některé z vašich místností jsou neplatné.
+d11_staffalert_summary_INFORMANTS01        Vězni jsou velmi podezřívaví vůči jednomu z našich informátorů.
+d11_staffalert_summary_HOLDINGCELL01       V našich celách je příliš mnoho vězňů.
+d11_staffalert_summary_NEEDS06             Věznice potřebuje úklid.
+d11_staffalert_summary_NEEDS14             Hmm, oblečení našich vězňů vypadá poněkud... ošuntěle.
+d11_staffalert_summary_NEEDS13             Naši vězni chtějí více volného času.
+d11_staffalert_summary_NEEDS09             Naši vězni jsou trochu neschopní.
+d11_staffalert_summary_NEEDS10             Naši vězni se trochu nudí.
+d11_staffalert_summary_NEEDS11             Vězni si stěžují na nedostatek míst ve volném čase.
+d11_staffalert_summary_POWER01             Některé části věznice jsou bez proudu.
+d11_staffalert_summary_WATER01             Některé části věznice jsou bez vody.
+d11_staffalert_summary_CELLS01             Máme prostor pro přijetí dalších vězňů.
+d11_staffalert_summary_OBJECTS03           Potřebujeme nainstalovat průmyslové kamery.
+d11_staffalert_summary_OBJECTS01           Jsme ohroženi, pokud vypukne požár.
+d11_staffalert_summary_POWER02             Vaše elektrárna je přetížená.
+d11_staffalert_summary_DEATHROW01          Mohli bychom vydělat nějaké peníze navíc, kdybychom do věznice přidali celu smrti.
+d11_staffalert_summary_STAFF01             Váš personál začíná být vyčerpaný.
+d11_staffalert_summary_NEEDS12             Naši vězni chtějí trochu soukromí.
+d11_staffalert_summary_NEEDS19             Příliš mnoho vězňů nemá základní gramotnost.
+d11_staffalert_summary_NEEDS05             Našim vězňům chybí jejich rodiny.
+d11_staffalert_summary_NEEDS07             Naši vězni se necítí bezpečně.
+d11_staffalert_summary_NEEDS15             Ach ano, zdá se, že mnoho našich vězňů má problém s drogami.
+d11_staffalert_summary_NEEDS16             Zdá se, že mnoho našich vězňů má problém s alkoholem.
+d11_staffalert_summary_NEEDS18             Hodně našich vězňů hledá duchovní vedení.
+d11_staffalert_summary_PRISONERS03         Celková kvalita našich cel je příliš nízká.
+d11_staffalert_summary_DOCTOR01            Měli bychom zaměstnat lékaře, kteří by pracovali na naší ošetřovně.
+d11_staffalert_summary_OBJECTS02           Potřebujeme koupit nějaké koše.
+d11_staffalert_urgentsummary_MONEY01       Opravdu nám dochází hotovost!
+d11_staffalert_urgentsummary_PRISONERS02   Naše stráže jsou v přesile, je třeba najmout více stráží!
+d11_staffalert_urgentsummary_CONTRABAND03  Množství kontrabandu ve věznici se vymklo kontrole!
+d11_staffalert_urgentsummary_CONTRABAND02  Dostupnost narkotik ve vaší věznici je nebezpečná!
+d11_staffalert_urgentsummary_CONTRABAND01  Dostupnost nástrojů a zbraní ve vaší věznici je nebezpečná!
+d11_staffalert_urgentsummary_NEEDS04       Položte sušenku! Naši vězni hladoví!
+d11_staffalert_urgentsummary_NEEDS03       Hej! Vstaň! Vaši vězni se potřebují vyspat!
+d11_staffalert_urgentsummary_NEEDS01       Vážně! Nedělám si legraci. Postavte víc záchodů!
+d11_staffalert_urgentsummary_NEEDS02       Vážně! Nedělám si legraci. Postavte více záchodů!
+d11_staffalert_urgentsummary_NEEDS08       Fuj, naši vězni jsou špinaví.
+d11_staffalert_urgentsummary_OBJECTS04     Je načase zvýšit efektivitu a nainstalovat systém kontroly dveří!
+d11_staffalert_urgentsummary_ROOMS01       Některé pokoje jsou stále neplatné!
+d11_staffalert_urgentsummary_INFORMANTS01  Jeden z našich informátorů bude brzy odhalen, jeho život je v ohrožení!
+d11_staffalert_urgentsummary_HOLDINGCELL01 Musíme snížit počet vězňů v našich zadržovacích celách!
+d11_staffalert_urgentsummary_NEEDS06       Juk! Naše vězení je nechutné.
+d11_staffalert_urgentsummary_NEEDS14       Proboha! Máme vězení plné otrhanců!
+d11_staffalert_urgentsummary_NEEDS13       Nejsou to žádní trubci, víš, že potřebují Volný čas, aby se udrželi!
+d11_staffalert_urgentsummary_NEEDS09       Ach bože, naši vězni jsou velmi nezdraví.
+d11_staffalert_urgentsummary_NEEDS10       Naši vězni jsou znudění k smrti!
+d11_staffalert_urgentsummary_NEEDS11       Ale no tak, chtějí si jen někde sednout.
+d11_staffalert_urgentsummary_POWER01       Některé části věznice jsou stále bez proudu!
+d11_staffalert_urgentsummary_WATER01       Některé oblasti věznice jsou stále bez vody!
+d11_staffalert_urgentsummary_CELLS01       Máme spoustu volných míst, abychom mohli přijmout další vězně!
+d11_staffalert_urgentsummary_OBJECTS03     Opravdu potřebujeme nainstalovat více průmyslových kamer!
+d11_staffalert_urgentsummary_OBJECTS01     Jsme vážně ohroženi, pokud vypukne požár!
+d11_staffalert_urgentsummary_POWER02       Vaše elektrárna je vážně přetížená!
+d11_staffalert_urgentsummary_DEATHROW01    Mohli bychom rychle vydělat spoustu peněz, kdybychom k věznici přidali věznici smrti.
+d11_staffalert_urgentsummary_STAFF01       Vaši zaměstnanci jsou vyčerpaní, musíte jim pomoci!
+d11_staffalert_urgentsummary_NEEDS12       Naši vězni začínají být naštvaní, to byste je neměli rádi, když jsou naštvaní.
+d11_staffalert_urgentsummary_NEEDS19       Měli bychom udělat místnost pro vězně, kteří neumějí dobře číst.
+d11_staffalert_urgentsummary_NEEDS05       Mějte srdce... musíte našim vězňům umožnit kontakt s jejich rodinami!
+d11_staffalert_urgentsummary_NEEDS07       Naši vězni se tu necítí bezpečně. Prosím, udělejte něco.
+d11_staffalert_urgentsummary_NEEDS15       Příliš mnoho našich vězňů je závislých na drogách. Musíme něco udělat!
+d11_staffalert_urgentsummary_NEEDS16       Naši vězni mají vážný problém s alkoholem!
+d11_staffalert_urgentsummary_NEEDS18       Naši vězni se dožadují duchovního vedení.
+d11_staffalert_urgentsummary_PRISONERS03   Je třeba co nejdříve zlepšit celkovou kvalitu našich cel!
+d11_staffalert_urgentsummary_DOCTOR01      Potřebujeme přijmout lékaře, kteří by pracovali na naší ošetřovně!
+d11_staffalert_urgentsummary_OBJECTS02     Nutně potřebujeme nakoupit nějaké koše!
+
+d11_contraband_found_produced				Vyrobeno ve vězení
+
+#GM Staff Alerts
+d11_staffalert_summary_BasicFarming01    Zemědělské místnosti umožňují pěstovat zeleninu, ovocné stromy a obiloviny, které lze prodávat na vývoz nebo používat pro stravování vězňů.
+d11_staffalert_summary_BasicFarming02    Farmář bude vykonávat všechny práce související se zemědělstvím, je také povinen učit vězně, jak tyto práce také vykonávat.
+d11_staffalert_summary_BasicFarming03    Na rozdíl od jiných plodin budou ovocné stromy plodit nepřetržitě, a proto nebude třeba stromy po každé sklizni vyměňovat.
+d11_staffalert_summary_AdvancedFarming01 Zeleninové a obilné plodiny budou ve výchozím nastavení po každé sklizni automaticky znovu nakoupeny a zasazeny.
+d11_staffalert_summary_AdvancedFarming02 Distribuce plodin poskytuje kontrolu nad tím, kam budou vězením vypěstované ingredience po sklizni přemístěny.
+d11_staffalert_summary_AdvancedFarming03 Hnojivo lze aplikovat na jakoukoli oblast v rámci zemědělských místností, jeho přidání zlepší růst plodin.
+d11_staffalert_summary_GreenEnergy01     Všechny zdroje zelené energie musí být před využitím jejich energie připojeny k transformátoru.
+d11_staffalert_summary_GreenEnergy02     Objekty Transformátoru jsou potřeba jak pro využívání zelené energie, tak pro nabíjení baterií.
+d11_staffalert_summary_GreenEnergy03     Měřiče exportu energie slouží k odesílání nevyužité energie zpět do regionální sítě za účelem finanční návratnosti.
+
+d11_staffalert_title_BasicFarming01    Zemědělský systém
+d11_staffalert_title_BasicFarming02    Farmáři
+d11_staffalert_title_BasicFarming03    Ovocné stromy
+d11_staffalert_title_AdvancedFarming01 Automatická výsadba plodin
+d11_staffalert_title_AdvancedFarming02 Rozdělení plodin
+d11_staffalert_title_AdvancedFarming03 Systém hnojení
+d11_staffalert_title_GreenEnergy01     Výroba zelené energie
+d11_staffalert_title_GreenEnergy02     Transformace zelené energie
+d11_staffalert_title_GreenEnergy03     Export uskladněné energie
+
+d11_staffalert_details_BasicFarming01    Každá zemědělská místnost musí být venku a musí v ní být umístěn objekt kůlny.
+d11_staffalert_details_BasicFarming02    Farmáři budou pracovat jako učitelé pro vězně v rámci vzdělávacího programu Zemědělství.
+d11_staffalert_details_BasicFarming03    Přestože jsou ovocné stromy drahé a mají dlouhou dobu růstu, mají mnohem vyšší výnosy než jakýkoli jiný typ plodiny.
+d11_staffalert_details_AdvancedFarming01 Možnost Automatická výsadba lze zapnout nebo vypnout prostřednictvím nabídky Zásady.
+d11_staffalert_details_AdvancedFarming02 Po odemčení lze tuto možnost nalézt v nabídce Logistika.
+d11_staffalert_details_AdvancedFarming03 Výzkumem "Zemědělství" se odemkne kompostér a 2 typy hnojiv.
+d11_staffalert_details_GreenEnergy01     Zelená energie musí proudit směrem podle šipek zobrazených na obou stranách transformátoru.
+d11_staffalert_details_GreenEnergy02     Podobně jako u Kondenzátorů a Elektráren lze objekty Baterie umístit pouze v sousedství Transformátoru.
+d11_staffalert_details_GreenEnergy03     Aby měřiče exportu energie správně fungovaly, musí být připojeny k Transformátoru s připojenými Bateriemi.
+
+d11_staffalert_hint_BasicFarming01       Na rozdíl od zeleniny a ovoce lze obiloviny prodávat pouze jako export.
+d11_staffalert_hint_BasicFarming02       Farmáři budou v rámci svých zemědělských oblastí vykonávat také všechny zahradnické práce.
+d11_staffalert_hint_BasicFarming03       Ovocné stromy poskytují nejefektivnější zásobování potravinami, pokud jsou pěstovány ve velkém množství.
+d11_staffalert_hint_AdvancedFarming01    Toto chování odpovídá chování Lesnictví.
+d11_staffalert_hint_AdvancedFarming02    Místnosti související s pěstováním, využíváním nebo skladováním potravin mohou být vzájemně propojeny, což umožňuje mikromanagement nad distribucí ingrediencí.
+d11_staffalert_hint_AdvancedFarming03    Kompostárna zdarma přemění potraviny a rostlinný odpad spolu s dalšími látkami na kompostové hnojivo.
+d11_staffalert_hint_GreenEnergy01        Pokud je surová zelená energie přímo napojena na jakýkoli spotřebič, způsobí výpadek proudu.
+d11_staffalert_hint_GreenEnergy02        Baterie uloží veškerou nevyužitou energii pro nouzové použití nebo pro Export energie.
+d11_staffalert_hint_GreenEnergy03        Baterie lze nabíjet z jakéhokoli zdroje energie připojeného k transformátoru, dokonce i z elektráren.
+
+d11_staffalert_tooltip_BasicFarming01    Otevřít místnost [[*X]]
+d11_staffalert_tooltip_BasicFarming02    Otevřít pronájem zaměstnanců [[*X]]
+d11_staffalert_tooltip_BasicFarming03    Otevřít objekty [[*X]]
+d11_staffalert_tooltip_AdvancedFarming01 Otevřít politiky [[*X]]
+d11_staffalert_tooltip_AdvancedFarming02 Otevřít logistiku [[*X]]
+d11_staffalert_tooltip_AdvancedFarming03 Otevřít objekty [[*X]]
+d11_staffalert_tooltip_GreenEnergy01     Otevřít Komunální služby/elektřina [[*X]]
+d11_staffalert_tooltip_GreenEnergy02     Otevřít Komunální služby/elektřina [[*X]]
+d11_staffalert_tooltip_GreenEnergy03     Otevřít elektroinstalace [[*X]]
+
+# =============================================================================
+# Targets
+# =============================================================================
+
+objective_target_SolarPanels                   Cíl 1 v oblasti zelené energie
+objective_target_SolarPanels_description       Odemkněte položku Větrná turbína.
+objective_target_SolarPanels_task              Zakoupit [3] solární panely.
+objective_target_SolarPanels_reward            Cíl Zelená energie 1 splněn.
+objective_target_SolarPanels_reward_text       Odemknuta větrná turbína
+
+objective_target_WindTurbine                   Cíl 2 v oblasti zelené energie
+objective_target_WindTurbine_description       Odemkněte položku Hybridní solární/větrná turbína.
+objective_target_WindTurbine_task              Zakoupit [3] větrné turbíny.
+objective_target_WindTurbine_reward            Cíl 2 v oblasti zelené energie splněn.
+objective_target_WindTurbine_reward_text       Solární/větrný hybrid odemčen.
+
+objective_target_ExportPower1                  Cíl 3 v oblasti zelené energie
+objective_target_ExportPower1_description      Zvýšení limitu pro export energie na 1000 jednotek.
+objective_target_ExportPower1_task             Export 1000 jednotek energie.
+objective_target_ExportPower1_reward           Cíl 3 v oblasti zelené energie Splněno.
+objective_target_ExportPower1_reward_text      Zvýšení limitu vývozu energie na 1000 jednotek.
+
+objective_target_ExportPower2                  Cíl 4 v oblasti zelené energie
+objective_target_ExportPower2_description      Zvýšení limitu vývozu energie na 2500 jednotek.
+objective_target_ExportPower2_task             Vývoz 2500 jednotek energie.
+objective_target_ExportPower2_reward           Cíl 4 v oblasti zelené energie Splněno.
+objective_target_ExportPower2_reward_text      Zvýšení limitu vývozu energie na 2500 jednotek.
+
+objective_target_ExportPower3                  Cíl 5 v oblasti zelené energie
+objective_target_ExportPower3_description      Zvýšení limitu vývozu elektrické energie na 5000 jednotek.
+objective_target_ExportPower3_task             Vývoz 5000 jednotek energie.
+objective_target_ExportPower3_reward           Cíl 5 v oblasti zelené energie Splněno.
+objective_target_ExportPower3_reward_text      Zvýšení limitu vývozu energie na 5000 jednotek.
+
+objective_target_PassReform                    Cíl 6 v oblasti zelené energie
+objective_target_PassReform_description        Procentní bonus k reformním sazbám za dokončení programu bude zvýšen (v současné době činí 25 %).
+objective_target_PassReform_task               Mít [25] vězňů, kteří úspěšně absolvují program rozvoje solárních panelů.
+objective_target_PassReform_reward             Cíl 6 Zelená energie splněn.
+objective_target_PassReform_reward_text        Zvýšení percentilového bonusu k míře nápravy za absolvování programu Vývoj solárních panelů.
+
+objective_target_GreenEnergySource             Cíl 7 v oblasti zelené energie
+objective_target_GreenEnergySource_description Negativní účinky počasí se snižují na polovinu a pozitivní účinky se zdvojnásobují.
+objective_target_GreenEnergySource_task        Nákup [10] solárních panelů.
+objective_target_GreenEnergySource_task_1      Nákup [10] větrných turbín.
+objective_target_GreenEnergySource_task_2      Nákup [10] solárních/větrných hybridů.
+objective_target_GreenEnergySource_reward      Cíl 7 v oblasti zelené energie Splněno.
+objective_target_GreenEnergySource_reward_text Negativní účinky počasí se sníží na polovinu a pozitivní účinky se zdvojnásobí.
+
+objective_target_PowerStation              Cíl 8 v oblasti zelené energie
+objective_target_PowerStation_description  Do věznice je bezplatně dodán 1 zdroj zelené energie každého typu.
+objective_target_PowerStation_task         Hráč nesmí použít elektrárnu po dobu [10] dní ve hře (za přítomnosti vězňů).
+objective_target_PowerStation_reward       Cíl 8 v oblasti zelené energie splněn.
+objective_target_PowerStation_reward_text  Do vězení bude zdarma dodán 1 zdroj zelené energie každého typu.
+
+objective_target_ChargeBattery             Cíl 9 v oblasti zelené energie
+objective_target_ChargeBattery_description Výkon všech zelených zdrojů energie bude zvýšen o faktor [2].
+objective_target_ChargeBattery_task        Plně nabít [100] baterií.
+objective_target_ChargeBattery_reward      Cíl 9 v oblasti zelené energie splněn.
+objective_target_ChargeBattery_reward_text Výkon všech zelených zdrojů energie byl zvýšen o faktor [2].
+
+interface_title_targets                    Cíle zelené energie
+
+report_target_rewards                      [Odměny]
+report_target_progress                     [Pokrok]
+
+grant_category_WeatherSystem               Počasí:
+grant_property_Active                      Zapnuto
+
+GrantHeaderButton_0                        Granty
+GrantHeaderButton_0_description            Přijímá a plní granty související s vězením a získává za to peněžní odměny.
+GrantHeaderButton_1                        Cíle zelené energie
+GrantHeaderButton_1_description            Splňte konkrétní cíle týkající se zelené energie a získejte různé odměny.
+
+# =============================================================================
+# New Objectives 
+# =============================================================================
+
+objective_HelpBasicFarming                     Základní zemědělství
+objective_HelpBasicFarming_child_1             Zemědělské místnosti
+objective_HelpBasicFarming_child_1_Description S farmařením jsou spojeny 4 nové místnosti: Zeleninový příděl, Zemědělské pole, Ovocný sad a Spižírna. \n\nPrvní tři místnosti jsou potřebné pro pěstování zeleniny, obilovin a ovocných stromů, zatímco místnost Spižírna je chladírna pro sklizené plodiny. \n\nKaždá ze 3 hlavních zemědělských místností musí být umístěna venku a bude vyžadovat objekt kůlny, která slouží jako zdroj vody pro ruční zalévání plodin a jako skladiště semen a podobných předmětů.
+objective_HelpBasicFarming_child_2             Výsadba plodin
+objective_HelpBasicFarming_child_2_Description Aby bylo možné pěstovat plodiny, je třeba nejprve vytvořit zemědělské místnosti a najmout farmáře, kteří budou spravovat práce související s těmito plodinami. \n\nPlodiny lze pěstovat pouze v konkrétních místnostech a mohou růst pouze na následujících typech podlah: Pěstovat lze pouze na půdách typu "hlína", "bláto", "tráva", "travnatý kout" nebo "květinové pole". \n\nPo prvním cyklu růstu a sklizně lze nahrazení těchto plodin automatizovat pomocí zásady "Průběžná výsadba" \n\nPokud chcete tyto plodiny nahradit jiným typem, ujistěte se, že je tato zásada vypnutá.
+objective_HelpBasicFarming_child_3             Vlastnosti plodin
+objective_HelpBasicFarming_child_3_Description Každý ze 3 hlavních typů plodin má jiné vlastnosti, obiloviny i zelenina mají pouze jeden výnos a musí být po každé sklizni znovu zasazeny, ale ovocné stromy dávají plody nepřetržitě \n\nVšechny 3 typy plodin lze prodat jako export, ale pouze ovoce a zeleninu lze použít k jídlu.
+objective_HelpBasicFarming_child_4             Výhody plodin
+objective_HelpBasicFarming_child_4_Description Hlavní výhodou používání vězeňských surovin místo standardních surovin, které se obvykle dodávají, jsou účinky, které mají při konzumaci. \n\nVězni, kteří snědí čerstvé přísady, získají vyšší účinek na svou potřebu hladu, zatímco ostatní potřeby také získají menší zvýšení \n\nVězni, kteří snědí celý kurz čerstvých přísad, mají také šanci získat nový status "Zdravý", který má podobný účinek jako vězni, kteří absolvují sezení s alkoholem a drogami.
+objective_HelpBasicFarming_child_5             Skladování surovin
+objective_HelpBasicFarming_child_5_Description Na rozdíl od standardních ingrediencí nemají plodiny vypěstované ve vězení konzervační látky, které by zabránily jejich zkažení. \Po sklizni je proto třeba plodiny přemístit buď do chlazeného předmětu, nebo do místnosti se spíží, která je vždy chlazená \n\nJinak v průběhu 3 dnů propadnou a sníží se jak jejich účinky při konzumaci, tak jejich vývozní cena. 
+
+objective_HelpAdvancedFarming                     Pokročilé zemědělství
+objective_HelpAdvancedFarming_child_1             Zemědělský výzkum
+objective_HelpAdvancedFarming_child_1_Description Ne všechny předměty související s farmařením jsou k dispozici od začátku nové hry. \nNa začátku je třeba dokončit výzkumný úkol "Zemědělství", abyste získali přístup ke všem:\n\n-Více plodin\n-Možnost logistiky distribuce plodin\n-Kompostové hnojivo, vysoce kvalitní hnojivo a kompostovací zásobník \n-Pracovní síla \n-Automatické zavlažování, sklizeň a sběr předmětů
+objective_HelpAdvancedFarming_child_2             Distribuce plodin
+objective_HelpAdvancedFarming_child_2_Description Tato nová logistická možnost umožňuje hráčům vybrat, kam se plodiny po sklizni přesunou, a poměr tohoto rozdělení. \n\nHráči mohou také zvolit spojení mezi spižírnami a kuchyněmi, ačkoli bez použití této akce se spojení vytvoří automaticky na základě vzdálenosti.
+
+objective_HelpAdvancedFarming_child_3             Hnojivo
+objective_HelpAdvancedFarming_child_3_Description Existují dvě položky hnojiva, Kompostové hnojivo a Vysoce kvalitní hnojivo, které lze použít ke zlepšení rychlosti růstu plodin a také šance na produkci semen při sklizni. \n\nVysoce kvalitní hnojivo má vyšší účinky než kompostová verze, ale je dražší, zatímco kompostová alternativa je levnější a můžete si ji vyrobit sami pomocí položky Kompostovací koš; prostřednictvím rostlinných a potravinových odpadů.
+
+objective_HelpAdvancedFarming_child_4             Automatizované zemědělství
+objective_HelpAdvancedFarming_child_4_Description Existují 3 zemědělské práce, které lze automatizovat pomocí předmětů, a to zalévání plodin, sklizeň plodin a sběr těchto sklizených plodin.
+
+
+objective_HelpGreenEnergy                            Zelená energie
+
+objective_HelpGreenEnergy_child_1                    Typy zelené energie
+objective_HelpGreenEnergy_child_1_description        Existují tři nové zelené zdroje energie, kterými lze nahradit elektrárnu. \n\nVětrné turbíny \nSolární panely \nSolární větrné turbíny \nZpočátku budou k dispozici pouze solární panely. \n\nKaždý zelený zdroj energie má mírně odlišné vlastnosti včetně výkonu, ale na rozdíl od elektráren je lze vzájemně propojit do velkého pole; transformátory však mají omezený příkon.
+
+objective_HelpGreenEnergy_child_2                    Účinky počasí
+objective_HelpGreenEnergy_child_2_description        Každý zdroj energie může být negativně nebo pozitivně ovlivněn typem počasí. \n\nTyto efekty budou indikovány grafickým znázorněním +/- a také nápovědou při přejetí kurzorem nad těmito zdroji energie. \n\nNapříklad solární panel je pozitivně ovlivněn typem počasí Jasno a Vlna veder, ale negativně zataženo, déšť, přívalový déšť a mráz.
+
+objective_HelpGreenEnergy_child_3                    Transformátory a baterie
+objective_HelpGreenEnergy_child_3_description        Vzhledem k vlastnostem surové zelené energie musí být každý nový zdroj energie připojen pomocí elektrických kabelů k transformátoru, aby bylo možné jeho energii využít pro elektrické spotřebiče. \n\nTransformátor sám o sobě nejenže transformuje surovou zelenou energii na použitelnou formu energie, ale může také nabíjet všechny přilehlé položky baterií. \n\nEnergii uloženou v bateriových položkách lze použít jako nouzovou energii i jako nový export prostřednictvím měřiče exportu energie.
+
+objective_HelpGreenEnergy_child_4                    Export energie
+objective_HelpGreenEnergy_child_4_description        Měřič exportu energie může být připojen k transformátoru pomocí kabeláže, pokud má tento transformátor připojené baterie, pak veškerá energie uložená uvnitř může být každý den prodána jako omezený export. \n\nTento limit exportu lze zvýšit splněním určitých cílů zelené energie.
+
+objective_HelpGreenEnergy_child_5                    Cíle zelené energie
+objective_HelpGreenEnergy_child_5_description        V nabídce Grant lze nalézt řadu cílů pro zelenou energii, jejichž splněním získáte odměny, včetně: \n\n- Zvýšení denního limitu exportu energie \n- Odemknutí dalších zdrojů energie \n- Zvýšení výkonu všech zakoupených zdrojů zelené energie.
+
+objective_HelpNarcoticProduction                     Výroba narkotik
+
+objective_HelpNarcoticProduction_child_1             Výroba alkoholu
+objective_HelpNarcoticProduction_child_1_description Vězni, kteří splňují určité podmínky, si mohou vařit vlastní alkohol. \n\nNejprve získají ingredience pro vaření z hospodářských místností, kuchyní nebo jakéhokoli automatu, ke kterému mají přístup. \Poté tyto ingredience připraví v noci ve svých celách a pak je na několik dní ukryjí, aby zkvasily.
+
+objective_HelpNarcoticProduction_child_2             Výroba drog
+objective_HelpNarcoticProduction_child_2_description Výroba drog bude naopak založena pouze v rámci jediné místnosti, Zemědělského pole - vězni se budou snažit manipulovat se stávajícími plodinami, aby ukryli pěstitelné drogy. \n\nTyto zmanipulované rostliny budou mít pachovou vlastnost a jako takové je mohou odhalit strážní psi, ale tyto oblasti nebudou nikdy započítány do otřesů a jako takové musí být ručně prohledány - ačkoli každá prohlídka bude mít šanci poškodit plodiny. \n\nPři sklizni těchto plodin budou nalezena také narkotika, pokud sklizeň provádí správný vězeň. \n\nGangy mohou také převzít kontrolu nad místnostmi Farmářského pole, aby zaručily, že mají produkci narkotik pod kontrolou.
+
+objective_GoingGreenInfo                             Going Green!
+objective_GoingGreenInfo_child_1                     Níže jsou uvedeny hlavní funkce hry Going Green, po najetí kurzorem na jednotlivé podnadpisy se zobrazí popis a vysvětlení každé funkce. 
+
+objectiveWindow_FilterButton_0_title   Úkoly
+objectiveWindow_FilterButton_1_title   Going Green
+objectiveWindow_FilterButton_0_tooltip Probíhající úkoly
+objectiveWindow_FilterButton_1_tooltip Sbírka informací popisujících a vysvětlujících klíčové funkce programu Going Green.
+
+# =============================================================================
+# Mutators
+# =============================================================================
+
+mutator_name_Noir        Noir
+mutator_tooltip_Noir     Temný a špinavý filtr, který z vězení odstraní většinu barev.
+mutator_name_RoofView    Pohled na střechu
+mutator_tooltip_RoofView Aplikuje efekt podobný válečné mlze, ale místo "mlhy" zobrazuje střechy budov v oblastech se špatnou viditelností.
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+
+finances_other                         Ostatní transakce
+interfacetopbar_tension_activeeliteops + *X elitní operátoři jsou na místě
+interfacetopbar_budget_othermoneyin    Ostatní příjmy: $*M /den
+interfacetopbar_budget_othermoneyout   Ostatní výdaje: $*M /den
+escapemode_info_board                  Palubní přívoz
+
+d11_expireIn                           Platnost vyprší za *X dní
+
+reformProgram_flowertherapy            Květinová terapie
+reformProgram_flowertherapy_text       Tato sezení budou založena na myšlence zklidnění a uvolnění vězňů tím, že jim dáte něco, o co se mohou starat a pečovat.
+
+job_group_hovering_expand              Klikněte pro rozbalení podobných typů pracovních míst.
+job_group_hovering_collapse            Klikněte pro sbalení podobných typů práce
+
+reports_ingredients_usageTitle         Poměr využití čerstvých / dovážených ingrediencí	
+
+
+# =============================================================================
+# Stings Missed from localisation 13/11/20  - Any strings added after this day, place here
+# =============================================================================
+
+
+objective_HelpEnvironmentallyFriendly                     Šetrné k životnímu prostředí
+
+objective_HelpEnvironmentallyFriendly_child_1             Recyklace
+objective_HelpEnvironmentallyFriendly_child_1_description Nový ekologický způsob odstraňování odpadu byl zaveden systémem recyklace. \n\nPokud si zakoupíte objekt Recyklační koš a znovu vyhledáte byrokratický úkol "Recyklační pobídka", veškerý odpad, který bude recyklován, místo aby byl vyhozen jako odpad, vás odmění 10 dolary za každý pytel.
+
+objective_HelpEnvironmentallyFriendly_child_2             Rekreační zahradničení
+objective_HelpEnvironmentallyFriendly_child_2_description Prozkoumáním byrokratického úkolu "Péče o pozemky" budou moci vězni pečovat o rostliny v nové místnosti Květinová zahrada. \n\nKvětiny nelze sklízet ani vyvážet jako plodiny, ale nejenže zlepšují estetiku věznice, ale také pomáhají uklidnit všechny vězně, kteří se o ně starají.
+
+equipment_WateringCan                                     Konev
+
+
+interfacemode_objectPack_filter_all                       Všechny balíčky
+
+# =============================================================================
+# Stings Missed from localisation 02/12/20  - Any Green Machine strings added after this day, place here
+# =============================================================================
+
+codex_options_staffalertscaption						Upozornění zaměstnanců
+
+reform_program_and	a
+
+# ==========================================================================================================
+# Chinese New Year update
+# ==========================================================================================================
+
+
+# =============================================================================
+# Objects (inc. descriptions)
+# =============================================================================
+
+object_OxStatue        Socha Vola
+object_PaperDragonHead Drak (hlava)
+object_PaperDragonBody Drak (tělo)
+object_PaperDragonTail Drak (ocas)
+object_PaperLantern    Papírová lucerna
+object_CoupletBanner   Bannerový kuplet
+object_FoodTrayPack    Balení zásobníků na potraviny
+
+buildtoolbar_popup_obj_OxStatue        Socha zvěrokruhu představující mocného vola
+buildtoolbar_popup_obj_PaperDragonHead Výřez z papíru v podobě dračí hlavy
+buildtoolbar_popup_obj_PaperDragonBody Výřez z papíru v podobě dračího těla.
+buildtoolbar_popup_obj_PaperDragonTail Papírový výřez v podobě dračího ocasu.
+buildtoolbar_popup_obj_PaperLantern    Ozdobná červená papírová lucerna, která přinese světlo do vašeho vězení.
+buildtoolbar_popup_obj_CoupletBanner   Dekorativní transparent s nápisem čínských kupletů.
+buildtoolbar_popup_obj_FoodTrayPack    Balení 40 táců na jídlo
+
+buildtoolbar_popup_help_farmer_1 Farmáři zvládnou většinu prací souvisejících s místnostmi pro farmaření, od sázení a sklízení plodin až po ukládání potřebných předmětů do příslušných objektů v přístřešku.\n\n
+buildtoolbar_popup_help_farmer_2 ^Tipy
+buildtoolbar_popup_help_farmer_3 - Většinu prací prováděných farmáři mohou provádět také pracující vězni, kromě těch, které vyžadují opuštění vězení.
+buildtoolbar_popup_help_farmer_4 - Některé práce lze také automatizovat pomocí nových objektů, například zalévání a sklizeň plodin.
+
+
+# =============================================================================
+# Objectives
+# =============================================================================
+
+#PC only
+objective_intake_closedriot				Příjem během vězeňské vzpoury nedostupný
+
+#==========GM bugs 15/02======= 
+reputation_swimmer_high						Plavec
