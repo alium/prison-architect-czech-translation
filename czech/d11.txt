@@ -922,3 +922,595 @@ graph_axis_totalincidents               Incidentů celkem
 equipment_Photo				Fotografie	
 equipment_SubMachineGun			Samopal	
 equipment_Soap				Mýdlo
+
+############################### Prison Wing Priviledges UPDATE ###############################
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+room_gymnasium									Tělocvična
+buildtoolbar_popup_room_gymnasium				Místo, kde se vězni mohou vyřádit a uvolnit svou nahromaděnou agresi nebo se naučit řešit neshody postaru.
+
+
+buildtoolbar_popup_help_CellStatus_1 Zobrazení stavu buňky zobrazuje obsazené (oranžová), volné (červená) a neobsazené (zelená) buňky.
+
+object_punchbag_blocked              Boxovací pytel nelze dosáhnout (Objekt_punchbag_blokován)
+object_trainingdummy_blocked         Tréninkový panák nelze dosáhnout
+
+gangCell                             *X buňka
+gangMember                           Člen gangu
+gangSoldier                          Voják gangu
+gangLieutenant                       Poručík gangu
+gangLeader                           Vůdce gangu
+
+interfacedeployment_CustomSector     Vlastní sektor
+
+# =============================================================================
+# Materials - Names
+# =============================================================================
+
+material_RunningTrack   Běžecká dráha
+material_BambooFloor    Bambusová podlaha
+material_pipewall       Stěna (potrubí)
+material_overgrownwall  Zeď (zarostlá)
+material_derelictwall   Zeď (Opuštěná)
+material_slumwall       Zeď (Slum)
+material_rustywall      Zeď (Rezavá)
+material_bamboofence    Plot (Bambusový)
+material_decayedWall    Zeď (Zchátralá)
+material_flowerfield    Kvetoucí pole
+material_FenceAndGrass  Plot (Tráva)
+material_WallMinSec     Zeď (Minimální ost.)
+material_WallMedSec     Wall (Střední ost.)
+material_WallMaxSec     Zeď (Maximální ost.)
+material_WallInsaneSec  Zeď (Choromyslní)
+material_WallProtective Wall (Žlutá)
+material_CliffEdge      Hrana útesu
+
+# =============================================================================
+# Objects - Names
+# =============================================================================
+
+object_ovalStaffTable     Tabulka (Oval)
+object_Painting1          Malování
+object_Painting2          Malování
+object_ChessTable         Šachový stůl
+object_GlassWindow        Okno Sklo
+object_GlassWindowLarge   Okenní sklo (velké)
+object_GymMat             Tělocvičná podložka
+object_SinkMirror         Umyvadlo a zrcadlo
+object_TableFootball      Fotbalový stůl
+object_TableTennis        Stolní tenis
+object_TyreApparatus      Přístroj na pneumatiky
+object_bambooDoor         Dveře (bambus)
+object_Canvas             Plátno a barvy
+object_PetBird            Pták
+object_SoftPillow         Měkký polštář
+object_BoxingRing         Boxovací kruh
+object_DumbbellRack       Stojan na činky
+object_Treadmill          Běžecký pás
+object_Fan                Ventilátor
+object_PunchBag           Boxovací pytel
+object_WardenStatue       Socha správce
+object_WaterCooler        Chladič vody
+object_SnackMachine       Stroj na občerstvení
+object_Mattress           Postel (Pěnová matrace)
+object_MetalBarrel        Kovový sud
+object_WoodenBarrel       Dřevěný sud
+object_MooringBollard     Kotvící sloupek
+object_DeckChair          Palubní židle
+object_LightGreen         Světlo (zelené)
+object_LightRed           Světlo (červené)
+object_Buoy               Bóje
+object_LifeRing           Záchranný kruh
+object_CoffeeMachine      Kávovar
+object_ComputerStation    Počítačová stanice
+object_PASystem           PA Systém
+object_TrainingDummy      Výcviková figurína
+object_StoneWaterSpout    Kamenný výtok vody
+object_WindSock           Větrná ponožka
+object_ComfyBed           Pohodlná postel
+object_IndoorTreePlanter  Interiérový květináč na stromy
+object_OldBed             Stará postel
+object_CameraPillar       Kamerový sloupek
+object_Blackboard         Tabule
+object_JailDoorWhite      Dveře do vězení (bílé)
+object_JailDoorLargeWhite Velké dveře do vězení (bílé)
+
+object_SignNumber0								Cedule (Číslo 0)
+object_SignNumber1								Cedule (Číslo 1)
+object_SignNumber2								Cedule (Číslo 2)
+object_SignNumber3								Cedule (Číslo 3)
+object_SignNumber4								Cedule (Číslo 4)
+object_SignNumber5								Cedule (Číslo 5)
+object_SignNumber6								Cedule (Číslo 6)
+object_SignNumber7								Cedule (Číslo 7)
+object_SignNumber8								Cedule (Číslo 8)
+object_SignNumber9								Cedule (Číslo 9)
+
+object_SignLetterA								Cedule (Písmeno A)
+object_SignLetterB								Cedule (Písmeno B)
+object_SignLetterC								Cedule (Písmeno C)
+object_SignLetterD								Cedule (Písmeno D)
+object_SignLetterE								Cedule (Písmeno E)
+object_SignLetterF								Cedule (Písmeno F)
+object_SignLetterG								Cedule (Písmeno G)
+object_SignLetterH								Cedule (Písmeno H)
+object_SignLetterI								Cedule (Písmeno I)
+object_SignLetterJ								Cedule (Písmeno J)
+object_SignLetterK								Cedule (Písmeno K)
+object_SignLetterL								Cedule (Písmeno L)
+object_SignLetterM								Cedule (Písmeno M)
+object_SignLetterN								Cedule (Písmeno N)
+object_SignLetterO								Cedule (Písmeno O)
+object_SignLetterP								Cedule (Písmeno P)
+object_SignLetterQ								Cedule (Písmeno Q)
+object_SignLetterR								Cedule (Písmeno R)
+object_SignLetterS								Cedule (Písmeno S)
+object_SignLetterT								Cedule (Písmeno T)
+object_SignLetterU								Cedule (Písmeno U)
+object_SignLetterV								Cedule (Písmeno V)
+object_SignLetterW								Cedule (Písmeno W)
+object_SignLetterX								Cedule (Písmeno X)
+object_SignLetterY								Cedule (Písmeno Y)
+object_SignLetterZ								Cedule (Písmeno Z)
+
+equipment_StrikePlacard							Stávková plaketa
+
+# =============================================================================
+# Prefabs - Names
+# =============================================================================
+
+quickbuild_Armoury    Zbrojnice
+quickbuild_Infirmary  Ošetřovna
+quickbuild_Laundry    Prádelna
+quickbuild_Library    Knihovna
+quickbuild_MailRoom   Poštovní místnost
+quickbuild_Visitation Návštěvní místnost
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_affectsGradingNegativly    -SNÍŽÍ známku vězeňské buňky.
+
+buildtoolbar_popup_obj_ovalStaffTable   Skvěle se hodí k židlím v prostorách pro personál.
+buildtoolbar_popup_obj_painting1        To, že je to vězení, neznamená, že to nemůžeme udržet na úrovni.
+buildtoolbar_popup_obj_painting2        To, že je to vězení, neznamená, že to nemůžeme udržet na úrovni.
+buildtoolbar_popup_obj_chessTable       Pro vězně nebo zaměstnance, kteří rádi přemýšlejí několik tahů dopředu.
+buildtoolbar_popup_obj_GLassWindow      Abyste mohli zahlédnout slunce.
+buildtoolbar_popup_obj_GlassWindowLarge K nahlédnutí velkého množství slunce.
+buildtoolbar_popup_obj_GymMat           Pro protažení bolestí a zánětů.\n -Cvičení podle potřeby
+buildtoolbar_popup_obj_TableTennis      Poskytuje další zábavu pro vaše chovance.\n -Zajišťuje potřebu rekreace.
+buildtoolbar_popup_obj_TableFootball    Poskytuje další zábavu pro vaše chovance.\n -Zajišťuje potřebu rekreace.
+buildtoolbar_popup_obj_TyreApparatus    Někteří vězni trvají na tom, aby měli způsob, jak trénovat šplhání.\n -Splňuje potřebu Cvičení.
+buildtoolbar_popup_obj_SinkMirror       Dejte vězňům do cely umyvadlo a zrcadlo.\n -Splňuje potřebu hygieny.
+buildtoolbar_popup_obj_bambooDoor       Bambusová brána vyrobená člověkem, která se hodí k bambusovému oplocení. \nPracuje se s ní jako se standardními dveřmi.
+buildtoolbar_popup_obj_canvas           Kreativní způsob, jak mohou vězni vyjádřit své pocity, aniž by se navzájem pobodali.
+buildtoolbar_popup_obj_PetBird          Malý společník, který bude dělat vězňům společnost.\n -Spokojí se s potřebami rodiny, pohodlí a luxusu.
+buildtoolbar_popup_obj_SoftPillow       Další zlepšení kvality a pohodlí vězňova lůžka pomocí nadýchaného péřového polštáře.\n -Uspokojuje potřeby pohodlí a spánku.
+buildtoolbar_popup_obj_BoxingRing       Bez něj se neobejde žádná vězeňská tělocvična. Většina vězňů si na tomto plátně nejraději maluje.\n -Uspokojuje potřeby cvičení a odpočinku.
+buildtoolbar_popup_obj_DumbbellRack     Pro vaše vězně s posilovacími schopnostmi.\n -Uspokojuje potřeby cvičení.
+buildtoolbar_popup_obj_Treadmill        Pro vězně k udržení kondice. Z vězňů, kteří tvrdě trénují, se mohou stát i rychlejší běžci.\n -Uspokojuje potřebu cvičení.
+buildtoolbar_popup_obj_Fan              Staromódní stojící ventilátor, který pomáhá ochlazovat vzduch kolem sebe, a to malým množstvím.
+buildtoolbar_popup_obj_PunchBag         Pro případy, kdy si vězni potřebují vybít trochu agrese.\n -Zajišťuje potřeby cvičení a rekreace.
+buildtoolbar_popup_obj_WardenStatue     Vysoká kamenná socha na znamení ředitelovy vlády nad věznicí. Příliš mnoho takových soch může u vězňů vyvolat pocit utlačování. \n -Zvýší potlačení o malou hodnotu.
+buildtoolbar_popup_obj_WaterCooler      Chvíle pro chlazení vody Architekta Vězení.
+buildtoolbar_popup_obj_SnackMachine     Vysoce kalorické, nekvalitní občerstvení.
+buildtoolbar_popup_obj_Mattress           Polohovatelná pěnová matrace. Nejlevnější forma postele, jaká existuje, ale lepší než podlaha.
+buildtoolbar_popup_obj_MetalBarrel        Často se vyskytuje v docích.
+buildtoolbar_popup_obj_WoodenBarrel       Často se vyskytuje v okolí doků.
+buildtoolbar_popup_obj_MooringBollard     Dodejte oblastem doků klasický prvek. Funguje také jako malá zeď.
+buildtoolbar_popup_obj_LightGreen         Venkovní světlo, ale se zelenou žárovkou. Vypadá skvěle s oblastí přistávací plochy pro vrtulníky.
+buildtoolbar_popup_obj_LightRed           Venkovní světlo, ale s červenou žárovkou. Vypadá skvěle s oblastí heliportu.
+buildtoolbar_popup_obj_Buoy               Plave ve vodě.
+buildtoolbar_popup_obj_LifeRing           Dodejte oblastem doků klasický prvek.
+buildtoolbar_popup_obj_ArcadeCabinet      Pobavte své spoluvězně špičkovým retro arkádovým automatem.\n -Uspokojuje potřeby odpočinku a pohodlí.
+buildtoolbar_popup_obj_CoffeeMachine      Žádaná funkce každého přepracovaného zaměstnance.
+buildtoolbar_popup_obj_ComputerStation    Uspokojuje potřeby "literatury" a "pohodlí".
+buildtoolbar_popup_obj_PASystem           Potlačuje vězně pravidelným připomínáním, že jsou ve skutečnosti stále ve vězení. \n -Zvyšuje útlak, který vězni pociťují, když jsou umístěni v bloku cel nebo na dvoře.
+buildtoolbar_popup_obj_TrainingDummy      Staromódní šaolinský tréninkový panák.\n -Vězni, kteří tvrdě trénují, se mohou dokonce naučit nové bojové dovednosti!
+buildtoolbar_popup_obj_StoneWaterSpout    Kamenná gotická hlava, která po připojení k přívodu vody začne chrlit vodu z úst.
+buildtoolbar_popup_obj_ComfyBed           Luxusní postel s matrací z paměťové pěny, která poskytuje ten nejlepší spánek.
+buildtoolbar_popup_obj_IndoorTreePlanter  Zapuštěný květináč pro pěstování stromů v interiéru.
+buildtoolbar_popup_obj_OldBed             Staromódní vězeňská postel. Pohodlnější než pěnová matrace, ale méně než standardní postel.
+buildtoolbar_popup_obj_Blackboard         Žádná učebna se bez ní neobejde.
+buildtoolbar_popup_obj_JailDoorWhite      Barevné vězeňské dveře, které vám pomohou označit bloky pro choromyslné.
+buildtoolbar_popup_obj_JailDoorLargeWhite Barevné vězeňské dveře, které vám pomohou označit bloky pro choromyslné.
+buildtoolbar_popup_obj_camerapillar       Umístění na otevřených místech a následné připevnění kamery po stranách.
+
+buildtoolbar_popup_obj_signNumber0				Nástěnná cedule s číslem 0. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber1				Nástěnná cedule s číslem 1. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber2				Nástěnná cedule s číslem 2. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber3				Nástěnná cedule s číslem 3. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber4				Nástěnná cedule s číslem 4. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber5				Nástěnná cedule s číslem 5. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber6				Nástěnná cedule s číslem 6. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber7				Nástěnná cedule s číslem 7. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber8				Nástěnná cedule s číslem 8. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signNumber9				Nástěnná cedule s číslem 9. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+
+buildtoolbar_popup_obj_signLetterA				Nástěnná cedule s písmenem A. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterB				Nástěnná cedule s písmenem B. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterC				Nástěnná cedule s písmenem C. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterD				Nástěnná cedule s písmenem D. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterE				Nástěnná cedule s písmenem E. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterF				Nástěnná cedule s písmenem F. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterG				Nástěnná cedule s písmenem G. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterH				Nástěnná cedule s písmenem H. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterI				Nástěnná cedule s písmenem I. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterJ				Nástěnná cedule s písmenem J. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterK				Nástěnná cedule s písmenem K. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterL				Nástěnná cedule s písmenem L. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterM				Nástěnná cedule s písmenem M. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterN				Nástěnná cedule s písmenem N. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterO				Nástěnná cedule s písmenem O. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterP				Nástěnná cedule s písmenem P. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterQ				Nástěnná cedule s písmenem Q. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterR				Nástěnná cedule s písmenem R. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterS				Nástěnná cedule s písmenem S. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterT				Nástěnná cedule s písmenem T. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterU				Nástěnná cedule s písmenem U. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterV				Nástěnná cedule s písmenem V. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterW				Nástěnná cedule s písmenem W. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterX				Nástěnná cedule s písmenem X. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterY				Nástěnná cedule s písmenem Y. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+buildtoolbar_popup_obj_signLetterZ				Nástěnná cedule s písmenem Z. Seřaďte znaky a vytvořte slova nebo štítky, např. "CELL BLOCK 4".
+
+buildtoolbar_popup_mat_pipewall       Vytvářejte stěny z trubek na základech a vytvářejte tak nové oblasti nebo místnosti.
+buildtoolbar_popup_mat_derelictwall   Postavte levné opuštěné zdi pro starobylý vzhled.
+buildtoolbar_popup_mat_overgrownwall  Stavějte levné zarostlé zdi, protože i ve vězení si život najde cestu.
+buildtoolbar_popup_mat_rustywall      Postavte levné Rezavé zdi pro postapokalyptický vzhled.
+buildtoolbar_popup_mat_slumwall       Postavte si levné stěny slumů, protože peníze ušetřené na sociálních dávkách pro vězně jsou peníze, které můžete dát na rozšíření kanceláře.
+buildtoolbar_popup_mat_bambooFence    Bambusový plot vyrobený člověkem pro vzhled tábora.
+buildtoolbar_popup_mat_RunningTrack   Perfektní pro naše chovance, aby mohli běhat na dvoře.
+buildtoolbar_popup_mat_BambooFloor    Podlaha se vzhledem tábora v džungli.
+buildtoolbar_popup_mat_DecayedWall    Postavte levné stěny z rozpadlého břízolitového bloku na základy.
+buildtoolbar_popup_mat_flowerfield    Travnatá plocha s pěknými rostoucími květinami.
+buildtoolbar_popup_mat_fenceandgrass  Úseky plotu s trávou pod ním místo hlíny.
+buildtoolbar_popup_mat_WallMinSec     Postavte barevné zdi, které budou označovat určitý bezpečnostní sektor věznice.
+buildtoolbar_popup_mat_WallMedSec     Postavte barevné zdi, které budou označovat určitý bezpečnostní sektor věznice.
+buildtoolbar_popup_mat_WallMaxSec     Vytvořte barevné stěny, které budou označovat určitý bezpečnostní sektor věznice.
+buildtoolbar_popup_mat_WallInsaneSec  Vytvořte barevné stěny, které budou označovat určitý bezpečnostní sektor věznice.
+buildtoolbar_popup_mat_WallProtective Vytvořte barevné stěny, které budou označovat určitý bezpečnostní sektor věznice.
+buildtoolbar_popup_mat_CliffEdge      Postavte skalní stěny, které vytvoří vyvýšené úseky a nepřístupné oblasti kolem věznice nebo ostrova.
+buildtoolbar_popup_mat_Water          Vytvářejte potoky, řeky a další neprůchodné vodní plochy.
+buildtoolbar_popup_mat_WaterShallow   Vytvářejte mělké vodní plochy, abyste vytvořili hezčí pobřeží, mezi podlahami Sand a Water. Po těchto dlaždicích lze na rozdíl od standardní vody.
+buildtoolbar_popup_mat_WaterLarge     Vytvářejte velké vodní plochy, jezera a oceány.
+
+interfaceoverlay_signs							Cedule
+interfacemode_walls								Zdi
+interfacemode_doors								Dveře
+
+interface_action_snackbought                    Svačina zakoupena
+
+# =============================================================================
+# Crisis Toolbar
+# =============================================================================
+
+crisisSector_AllSectors    VŠECHNY sektory
+crisisSector_StopAll       Stop VŠECHNY
+crisisSector_SharedOnly    Pouze sdílené
+crisisSector_MinSecOnly    Pouze min. ost.
+crisisSector_MedSecOnly    Pouze stř. ost.
+crisisSector_MaxSecOnly    Pouze max. ost.
+crisisSector_InsaneOnly    Pouze choromyslní
+crisisSector_ProtectedOnly Pouze ochr. vazba
+crisisSector_SuperMaxOnly  Pouze SuperMax ost.
+crisisSector_DeathRowOnly  Pouze vězni cely smrti
+
+crisisToolbarTitle_WeaponsFree			FREEFIRE
+crisisToolbarTitle_TunnelSearch			HLEDÁNÍ TUNELŮ
+crisisToolbarTitle_Shakedown			PROHLÍDKA CEL
+crisisToolbarTitle_Lockdown			UZAMČENÍ VĚZNICE
+crisisToolbarTitle_Bangup			NÁVRAT DO CEL
+crisisToolbarTitle_RollCall			KONTROLA PREZENCE
+crisisToolbarQuestion				 - Jaká odvětví si vybrat?
+
+# =============================================================================
+# Custom Sector Window
+# =============================================================================
+
+customSector_message			Zvolte, které úrovně ostrahy jsou povoleny pro vstup do tohoto vlastního sektoru.
+customsectorwindow_minseccaption		Min. ost.
+customsectorwindow_medseccaption		Stř. ost.
+customsectorwindow_maxseccaption		Max. ost.	
+customsectorwindow_supermaxcaption	SuperMax ost.
+customsectorwindow_deathrowcaption	Cela srmti
+customsectorwindow_protectivecaption	Ochranná vazba
+customsectorwindow_insanecaption		Choromyslní
+
+customSector_title			Vlastní bezpečnostní sektor
+customSector_subtitle			Tento bezpečnostní sektor umožňuje:
+
+# =============================================================================
+# Room Grading
+# =============================================================================
+
+roomgrading_messaging							Vylepšením této místnosti se zlepší i hodnocení tohoto bezpečnostního sektoru.
+roomGrading_prisonerTransfer					Upgrady motivují pouze vězně s nainstalovaným DLC "Cleared For Transfer" a zapnutou možností "Přesuny vězňů" v nabídce Nastavení mapy.
+
+roomgrading_Cell_BadWalls            [*E] Obklopen depresivními stěnami
+roomgrading_Cell_OutsideWindow_Large [*E]*Y Velké okno
+roomgrading_Cell_HasWindow_None      [*E] Žádná okna
+roomgrading_Dormitory_BadWalls       [*E] Obklopeno depresivními stěnami
+roomgrading_Dormitory_Mattress       [*E] Většina nekvalitních postelí
+roomgrading_Dormitory_HasWindow_None [*E] Žádná okna
+roomgrading_Canteen_RoomSize         [*E] Velikost místnosti alespoň *X čtverečních metrů
+roomgrading_Canteen_Item             [*E] Položka : *X
+roomgrading_Canteen_MealQuality      [*E] PRŮMĚNÁ kvalita jídla
+roomgrading_Canteen_MealQuality_High [*E] VYSOKÁ kvalita jídla
+roomgrading_Canteen_MealQuality_Low  [*E] NÍZKÁ Kvalita jídla
+roomgrading_Canteen_MealQuality_None [*E] ŽÁDNÁ Kvalita jídla
+roomgrading_Canteen_MealVariety      [*E] PRŮMĚRNÁ rozmanitost jídel
+roomgrading_Canteen_MealVariety_High [*E] VYSOKÁ Rozmanitost jídel
+roomgrading_Canteen_MealVariety_Low  [*E] NÍZKÁ rozmanitost jídel
+roomgrading_Canteen_MealVariety_None [*E] ŽÁDNÁ Rozmanitost jídel
+roomgrading_Canteen_HasWindow_None   [*E] Žádná okna
+roomgrading_Yard_RoomSize            [*E] Velikost místnosti alespoň *X čtverců
+roomgrading_Yard_RoomSizeLess        [*E] Velikost místnosti *X čtverců nebo méně.
+roomgrading_Yard_Item                [*E] Položka : *X
+roomgrading_Yard_Floor               [*E] *X Podlaha (více než *Y%)
+roomgrading_Yard_MultiItems          [*E] Obsahuje *X výše uvedených objektů.
+roomgrading_Yard_Floor_Quantity      [*E] *X *Y čtverců
+roomgrading_CommonRoom_RoomSize      [*E] Velikost místnosti alespoň *X čtverců
+roomgrading_CommonRoom_Item          [*E] Předmět : *X
+roomgrading_Gymnasium_RoomSize       [*E] Velikost místnosti nejméně *X čtverců
+roomgrading_Gymnasium_OutsideWindow  [*E] *Y Venkovní okno
+roomgrading_Gymnasium_Item           [*E] Položka : *X
+roomgrading_Gymnasium_HasWindow_None [*E] Žádná okna
+roomgrading_Classroom_RoomSize       [*E] Velikost místnosti alespoň *X čtverců
+roomgrading_Classroom_Item           [*E] Položka : *X
+roomgrading_Classroom_OutsideWindow  [*E] *Y Venkovní okno
+
+buildtoolbar_improvement						-ZLEPŠUJE *R stupeň 
+buildtoolbar_decreased							-ZHORŠUJE *R stupeň
+buildtoolbar_improvement_windows				(při pohledu ven)
+
+buildtoolbar_planning_autofoundation			Automatické základy
+
+prisoner_roomquality_veryLow  Velmi nízká
+prisoner_roomquality_low      Nízká
+prisoner_roomquality_high     Vysoká
+prisoner_roomquality_veryHigh Velmi vysoká
+prisoner_roomquality_supreme  Nejvyšší
+
+# =============================================================================
+# Security Sector Grading
+# =============================================================================
+
+interfaceLogistics_MinSecGrading				Min ost. Hodnocení
+interfaceLogistics_MedSecGrading				Med ost. Hodnocení
+interfaceLogistics_MaxSecGrading				Max ost. Hodnocení
+interfaceLogistics_SuperMaxGrading				SuperMax ost. Hodnocení
+
+sectorGrading_title								*X Sektor
+sectorGrading_housed							*X věznů je umístěno v *Y			
+sectorGrading_desiresTransfer					*X *Y vězňů doufá, že budou přemístěni do *Z
+
+sectorGrading_description    Níže je uveden rozpis hodnocení tohoto sektoru. Čím více oprávnění je přidáno, tím vyšší je známka. Maximální stupeň je 250.
+sectorGrading_encouragement  Čím vyšší je rozdíl ve stupni mezi *X a tímto sektorem, tím více budou vězni *X povzbuzováni k nápravě a chování, aby měli šanci být přeřazeni do tohoto sektoru s nižším stupněm zabezpečení.
+sectorGrading_discouragement Podobného efektu bys mohl dosáhnout také snížením stupně *X odebráním privilegií a pohodlí, ale také bys riskoval, že tyto vězně naštveš.
+
+sectorGrading_transferNote   (POZNÁMKA: Vězni motivovaní k přesunu se projeví POUZE s nainstalovaným DLC "Cleared For Transfer" a zapnutou volbou "Přesuny vězňů" v nabídce nastavení mapy).
+
+sectorGrading_privilegesTitle Práva vězňů
+sectorGrading_visitation      [+*X] Návštěvy
+sectorGrading_mail            [+*X] Pošta
+sectorGrading_work            [+*X] Přístup k práci (hotovost)
+sectorGrading_education       [+*X] Vzdělávání / přístup k programům (hotovost)
+sectorGrading_meals           [+*X] 2+ jídla denně
+sectorGrading_freeTime        [+*X] Dostatek volného času (20 %)
+sectorGrading_extraFreeTime   [+*X] Volný čas navíc (30 %)
+sectorGrading_yard            [+*X] Přístup na dvůr
+sectorGrading_gym             [+*X] Přístup do tělocvičny
+sectorGrading_shop            [+*X] Přístup do obchodu
+sectorGrading_commonRoom      [+*X] Přístup do společenské místnosti
+sectorGrading_showers         [+*X] Teplé sprchy
+sectorGrading_sleep           [+*X] Spánek 10 a více hodin
+
+sectorGrading_facilitiesTitle Zařízení
+sectorGrading_room            [*X/*Y] *R Kvalita
+
+sectorGrading_conditionsTitle Podmínky
+sectorGrading_suppresion      [*X/15] *Y Potlačení
+sectorGrading_risk            [*X/20] *Y Riziko (úmrtí a zranění)
+sectorGrading_cleanliness     [*X/15] *Y Čistota
+
+sectorGrading_grade           Stupeň *X/250
+dialog_veryLow                Velmi nízká
+
+# =============================================================================
+# Policy Report
+# =============================================================================
+
+dialog_various								Různé
+
+report_needs_staffBreaks                           Jedná se o maximální procento zaměstnanců všech typů, kteří mohou mít najednou přestávku.
+reports_privilegetitle                             Politika privilegií
+reports_misconducttitle                            Politika v oblasti nevhodného chování
+reports_paroletitle                                Politika ukončení podmínečného propuštění
+reports_parole_info                                Upravit mezní hodnotu:
+reports_parole_Cutoff                              (*P%)
+reports_policy_PrivilegeTableTitle                 Privilegium
+reports_policy_Visitation                          Návštěva
+reports_policy_Mail                                Pošta
+reports_policy_PrisonLabour                        Práce ve vězení
+reports_policy_All                                 Vše
+reports_policy_Programs                            Programy
+reports_policy_WorkPrograms                        Práce
+reports_policy_EducationPrograms                   Vzdělávání
+reports_policy_WellnessPrograms                    Wellnes programy
+
+reports_policy_defaults                            Doporučené
+reports_policy_tooltip_recomended                  Nastaví *X na doporučené hodnoty pro všechny vybrané úrovně zabezpečení.
+reports_policy_tooltip_all                         Vybere/zruší výběr všech úrovní zabezpečení věznice.
+
+reports_privilegesPolicy_tooltip_all               Změní všechny programy s výjimkou programů slyšení o podmínečném propuštění, odvolání proti rozsudku smrti a psychiatrické konzultace.
+reports_privilegesPolicy_tooltip                   Zvolí, které bezpečnostní sektory se mohou těchto programů účastnit:
+reports_privilegesPolicy_tooltip_EducationPrograms \n-Nadační vzdělávání \n-Obecné vzdělání
+reports_privilegesPolicy_tooltip_WellnessPrograms  \n-Behaviorální terapie \n-Skupinová terapie alkoholiků \n-Duchovní vedení
+reports_privilegesPolicy_tooltip_WorkPrograms      \n-Bezpečnost a hygiena v kuchyni \n-Instruktáž o bezpečnosti práce v dílně \n-Tesařský výcvik
+
+report_policy_categoryTooltip_Minsec               Minimální bezpečnost
+report_policy_categoryTooltip_Normal               Střední bezpečnost
+report_policy_categoryTooltip_MaxSec               Maximální bezpečnost
+report_policy_categoryTooltip_Protected            Ochranná vazba
+report_policy_categoryTooltip_SuperMax             SuperMax
+report_policy_categoryTooltip_DeathRow             Odsouzení k smrti
+report_policy_categoryTooltip_Insane               Choromyslný
+report_policy_categoryTooltip_PrisonerTransfer     Legendární
+
+report_policy_misconductConflict_tooltip           Je vybráno více typů zabezpečení s různými hodnotami zásad. Výběrem jednotlivých kategorií vězňů zobrazíte jejich zásady přestupků.
+
+report_policy_match                                Shoda s:
+
+report_policy_matchTitle                           Shoda s bezpečnostními sektory
+report_policy_match_tooltip                        Shoduje se politika přestupků *X s jiným bezpečnostním sektorem.
+
+report_policy_privilegesUnchangableTooltip         Tato úroveň zabezpečení má uzamčené zásady oprávnění.
+
+# =============================================================================
+# Deployment
+# =============================================================================
+
+interfacedeployment_Chef                   Přiřazení kuchařů
+interfacedeployment_Doctor                 Přiřazení lékařů
+
+buildtoolbar_deployment_Chef               Přiřazení kuchařů do sektorů ve věznici.
+buildtoolbar_deployment_Doctor             Přiřaďte doktory do sektorů ve vaší věznici.
+buildtoolbar_deployment_PrioritizeJanitor  Pomocí této volby upřednostníte údržbáře, aby vykonávali svou práci v určitých oblastech před ostatními v okolí vaší věznice. Pokud máte nedostatek personálu, budou se Údržbáři snažit pokrýt prioritní oblasti jako první. Přiřaďte 1, 2 nebo 3 údržbářům prioritu pro danou oblast.
+buildtoolbar_deployment_PrioritizeGardener Tuto možnost použijte k upřednostnění Zahradníků, aby vykonávali svou práci v určitých oblastech před ostatními v okolí vaší věznice. Pokud máte nedostatek personálu, Zahradníci se budou snažit pokrýt upřednostněné oblasti jako první. Přiřaďte 1, 2 nebo 3 zahradníky k upřednostnění dané oblasti.
+
+researchtooltip_deployment2                Tyto zaměstnance můžete konkrétně přiřadit do sektorů věznice prostřednictvím nabídky Nasazení.
+researchtooltip_prioritize                 Tyto zaměstnance můžete konkrétně upřednostnit v sektorech věznice prostřednictvím nabídky Nasazení.
+
+interfacetopbar_tooltip_totalChefs         *X celkový počet kuchařů
+interfacetopbar_tooltip_totalDoctors       *X celkový počet lékařů
+interfacetopbar_tooltip_cook               Kolik kuchařů máte k dispozici pro práci ve věznici.
+interfacetopbar_tooltip_doctor             Kolik lékařů máte k dispozici pro práci ve vaší věznici.
+
+interfacetopbar_tooltip_priorityStationed  *X prioritních pracovních míst
+
+interfacetopbar_tooltip_totalJanitors      *X celkový počet údržbářů
+interfacetopbar_tooltip_totalGardeners     *X celkový počet zahradníků
+interfacetopbar_tooltip_janitor            Kolik údržbářů máte k dispozici pro práci ve věznici.
+interfacetopbar_tooltip_gardener           Kolik zahradníků máte k dispozici pro práci ve vaší věznici.
+
+# =============================================================================
+# Prisoner Transfer Report
+# =============================================================================
+
+reports_prisoners_transfer                *X Vězňů *W převést do *C:
+reports_prisoners_transfer_ready          připraveno
+reports_prisoners_transfer_wanting        chtějí
+reports_prisoners_transfer_button         PŘIJMOUT VŠECHNY
+reports_prsioners_transfer_numCells       (*X Dostupných cel)
+reports_prisoners_transfer_otherPrisoners (*X ostatní vězni)
+
+reports_transfers_offMessage              Přesuny vězňů lze zapnout prostřednictvím nabídky Nastavení mapy.
+report_Transfer                           Transfery vězňů
+
+transfer_icon_tooltip                     Pomocí níže uvedených možností určete kritéria, která musí splňovat vězni *X, aby mohli být přemístěni do *Y. \nMůžete použít sloupec Kritéria politiky, abyste vězňům ztížili podmínky pro přemístění, a další možnosti, abyste určité typy vězňů okamžitě diskvalifikovali. \nNe všichni vězni mají zájem o přemístění. Zejména ti, kteří mají krátké tresty, plánují vytunelovat nebo si prostě nemyslí, že podmínky nebo pohodlí v bezpečnostním sektoru pod jejich vlastním jsou o tolik lepší.
+transfer_tooltip_onOff                    Zrušením zaškrtnutí se vypne/zapne pro vybraný/é bezpečnostní sektor/y.
+
+transfer_description                      Nastavte kritéria, která musí vězni splňovat, aby mohli být přemístěni do nižšího a pohodlnějšího bezpečnostního sektoru.
+transfer_use                              Povolit přesun z *X do *Y
+transfer_behaviourtitle                   Dobré chování
+transfer_reformtile                       Reforma
+transfer_requiredtitle                    Požadované
+transfer_qualifiedcaption                 Celkový počet vězňů, kteří splňují podmínky nyní
+transfer_hopingcaption                    Celkový počet vězňů motivovaných ke kvalifikaci
+transfer_numPrisoners                     *X Vězni (*Y%)
+
+transfer_title                            Kritéria přemístění
+transfer_criteria                         Hodnota Kritéria
+transfer_qualifying                       Kvalifikovaní vězni
+
+transfer_behaviour_staffAssaults          Žádné napadení personálu
+transfer_behaviour_murders                Žádné vraždy
+transfer_behaviour_murdersStuff           (personál a vězni)
+transfer_behaviour_escapeAttempts         Žádné pokusy o útěk
+transfer_behaviour_contraband             Žádný nebezpečný kontraband
+transfer_behaviour_gangMembers            Diskvalifikovaní členové gangů
+
+transfer_behaviour_tooltip_staffAssaults  Vězni, kteří splňují podmínky pro přemístění, nesmějí po stanovený počet dní napadnout žádného zaměstnance. Vyšší počet dní diskvalifikuje trvale násilné vězně.
+transfer_behaviour_tooltip_murders        Vězni, kteří splňují podmínky pro přemístění, nesmějí po stanovený počet dní zabít žádného zaměstnance nebo vězně. Vyšší počet dní diskvalifikuje nejnebezpečnější vězně.
+transfer_behaviour_tooltip_escapeAttempts Vězni, kteří splňují podmínky pro přemístění, nesmí být po zadaný počet dní přistiženi při pokusu o útěk.
+transfer_behaviour_tooltip_contraband     Vězni, kteří splňují podmínky pro přemístění, nesmí být po zadaný počet dní přistiženi při pokusu o útěk se zbraněmi nebo nástroji.
+transfer_behaviour_tooltip_gangMembers    Zvolte, zda chcete diskvalifikovat VŠECHNY členy gangu z přestupu, nebo pouze určité hodnosti v rámci gangu.
+
+transfer_reform_tooltip_reoffending       Vězni, kteří splňují podmínky pro přeložení, nesmí mít zadané % šance na opakování trestné činnosti nebo vyšší. Nižší číslo pomůže zajistit, aby se kvalifikovali ti nejlépe vychovaní a nejvíce napravení vězni.
+transfer_reform_tooltip_programsPassed    Vězni, kteří se kvalifikují k přemístění, musí mít absolvovaný určitý počet programů. Vyšší počet diskvalifikuje vězně, kteří neprojevili ochotu se napravit.
+
+transfer_required_tooltip                 Tuto hodnotu upravte podle toho, zda vězni musí splňovat VŠECHNA vámi zaškrtnutá kritéria pro přesun, nebo menší počet.
+
+transfer_tooltip_uncheck                  \nOdškrtněte pro odstranění tohoto kritéria jako kritérium pro přemístění.
+
+
+transfer_reform_reoffending               % odhadovaná míra recidivy
+transfer_reform_programsPassed            Přijaté programy
+
+transfer_required                         Výše uvedená kritéria musí být splněna
+
+transfer_criteriaTime                     pro *X dny/í
+
+gangNone                                  Žádné
+gang_transfer_None                        Žádné
+gang_transfer_Soldier                     Všechny
+gang_transfer_Lieutenant                  Poručík, velitel
+gang_transfer_Leader                      Lídr
+
+report_prisoner_approve                   Schválit
+report_prisoner_approveAll                Schválit všechny vězně, kteří splnili kritéria pro přesun, k přesunu dolů do *X. Množství přesunutých vězňů bude záviset také na množství dostupných cel.
+
+approveTransfer_title                     Schválit přesun
+approveTransfer_message                   Schválit přesun vězně *F *S do *C
+approveAllTransfer_message                Schválit přesun všech kvalifikovaných vězňů do *C
+approveAllTransfer_someMessage            V *C je pouze *X volných cel. Chcete převést *X vězňů do *C?
+approveTransfer_noFreeCells               Nejsou k dispozici žádné volné cely, do kterých by bylo možné vězně přemístit. Pro schválení přesunu vytvořte další cely pro tuto úroveň zabezpečení.
+
+dialog_group                              Skupina
+
+transfer_pastCrimes_tooltip               Diskvalifikovat vězně s trestnými činy skupiny *X v jejich trestním rejstříku včetně:
+transfer_criteria_met                     *X/*Y
+transfer_review                           Přezkoumání přesunů
+
+# =============================================================================
+# Actions
+# =============================================================================
+
+action_RunTreadmill								Používá běžecký pás
+action_PunchingBag								Používá boxovací pytel
+action_Boxing									Používá boxerský ring
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_tooltip_escapeplans               Umožňuje vězňům více možností útěku. Při pokusu o útěk se nyní pokusí přelézt vaše zdi.
+codex_options_shadowcaption				Přepnout stíny
+codex_options_punishmentscaption		Vyhledávání a akce podle sektoru
+
+codex_option_prisonerTransfer			Přesuny vězňů
+codex_tooltip_prisonerTransfer			Přesuny vězňů umožňují nastavit kritéria, která musí vězni splňovat, aby mohli být přesunuti a přeřazeni do lepšího bezpečnostního sektoru ve vaší věznici, který může nabízet větší pohodlí, vybavení a další výhody. \n\nVězni nyní vyhodnotí podmínky ve svém současném sektoru a v sektoru pod ním a rozhodnou se, zda chtějí být přemístěni. Pokud ano, pak se rozhodnou, zda se pokusí zlepšit své chování a splnit vaše zásady přemístění, a to na základě svých vlastních potřeb a charakteristik.\n\nKaždý sektor je odstupňován na základě privilegií a vybavení, které vězňům v daném sektoru nabízíte. Čím větší je "rozdíl" mezi jejich sektorem a sektorem pod ním, tím více vězňů bude chtít být celkově přemístěno.\n\nPoté, co vězeň splní vaše kritéria pro přemístění, je stále na vás, zda a kdy ho přemístíte.
+
+# =============================================================================
+# Miscelanious
+# =============================================================================
+
+action_Stretching								Cvičí
+action_PlayChess								Hraje šachy
+action_EatSnack									Svačí
+
+report_staff_multidelete						Jediným kliknutím levým tlačítkem myši můžete vyhodit jednoho zaměstnance nebo tažením a podržením myši vyhodit více zaměstnanců.
+
+codex_language_unsupported				---JIŽ NENÍ AKTUALIZOVÁNÍ---
+codex_language_mod						---KOMUNITOU VYTVOŘENÉ JAZYKOVÉ MODY---
+
+codex_language_unsupportedString		Tento jazyk není oficiálně podporován, některé překlady mohou chybět.
+
+
+report_intake_cat_PrisonerTransfer				Legendární vězeň!
+rapsheet_category_PrisonerTransfer				Legendární vězeň!
