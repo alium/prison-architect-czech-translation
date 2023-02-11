@@ -1514,3 +1514,271 @@ codex_language_unsupportedString		Tento jazyk není oficiálně podporován, ně
 
 report_intake_cat_PrisonerTransfer				Legendární vězeň!
 rapsheet_category_PrisonerTransfer				Legendární vězeň!
+
+############################### Sea and Air Pack ###############################
+
+# =============================================================================
+# Materials - Names
+# =============================================================================
+
+material_WoodenDockFloor						Doky (Wooden)
+material_waterBed								Dno vody
+material_WaterShallow							Voda (Shallow)
+material_WaterLarge								Voda (Large)
+material_WaterWalkable			Schůzná voda
+
+# =============================================================================
+# Objects - Names
+# =============================================================================
+
+object_FerryDock             Trajektový dok
+object_FerryBoat             Doprava trajektem
+object_SupplyBoat            Zásobovací loď
+object_PrisonBoat            Převoz vězňů
+object_VisitorBoat           Návštěvnická loď
+object_VisitorHeli           Návštěvnická helikoptéra
+object_SupplyHeli            Zásobovací vrtulník
+object_PrisonHeli            Vězeňská helikoptéra
+object_FireHeli              Vzdušní hasiči
+object_EliteOpsHeli          Elitní operační tým
+object_SoldiersHeli          Národní garda
+object_HearseBoat            Pohřební loď
+object_HearseHeli            Helikoptéra pro pohřební službu
+object_ParamediciHeli        Letecká záchranná služba
+object_Helipad               Heliport
+object_BoatDock              Lodní dok
+object_EliteOps              Elitní operace
+
+object_Fountain              Fontána
+object_SteppingStoneLillyPad Krokové kameny (lekníny)
+object_SteppingStoneIceBlock Krokové kameny (led)
+object_SteppingStone         Krokové kameny
+object_SteppingStonePallet   Krokové kameny (Paleta)
+object_ScannerMonitor        Monitor skeneru
+object_ScannerMachine        Skenovací zařízení
+object_CheckPoint            Kontrolní bod
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+codex_option_islandNoBridge             Pozemek ostrova
+codex_option_islandBridge               Připojený ostrovní pozemek
+
+codex_tooltip_islandNoBridge            Vygeneruje počáteční pozemek obklopený vodou, na tomto pozemku se místo silnice použije lodní dok.
+
+codex_tooltip_islandBridge              Vygeneruje počáteční pozemek obklopený vodou s mostem spojeným se silnicí.
+
+interfacelogistics_deliverytargeting    Dodávky
+d11_logistic_select_delivery_method     Vybrat doručení
+interfacelogistics_vehiclepurpose       Přeprava
+
+d11_logistics_transportTitle            Předvolby dopravy
+d11_logistics_purpose_group_0           Příchozí dodávky
+d11_logistics_transport_deliveries_hint Zde vyberte, které položky mají být doručeny.
+d11_logistics_purpose_group_0_item_1    Stavební materiály
+d11_logistics_purpose_group_0_item_2    Potraviny
+d11_logistics_purpose_group_0_item_3    Pošta
+d11_logistics_purpose_group_0_item_4    Dílenské materiály
+d11_logistics_purpose_group_1           Příchozí vězni
+d11_logistics_transport_prisoners_hint  Zde vyberte, kteří vězni z vašeho příjmu mají dorazit.
+d11_logistics_purpose_group_1_item_1    Minimální ostraha
+d11_logistics_purpose_group_1_item_2    Střední ostraha
+d11_logistics_purpose_group_1_item_3    Maximální zabezpečení
+d11_logistics_purpose_group_1_item_4    Odsouzení na smrt
+d11_logistics_purpose_group_1_item_5    Choromyslní
+d11_logistics_purpose_group_2           Příchozí civilisté
+d11_logistics_transport_civilians_hint  Zvolte, zda sem mohou přijít návštěvníci a učitelé.
+d11_logistics_purpose_group_3           Odchozí předměty
+d11_logistics_transport_exports_hint    Zvolte, které předměty budou z věznice odebírány přes toto místo.
+d11_logistics_purpose_group_3_item_1    Odpadky
+d11_logistics_purpose_group_3_item_2    Vývozy
+d11_logistics_purpose_toggle            Přepínání
+d11_logistics_purpose_toggle_1          Přepnout vše
+d11_logistics_purpose_toggle_on         (Zapnuto)
+d11_logistics_purpose_toggle_off        (Vypnuto)
+
+d11_room_error_no_link                  Vyložení blokováno. Zkontrolujte prosím nastavení Dodávky a Logistika dopravy.
+
+d11_hover_change                        Změna [[*L]]
+
+water_amount                            Hladina vody *X%
+ferry_timer                             Odjezd za *X
+ferry_warning                           Odjezd blokován
+
+d11_hover_dismiss_vehicle         Odstavení [[*S]]
+d11_hover_depart_vehicle          Odjezd [[*S]]
+interface_action_dismissVehicle   Odstavení vozidla
+d11_hover_dismiss_vehicle_desc    Odstavit vozidlo, aby se uvolnilo místo?
+d11_hover_dismiss_helicopter_desc Zrušit tento vrtulník?
+d11_hover_dismiss_ferry_desc      Přimět trajekt k předčasnému odjezdu?
+
+d11_hover_fight_fires             Bojovat s požáry [[*X]]
+interface_action_fightFires       Bojujte s požáry
+d11_hover_fight_fires_desc        Vzlétnout a pomoci hasit požáry?
+
+d11_hover_land_heli               Přistát [[*S]]
+interface_action_landheli         Přistávací vrtulník
+d11_hover_land_heli_desc          Přistát s vrtulníkem na jeho přistávací ploše?
+
+d11_hover_eliteOps_select         Velitelský vrtulník [[*X]]
+
+d11_hover_deploy_squad            Nasadit (podržet) [[*X]]
+interface_action_deploySquad      Nasazení čety
+d11_hover_deploy_squad_desc       Nasadit družstvo pod vrtulníkem?
+
+interfacemode_floors              Podlaží
+interfaceoverlay_landscape        Krajina
+
+d11_hover_quantity                x *X
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_popup_obj_FerryDock             Budou postaveny dva trajektové doky, které budou fungovat paralelně mezi ostrovy jako dopravní prostředek mezi nimi. Aby mohla být dvojice doků postavena, musí být souběžná pevnina.
+buildtoolbar_popup_obj_BoatDock              Nezbytné pro umožnění kotvení lodí ve vašem vězení, převážení nových vězňů nebo doručování zásob.
+buildtoolbar_popup_obj_Helipad               Nezbytné pro umožnění příletu vrtulníků do vaší věznice, přepravu nových vězňů, doručování zásob nebo přivolání speciálních leteckých záchranných posádek.
+
+buildtoolbar_popup_obj_DeckChair             Pohodlně se vyhřívejte na slunci ze své paluby.\n -Uspokojuje potřebu pohodlí.
+
+buildtoolbar_popup_obj_Fountain              Umístěte do vody a vytvořte relaxační fontánu.
+
+buildtoolbar_popup_obj_SteppingStoneLillyPad Vytvořte cestičky umožňující vězňům a personálu přecházet přes vodu.\n \nPouze pro venkovní použití.\n \nPouze pro umístění na vodu.
+buildtoolbar_popup_obj_SteppingStone         Vytvoření cest umožňujících vězňům a zaměstnancům překonat vodu.\n \nPouze pro venkovní použití..\n \nPouze pro umístění na vodu.
+buildtoolbar_popup_obj_SteppingStoneIceBlock Vytvořit cesty umožňující vězňům a zaměstnancům přecházet přes vodu.\n \nPouze pro venkovní použití.\n \nPouze pro umístění na vodu.
+buildtoolbar_popup_obj_SteppingStonePallet   Vytvoření cest umožňujících vězňům a zaměstnancům překonat vodu.\n \nPouze pro venkovní použití.\n \nPouze pro umístění na vodu.
+buildtoolbar_popup_uts_ScannerMonitor        Monitor pro strážce, který slouží k odhalování kontrabandu, je-li připojen ke skeneru. Schopnost strážného odhalit kontraband závisí na jeho únavě.
+buildtoolbar_popup_uts_ScannerMachine        Stroj pro oblasti dodávek a skladovací prostory, který skenuje dřevěné bedny na kontraband. Musí být napojen na monitor skeneru, aby strážný mohl odhalit kontraband. Schopnost strážného odhalit kontraband závisí na jeho únavě.
+buildtoolbar_popup_obj_Checkpoint            Kontrolní stanice pro prohledávání vězňů a návštěvníků, kteří procházejí. Vězni mohou kontrolním stanovištěm projít pouze jedním směrem.\n-Musí být obsazeno strážným.
+
+landscape_hint                               (Lze postavit na vodě)
+
+d11_emergencies_hints_fire_heli              Vrtulník s x*A hasiči. - $*B
+d11_squad_name_FireHeli                      Vzdušní hasiči
+d11_emergencies_hints_paramedics_heli        Vrtulník s x*A zdravotníky. - $*B
+d11_squad_name_AirParamedics                 Vzdušní záchranáři
+d11_emergencies_hints_eliteOps_heli          Vrtulník s x*A elitními vojáky. - $*B
+d11_squad_name_EliteOps                      Elitní operační tým
+
+
+interfacecallout_FireHeli                    Vzdušní hasiči
+interfacecallout_EliteOps                    Elitní operační tým
+interfacecallout_AirParamedics               Vzdušní záchranáři
+interfacecallout_AirSoldiers                 Vzdušní vojáci
+
+buildtoolbar_Logistics_DeliveryTargeting Propojení zón Dodávky, Odpad a Export s heliporty, doky a silnicemi. Tímto způsobem můžete řídit, kam budou dodávky odváženy a jakým způsobem budou exporty opouštět vaše vězení.
+buildtoolbar_Logistics_VehiclePurpose    Ovládejte, které služby budou zpracovávat konkrétní doky, helipady nebo silnice. To vám umožní přijímat konkrétní zboží nebo vězně do různých míst v okolí vaší věznice, po moři i vzduchem.
+buildtoolbar_Logistics_CropDistribution  Ovládejte, do kterých místností se přesunou sklizené plodiny, prostřednictvím okna Správa distribuce můžete také měnit procenta distribuce.
+
+# =============================================================================
+# Object Hint strings
+# =============================================================================
+
+boatDock_placement_hint            Vyžaduje spojení s pevninou a volnou plavební dráhu.
+delivery_hover_hint                Nabídka Logistika > Doprava umožňuje řídit účely tohoto *X.
+ferryDock_placement_hint           Musí mít souběžnou pevninu, ke které může cestovat.
+TransportZones_hover_hint          Propojení s heliporty, doky a silnicí, prostřednictvím nabídky Logistika.
+object_scannermonitor_needsmachine Drát ke skenovacímu stroji.
+object_scannermachine_needsmonitor Připojení k monitoru skeneru
+
+# =============================================================================
+# Prefabs - Names
+# =============================================================================
+
+quickbuild_OutdoorLake							Venkovní jezero
+quickbuild_River								Řeka
+
+# =============================================================================
+# CODEX - Menu Entries
+# =============================================================================
+
+codex_options_hud_waypoints           Hud body
+codex_options_hud_waypoints_all       Vše zapnuto
+codex_options_hud_waypoints_important Nejdůležitější
+codex_options_hud_waypoints_off       Vše vypnuto
+
+d11_hud_waypoints_limited             Všechny (časově omezené)
+waypoints_tooltip                     Rozhodněte, které body se mají zobrazovat kolem HUD a ukazovat na různé události a upozornění, které se ve vězení vyskytují.
+
+
+codex_option_dynamicReputations       Dynamická reputace
+#codex_tooltip_dynamicReputations      Vězni mají možnost během pobytu ve vězení získat nebo ztratit jedinečné vlastnosti reputace na základě svých aktivit a zkušeností ve vězení.
+
+# =============================================================================
+# DLC
+# =============================================================================
+
+objective_ReadSandALetter						Dopis generálního ředitele (Island Bound)
+island_letter									Vážený pane/paní,\n\n\nVítejte ve svém novém životě vězeňského architekta na ostrově! Zde je několik tipů, které vám pomohou začít s doky, přistávacími plochami pro vrtulníky a ostrovními věznicemi.\n\n1. Ostrovy - v závislosti na podmínkách věznice se může stát, že nebudete mít žádné fyzické spojení s pevninou, a pokud ano, budete potřebovat LODĚ a HELIKOPTÉRY, které vám zajistí dopravní služby. Postavte LODNÍ DOKY a HELIPADY a určete jejich účely; pro příjem konkrétních dodávek, nových vězňů nebo nových pohotovostních jednotek a další, a to po moři i vzduchem. -Ujistěte se, že jsou doky postaveny s volnou přepravní dráhou pro příjezd a odjezd lodí. -Můžeš stavět speciální PŘEPRAVNÍ DOKY, které spojují ostrovy dohromady, stejně jako MOSTY a KAMENNÉ LODĚ. -Vaše vězení může být nyní lépe chráněno díky novým jednotkám ELITE OPS a vrtulníkům, které mohou hasit požáry ze vzduchu.\n\n2. Přizpůsobení dodávek a transportů - Prostřednictvím LOGISTIKY si můžete přizpůsobit, které služby budou přiřazeny jednotlivým dokům, heliportům a silnici, což umožní zvýšit efektivitu vaší věznice. Doky a helipady lze propojit s dalšími zónami doručování, příjmu a vývozu. To vám například umožní nechat si doručit zásoby potravin blíže ke kuchyni nebo přivést nové vězně Max ost. blíže ke křídlu Max ost. na vašem ostrově. Možnosti jsou nekonečné!\n\n3. Terénní úpravy - Kolem věznice lze umístit vodu a vytvořit tak příkopy nebo oceány, půdu lze tvarovat pomocí břehů, hlíny a dalších typů podlah. Jakákoli pevnina nebo menší ostrůvky vytvořené ve vodě se okamžitě vytvoří.\n\n4. Nová bezpečnostní opatření - Kontraband může stále připlout pomocí lodí a vrtulníků, proto vám také poskytujeme několik nových nejmodernějších zařízení; -Vyrobte v oblastech doručování a skladování SKENOVACÍ STROJE pro kontrolu beden a krabic. Budete potřebovat ostražitého strážce, který bude sledovat připojený MONITOR SKENERU. -Přidělte strážce ke KONTROLNÍM BODŮM, aby prohledávali všechny vězně a návštěvníky, kteří tudy procházejí. Je to skvělý způsob, jak odhalit kontraband, ale může omezit tok vězňů, pokud není umístěn strategicky.\n\nNakonec, ani ostrovy nejsou odolné proti útěku, takže by mohlo být dobrým nápadem postavit na pobřeží odstřelovací věže, které budou dávat pozor na "plavce".\n\nTo je asi tak všechno - hodně štěstí!\n\nŘeditel společnosti \nPrison Architects Corp.
+
+# =============================================================================
+# Missing Strings
+# =============================================================================
+
+buildtoolbar_popup_help_jobs_6				- Lesní oblast musí být uzavřena, aby v ní vězni mohli pracovat a aby se zabránilo útěkům.
+
+research_forestrylabour					Práce v lesnictví
+researchtooltip_forestrylabour			Umožňuje nasadit vězně na práci v lesnictví prostřednictvím nabídky Logistika. Aby bylo možné vězně přidělit na práci v lesním hospodářství a zabránit útěkům, musí být oblast lesního hospodářství uzavřena. Uvědomte si, že vězni budou také potřebovat přístup do oblasti Dodávky, aby mohli přesazovat stromy.
+action_usecomputer                      Použít počítač
+
+
+buildtoolbar_popup_help_roomquality_1     Zobrazení Kvalita místnosti zobrazuje hodnocení kvality všech místností ve vězení, které lze vylepšit. Čím vyšší číslo, tím lepší kvalita. Po najetí myší na místnost se zobrazí faktory, které se podílely na určení její kvality, a co můžete přidat, abyste tuto kvalitu zvýšili.\n\n
+buildtoolbar_popup_help_roomquality_2     Se zapnutými PŘENOSY VĚZŇŮ
+buildtoolbar_popup_help_roomquality_3     - Kvalita místnosti také přispěje k celkovému hodnocení daného bezpečnostního sektoru.
+buildtoolbar_popup_help_roomquality_4     - Vězni budou chtít být přemístěni do nižšího bezpečnostního sektoru, pokud je lepší (má vyšší známku) než jejich současný bezpečnostní sektor.\n\n
+buildtoolbar_popup_help_roomquality_5     OHODNOCENÍ CELY
+buildtoolbar_popup_help_roomquality_6     - Vězni mají za dobré chování v průběhu času nárok na celu vyšší kvality. Dostupnost cel vyšší kvality je dobrým způsobem, jak motivovat k dobrému chování.
+buildtoolbar_popup_help_roomquality_7     - Je důležité ponechat ve věznici několik cel nižší kvality, protože nově příchozí do věznice budou potřebovat někam jít, a pokud jsou všechny dostupné cely příliš kvalitní, mohou se ocitnout v cele předběžného zadržení.
+buildtoolbar_popup_help_roomquality_8     - Vězni mohou být umístěni do cel vyšší kvality, než si zaslouží, pokud není k dispozici žádné jiné místo, ale mohlo by to znepříjemnit život ostatním vězňům...
+
+
+
+############################### Other ###############################
+
+# =============================================================================
+# Materials - Names
+# =============================================================================
+
+material_islandgenerator			Rychlé ostrovy
+
+# =============================================================================
+# Object - Names
+# =============================================================================
+
+object_walkwaystairs				Schody pro pěší (WIP)
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_popup_obj_walkwaystairs			Umístěte vedle vyvýšeného chodníku (Stěnový chodník), aby strážci měli přístup k chodníkům a mohli hlídkovat shora.
+buildtoolbar_popup_mat_islandgenerator			Přetažením oblastí ve vodě vygenerujte náhodný ostrov. Dbejte na to, aby se vaše loď vyhýbala lodním trasám.
+
+
+#=====================================
+# Island Bound - Hotfix update
+#====================================
+
+interface_landbuyoverwater					Vyberte si, zda chcete vytvořit další ostrovy kolem lodních tras a rozšířit je, nebo zda chcete otevřít vodní plochu.
+interface_landbuywaterislands					Ostrovy
+interface_landbuywateronly					Pouze voda
+
+codex_option_landExpansion		                	Rozšíření pozemků
+codex_tooltip_landExpansion			                Rozšíří půdu vašeho pozemku jednou za každou stranu, takže váš počáteční pozemek bude od samého začátku mnohem větší.
+
+
+quickbuild_smallIsland								Ostrov (Malý)
+quickbuild_mediumIsland								Ostrov (Středín)
+quickbuild_largeIsland								Ostrov (Velký)
+quickbuild_smallLand								Země (Malá)
+quickbuild_largeLand								Země (Velká)
+
+
+buildtoolbar_quickbuild_smallIsland						Masově vyráběný ostrov obklopený mělkou vodou, který by se nehodil na žádné souostroví.
+buildtoolbar_quickbuild_mediumIsland					Masově vyráběný ostrov obklopený mělkou vodou, který by se nehodil na žádné souostroví.
+buildtoolbar_quickbuild_largeIsland						Masově vyráběný ostrov obklopený mělkou vodou, který by se nehodil na žádné souostroví.
+buildtoolbar_quickbuild_smallLand						Základní štempl s dlaždicemi písku, hlíny a trávy, který můžete použít při rozšiřování pozemku.
+buildtoolbar_quickbuild_largeLand						Základní štempl s dlaždicemi písku, hlíny a trávy, který můžete použít při rozšiřování pozemku.
+
+online_check_fail									V současné době nemáte oprávnění k přístupu k této funkci hry.
