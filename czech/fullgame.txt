@@ -954,3 +954,62 @@ codex_gamebible_singlepage              STRANA *X
 codex_gamebible_doublepage              STRANY *X–*Y
 object_collectable                      Strana v zápisníku
 
+
+# =============================================================================
+# Multiplayer
+# =============================================================================
+
+codex_startonline               Přejít online
+codex_start                     Vytvořit hru
+codex_joinonline                Připojit se k online hře
+codex_join                      Připojit se ke hře
+codex_usernamelabel             Uživatelské jméno:
+codex_namelabel                 Jméno hry:
+codex_passwordlabel             Heslo:
+codex_passwordprotectedlabel    Chráněno heslem?
+codex_listedlabel               Zveřejněno?
+codex_roomlistlabel             Seznam her:
+codex_connectinglabel           Připojuji se k serveru...
+codex_retrievingserverlistlabel Získávání seznamu her...
+codex_datausage                 Využití dat: Odeslané - *SkB/s, Přijaté - *RkB/s
+codex_multiplayeroptions        Správa hráčů
+codex_playeroptions             Hráči
+codex_regionlabel               Region:
+
+multiplayer_chooseroomname         Vyberte název hry
+multiplayer_chooseusername         Zvolte prosím uživatelské jméno
+multiplayer_joining                Připojení: *X
+multiplayer_joiningstate_joining   Připojení ke hře
+multiplayer_joiningstate_receiving Přijímající svět
+multiplayer_joiningstate_loading   Načítání světa
+multiplayer_rejoining              Opětovné připojení ke hře po rozšíření země:
+multiplayer_leavegame_confirm      Opravdu si přejete opustit současnou kooperativní hru?
+multiplayer_hostleft               Hostitel se odpojil.
+multiplayer_joingamefailed         Nepodařilo se připojit ke hře:
+multiplayer_startgamefailed        Nepodařilo se spustit hru:
+multiplayer_incorrectpassword      Nesprávné heslo
+multiplayer_disconnected           Ztraceno spojení se serverem.
+multiplayer_syncerror              Odpojeno z důvodu chyby synchronizace.\n\nProsím, zkuste se znovu připojit ke hře.
+multiplayer_hostonly               Dostupné pouze pro hostitelského hráče.
+multiplayer_modsdisabled           Mods are disabled for online play (mody jsou pro online hru zakázány).
+multiplayer_mutatorsdisabled       Mutátory jsou pro online hru zakázány.
+multiplayer_kicked                 Byl jsi vyhozen ze hry.
+multiplayer_kick                   Vykopnuto
+multiplayer_ban                    Ban
+
+multiplayer_host                   Hostitel:
+
+multiplayer_welcomeanalytics        Vítejte ve hře Prison Architect pro více hráčů.\n\nPracovali jsme na tom, aby hra Prison Architect fungovala ve více hráčích. Prison Architect je velká hra a je to poprvé, co dáváme multiplayer k dispozici všem, takže budeme sledovat všechny problémy, se kterými by se hráči mohli setkat.\n\nAbychom nám s tím pomohli, rádi bychom shromáždili anonymní analytické údaje, které by pomohly vyřešit případné problémy, které by lidé mohli mít se hrou. To lze kdykoli vypnout v nabídce možností. Údaje, které shromažďujeme, si můžete prohlédnout v metrice.txt\n\nDoufáme, že se vám hra Prison Architect bude s přáteli líbit.
+
+region_asia                        Asie
+region_au                          Austrálie
+region_cae                         Kanada, Východ
+region_eu                          Evropa
+region_in                          Indie
+region_jp                          Japonsko
+region_ru                          Rusko
+region_rue                         Rusko, východ
+region_sa                          Jižní Amerika
+region_kr                          Jižní Korea
+region_us                          USA, východ
+region_usw                         USA, západ
