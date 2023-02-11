@@ -10,6 +10,7 @@ codex_privacy								Zásady ochrany osobních údajů
 codex_terms-of-use							Podmínky použití
 codex_eula									licenční smlouvu s koncovým uživatelem
 
+
 # =============================================================================
 # Interface Mode
 # =============================================================================
@@ -17,9 +18,6 @@ codex_eula									licenční smlouvu s koncovým uživatelem
 interfacemode_wallsanddoors                        			Zdi a dveře
 interfacemode_flooring							Podlahy
 tunnelsearch_underway							PROBÍHÁ VYHLEDÁVÁNÍ TUNELU
-tunnelsearch_found							Tunely
-moveobjects_prompt							DVOJITÉ KLIKNUTÍ: Přesunutí předmětu
-moveobjects_abort							PRAVÉ KLIKNUTÍ: Zrušení přesunu
 
 # =============================================================================
 # Build Toolbar
@@ -51,6 +49,7 @@ material_NewCheckeredFloor						Šachová podlaha
 material_Snow								Sníh
 
 
+
 # =============================================================================
 # Misc
 # =============================================================================
@@ -69,7 +68,6 @@ quickbuild_workshop								Dílna
 # Main Menu
 # =============================================================================
 
-
 mm_updatenotes_Date								27. června 2019
 mm_updatenotes_Header								Aktualizace lapáku
 mm_updatenotes_01								Byly přidány 4 nové typy podlah a 4 nové typy zdí.
@@ -83,6 +81,8 @@ mm_updatenotes_08								Sledování vězňů a zaměstnanců je o dost jednodu�
 mm_updatenotes_09								Možnost přesouvat předměty je tady! Vyber si předmět a dvakrát na něj klikni.
 mm_updatenotes_10								Doufáme, že se ti hra bude s těmito vylepšeními líbit!
 
+# =============================================================================
+# =============================================================================
 
 
 ############################### SLAMMER UPDATE ###############################
@@ -92,17 +92,8 @@ mm_updatenotes_10								Doufáme, že se ti hra bude s těmito vylepšeními l�
 # =============================================================================
 
 material_newmud									Bahno
+material_mud									Bahno
 material_yutaniwall								Zeď (Yutani)
-
-
-
-
-
-
-
-
-
-
 material_solacofloor							Solaco
 material_gratefloor								Mřížoví
 
@@ -112,78 +103,27 @@ material_gratefloor								Mřížoví
 
 
 object_snowyconifertree							Strom (Zasněžený jehličnan)
-
-
 object_palmtree									Strom (Palma)
 object_plant									Rostlina
-
 object_bush										Keř
-
 object_streetlamp								Pouliční lampa
-
 object_floodlight								Světlo (Reflektor)
-
-
-
-
-
-		
-		
-
 object_bleachers								Lavice
 object_smallbench								Lavička (Malá)
 object_smalltable								Stůl (Malý)
 object_showerpillar								Sprchový sloupek
-
-
 object_doorMat									Rohožka
-
 object_GuardPavilion							Pavilon strážných
 object_GuardPavilionCorner						Pavilon strážných (Roh)
-
 object_OfficeChair								Židle (Kancelář)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 object_visitorDoor								Dveře pro návštěvníky
 object_ironingBoardShort						Žehlicí prkno (Malé)
 object_fencegatestaff							Brána plotu (Pro zaměstnance)
 object_fencegatestandard						Brána plotu (Standardní)
 object_fencegatevisitor							Brána plotu (Pro návštěvníky)
-
-
-
-
-
-
-
-
-
-
-
-
 object_walllight								Nástěnné osvětlení
 object_securedoor								Dveře (Zabezpečené)
 object_secretdoor								Dveře (Tajné)
-
-
 
 # =============================================================================
 # Build Toolbar
@@ -191,119 +131,49 @@ object_secretdoor								Dveře (Tajné)
 
 buildtoolbar_popup_mat_newmud					Je to bahno a je zadarmo!
 buildtoolbar_popup_mat_yutaniwall				Postavte na svých základech zdi s hi-tech vzhledem, abyste vytvořili nové oblasti nebo místnosti. Skvěle se hodí k podlahám Nákladní loď a Solaco.
-
 buildtoolbar_popup_mat_newbblockwall			Postavte na svých základech zdi vyrobené z tvárnic, abyste vytvořili nové oblasti nebo místnosti.
 buildtoolbar_popup_mat_newbarredwall			Postavte na svých základech zamřížované zdi, abyste vytvořili nové oblasti nebo místnosti.
 buildtoolbar_popup_mat_newtiledwall				Postavte na svých základech zdi s kachličkami, abyste vytvořili nové oblasti nebo místnosti.
 buildtoolbar_popup_mat_newhedgewall				Vysoké ale slabé živé ploty. Jsou spíše pro okrasu než pro vážnější zvýšení bezpečnosti.
-
-
-
-
-
-
-
-
-
 buildtoolbar_popup_mat_solacofloor				Dodejte podlahám naší věznice hi-tech vzhled. Skvěle se hodí ke zdem Yutani.
 buildtoolbar_popup_mat_gratefloor				Dodejte podlahám naší věznice hi-tech vzhled.
 buildtoolbar_popup_mat_newcargofloor			Dodejte podlahám naší věznice zakázkový vzhled.
 buildtoolbar_popup_mat_newironfloor				Dodejte podlahám naší věznice zakázkový vzhled.
 buildtoolbar_popup_mat_newcheckeredfloor		Tyto budou pravděpodobně vypadat dobře ve vašich kuchyních a jídelnách.
 buildtoolbar_popup_mat_snow						Je to jako voda, jen chladnější a hezčí.
-
-
-
-
-
 buildtoolbar_popup_obj_snowyconifertree			Nejvíce se budou hodit na zasněžené zemi.
-
-
 buildtoolbar_popup_obj_palmtree					Běžně raší v suché zemi, ale nyní se můžete rozhodnout je pěstovat, kdekoliv se vám zamane.
-
-
 buildtoolbar_popup_obj_bush						Dodá venkovním oblastem trochu výzdoby.
-
 buildtoolbar_popup_obj_streetlamp				K osvětlení silnic a cest.
-
 buildtoolbar_popup_obj_floodlight				Vysoké venkovní světlo, které dokáže pokrýt velké oblasti, jako například dvůr.
-
-
-
-
-
-	
-
-
 buildtoolbar_popup_obj_bleachers				Klasické lavice na vězeňském dvoře pro skupiny vězňů, kde mohou sedět a přemýšlet, co dál.
 buildtoolbar_popup_obj_smallbench				Na sezení.
 buildtoolbar_popup_obj_smalltable				Na jezení u.
 buildtoolbar_popup_obj_showerpillar				K umístění do středu sprchové místnosti a poté na každou stranu přidejte sprchovou hlavici.
-
-
 buildtoolbar_popup_obj_doorMat					Laciná gumová rohožka, která by mohla vypadat dobře přede dveřmi.
-
-
 buildtoolbar_popup_obj_guardPavilion			Umístěte na dvoře a v otevřených oblastech, aby strážní a ozbrojení strážní mohli dohlížet na vaše vězně.\n Přiřaďte strážné přes Nabídku rozmístění.\n -Zvyšuje úroveň poslušnosti v oblasti.\n -Strážní jsou chráněni před počasím.
 buildtoolbar_popup_obj_guardPavilionCorner		Umístěte v rozích dvora a v otevřených oblastech, aby strážní a ozbrojení strážní mohli dohlížet na vaše vězně.\n Přiřaďte strážné přes Nabídku rozmístění.\n -Zvyšuje úroveň poslušnosti v oblasti.\n -Strážní jsou chráněni před počasím.
-
 buildtoolbar_popup_obj_officeChair				Židle pro zaměstnance, aby seděli ve středu u psacího stolu.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 buildtoolbar_popup_obj_visitorDoor				Dveře umožňující návštěvníkům věznice projít, aniž by jim strážní museli otevírat dveře. Strážní a zaměstnanci mohou rovněž projít dveřmi, avšak vězni ne.
 buildtoolbar_popup_obj_ironingBoardShort		Kratší žehlicí prkno.
 buildtoolbar_popup_obj_fencegatestaff			Brána, která vypadá skvěle s plotem a funguje stejně jako dveře.
 buildtoolbar_popup_obj_fencegatestandard		Brána, která vypadá skvěle s plotem a funguje stejně jako dveře.
 buildtoolbar_popup_obj_fencegatevisitor			Brána, která vypadá skvěle s plotem a funguje stejně jako dveře.
-
-
-
-
-
-
-
-
-
-
-
-
 buildtoolbar_popup_obj_walllight				Světlo ve stylu bunkru k umístění na zdi.
 buildtoolbar_popup_obj_securedoor				Dveře navržené pro samotky obsahující klapku na jídlo. Strážní donášející jídlo mohou prostrčit tác s jídlem skrze dveře, aniž by museli vstoupit do cely.
 
 
 interfacedeployment_guards                      Přidělit strážné
 buildtoolbar_deployment_Guards			Přidělit strážné do sektorů vaší věznice.
-	
 interfacedeployment_Dogs			Přidělit psovody
 buildtoolbar_deployment_Dogs			Přidělit psovody do sektorů vaší věznice.
-
 interfacedeployment_ArmedGuards			Přidělit ozbrojené strážné
 buildtoolbar_deployment_ArmedGuards		Přidělit ozbrojené strážné do sektorů vaší věznice.
-
 interfacedeployment_patrols                     Přidělit strážné
 buildtoolbar_deployment_Patrols			Přidělit strážné k Hlídkovým trasám vaší věznice.
-
 interfacedeployment_dogpatrols                  Přidělit psovody
 buildtoolbar_deployment_DogPatrols		Přidělit psovody k Hlídkovým trasám vaší věznice.
-
 interfacedeployment_armedpatrols                Přidělit ozbrojené strážné
 buildtoolbar_deployment_ArmedPatrols		Přidělit ozbrojené strážné k Hlídkovým trasám vaší věznice.
 
@@ -327,6 +197,20 @@ buildtoolbar_popup_help_ArmedGuards_3        ^Tipy
 buildtoolbar_popup_help_ArmedGuards_4        Pokud máš zpřístupněnou detailní zprávu, budeš mít přístup do plánovače rozmístění. To ti umožní vytvořit časový rozvrh, kdy budou ozbrojeným strážím přiděleny určité oblasti. Například pokud chceš přidělit ozbrojené stráže pouze do jídelny během režimu jídla, můžeš kliknout na každý blok plánovače, který tě spojuje s režimem jídla, pak posunout časový posuvník do tohoto bloku a kliknout na jídelnu a přidělit ozbrojené stráže.
 buildtoolbar_popup_help_ArmedGuards_5        Pro plánování máš až 7 různých časových bloků, navíc výchozí vždy aktivní režim, které ti umožňují vytvořit komplexní postupy rozmístění vyhovující potřebám vězení.
 buildtoolbar_popup_help_ArmedGuards_6        Pokud při přidělování ozbrojených stráží nezvolíš časový blok manuálně, plánovač použije aktuální čas; dej pozor, aby byl při změně rozmístění zvolený správný čas!
+
+buildtoolbar_popup_help_Orderly_1		Zřízenci jsou speciálně vyškoleni k péči o duševně choré vězně. \n
+buildtoolbar_popup_help_Orderly_2		Mají podobné vlastnosti jako dozorci a lékaři, ale nepůsobí na vězně tlumivě (jako běžní dozorci). \n\n
+buildtoolbar_popup_help_Orderly_3		Najměte si zřízence, kteří se budou starat o vaše kriminálně vyšinuté vězně. Zřízenci budou:
+buildtoolbar_popup_help_Orderly_4		-Pomáhají při přijímání trestně stíhaných vězňů.
+buildtoolbar_popup_help_Orderly_5		-Vypravovat trestně stíhané chovance na psychiatrické konzultace (programy).
+buildtoolbar_popup_help_Orderly_6		-Léčit zraněné trestně stíhané vězně.
+buildtoolbar_popup_help_Orderly_7		-Zajistěte ošetření trestně stíhaných vězňů, kteří se stanou násilnými.
+buildtoolbar_popup_help_Orderly_8		-Na noc nasadit psychopatickým kriminálně vyšinutým vězňům svěrací kazajku.
+
+buildtoolbar_popup_help_Psychiatrist_1   		Psychiatři poskytují trestně stíhaným vězňům pravidelné individuální konzultace.\n\n
+buildtoolbar_popup_help_Psychiatrist_2   		Každý z nich vyžaduje speciální psychiatrickou ordinaci.
+buildtoolbar_popup_help_Psychiatrist_3		Pro psychiatry, kteří léčí trestně stíhané vězně, lze zřídit psychiatrické konzultace (programy).
+buildtoolbar_popup_help_Psychiatrist_4		Psychiatrovy ordinace lze také vylepšit o nové předměty, aby se zlepšila léčba Psychiatra.
 
 interfacedeployment_PrioritizeArea			Upřednostnit oblast (*X)
 buildtoolbar_deployment_PrioritizeGuard			Použijte tuto možnost k upřednostnění přiřazených strážných k pokrytí určitých sektorů ve vaší věznici. Pokud nemáte dostatek zaměstnanců, strážní se pokusí nejprve pokrýt vaše upřednostněné oblasti. Dostupné jsou dvě priority; "Vysoká" (>>) a "Velice vysoká" (>>>).
@@ -352,11 +236,6 @@ buildtoolbar_popup_filter_outdoorindoor         Venku-Uvnitř
 buildtoolbar_popup_filter_quantity               Vlastněné množství
 buildtoolbar_popup_filter_byroom                Podle místnosti
 
-
-
-
-
-
 # =============================================================================
 # Interface Mode
 # =============================================================================
@@ -374,13 +253,14 @@ codex_tooltip_jungle						Vytvořte počáteční pozemek, připomínající hus
 codex_option_snowy						Zasněžený pozemek
 codex_tooltip_snowy						Vytvořte počáteční pozemek, který je pokryt sněhem.
 
+codex_option_default						Výchozí
+codex_option_plotType						Typ pozemku
+codex_tooltip_plotType						Toto vám umožní vygenerovat konkrétní výchozí plochu. Výchozí bude mít hlínu a trávu, Džungle připomíná hustou džungli, Zasněžené bude pokrytý sněhem, Poušť bude písečná poušť, Lunar se podobá měsíčnímu povrchu, Ostrov bude obklopen vodou, místo silnice bude používat lodní přístaviště a Připojený ostrov bude obklopen vodou s mostem spojeným se silnicí.
+
 # =============================================================================
 # Misc
 # =============================================================================
 action_WashSmall								Mytí
-
-action_Stretching								Cvičení
-action_PlayChess								Hraní šachů
 
 
 plant_tree_location								Zasaďte strom v *X
@@ -403,16 +283,6 @@ codex_tooltip_screenshotmode					Když jste v Módu Screenshotu, podržte KLÁVE
 codex_sso_content_message						Úspěšně jste se přihlásili do účtu Paradox .\n\nJako poděkování jsou ve hře odemčeny nové pavilony strážních věží! Naleznete je v Nabídce objektů.
 codex_options_borderless_windowed               Bez okrajů
 codex_options_monitor                           Monitor
-
-
-# =============================================================================
-# Things from Gaz that we might be able to squeeze in, that would be useful to translate please
-# =============================================================================
-
-codex_options_display_mode              	Mód zobrazení
-codex_options_borderless_fullscreen		Celá obrazovka bez okrajů
-codex_options_display_monitor 			Displej monitoru
-codex_options_windowed_resolution               Rozlišení v okně
 
 ############################### PSYCH WARD UPDATE ###############################
 
@@ -438,6 +308,7 @@ material_grasscornerfloor1						Travnatý roh
 material_grasscornerfloor2						Travnatý roh
 material_grasscornerfloor3						Travnatý roh
 material_lunarfloor								Měsíční
+
 
 # =============================================================================
 # Objects - Names
@@ -494,7 +365,6 @@ object_parkbench								Lavice (park)
 object_fencegateguard							Brána v plotu (strážní)
 object_oaktable									Stůl (dub)
 object_oakbench									Lavice (dub)
-object_BoomBoxRoundHouse                        Magnetofon
 
 object_classic									Klasické
 object_dalmation								Dalmatin
@@ -526,7 +396,11 @@ buildtoolbar_popup_mat_brownCarpet				Polož pohodlný koberec. Skvělý do obla
 buildtoolbar_popup_mat_paddedfloor				Hodí se k polstrovaným zdím a vytváří dokonalou polstrovanou celu pro choromyslné vězně.
 buildtoolbar_popup_mat_grassstones				Travnatá oblast s dlaždicemi.
 buildtoolbar_popup_mat_grassscornerfloor		Travnatý roh s hlínou. Hodí se pro křivé cestičky.
+buildtoolbar_popup_mat_grasscornerfloor1		Travnatý roh s hlínou. Hodí se pro křivé cestičky.
+buildtoolbar_popup_mat_grasscornerfloor2		Travnatý roh s hlínou. Hodí se pro křivé cestičky.
+buildtoolbar_popup_mat_grasscornerfloor3		Travnatý roh s hlínou. Hodí se pro křivé cestičky.
 buildtoolbar_popup_mat_lunarfloor				Tvrdý kamenný povrch s mezihvězdným vzezřením.
+buildtoolbar_popup_mat_WoodenDockFloor			Masivní dřevěná podlaha, ideální pro přístavní dvůr.
 buildtoolbar_popup_obj_spookytree				Strašidelný starý strom.
 buildtoolbar_popup_obj_cactustree				Nejlépe by se vyjímal na suché zemi.
 buildtoolbar_popup_obj_sakuratree				Nádherná třešeň s růžovými květy.
@@ -590,8 +464,7 @@ interfaceplanning_BuildPlan			Realizovat plány
 interfaceplanning_ClearPlan			Vymazat plány
 interfaceplanning_Door				Dveře
 
-buildtoolbar_improvement						- Vylepšuje stupeň pro: *R
-buildtoolbar_improvement_windows				 (když směřuje ven)
+
 
 buildplan_title					Výběr typu zdi			
 buildplan_message				Chceš postavit svůj plán?\n	Tuto akci nelze vrátit.\n\n	Všechny naplánované zdi se postaví jako stejný typ zdi.\n	Výběr typu zdi můžeš změnit níže.
@@ -638,7 +511,6 @@ buildtoolbar_popup_obj_Footbridge				Umožňuje vězňům a zaměstnancům dosta
 buildtoolbar_popup_obj_FootbridgeSteel			Umožňuje vězňům a zaměstnancům dostat se přes pozemní a vodní plochy. Nelze postavit přes zdi, ploty a další budovy.
 buildtoolbar_popup_obj_FootbridgeB				Umožňuje vězňům a zaměstnancům dostat se přes pozemní a vodní plochy. Nelze postavit přes zdi, ploty a další budovy.
 buildtoolbar_popup_obj_FootbridgeSteelB			Umožňuje vězňům a zaměstnancům dostat se přes pozemní a vodní plochy. Nelze postavit přes zdi, ploty a další budovy.
-buildtoolbar_popup_obj_BoomBoxRoundHouse		Nech vězně poslouchat jejich oblíbené chlapecké kapely, když se věnují svým věcem. Zařiď, aby byli vězni ve stejné místnosti trochu šťastnější.
 
 # =============================================================================
 # Room - Names
@@ -684,6 +556,8 @@ roomgrading_score_good			LEPŠÍ
 roomgrading_score_verygood		VELMI DOBRÁ
 roomgrading_score_outstanding	VYNIKAJÍCÍ
 
+roomgrading_has_pa_system		[*X] Má PA systém v bloku
+
 # =============================================================================
 # Objectives, Grants
 # =============================================================================
@@ -712,6 +586,14 @@ warden_wardeninsaneslugworth_desc_short          - Přijímá víc choromyslnýc
 warden_wardeninsanehudson_name					 Dr. Hudson
 warden_wardeninsanehudson_desc                   Dr. Hudson je připraven udělat to, co nedokáže žádný jiný strážce...\n\n - Tísňové služby fungují o 20 % rychleji a dorazí dříve\n - Náklady za opravy jsou o 10 % nižší
 warden_wardeninsanehudson_desc_short             - Rychlejší reakční doba a nižší náklady na opravy.
+
+warden_wardenfarmer_name		Botanik
+warden_wardenfarmer_desc		Botanik jako člověk s bohatými zkušenostmi v oblasti zemědělství může mít velmi pozitivní vliv na vězeňské zemědělství. Zvyšuje vývozní cenu jednotlivých plodin, šanci, že plodiny vypustí semena, a také prodlužuje dobu vadnutí a kažení pěstovaných plodin a sklizených ingrediencí.
+warden_wardenfarmer_desc_short		- Zdvojnásobí vývozní cenu všech vězeňsky vypěstovaných produktů.
+
+warden_wardengreenpower_name		Ekologický pracovník
+warden_wardengreenpower_desc		Jako někdo, kdo má obrovské zkušenosti s prací se zelenou energií, může mít Ekolog na tyto zdroje energie velmi pozitivní vliv. Zvyšuje výkon všech zdrojů zelené energie a také zdvojnásobuje hodnotu exportované energie i recyklace.
+warden_wardengreenpower_desc_short		- Zvyšuje výkon všech zdrojů zelené energie o 1/3.
 
 # =============================================================================
 # Victory, failures
@@ -853,6 +735,9 @@ regime_worklockdown_pyscho      Programy/Pobyt v cele
 regimetooltip_work_pyscho			Poznámka: Šílení vězni nemohou pracovat a během pracovní doby mohou pouze navštěvovat programy
 regimetooltip_worklockdown_pyscho	Poznámka: Šílení vězni nemohou pracovat a během pracovní doby mohou pouze navštěvovat programy
 
+regimetooltip_work_pyscho			Poznámka Nepříčetní vězni nemohou pracovat a mohou navštěvovat programy pouze v pracovní době.
+regimetooltip_worklockdown_pyscho	Poznámka Nepříčetní vězni nemohou pracovat a mohou navštěvovat programy pouze v pracovní době.
+
 
 # =============================================================================
 # Nameplate status
@@ -877,7 +762,6 @@ action_escortToInfirmary						Doprovodit na ošetřovnu
 
 interfacelogistics_cellStatus					Stav cel
 
-buildtoolbar_popup_help_CellStatus_1			Zobrazení stavu cel ukazuje obsazené cely (červené) a volné cely (zelené).
 buildtoolbar_popup_help_CellStatus_2			Můžeš kliknout na obsazenou celu a zobrazit si vězně, který je do ní přiřazen.
 
 freeCell										Volná cela
@@ -900,9 +784,7 @@ equipment_moreContraband						Kontraband
 # Reports
 # =============================================================================
 
-report_intake_cat_PrisonerTransfer				Přesun vězňů!
 report_intake_list_tooltip_prisonerTransfer		\n\nObčas dostaneš nabídku na rizikové vězně, kteří jsou na ostatní věznice příliš nebezpeční.\nPozor! Existuje důvod, proč se za ně platí tolik. Jsou to zocelení zločinci, které nechce žádná jiná věznice přijmout.
-rapsheet_category_PrisonerTransfer				Přesun vězňů!
 
 # =============================================================================
 # Build Toolbar
@@ -994,7 +876,6 @@ region_kr                           Jižní Korea
 region_us                           USA, východ
 region_usw                          USA, západ
 
-codex_options_disableattract            Vypnout úvodní obrazovku
 codex_option_escapeplans                Plány na útěk
 buildtoolbar_rollcall                   Kontrola prezence
 buildtoolbar_tooltip_rollcall           Svolej všechny vězně, aby se postavili před cely. Dostupné pouze během spánkových režimů a během noci.
@@ -1030,6 +911,13 @@ graph_axis_prisonvalue                  Hodnota věznice
 graph_axis_prisonercapacity             Kapacita věznice
 graph_axis_numincidents                 Počet incidentů
 graph_axis_totalincidents               Incidentů celkem
+
+
+############################### Other ###############################
+
+# =============================================================================
+# Missing Strings
+# =============================================================================
 
 equipment_Photo				Fotografie	
 equipment_SubMachineGun			Samopal	
