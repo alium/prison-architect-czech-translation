@@ -88,31 +88,447 @@ Gaz, manažer herního designu v Double Eleven.
 Aktualizace „Kejchal“
 >21. listopadu 2019
 
-Kolegové dozoric,
+Doufáme, že se vám bude líbit tato nedávná várka bezplatných věcí. Znovu jsme naslouchali komunitě, takže se možná dočkáte i vašich vlastních návrhů. Níže uvádíme přehled nejvýznamnějších položek, včetně: nových mostů, klonování a vylepšení plánování. Nyní můžete své plány proměnit ve skutečné stavební zakázky!
 
-Doufáme, že se vám tato aktualizace pro Prison Architect líbí.
-Níže najdete souhrn těch nejdůležitějších předmětů, mezi které patří nové mosty, klonování a vylepšení plánování.
+Gaz, manažer designu her ve společnosti Double Eleven
 
->[1/2] Nové předměty
+>[1/3] Nové položky
 
-<->Nové zdi: Art deco a orientální.
-<->Nové podlahy: Vápenec, tráva a kamení, pískovec, měsíční.
-<->Nové předměty: Dřez, sušák na ruce, cedulky na zdi, strašidelné stromy a sakury, kaktusy, lavičky do parku, losí hlava, cedule, tajná knihovnička a daší...
+<->Okna lze nyní přidat na obě strany svislé stěny.
+<->Nové stěny: Art Deco a Orientální.
+<->Nové podlahy: Vápenec, Tráva a kameny, Pískovec, Měsíční.
+<->Nové objekty: Strašidelné a sakurové stromy, kaktus, lavička v parku, losí hlava a další...
+<->Nové dveře: Dveře do knihovny a tajné dveře.
+<->Nové znaky: Rozcestníky místností, jako jsou jídelny a sprchy.
+<->Nový travnatý koutek pro vytvoření šikmých cestiček.
 
-Kliknutím na DALŠÍ uvidíte víc...
+Kliknutím na tlačítko DALŠÍ se dozvíte více...
 
->[2/2] Nové funkce
 
-<->Několik nových druhů psů na výběr před hrou i během ní!
-<->Možnost vybrat si typ zdi pro rychlé místnosti.
-<->Konečně jsou tady MOSTY! Položte je přes cesty, vodu a další plochy, aby po nich mohli chodit zaměstnanci a vězni.
-<->Vyvážené denní platby za rizikové vězně: Za maximální ostrahu, ochrannou vazbu, celu smrti a choromyslné vězně získáte víc.
-<->V Logistice uvidíte prázdné a obsazené cely díky novému tlačítku „Stav cel“.
-<->Do popisků přibyla nová akce: „Doprovodit na ošetřovnu“
-<->Na příjmu jsou v nabídce převážení vězni.
-<->Do Rozmístění přibyla jedinečná možnost Směr návštěvníků.
-<->Základy je nyní možné stavět s více typy zdí.
-<->Klonovací nástroj byl přepracován! Nyní můžete zdi a předměty otáčet a naklánět, klonovací oblast nyní může pokrýt celou věznici! A dokonce můžete klonovat mezi uloženými pozicemi (BETA)! Rychlost stavby byla také vylepšena.
-<->Přepracované plánování! Navrhněte si plány, přidávejte dveře a vyberte si typ zdi. 
-<->Vylepšená prezentace rychlých místností, nyní zobrazuje, kde se zdi postaví.
-<->Nová možnost Pouštní pozemek při založení nové hry.
+>[2/3] Nové funkce
+
+<->Několik nových typů psů na výběr před hrou i během ní!
+<->Možnost výběru typu stěny pro rychlé místnosti.
+<->Překrývání místností (barevné) lze nyní vypnout v možnostech hry.
+<->Dodán další filtr nabídky "Nejpoužívanější" položky.
+<->Konečně jsou tu MOSTY! Pokládejte je nad cesty, vodu a další pozemky, aby přes ně mohli přecházet zaměstnanci a vězni.
+<->Vyváženy denní platby pro vězně s vyšším rizikem; vězni s maximální ostrahou, v ochranné vazbě, v cele smrti a duševně nemocní platí více.
+<->Prázdné a obsazené cely lze zobrazit v logistice pomocí nového tlačítka "Stav cel".
+<->Do životopisů vězňů byly přidány další akce: "Eskorta na ošetřovnu".
+<->Do nabídky Podlaha přidána lišta pro vyhledávání.
+<->Přemístění vězňů je nabízeno v části Příjem.
+<->Do nabídky Rozmístění přidána možnost Jedinečný směr návštěvníků.
+<->Základy lze nyní stavět s více typy zdí.
+<->Válečnou mlhu lze nyní vypnout uprostřed hry prostřednictvím nabídky Nastavení mapy.
+<->Přepracován nástroj pro klonování!!! Nyní lze otáčet a převracet, stěny a objekty se nyní zobrazují, klonovatelná oblast může pokrývat celé věznice! A můžete klonovat i mezi uloženími (BETA)! Byla také optimalizována rychlost výstavby.
+<->Přepracované plánování!!! Sestavte si plány, přidejte dveře a vyberte typ stěny. Optimalizována byla také rychlost výstavby.
+<->Více nových předmětů, stěn a podlah.
+<->Vylepšená prezentace Rychlých místností, která nyní ukazuje, kde budou postaveny stěny.
+<->Nová možnost Pouštní pozemek při vytváření nové hry.
+<->Za každé úmrtí ve vězení jsou dodávány náhrobní kameny.
+<->!
+
+
+>[3/3] Další vylepšení, opravy a funkce
+QoL a další vaše požadavky...
+
+<->Opraven pád taseru (kvůli kódu kreslení čáry taseru - taserové stopy někdy způsobovaly pád hry na grafických ovladačích některých hráčů, pokud nespadly, zdálo se, že se posunul kód kreslení písma, aby se vykreslil na špatné pozici/vypnul obrazovku pro snímek. Oba problémy by nyní měly být odstraněny.
+<->Moddeři! Soubory Spritesheet a UI.png jsou nyní nešifrované. Vyvarujte se prosím přidávání do těchto listů vlastních modů, protože do nich v budoucnu BUDE přidáván další obsah. Na původním tilesheetu je vyhrazeno dostatek místa.
+<->Elektrické kabely a vodovodní potrubí nyní při stavbě směřují správným směrem.
+<->Uliční lampy již nepotřebují přímé napájecí kabely.
+<->Všichni vězni, které jste přesunuli do nových buněk, budou znovu přiřazeni.
+<->V okrajových částech mapy je nyní možné umístit podlahu.
+<->Uliční lampy již nepotřebují přímé napájecí kabely.
+<->"Události" lze zapnout/vypnout v nastavení mapy.
+<->Noví vězni mají značku "Čerstvé ryby".
+<->Rozmisťování - zóny "Pouze pro personál" a "Sdílené" jsou výrazněji barevně odlišeny.
+<->Oddělené ikony pro typy kontrabandu "Drogy" a "Léky".
+<->Odstřelovači nyní mohou otevírat vzdálené dveře.
+<->Strážci otevírají dveře pro oddělené psy.
+<->Podzemní inženýrské sítě lze nyní umístit do stejného prostoru jako čekající nadzemní objekty.
+<->Klonování bude zahrnovat základy.
+<->Kancelářská židle nyní splňuje požadavek na přijímací místnost.
+<->Nyní lze kamerové systémy, dveře a telefonní odposlechy připojit oběma způsoby.
+<->Odstraněny různé problémy při hře s nastavením více monitorů.
+<->Obrázek lavice aktualizován tak, aby zobrazoval směr sezení.
+<->Vylepšena prezentace oblastí v logistice, které ukazují, kam lze přidělovat zakázky.
+<->Telefonní odposlech, stanice CCTV a Door Control zobrazují počet kabelových připojení.
+<->Hranice již nesplývají s přilehlými stěnami a lépe splývají s travnatou podlahou.
+<->Požadavky exekuční místnosti lze splnit u všech nových typů židlí.
+<->Bios se již neotevírá okamžitě při dvojím kliknutí na sledování vězně.
+<->Vylepšeny vizuální efekty spritů kvůli anomálii alfa, která vytvářela artefakty kolem některých spritů.
+<->Opraven starší problém, kdy nebyly doručovány poštovní brašny, což způsobovalo velké nahromadění pošty.
+<->Volba Reakce stráže přiřazena klávesové zkratce [G].
+<->Oprava nápovědy k programu certifikace taseru Guard.
+<->Podlaha z bláta se přechází pomaleji.
+<->Opraven starší problém týkající se zisku Need u velkých map. Potřeby se dříve na velkých mapách zvyšovaly příliš rychle kvůli nižšímu timewarpfaktoru. 
+<->Přidány nové ikony pro bubliny řeči Potřeby, které chyběly.
+<->Možnost vypnout funkci dvojkliku pro přesun objektů v možnostech hry.
+<->Přidány další názvy zaměstnanců a psů.
+<->Opraveny problémy s roztahováním předmětů při otáčení.
+<->Opraven starší problém s otáčením stromků.
+<->Přemístění dveří do Plánování již neodstraňuje podlahu pod nimi.
+<->Ukládá se poslední použité nastavení filtru.
+<->Vyhledávací panel nyní akceptuje další znaky, jako jsou ä, ö, ü, ß.
+<->Opraven starší problém, kdy byly nepřístupné stránky sešitů, které se zobrazovaly během režimu útěku/střihových scén.
+<->Tuny dalších oprav.
+
+~~~~~~
+
+"AKTUALIZACE KBELÍKU" &
+"VYMAZÁNO PRO PŘENOS" DLC
+>DATUM 14/05/20
+
+
+>"Cleared for Transfer" DLC zdarma
+Právě jsme vydali bezplatné DLC "Cleared for Transfer", které vám umožní nastavit oprávnění pro vaše vězně podle bezpečnostních sektorů. Vězni budou povzbuzováni ke změně způsobu života, aby splňovali vaše kritéria a mohli být přemístěni do nižšího (a pohodlnějšího) vězeňského křídla.
+Je na vás, abyste se rozhodli, zda podmínky a vybavení v jednotlivých bezpečnostních sektorech zlepšíte, nebo zhoršíte, a jak přísná kritéria pro přemístění musí vězni splňovat, aby mohli být přemístěni. Čím lepší budou ostatní bezpečnostní sektory, tím více vězňů se do nich bude chtít přemístit.
+
+Jdi si vzít DLC "Cleared for Transfer" zdarma!
+
+Gaz, manažer herního designu ve společnosti Double Eleven.
+
+
+>Aktualizace "The Bucket"
+Bezplatná aktualizace "The Bucket" doplňuje DLC "Cleared for Transfer" spolu s dalšími požadavky vaší komunity, novými funkcemi, vylepšeními a dalšími novinkami.
+
+Klikněte na DALŠÍ a uvidíte více...
+
+
+>[1/3] Nové předměty
+
+<->Nové předměty: Nové položky: Běžecký pás, krytý stromový květináč, boxovací kruh, stolní fotbal, skleněná okna, socha správce a mnoho dalšího...
+<->Nové stěny: Zchátralé, Opuštěné, Zrezivělé, Slum, Bambusový plot, Bezpečnostní sektory a další.
+<->Nové dveře: Bambusová brána, Bílé pruhy.
+<->Nové podlahy: Květinové pole, Běžecká dráha (rychlá), Bambus.
+<->Nová možnost plotu s trávou pod ním.
+
+
+>[2/3] Nové funkce
+
+<->*Nyní lze vylepšovat více místností, včetně dvorů, jídelen, společenských místností a dalších.
+<->*Nové zobrazení "Kvalita místnosti" v logistice, které zobrazuje stupeň (pohodlí, vybavení) pro jednotlivé místnosti. 
+<->*Některé nové stěny a předměty sníží známku bezpečnostního sektoru, například stěny Derelict, Rusty a Slum.
+<->*Nové třídění sektorů v logistice! Stupeň kombinuje stupně vybavení, privilegií a místností v daném sektoru. Díky DLC "Cleared for Transfer" tak můžete nastavit přesuny vězňů mezi sektory.
+<->Zcela nový typ místnosti GYM.
+<->Nové rychlé místnosti včetně zbrojnice, ošetřovny a knihovny.
+<->Trestání a prohlídky (např. Shakedown, Lockdown, Bangup atd.) lze nyní iniciovat pro každý bezpečnostní sektor! Tuto funkci lze vypnout v Možnostech hry.
+<->Vlastní bezpečnostní sektory lze nyní vytvářet v části Nasazení.
+<->V rozmístění lze nyní přidělovat kuchaře, lékaře a další personál.
+<->Zahradníky a údržbáře lze nyní v rámci určitých oblastí upřednostnit, aby tyto oblasti uklízeli nebo se o ně starali jako první.
+<->Nabídka "Nové značky" umožňuje přidávat na stěny značky s čísly a písmeny.
+<->Uživatelské rozhraní zásad nyní umožňuje upravit možnosti stravování a propouštění podle bezpečnostních sektorů.
+<->V plánování lze zapínat a vypínat automatické základy. 
+<->Nová práce ve věznici Forestry.
+
+*Přechází v plnou platnost s DLC "Cleared for Transfer".
+
+>[3/3] Další kvality a vylepšení
+
+<->Nabídka personálu umožňuje přetáhnout a vystřelit více personálu najednou.
+<->Úprava objektů sdílených mezi minimální a rozšířenou nabídkou.
+<->Rychlost vozidel a podpora pro odstranění vrhání stínů z objektů je nyní vystavena pro modifikaci.
+<->Přidán indikátor zobrazující buňky obsazené členy gangu.
+<->Některé objekty se nyní mohou objevit pod vodou, například rohože.
+<->Vězni s minimální, střední a maximální sekvencí jsou nyní ve hře označeni jednotně.
+<->Dveře s okny jsou nyní poloprůhledné.
+<->Věznice mohou být nyní uzavřeny a jediným vstupem do nich je most.
+<->Mosty lze nyní stavět přes zdi!
+<->Vypnutí mlhy války již nezanechává stíny.
+<->Typ půdy pod stromy zůstává zachován, když jsou pokáceny a znovu vysázeny.
+<->Opraveny různé pády, včetně pádů vyskytujících se při načítání starých uložení.
+<->Opraveny různé problémy se systémem pošty a nevyřízené pošty.
+<->Objekty a další nabídky podporují posouvání kolečkem myši.
+<->Zabarikádované stěny umožňují průchod tepla.
+<->Klávesové zkratky [Z] a [X] nyní fungují také v nabídkách Nástroje a Cheat pro cyklické procházení možností.
+<->Vězni, kteří se bouří, se nyní zaměří také na generátory energie a vodní pumpy (kromě zbrojnice).
+<->Opraven problém s příběhy vězňů, které nepodporovaly nedávno přidaná vylepšení plánování.
+<->Opraveny problémy s přidělením nové cely vězňům po opuštění samovazby.
+<->Opraveny problémy s čitelností textu při oddálení.
+<->Opraven problém, při kterém se při sestavování plánu v některých případech udělovaly peníze.
+<->Opraven problém, který znemožňoval správné odemčení Steam achievementu "Wait and Hope".
+<-> Unavení psi se již neoddělují od svých psovodů.
+<->Do nabídky Stěny a dveře byl přidán vyhledávací panel.
+
+~~~~~~
+
+"OSTROVNÍ HRANICE" & 
+Rozšíření "ROCK UPDATE"
+>
+
+>"Island Bound" - nové DLC 
+<->Nejnovější rozšíření pro hru Prison Architect je již k dispozici!
+<->S přídavkem Island Bound mají hráči svobodu a možnost vytvořit si vlastní izolované ostrovní věznice, do kterých budou po moři a letecky dopravovány zásilky, vězni a další služby.
+<->Island Bound přináší další možnosti zápletky pro založení věznice, aby se odstranilo jakékoli spojení s pevninou. Dokonce můžete hrát i bez silnice! 
+<-> Zavádí se také lodě, vrtulníky, doky a helipady, které lze propojit s vašimi oblastmi pro dodávky a vývoz. Nyní se můžete rozhodnout, že na jednu stranu věznice nebo ostrova budete vězně posílat samostatně a jinam si necháte dodávky přivážet letecky.
+<->Díky většímu počtu vstupních přístavů pro kontraband lze také vybudovat nové kontrolní stanice, na kterých budou strážní prohledávat vězně a návštěvníky, a skenery beden, které odhalí kontraband ukrytý uvnitř dodávek! 
+<->Island Bound přichází také s novými předpřipravenými mapami inspirovanými Alcatrazem, novými objekty, podlahovou krytinou, trajekty pro propojení ostrovů, leteckými hasiči, novým elitním operačním týmem a mnoha dalšími prvky!
+
+Gaz, manažer herního designu ve společnosti Double Eleven.
+
+Kliknutím na NEXT se dozvíte více...
+
+>Aktualizace hry "The Rock"
+Bezplatná aktualizace "The Rock" doplňuje rozšíření "Island Bound" spolu s dalšími vylepšeními.
+
+<->Vodní dlaždice - vodu lze přidávat k souši a souš k vodě a utvářet tak vlastní ostrovy, pobřeží, příkopy a další.
+
+<->Dynamická reputace vězňů - Po aktivaci tato nová možnost umožňuje vězňům získávat a ztrácet charakteristiky reputace na základě jejich aktivit uvnitř vašich věznic. Pověsti jako "Silný", "Tvrdý" nebo "Zkušený bojovník" lze získat díky času strávenému na dvoře nebo v nové tělocvičně, nebo je ztratit například kvůli pobytu na samotce. Mnoho dalších opakování lze také získat nebo ztratit prostřednictvím různých zkušeností.
+
+~~~~~~
+
+"GOING GREEN" DLC & 
+AKTUALIZACE "SKLENÍK" 
+>Připravte se na to, že si zašpiníte ruce, dozorci!
+
+>Going Green - Nové DLC:
+>Fruits of Labor: 
+<->Farming zavádí nový typ vězeňské práce, který umožňuje věznicím pěstovat brambory, pšenici, jablka a další. Produkty lze exportovat nebo použít pro stravování vězňů.
+>
+> Prostor pro růst: 
+<->Tři venkovní místnosti usnadňují farmaření: Ovocný sad, Zemědělské pole a Zeleninový pozemek. Hráči mohou najímat zaměstnance na farmu, postavit spižírnu pro skladování produktů a postavit kůlnu pro skladování zemědělského vybavení.
+>
+> Potíže se rýsují: 
+<->S novými plodinami přichází i nový kontraband. Vězni nyní mohou tajně pěstovat omamné látky a šlohnout přísady na výrobu alkoholu. Pole se také mohou stát trávníkem gangů, takže mějte své stráže ve střehu!
+>
+> Zelenější nová dohoda: 
+<->Vězni se dočkali ekologické úpravy díky solárním, větrným a hybridním zdrojům energie. Přebytečnou energii vytvořenou těmito udržitelnými metodami lze prodat zpět do sítě pomocí měřiče exportu energie.
+
+Kliknutím na tlačítko DALŠÍ se dozvíte více...
+
+>Aktualizace "Skleníku"
+<-> Bezplatná aktualizace "Skleník" navozuje atmosféru rozšíření "Going Green" a přináší některá z nejžádanějších vylepšení komunity:
+<->Nový systém recyklace včetně objektu Recyklační koš.
+<->Nové rychlé místnosti: Dvorek, Háj a Bludiště z živého plotu.
+<->Vylepšení funkcí skládky a demolice.
+<->Nové metody třídění v nabídce objektů.
+
+~~~~~~
+
+"SECOND CHANCES" DLC & 
+Aktualizace "The Pen"
+>Otevřete brány!
+
+>Druhé šance - nové DLC:
+> Budování životních dovedností:
+<->Tři nové místnosti, ve kterých mohou vězni pracovat a učit se; pekárna a restaurace pro výrobu jídla pro navštěvující civilisty a zasedací místnost pro pořádání nových programových sezení.
+<->Někteří vězni mají předchozí pracovní zkušenosti vhodné pro práci ve věznici.
+<->Práce ve věznici mohou být nyní upraveny podle výše mzdy 
+>
+> Příprava na propuštění:
+<->Pět nových rehabilitačních programů, do kterých se můžete přihlásit: Poradenství pro polepšené vězně, školení a program Three Strikes, řešení konfliktů a terapie se zvířaty!
+<->V závislosti na chování vězně lze tresty zkrátit nebo zvýšit.
+<->Nabídka polepšoven a odvykacích programů, která umožňuje sledovat míru recidivy všech vězňů, úroveň jejich pracovních zkušeností a počet vězňů, kteří se dopouštějí recidivy.
+>
+>Volný odchod: 
+<->Získejte bonusy za každého úspěšně napraveného vězně při jeho opětovném začlenění do společnosti. Za recidivující vězně - kteří se navíc mohou do vaší věznice vrátit s ještě horšími vlastnostmi než předtím - budou udělovány pokuty!
+Kliknutím na DALŠÍ se dozvíte více...
+
+> A další...
+<->Přizpůsobte si barvu vězeňské uniformy pro jakýkoli typ ostrahy
+<->Využijte nové granty, které vám pomohou s náklady na nápravu vězňů
+<->Rychlé místnosti: pekárna, restaurace a zasedací místnost
+<->DLC Info karta přidána na seznam úkolů
+
+>Aktualizace "Pera"
+<->Pátrání po narkotikách! Nový bezpečnostní příkaz umožňující psovodům vyhledávat speciálně drogy. 
+<->Zásady pro klíče zaměstnanců, které umožňují všem zaměstnancům nosit klíče
+<->Nová rychlá místnost:  Recepce
+<->Vlastní příjem: Umožňuje zvolit si čas příjezdu příjmu
+<->Omezení pro venkovní prostory v učebně a jídelně se zmírnilo.
+<->Řada nových objektů
+
+~~~~~~
+
+"PERFECT STORM" DLC & 
+AKTUALIZACE "THE TOWER" 
+>Nevěřte klidu před bouří!
+
+>Dokonalá bouře - nové DLC:
+>Příprava na nejhorší:
+<->Nové možnosti umožňují zapnout události založené na počasí i systém zamoření krysami na různých úrovních intenzity.
+<->K dispozici je nyní více možností podpory, nové předměty a zařízení, výcvikové programy, pohotovostní služby a plány pokrytí.
+<->Můžete také nastavit odrazující prostředky pro krysy, hasicí přístroje a alarmy pro požáry a další předměty, které pomáhají odhalit změny počasí a připravit se na ně 
+>
+> > Pozor na krysy:
+<->Po splnění některých minimálních požadavků se ve věznici mohou začít objevovat krysy, proto udržujte věznici v čistotě a snažte se udržet na uzdě všechny tunely.
+<->Nezanevřete na ty roztomilé tvářičky, zpočátku dělají jen nepořádek a okusují přísady, ale ve větším množství mohou krysy způsobovat nemoci, poškozovat elektrické kabely a ploty, a dokonce hloubit tunely
+>
+>Kalamitní počasí - část 1: 
+<-> Byly přidány tři typy extrémního počasí, které mají tři různé úrovně intenzity a každá z nich obsahuje dílčí události, které jsou stále nebezpečnější.
+Kliknutím na DALŠÍ se dozvíte více...
+
+>
+> Kalamitní počasí - část 2: 
+<->Hluboký mráz - chlad může způsobit poškození inženýrských sítí a dalších předmětů, způsobit promrznutí země a zdí a může být škodlivý i pro vaše chovance.
+<->Bouřka - bouřky mohou být nebezpečné a ničivé, mohou poškodit elektrické zařízení, způsobit požár, snížit integritu konstrukce a představují také specifické nebezpečí pro vaše vězně a zaměstnance.
+<->Vlna veder - toto horké počasí přináší novou potřebu hydratace pro personál a vězně a může způsobit úpal, pokud o něj není postaráno. Horko může mít vliv i na předměty, takže mějte lehce oslepené oči otevřené!
+>
+>Aktualizace "VĚŽE" - část 1: 
+<->Dva noví hlídací psi, jejichž základem je shiba inu a černý setr, přicházejí také s možností, aby psi po vaší věznici zanechávali "malé dárky".
+<->Délku návštěv lze nyní přizpůsobit, více času stráveného s rodinou a spolupracovníky bude mít silnější vliv na potřeby vězně
+<->Odstřelovači mají nyní také nesmrtící alternativu, která umožňuje zastavit pokusy o útěk a nepřátelské vězně, aniž by došlo k vážnému poškození zdraví
+<->Společně s těmito možnostmi byly přidány také nové předměty a typy podlah.
+
+>
+> Aktualizace "VĚŽE" - část 2: 
+<->Barevné dveře pro personál
+<->Sedačka, luxusní stůl, dřevěné a otočné židle
+<->Dřevěná a vitrážová okna
+<->Papradní keř, břečťan, vrba, strom (holý)	 
+<->Laminátová podlaha, koberec, polní tráva
+
+> Zvláštní poděkování 
+8D1, Adamr_2oo9, akiba212, balabala11, Benjamin king of the hacker Montgomery, BigHappy, BOT Purple, Captthom, Carasio, Chipmunk197, Cora, Courtney730, CrazyRussian, Crimson, CTYL, Cymonize, Darkestfortress, DayzeeNL, DerMudder, Dinjil, Dirk Arwood, droggelcreeper, DrVagax, Eddy, evilhamster, Extech, Face Happy, Farrow, Fleischgewehr, fredjoe, Frost, FTCarnivore, HareBidit, inTonu, jake01756, Jamessimo, janus, Jawbreaker, JaY, Jordy, JulianSnow, Juno, KingOlav1, Lachsfilet, Lainey, LokiGrey, Magzorz, markmanc, Max White, megnaan, MidKnight, MoodsJoakim, Moon, MR. HAJ Dog, Nel, Nocheese4u, nomnomcookie2, Pavel Morozov, Pawlakov, popguy111, RetiredJailer, rsdworker, Sarah, Sathona, Seven, Simularies, SolidMamba, SquidSus, srotideuk, Starduststudio, Swatlord, Tempest, the_cat1907, TinyTim, Toa Sully, toh-bee, tpownage, Vampgirl, wantingblob, Warga aka Wargasmus, Wyn, xXDreamslandXx, Yannick, Ypszincs, Zeigler, Zobiwan
+
+~~~~~~
+
+"GANGS" DLC & 
+"KITE" UPDATE 
+>Drsnější, chytřejší a nyní i s odpovídajícími uniformami!
+
+>Gangs - nové DLC:
+>Nové vězeňské gangy:
+<-> Do vaší věznice dorazily tři nové typy gangů, které s sebou přinášejí specifické problémy a problémy s řízením.  
+<->Každý z těchto gangů bude mít svou vlastní osobnost a cíle, od šíření svého vlivu po vaší věznici až po ovládnutí trhu s kontrabandem.
+<->Abychom pomohli kontrolovat úroveň obtížnosti, kterou do vaší věznice přinášejí, přidali jsme možnosti kontroly počtu těchto gangů a také počtu poručíků, které může každý z nich mít, což zase ovlivňuje počet her, které mohou gangy provádět.
+>
+> Nové gangy znamenají nové chování:
+<->Každý z nových gangů bude mít své vlastní specializované činnosti, od zavádění dalších narkotik po používání síly, aby ostatním ukázal, kdo je tady šéf.
+<->Gangy nyní mohou obsadit nové oblasti, donutit ostatní vězně, aby jim platili při jakékoli práci, a zároveň ve svých oblastech zřídit "dealera" gangu, který jim pomůže prodat vše, co získají.
+<->Když gang získá dostatečný počet členů, může také začít klást požadavky, aby se jim pobyt v táboře trochu více líbil, přičemž důsledky nepřijetí těchto požadavků mohou být katastrofální.
+Kliknutím na DALŠÍ se dozvíte více...
+
+> Křivé stráže:
+<->Když se gang stane dostatečně rozšířeným, může začít mít negativní vliv na vaše stráže.
+<->Stráže nyní mohou být členy gangu podpláceny, což zajistí, že se budou "dívat jinam", když gang plánuje provést nějaký přestupek.
+<->Někteří strážní mohou být také placeni za pašování kontrabandu pro gangy.
+>
+> Řízení a zabezpečení:
+<->K řešení podezřelého personálu lze využít informátory z řad vězňů, kteří pomohou upozornit na zkorumpované dozorce.
+<->K dispozici jsou také nové programy, které slouží jak k výcviku dozorců, tak také k pomoci členům gangů odvrátit se od svého gangu a vrátit se k normálnímu, klidnému životu ve vězení.
+<->Bývalí členové gangu se stanou terčem pro stávající členy gangu, takže je nejlepší snažit se od sebe gangy a bývalé členy oddělit, pokud je to možné.
+<->Pro ty členy věznice, kteří jsou hůře zvladatelní, jsou k dispozici také nové možnosti zabezpečení, od označení konkrétních osob, které pomohou zviditelnit, až po odeslání těch nejproblematičtějších do jiného zařízení.
+Kliknutím na tlačítko DALŠÍ se dozvíte více...
+
+>
+> "KITE" Aktualizace:
+<->Dylan Cook a kapitán J. Locks se připojili k týmu dostupných strážců a přinesli s sebou novou možnost "náhodného" výběru a 4 nové typy hlídacích psů!
+<->Vězňům lze nyní ručně vyměnit určené cely, takže si můžete vybrat, kdo kam půjde. Vůdci gangů však budou mít tendenci získat přednostně nejlepší celu v rámci jakékoli oblasti patřící jejich skupině.
+<->Aktualizace se dočkal také systém příjmu vězňů, kteří nyní čekají na zpracování a místo čekání na mrazu se přesunou do přijímací místnosti, a také nová možnost "Výměna vězňů", která pomůže udržet počet vězňů na základě aktuálního poměru úrovní bezpečnosti.
+<->Společně s těmito novinkami je k dispozici také nová možnost mutátoru, která odstraní požadavky na velikost místnosti, a některá vylepšení kamer CCTV, které lze přepínat prostřednictvím nabídky rozmístění. 
+
+~~~~~~
+
+Aktualizace "ZDARMA NA CELÝ ŽIVOT"
+>Nové doplňky na základě zpětné vazby komunity
+
+Skupina nových funkcí & vylepšení QoL, přičemž většina z nich byla vybrána na základě poptávky komunity. Vaši zpětnou vazbu vždy bereme na vědomí a vítáme ji, protože nám umožňuje zlepšovat zážitek pro všechny.
+
+> Nové funkce
+<->Stárnutí vězňů: Dlouhodobí vězni budou nyní ovlivněni plynutím času, budou starší, klidnější, slabší a nakonec zemřou stářím.
+<->Randy dozorců: Řada vašich dozorců bude moci získat povýšení, čímž se zvýší jejich statistiky a také plat. Když povýší až na důstojníka specialistu, bude jim pak také svěřena střelná zbraň.
+<->Stavební průvodci: Bylo přidáno několik možností, které vám usnadní proces navrhování. Lze aktivovat překrytí mřížky spolu se souřadnicemi pro každou buňku mapy, spolu s novou nápovědou s výpisem rozměrů při kreslení budov. 
+<->Vlastní rychlé stavby: Pomocí nástroje klonování můžete nyní ukládat části vězení pro pozdější použití.
+<->Byl přidán protokol událostí, který obsahuje seznam všech událostí ve vaší věznici, přičemž každý vězeň má také svůj vlastní protokol dostupný z nabídky.
+Kliknutím na tlačítko DALŠÍ se dozvíte více...
+
+> Vylepšení Qol
+<->Příslušenství bylo rozděleno do 3 skupin pro položky elektřiny, vody a elektroinstalace, aby se usnadnilo jejich nastavení.
+<->Volby režimu byly aktualizovány, přičemž některé stávající byly změněny a nové přidány, aby se snížil pohyb vězňů v nebezpečných oblastech, jako jsou jídelny a sprchy. Jakmile vězni dokončí jídlo nebo sprchu, mohou nyní poté pokračovat buď do Volného času, nebo do Uzamčení.
+<->Rozvrhovač programů byl aktualizován, aby byla správa programů jednodušší a přehlednější.
+<->Aktualizována byla také nabídka Vytvořit věznici, jejíž nastavení jsou nyní rozdělena na ta spojená se základní hrou a DLC. S novou možností uložení předvoleb, aby byl proces vytváření plynulejší a rychlejší.
+<->Nabídka zásad také uloží všechny provedené změny po zavření, přičemž tyto změny se uloží jako vaše předvolby pro všechny nové věznice.
+>
+<->Dalších drobných doplňků je ještě více a doufáme, že se vám každý z nich bude líbit!
+
+~~~~~~
+
+"UNDEAD" DLC & 
+AKTUALIZACE "THE KICKSTAND" 
+>Něco zlého číhá ve tmě
+
+>Undead - nové DLC
+> Nové funkce
+<->Nemrtví: Díky nové možnosti se nemrtví mohou objevit ve vašich zdech buď prostřednictvím události infekce, nebo prostřednictvím nové místnosti Hřbitov.
+<->Úrovně nemrtvých: Nemrtví budou mít 3 úrovně, od nízké po vysokou, přičemž nemrtví s vyšší úrovní budou rychlejší, silnější a o něco chytřejší.
+<->Hřbitov: Hřbitov mohou vězni využívat k odpočinku, ale občas sem rádi zavítají i jiní obyvatelé.
+<-> Chování nemrtvých: Vždycky hledají nové přátele, které by mohli přivést do své malé skupiny. I když většina lidí s křikem uteče. 
+<->Platby: I když jsou trochu kousaví, pokud je máte bezpečně oddělené, zaplatí vám alespoň nájem za svůj pobyt.
+<->Řízení: Přidali jsme 2 nové předměty, které vám pomohou, návnadu a nové zařízení, které co nejpraktičtěji zaměstná všechny nemrtvé v okolí. 
+<->Lovec odměn: Na začátku roku se objevil nový nástroj, který se postará o to, abyste se dostali do bezpečí: Nová pohotovostní služba, která se bude potulovat po vašem území a odstraňovat nechtěné squattery.
+<->Vizuální prvky: Překryvy, nové hodiny, estetické předměty a nový balíček uniforem zaměstnanců, který pomůže sladit se s tématem nemrtvých. A také motorová pila. Užijte si to. 
+Kliknutím na DALŠÍ se dozvíte více...
+
+>
+>Stánek s kopačkami - bezplatná aktualizace
+> Vylepšení Qol
+<->Noví psi! - V podobě majestátního corgiho a sibiřského huskyho, který je nejlepší holkou. Vůbec žádné předsudky.
+<->Nové rychlé místnosti - byla přidána nová rychlá místnost Bezpečnost, Chovatelská stanice a Propuštění.
+<->Kamery CCTV byly vylepšeny, nyní je můžete uzamknout na místě a také nastavit jejich monitory jako prioritu pro strážce v rámci nových zásad.
+<->Přibyla také nová prázdná místnost, která vám pomůže při rozdělování věznic na různé sektory, aniž byste potřebovali různé chodby.
+<->Když už mluvíme o rozdělování, přidali jsme obložené betonové dlaždice, které vám pomohou vizualizovat sektory při běžném hraní.
+>
+<->Na základě vaší zpětné vazby jsme přidali i další menší vylepšení kvality života, takže doufáme, že se vám bude líbit.
+
+~~~~~~
+
+"FUTURE TECH PACK" DLC & 
+AKTUALIZACE "THE SLAM" 
+>Budoucnost je teď! 
+
+>Future Tech Pack - nové DLC
+> Nové funkce
+<->Sada uniforem: Pro podporu futuristického tématu dostanou vaši zaměstnanci a vězni sci-fi vylepšení.
+<->Sledování vězňů: Potřebujete pomoc, aby se vaši vězni vyhnuli problémům? Díky sledovacímu monitoru a menu spolu s dalšími podpůrnými předměty můžete nyní lépe dohlížet na své vybrané vězně.
+<->Typy stěn: Skleněná stěna zlepší viditelnost strážných a pocit svobody vězňů - i když také omezí jejich soukromí.
+<->Dveře na klíčové karty: Dveře, ke kterým se dostanou pouze strážní vybavení kartou na klíče nebo vězni se sledovacími pásy. Přístup vězňů však lze zrušit pro každé jednotlivé dveře.
+<->Pokročilé reflektory: Dokáží odhalit jakékoli nevhodné chování a spustit alarm, který umožní zásah. 
+<-> Omračující obušky: Šokující vylepšení standardního vybavení stráží, které dokáže snadněji potlačit jakékoli potíže.
+<->Videobudky: Umožňují vězňům vidět své rodiny bez nebezpečí fyzických návštěv.
+<->Misc: S ozdobnou podlahou, novým stylem hodin, dozorcem a dalšími předměty!
+Kliknutím na tlačítko DALŠÍ se dozvíte více...
+
+>The Slam - Free Update
+>Vylepšení kvality života
+<->Zóna pouze pro návštěvníky - Nový sektor, který bude prioritně určen pro civilisty a umožní jim vstupovat do věznice nebo ji opouštět přes konkrétní body.
+>
+<->Přestávka pro zaměstnance - Nyní můžete zvolit, kolik zaměstnanců může mít přestávku konkrétně pro strážce, dělníky a kuchaře, namísto obecného nastavení pro všechny zaměstnance.
+>
+<->Segregace gangů - Tato volba nyní umožní, aby členové jiných gangů nemohli používat bloky cel nebo ubytovny přidělené gangům. 
+>
+<->Drobná vylepšení - Více časových slotů plánu nasazení, vylepšené filtry objektů, vylepšený nástroj Rychlé připojení pro zapojení a také mnohem více menších vylepšení a oprav!
+
+~~~~~~
+
+DLC "Jungle Pack" &
+"Jailhouse" UPDATE
+>Vítejte v džungli, máme tu stromy a další věci!
+
+>Jungle Pack - nové DLC
+> Nové funkce
+<->Sbalení uniforem: Je tu opět ten čas, přichází třetí balíček uniforem! Změňte opět styl svých vězňů a zaměstnanců díky tomuto zelenému motivu.
+<->Vývoz stromů: Stala se pro vás představa kácení stále stejných stromů příliš všední? Tak se nebojte, nyní můžete kácet efektní exotické stromy. 
+<->Tropická horečka: Tato nová nemoc se do věznic dostane prostřednictvím nakažených dodávek a návštěvníků, může se šířit jako požár, takže si dejte pozor na cizí nebezpečí.
+<->Příjem návštěvníků: Při příchodu do věznice zamíří návštěvníci nejprve do této místnosti, kde je strážní nebo lékaři zkontrolují, zda nemají stopy po horečce, a zároveň je zkontrolují, zda nemají kontraband.
+<->Kino: Někdy prostě televizní obrazovka nestačí, pro ty z vás, kteří s tím souhlasí, představujeme kinosál. Tato místnost zajistí vězňům zábavu a klid během jejich volného času.
+<->Misc: Nové podlahy, stěny, dveře, stromy, dřevěné předměty, skrytěji vypadající kamera CCTV, nový ciferník hodin a nejasně vypadající ředitel...
+
+Kliknutím na DALŠÍ se dozvíte více...
+
+>"Jailhouse" - bezplatná aktualizace
+> Vylepšení kvality života
+
+<->Nový pes - Bylo by od nás nefér nepodělit se s vámi o tohoto sluníčkového chlapce, takže si prosím užijte zázrak, kterým je Toby, a vše, za co se postaví a převalí.
+>
+<->Prázdninové stráže - Udělali jsme to tak, že místo toho, aby nyní velké množství stráží zahálelo v oblasti doručování, budou nyní upřednostňovat důležitější oblasti věznice.
+>
+<->Materiály pro rychlé sestavení - Při použití rychlého sestavení se nyní při dalším použití uloží poslední vybraný materiál.
+>
+<->Rozvrhovač rozmístění - Nabídka rozvrhovače prošla drobnou úpravou, která zlepšuje uživatelské prostředí a činí ji přehlednější a snadněji použitelnou.
+>
+<->Rozmanitá vylepšení - Znovu jsme vyvážili reputaci zloděje identit, účinky, které má potlačení na to, že se z vězňů stanou šílenci, a další vylepšení a opravy!
+
+
+
+
