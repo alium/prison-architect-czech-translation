@@ -171,10 +171,7 @@ interfaceproperty_territoryguard                Stráže
 interfaceproperty_sectorprisoner                Vzpoura
 interfaceproperty_tunnel                        Tunel
 
-interfacedeployment_guards                      Stráže
-interfacedeployment_patrols                     Běžné hlídky
-interfacedeployment_dogpatrols                  Hlídky se psy
-interfacedeployment_armedpatrols                Ozbrojené hlídky
+
 interfacedeployment_removeguards                Odstranit stráže
 interfacedeployment_clearpatrols                Smazat trasy
 interfacedeployment_targetting                  Logistika
@@ -195,7 +192,7 @@ interfacedeployment_zonegreen                   Zelené křídlo
 interfacedeployment_zoneblue                    Modré křídlo
 interfacedeployment_zoneyellow                  Žluté křídlo
 interfacedeployment_zoning                      Rozdělení na zóny
-interfacedeployment_accessonly					Povolený přístup
+interfacedeployment_accessonly					Pouze přístup
 interfacedeployment_prisonerdirection			Směr vězňů
 interfacedeployment_staffdirection				Směr ostatních
 
@@ -334,6 +331,7 @@ interfacetopbar_tension_staffmorale_low			+ Morálka zaměstnanců je nízká
 interfacetopbar_tension_staffmorale_high		- Morálka zaměstnanců je vysoká
 interfacetopbar_tension_staffonstrike           + Tvoji zaměstnanci stávkují
 interfacetopbar_tension_dangerzone				+ NEBEZPEČNÁ ZÓNA!
+interfacetopbar_tension_hoursonrollcall         + Vězni jsou rozzlobeni kvůli kontrole prezence
 
 interfacetopbar_staffmorale_title				MORÁLKA ZAMĚSTNANCŮ
 interfacetopbar_staffmorale_happystaff			+ *X zaměstnanců je spokojených v práci
@@ -352,6 +350,8 @@ interfacecontrol_research                       Správa věznice
 interfacecontrol_research_tooltip               Otevřít obrazovku Správa věznice, kde si můžeš prostřednictvím administrativních pracovníků zpřístupňovat nové možnosti, typy zaměstnanců a budovy.
 interfacecontrol_grading                        Hodnocení věznice
 interfacecontrol_grading_tooltip                Otevřít obrazovku Hodnocení věznice, ze které se dozvíš celkové hodnocení svého dosavadního úsilí.
+interfacecontrol_graphs                         Grafy
+interfacecontrol_graphs_tooltip                 Otevře obrazovku Grafy, která umožňuje porovnávat grafy různých aspektů věznice.
 
 interface_confirmlandbuy                        Opravdu chceš koupit tento pozemek za $*X?
 interface_loadconfirm                           Opravdu chceš načíst tuto mapu? Přijdeš tím o veškerý neuložený postup hrou.
@@ -430,6 +430,7 @@ buildtoolbar_bangup                     Návrat do cel
 buildtoolbar_lockdown                   Nouzové uzamčení
 buildtoolbar_shakedown                  Prohlídka cel
 buildtoolbar_weaponsfree                Povolení ke střelbě
+buildtoolbar_rollcall                   Kontrola prezence
 
 buildtoolbar_tooltip_reports			Otevři hlášení s informacemi o svých vězních, zaměstnancích, příjmu, grantech a podobně.
 buildtoolbar_tooltip_bangup				Pošli všechny (spolupracující) vězně zpět do cel. Necháš-li je ovšem pod zámkem příliš dlouho, rozzuříš je.
@@ -437,6 +438,7 @@ buildtoolbar_tooltip_lockdown			Všechny dveře ve věznici se okamžitě uzamkn
 buildtoolbar_tooltip_shakedown          Bude vydán okamžitý příkaz k prohledání všech cel. Tato kontrola trvá poměrně dlouho a vězňové ji k smrti nenávidí.
 buildtoolbar_tooltip_weaponsfree        Povoluje ozbrojeným strážným použít smrtící prostředky. Odstřelovači již nepoužijí varovný výstřel, než zlikvidují cíl.
 buildtoolbar_tooltip_nostrike           Během stávky zaměstnanců není k dispozici.
+buildtoolbar_tooltip_rollcall           Vyzvěte všechny vězně, aby se postavili před své cely. K dispozici pouze během spánkového režimu a v noci.
 
 buildtoolbar_cost						Cena: $*C
 buildtoolbar_cost_sqrft					Cena: $*C / m2
@@ -448,6 +450,7 @@ buildtoolbar_walk_speed					Rychlost chůze: *S
 buildtoolbar_walk_speed_slow			pomalejší
 buildtoolbar_walk_speed_norm			normální
 buildtoolbar_walk_speed_fast			rychlejší
+buildtoolbar_walk_speed_Veryfast		velmi rychlé
 buildtoolbar_locked                     ZAMČENO
 buildtoolbar_locked_research			ZAMČENO (zapotřebí: *B)
 buildtoolbar_locked_administrator		ZAMČENO (zapotřebí: *B)
@@ -461,7 +464,6 @@ buildtoolbar_modcontent                 - modifikace
 
 buildtoolbar_popup_foundations			Stavěj/bourej budovy a určuj tak podobu své věznice.
 buildtoolbar_popup_construction			Různé typy podlah a zdí.
-buildtoolbar_popup_planning				Rozvrhni si věznici bez obav, že by se dělníci hned pustili do práce.
 buildtoolbar_popup_designation			Přiřazuj jednotlivým částem věznice konkrétní funkce.
 buildtoolbar_popup_objects				Rozmisťuj po věznici různé užitečné předměty.
 buildtoolbar_popup_overlays				Zjisti, jaké má tvá věznice slabiny.
@@ -493,7 +495,6 @@ buildtoolbar_popup_room_execution		Místnost, do které chodí vězni umírat.
 buildtoolbar_popup_room_workshop		Místnost, do které chodí vězni umírat nudou, zatímco vyrábí registrační značky na auta.
 buildtoolbar_popup_room_security		Místnost pro pracovníky ostrahy.
 buildtoolbar_popup_room_office			Místnost vyhrazená administrativním pracovníkům.
-buildtoolbar_popup_room_medicalward		Oblast, ve které pracuje tvůj zdravotnický personál.
 buildtoolbar_popup_room_morgue			Sem můžeš ukládat své zesnulé vězně a zaměstnance.
 buildtoolbar_popup_room_commonroom		Zde se mohou tví vězni trochu pobavit a odpočinout si.
 buildtoolbar_popup_room_kennel          Zde žijí tvoji psi.
@@ -543,6 +544,7 @@ buildtoolbar_popup_obj_altar            Posílá modlitby přímo k uchu zvolen�
 buildtoolbar_popup_obj_pews             Místa pro věřící. Nemají polstrování a jsou vyrobeny z toho nejtvrdšího dřeva.
 buildtoolbar_popup_obj_prayermat        Zajišťují, aby vězni při modlitbách nemuseli klečet na špinavé podlaze.
 buildtoolbar_popup_obj_guardtower       Věž, ze které odstřelovači (najatí odděleně) mohou hlídat vězení.
+buildtoolbar_popup_obj_roadbarrier      Robustní silniční zábrana, která dokáže zastavit i rychle jedoucí kamiony. Uzavírá se pouze během nouzového uzamčení.
 
 buildtoolbar_popup_staff_workman		Staví věznici dle plánů, které jim poskytneš.
 buildtoolbar_popup_staff_guard			Dohlíží na tvé vězně a dávají pozor, aby nedělali problémy.
@@ -594,10 +596,7 @@ buildtoolbar_contraband_stolenfrom		Zobrazuje veškerý kontraband z posledních
 buildtoolbar_contraband_informants      Zobrazuje informace získané od tvých informátorů.
 buildtoolbar_contraband_gangs           Zobrazuje informace týkající se vězeňských gangů.
 
-buildtoolbar_deployment_Guards          Přiděluj strážným jednotlivé sektory ve věznici.
-buildtoolbar_deployment_Patrols         Kliknutím a přetažením kurzoru vyznač hlídkové trasy.\n\nChceš-li k hlídkové trase přiřadit strážného, klikni na libovolný čtverec, jenž je její součástí.\nKliknutím pravým tlačítkem a přetažením kurzoru můžeš hlídkové trasy mazat.
-buildtoolbar_deployment_DogPatrols      Kliknutím a přetažením kurzoru vyznač hlídkové trasy.\n\nChceš-li k hlídkové trase přiřadit strážného, klikni na libovolný čtverec, jenž je její součástí.\nKliknutím pravým tlačítkem a přetažením kurzoru můžeš hlídkové trasy mazat.
-buildtoolbar_deployment_ArmedPatrols    Kliknutím a přetažením kurzoru vyznač hlídkové trasy.\n\nChceš-li k hlídkové trase přiřadit strážného, klikni na libovolný čtverec, jenž je její součástí.\nKliknutím pravým tlačítkem a přetažením kurzoru můžeš hlídkové trasy mazat.
+
 buildtoolbar_deployment_SharedZone      Do tohoto sektoru budou mít povolen vstup všichni vězni.
 buildtoolbar_deployment_MinSecZone      Do tohoto sektoru budou mít povolen vstup pouze vězni s minimální ostrahou.
 buildtoolbar_deployment_MedSecZone      Do tohoto sektoru budou mít povolen vstup pouze vězni se střední ostrahou.
@@ -628,17 +627,21 @@ buildtoolbar_popup_help_targettinglaundry_3 ~Kliknutí pravým tlačítkem myši
 buildtoolbar_popup_help_targettinglaundry_4 ^Tipy
 buildtoolbar_popup_help_targettinglaundry_5 Prádelny mohou být zacíleny na libovolný počet místností, ale jsou omezeny tím, jak rychle mohou provádět činnost (na základě jejich velikosti a počtu vězňů nebo uklízečů, kteří tam pracují). Může fungovat služba jediné prádelny pro celé velké vězení, ale každá místnost dostane oblečení velmi sporadicky.
 
-buildtoolbar_popup_help_roomquality_1       Pohled na kvalitu místnosti ti ukazuje kvalitu všech cel a ubikací ve vězení na stupnici 0 až 10 - čím vyšší číslo, tím lepší kvalita. Přejetí myší po místnosti ti ukáže faktory, které se uplatnily při rozhodování a její kvalitě, a co můžeš doplnit, aby se tato kvalita zvýšila.\n\n
-buildtoolbar_popup_help_roomquality_2       ^Tipy
-buildtoolbar_popup_help_roomquality_3       - Vězni mají po určitém čase nárok na kvalitnější celu za dobré chování. Mít k dispozici cely vyšší kvality představuje dobrý způsob, jak motivovat vězně k dobrému chování.
-buildtoolbar_popup_help_roomquality_4       - Je důležité udržovat ve vězení několik cel nízké kvality, protože nové příchozí bude nutné někam umístit, a pokud budou mít všechny dostupné cely příliš vysokou kvalitu, mohou se ocitnout ve společné cele.
-buildtoolbar_popup_help_roomquality_5       - Vězně lze umístit do cely vyšší kvality, než si zaslouží, pokud není volný žádný jiný prostor, ale ostatní vězni s tím nemusí být spokojeni...
+buildtoolbar_popup_help_roomquality_1       Zobrazení Kvalita pokoje zobrazuje hodnocení kvality všech pokojů ve věznici, které lze vylepšit. Čím vyšší číslo, tím lepší kvalita. Po najetí myší na místnost se zobrazí faktory, které určily její kvalitu, a co můžete přidat, abyste ji zvýšili.\n\n
+buildtoolbar_popup_help_roomquality_2		Se zapnutou funkcí PŘENOSY VĚZŇŮ
+buildtoolbar_popup_help_roomquality_3		- Kvalita místnosti se rovněž podílí na celkovém hodnocení daného bezpečnostního sektoru. 
+buildtoolbar_popup_help_roomquality_4		- Vězni budou chtít být přemístěni do nižšího bezpečnostního sektoru, pokud je lepší (má vyšší stupeň) než jejich současný bezpečnostní sektor.\n\n
+buildtoolbar_popup_help_roomquality_5       HODNOCENÍ CEL
+buildtoolbar_popup_help_roomquality_6       - Vězni mají nárok na kvalitnější celu za dobré chování v průběhu času. Dostupnost kvalitnějších cel je dobrým způsobem, jak motivovat k dobrému chování.
+buildtoolbar_popup_help_roomquality_7       - Je důležité, abyste ve věznici ponechali několik cel nižší kvality, protože nově příchozí do věznice budou potřebovat někam jít, a pokud jsou všechny dostupné cely příliš kvalitní, mohou se ocitnout v zadržovací cele.
+buildtoolbar_popup_help_roomquality_8       - Vězně lze umístit do cely vyšší kvality, než si zaslouží, pokud není k dispozici jiné místo, ale ostatní vězni z toho mohou být nešťastní...
 
 buildtoolbar_popup_help_jobs_1              Pohled na práci vězňů ti ukazuje, které místnosti lze vězňům přiřadit na práci a kolik vězňů je tam aktuálně zařazeno.\n\n
 buildtoolbar_popup_help_jobs_2              ~Levým kliknutím tlačítka myši na místnost do ní přidáš pracovní místo. Každé pracovní místo může potenciálně obsadit vězeň během pracovního režimu. Kliknutím pravého tlačítka myši na místnost odstraníš pracovní místo.\n\n
 buildtoolbar_popup_help_jobs_3              ^Tipy
 buildtoolbar_popup_help_jobs_4              - Některé práce, například v kuchyni nebo v dílně, vyžadují, aby vězení prošlo nejdříve školením. Tyto kurzy můžeš řídit z programové tabulky tvého hlášení.
 buildtoolbar_popup_help_jobs_5              - Pracující vězni dostávají zaplacenou malou částku za každou odpracovanou hodinu. Přidělit maximální počet pracovních míst nemusí být nutně ten nejlepší nápad; vězni dostávají plat, i když není nic, co by mohli dělat.
+buildtoolbar_popup_help_jobs_6				- Lesnické plochy musí být oplocené, aby vězni byli připraveni na práci v nich a aby se zabránilo útěkům.
 
 buildtoolbar_popup_help_source_1           Pohled na nebezpečí ti ukazuje, který kontraband může vězeň ukrást z každé místnosti ve vězení. Navíc můžeš vpravo vidět nabídku a poptávku každého typu kontrabandu. Pokud je poptávka po specifickém typu kontrabandu vyšší než nabídka, vězeň se ho s větší pravděpodobností pokusí ukrást, zejména pokud sám něco zoufale potřebuje.\n\n
 buildtoolbar_popup_help_source_2           ^Tipy
@@ -873,6 +876,9 @@ codex_cloud_notaccount					Steam Cloud je vypnutý v Steam klient. Pro použív�
 codex_cloud_notapp						Nově uložené položky budou uloženy na tvém pevném disku.
 codex_saveload_delete					Smazat
 
+codex_load_failed_title                 Načíst věznici.
+codex_load_failed_message               Tento vězeňský soubor nelze načíst, protože je poškozený.
+
 codex_new                               Vytvořit novou věznici
 codex_new_worldsize                     Velikost světa
 codex_new_small                         Menší
@@ -926,6 +932,8 @@ codex_options_language					Jazyk
 
 codex_options_experimental              Experimentální
 codex_options_enablevbo                 Aktivovat Vertex Buffer Objects
+codex_options_disableattract            Zakázat obrazovku přitahující pozornost při spuštění
+codex_options_enableturbomode			Zapnout Turbo mód
 
 codex_nitgs_authwarning                 Důležité: Pokud jsi nedávno změnil/a jméno ve vstupu do hry, bude muset projít autorizací, než se zobrazí v seznamu.
 
@@ -967,6 +975,8 @@ codex_option_enablecheats				Povolit nástroje a cheaty
 codex_tooltip_enablecheats				Povolí vývojářské nástroje a cheaty v tomto vězení. Pokud vybereš tuto možnost, nelze ji vypnout, nebudeš dostávat ocenění a nemůžeš vězení prodat.
 codex_option_staffneeds                 Potřeby zaměstnanců
 codex_tooltip_staffneeds                Aktivujte potřeby pro své stráže což znamená, že budou vyžadovat jídlo, odpočinek a další pohodlí, aby svoji práci dělali pořádně.
+codex_option_escapeplans                Plány útěku
+codex_tooltip_escapeplans               Umožňuje vězňům více možností útěku. Při pokusu o útěk se nyní pokusí přelézt vaše zdi.
 codex_option_wardenmode                 Režim správce věznice
 codex_tooltip_wardenmode                Hraj jako správce věznice, který pracuje v místě, kde je vězení, které stavíš.
 codex_option_wardenmode_permadeath      Okamžitá smrt
@@ -1113,6 +1123,7 @@ codex_settings_gangs                    Aktivovat gangy
 codex_settings_events                   Aktivovat výjimečné události
 codex_settings_weather                  Aktivovat počasí
 codex_settings_staffneeds               Zapnout potřeby zaměstnanců
+codex_settings_escapeplans              Zapnout plány útěku
 codex_settings_failureconditions        Zapnout podmínky prohry
 codex_settings_confirm                  Po aktivaci nelze toto nastavení deaktivovat. Opravdu chceš aktivovat *X?
 
@@ -1144,6 +1155,8 @@ graphicschange_revert					Zrušit
 # =============================================================================
 
 scriptdebugger_title                    Debug skriptů (F3)
+script_error_critical                   Něco se pokazilo.
+script_error_critical_msg               Něco se pokazilo při spouštění herního skriptu.\n\nPokud používáte nějaký mod, dejte prosím vědět autorům modifikace. V opačném případě podejte hlášení o chybě včetně souboru debug.txt.
 
 # =============================================================================
 # Mod Confirmation
@@ -1340,6 +1353,7 @@ research_reduceexecutionliability       Zodpovědnost za provedení popravy
 research_legalprep                      Právní příprava
 research_legaldefense                   Právní obrana
 research_guardtowers                    Strážní věže
+research_forestrylabour					Práce v lesnictví
 
 researchtooltip_warden                  Zpřístupňuje správce věznice a s ním celý systém Správa věznice.  Můžeš jej najmout na liště nástrojů v sekci Zaměstnanci.\n\nStejně jako všichni administrativní pracovníci potřebuje ke své práci kancelář.
 researchtooltip_security                Zpřístupňuje šéfa ostrahy, kterého lze najmout na liště nástrojů v sekci Zaměstnanci.  Jeho prostřednictvím získáš přístup k obrazovce Rozmístění, bude ti poskytovat okamžitá hlášení o úrovni nebezpečí ve tvé věznici a navíc dokáže často předpovědět blížící se potíže.\n\nStejně jako všichni administrativní pracovníci potřebuje ke své práci kancelář.
@@ -1378,6 +1392,7 @@ researchtooltip_reduceexecutionliability Tvůj právník lobbuje za snížení p
 researchtooltip_legalprep               V každé věznici dojde tu a tam k nějakým problémům a některé z nich mají poměrně vážné právní důsledky. Tvůj právník začne vyřizovat různé dokumenty, díky nimž nebude případná pohroma tak hrozná, tuto práci je ovšem zapotřebí udělat v předstihu.
 researchtooltip_legaldefense            Máš velký problém – něco se šeredně zvrtlo a tobě hrozí propuštění. Pokud to bude vypadat, že si s nastalou situací nedokážeš poradit, tvůj právník tě z toho může vysekat. Dokončení tohoto výzkumu tě zbaví veškerých varování, jež by jinak mohla vyústit ve tvé propuštění.
 researchtooltip_guardtowers             Zpřístupňuje strážní věže a odstřelovače, umožňuje dobře vycvičeným střelcům hlídat venkovní oblasti vězení.\n\nOdstřelovači si budou muset ve zbrojnici vyzvednout pušku, jinak nebudou ozbrojeni.
+researchtooltip_forestrylabour			Umožňuje nasadit vězně na práci v lesnictví prostřednictvím nabídky Logistika. Aby bylo možné vězně přidělit na práci v lesním hospodářství a zabránit útěkům, musí být oblast lesního hospodářství uzavřena. Uvědomte si, že vězni budou také potřebovat přístup do oblasti Dodávky, aby mohli přesazovat stromy.
 
 research_legaldefense_adviser1          Jak se zdá, tvůj právník předložil dokumenty, které tě chrání před následky této pohromy. Nemohu tě tedy vyhodit. Alespoň tentokrát ne.
 research_legaldefense_adviser2          Dej svou věznici rychle do pořádku a ať už se to neopakuje. Ten trik ti příště nepomůže a neochrání tě navěky.
@@ -1494,10 +1509,8 @@ report_staff_group_builders             Dělníci
 report_staff_group_guards               Stráže
 report_staff_group_staff                Zaměstnanci
 report_staff_group_administrators       Administrativa
+report_staff_group_otherstaff           Ostatní
 report_staff_group_prisoners            Vězni
-report_staff_group_prisoners_high       Vysoké riziko
-report_staff_group_prisoners_normal     Běžné riziko
-report_staff_group_prisoners_low        Nízké riziko
 report_staff_group_prisoners_protected  Ochranná vazba
 report_staff_group_prisoners_supermax   Supermax. ostraha
 report_staff_group_prisoners_deathrow   Cela smrti
@@ -1866,6 +1879,7 @@ schedule_zone_supermaxonly              Supermax. ostraha
 schedule_zone_deathrowonly              Cela smrti
 schedule_zone_staffonly                 Pouze zaměstnanci
 schedule_zone_unlocked                  Odemčeno
+schedule_zone_custom					Vlastní
 
 
 
@@ -1909,6 +1923,7 @@ action_getbook                          Bere si knihu
 action_pray                             Modlí se
 action_shopping                         Nakupuje
 action_playinggame                      Hraní hry
+action_usecomputer                      Používá počítač
 
 action_foodpoisoning_1                  Proboha, ať to přestane
 action_foodpoisoning_2                  Všechno vychází
@@ -1935,6 +1950,8 @@ status_effect_overheating               Přetopeno
 status_effect_exposure                  Vystavení
 status_effect_foodpoisoning             Otrava jídlem
 status_effect_riledup                   Rozčilený
+status_effect_statusswimming            Plave
+status_effect_statusdrowning            Topí se
 
 condition_treated                       Ošetřený
 condition_needstreating                 Potřebuje ošetření
@@ -2037,6 +2054,7 @@ needs_help_staffrecreation              Zaměstnanci tráví spoustu času ve v�
 needs_help_staffcomfort                 Většina zaměstnanců je celý den na nohou; občas si budou chtít odpočinout. Dobře se tomu dá pomoci tak, že dostanou nějaké pěkné místo, kde si během přestávky mohou sednout.
 needs_help_staffenvironment             Zaměstnanci nechtějí pracovat ve vězení, ve kterém je nepořádek, o nic méně, než samotní vězni. Udržovat ve vězení čisto zabrání tomuto problému.
 needs_help_staffrest                    Zaměstnanci během dne musí dělat přestávky, aby načerpali energii. Raději odpočívají v privátní klubovně, kde jsou pohodlné pohovky.
+needs_help_staffwarmth                  Zaměstnanci potřebují být v teple, přidejte do věznice radiátory, aby se cítili pohodlněji.
 
 reputation_title                        Reputace
 reputation_hidden                       (Reputace neznámá)
@@ -2090,6 +2108,7 @@ reputation_clean_high                   Uklizeno
 reputation_pickpocket_high              Kapesní zloděj
 reputation_copycat_high                 Zloděj totožnosti
 reputation_escapeartist_high            Hadí muž
+reputation_swimmer						Plavec
 
 reputationtooltip_legendary             Tento vězeň je ve zločineckém podsvětí legendou a má mnoho schopností a dovedností, které z něj činí velice nebezpečného protivníka.
 reputationtooltip_strong                Tento vězeň během boje rozdává čím dál silnější rány.
@@ -2110,9 +2129,11 @@ reputationtooltip_preacher              Tento vězeň je mimořádně charismati
 reputationtooltip_connected             Tenhle vězeň má kontakty všude, ve vězení i venku. Jakoby z ničeho nic dokáže sehnat kontraband.
 reputationtooltip_workaholic            Tenhle vězeň musí pořád pracovat, a jakmile začne, nepřestane, dokud není co dělat, a ignoruje režim a dokonce i základní potřeby.
 reputationtooltip_clean                 Tenhle vězeň je posedlý vlastní čistotou; důsledkem je, že jeho potřeba hygieny se zvýší mnohem rychlejším tempem.
+reputationtooltip_pickpocket            Tento vězeň má rychlé prsty a často se pokouší okrást každého, kdo má tu smůlu, že je poblíž.
 reputationtooltip_copycat               Tenhle vězeň dokáže kopírovat chování a jednání okolních vězňů a kopírovat jejich reputaci.
 reputationtooltip_dangerous             Tenhle vězeň poškozuje lidi ve svém okolí. Jak? Proč? Nikdo neví.
 reputationtooltip_escapeartist          Tenhle vězeň je profesionální hadí muž a dostává se z něčeho ven pro zábavu. Neustále se snaží štípnout klíče od vězení a dostat se ven.
+reputationtooltip_swimmer				Tomuto vězni není voda cizí.\nOdemkne schopnost plavat pouhým vstupem do vody,\nVězni však nemohou plavat neomezeně dlouho.
 
 # =============================================================================
 # Nameplate status
@@ -2548,7 +2569,11 @@ object_stafffood                         Jídlo pro zaměstnance
 object_stafffoodboxed                    Jídlo pro zaměstnance
 object_newspaper                         Noviny
 object_strikefire                        Požár založený na protest
-
+object_climbingrope                      Horolezecké lano
+object_roadbarrier                       Silniční bariéra
+object_barbedwire                        Ostnatý drát
+object_banner                            Transparent
+object_stand                             Stojan
 
 material_none                            Nic
 material_building                        Budova (cihlová)
@@ -2627,6 +2652,8 @@ room_paroleroom                          Jednací místnost
 room_mailroom                            Třídírna pošty
 room_shop                                Obchod
 room_nursery                             Dětská místnost
+room_dock								 Doky
+room_Helipad							 Heliport
 
 equipment_none                           Nic
 equipment_fists                          Pěsti
@@ -2680,6 +2707,7 @@ equipment_iron                          Žehlička
 equipment_microphone                    Mikrofon
 equipment_torch                         Svítilna
 equipment_bookclosed                    Kniha
+equipment_rope							Lano
 
 research_requires_short                 Zapotřebí: *X
 
@@ -2859,7 +2887,7 @@ execution_error_NoRoom                  Před zahájením popravy musíš přich
 roomerror_deathrow_sharedcell           Odsouzenci z cel smrti vyžadují jednotlivé cely a nelze je přidělit do společného ubytování
 roomerror_nonursery                     Z této cely nejsou přístupné dětské místnosti. Rodinné cely vyžadují dětskou místnost, aby se v ní vězni najedli
 roomerror_laundryoverloaded             Koše na prádlo nelze vyložit. Množství prádla je asi pro tento požadavek příliš malé.
-
+roomerror_nodeliveryarealinked			V logistice s tímto není spojena žádná oblast dodání.
 # =============================================================================
 # Misc
 # =============================================================================
@@ -3090,6 +3118,11 @@ group_all_staff                         Všichni zaměstnanci
 staff_onbreak                           Má přestávku
 staff_onbreakremaining					Přestávku má (*Xm)
 staff_breaktime                         Přestávka od - do:
+
+banner_tooltip                          Kliknutím na banner podpoříte @WarChildUK
+banner_donate_text                      V roce 2018 uplyne 100 let od uzavření příměří, které ukončilo první světovou válku, přesto je dnes válkou postiženo více dětí než kdykoli v historii. \n\nPřipojte se k War Child UK a Children in Conflict a získejte finanční prostředky, které pomohou zajistit lepší budoucnost dětem obklopeným konflikty.
+banner_donate_confirm                   Darovat 
+banner_donate_cancel                    Teď ne
 
 
 # =============================================================================
@@ -3497,6 +3530,7 @@ causeofdeath_overdosed              Předávkoval se
 causeofdeath_bledout                Vykrvácel
 causeofdeath_riot                   Byl zabit při vzpouře
 causeofdeath_executed               Byl popraven na elektrickém křesle
+causeofdeath_exposure               Zmrzl k smrti
 causeofdeath_unknown_1				Příčina smrti neznámá.
 causeofdeath_unknown_2 				Zpřístupni prohledávání a urči ji.
 
@@ -3601,3 +3635,47 @@ attract_pressanykey                     Stiskni jakoukoli klávesu...
 
 help_warning_gangleader                 Vůdce jednoho gangu ve vězení si odpykává trest. Je na tobě, jak budeš pokračovat, dokud bude tento trest platit, všichni členové jeho gangu budou dělat velké potíže.
 help_warning_deathrow                   Zrovna přijel náš první vězeň do cely smrti. V místnosti pro podmínečné propuštění budeme muset zajistit zřízení odvolacího programu pro celu smrti, aby mohl mít svoje odvolací řízení.
+
+# =============================================================================
+# Graphs
+# =============================================================================
+
+graph_title                             Grafy
+
+graph_label_1                           Typ dat 1
+graph_label_2                           Typ dat 2
+graph_label_day                         Den
+
+graph_axis_none                         Nic
+graph_axis_profit                       Zisk
+graph_axis_funds                        Finanční prostředky
+graph_axis_prisonsize                   Velikost věznice (m²)
+graph_axis_numprisoners                 Num Prisoners
+graph_axis_numstaff                     Počet zaměstnanců
+graph_axis_releasedprisoners            Propuštění vězni
+graph_axis_totalreleasedprisoners       Propuštění vězni celkem
+graph_axis_escapedprisoners             Uprchlí vězni
+graph_axis_totalescapedprisoners        Uprchlí vězni celkem
+graph_axis_entitydeath                  Úmrtí Úmrtí
+graph_axis_totaldeaths                  Úmrtí celkem
+graph_axis_prisonerdeaths               Úmrtí vězňů
+graph_axis_guarddeaths                  Úmrtí dozorců
+graph_axis_securitygrading              Stupeň zabezpečení
+graph_axis_healthgrading                Zdravotní třídění
+graph_axis_reformgrading                Reformní třídění
+graph_axis_punishmentgrading            Známkování trestů
+graph_axis_reoffendingrate              Míra recidivy
+graph_axis_prisonvalue                  Hodnota vězení
+graph_axis_prisonercapacity             Kapacita věznic
+graph_axis_numincidents                 Počet incidentů
+graph_axis_totalincidents               Celkový počet incidentů
+
+
+# =============================================================================
+# Graphs
+# =============================================================================
+
+
+# =============================================================================
+# New Strings
+# =============================================================================
