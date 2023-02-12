@@ -4010,3 +4010,1238 @@ object_Ivy                                Břečťan
 buildtoolbar_popup_obj_Ivy                Dekorativní keř s hustým olistěním.
 
 buildtoolbar_popup_uts_Radiator           Umístěte je kolem věznice, v místnostech bude příjemně teplo.
+
+# ====================================
+# OTHERS
+# ======================================
+equipment_FirstAidBackpack Batoh první pomoci
+
+object_GritterDriver       Řidič štěrku
+
+DF_1_advisor               Gratulujeme ke zvládnutí této kalamity. Vzhledem k tomu, jak dobře jste tuto situaci zvládli, nebude vám po dobu následujících 5 dnů účtován související plán krytí.
+DF_2_advisor               Gratulujeme vám, že jste tuto kalamitu zvládli. Díky vašim neuvěřitelným manažerským schopnostem budou vaši zaměstnanci po následující 3 dny pracovat efektivněji.
+DF_3_advisor               Gratulujeme ke zvládnutí této kalamity. Nyní se nebudete muset obávat, že se tato kalamita bude opakovat nejméně 10 dní.
+
+LS_1_advisor               Gratulujeme ke zvládnutí této kalamity. V nejbližší době můžete očekávat odměnu.
+LS_2_advisor               Gratulujeme ke zvládnutí této kalamity. Vzhledem k tomu, jak dobře jste tuto situaci zvládli, vám nebude po dobu následujících 15 dnů účtován související plán krytí.
+LS_3_advisor               Gratulujeme vám, že jste tuto kalamitu zvládli. Nyní se nebudete muset obávat, že se tato kalamita bude opakovat nejméně 10 dní.
+
+HW_1_advisor               Gratulujeme ke zvládnutí této kalamity. Přijměte prosím tento bonus ve výši 10 000 USD, abyste pokračovali v dobré práci.
+HW_2_advisor               Gratulujeme ke zvládnutí této kalamity. Vaši vězni jsou vám vděční za vaši péči a budou mít po dobu následujících 5 dní posíleny své potřeby.
+HW_3_advisor               Gratulujeme ke zvládnutí této kalamity. Nyní se nebudete muset obávat, že se tato kalamita bude opakovat nejméně 20 dní.
+
+R_1_advisor                Gratulujeme ke zvládnutí této kalamity. Přijměte prosím tento bonus ve výši 10 000 USD, abyste pokračovali v dobré práci.
+R_2_advisor                Gratulujeme ke zvládnutí této kalamity, vaši vězni jsou vám vděční za vaši péči a budou mít po následující 3 dny posíleny své potřeby.
+R_3_advisor                Gratulujeme ke zvládnutí této kalamity, díky tvé tvrdé práci se na tvé vězně bude následujících 5 dní vztahovat pozitivní efekt.
+
+
+Padlý_strom_poradce                     Odkud se vzaly tyto stromy? Vítr musí být silnější, než jsme si mysleli. Dodávky se pomalu dostávají dál, možná bychom tam měli poslat nějaké dělníky, aby spadlé trosky odstranili.
+
+door_swollen_advisor                    Toto teplo způsobilo, že se dveře rozšířily. Pokud je chceme používat, musíme přimět dělníky, aby je ochladili.
+lightning_strike_advisor                Nejnebezpečnější na bouřce jsou blesky, při kterých hrozí zasažení předmětů i lidí. Hromosvody dokážou blesky do jisté míry přesměrovat, proto si je určitě pořiďte, abyste věznici a její obyvatele ochránili.
+frozen_ground_advisor                   Na chodnících venku začíná být pěkná námraza, dozorci by měli být schopni při řádném výcviku položit posyp.
+heatwave_fire_advisor                   Při této vlně veder musíme být opatrní s jakýmikoli rostlinami nebo dřevěným materiálem ležícím venku. Pokud vypukne nějaký požár, musíme ho okamžitě zkrotit.
+deep_freeze_frozen_shower_head          Sprchové hlavice velmi snadno zamrzají a nemůžeme tomu moc zabránit. Doufejme, že postačí sprchy, které jsou stále v dobrém stavu.
+deep_freeze_frozen_sprinkler            V tak chladných podmínkách mohou vězeňské postřikovače zamrznout, což může ohrozit životy. Ujistěte se, že máte personál s odpovídajícím požárním výcvikem pro případ takového scénáře. Špatné výsledky v oblasti požární bezpečnosti pověsti věznice neprospějí.
+
+interface_action_EmptyRatTrap           Prázdný
+interface_action_CleanPoop              Vyčištění
+
+
+job_grit                                Poštěrkovat zmrzlou cestu
+
+dryness_level_1                         Suché
+dryness_level_2                         Velmi suché
+dryness_level_3                         Extrémně suché
+
+codex_new_ratinfestation                Napadení krysami
+status_effect_calamitycold              Frigidní
+
+object_BareTree                         Strom (holý)
+buildtoolbar_popup_obj_BareTree         Tento strom by byl dobrým doplňkem každé zasněžené krajiny.
+
+reform_program_intake_ColdControl       Pro údržbáře, zahradníky a dělníky
+
+reform_program_requirements_general     - Každý účastník potřebuje *X
+reform_program_requirements_general_alt - Každý účastník vyžaduje *X nebo *Y.
+
+weathermap_temperature_range_c          V rozmezí od *X°C do *Y°C
+weathermap_temperature_range_f          V rozsahu od *X°F do *Y°F
+
+# ====================================
+# ====================================
+# ----------------------------------- POLLY BATCH 2 -----------------
+# ====================================
+# ====================================
+
+# Missing orderly deployment strings
+interfacetopbar_tooltip_orderlies            Existuje *X zřízenců
+interfacetopbar_tooltip_orderly              Kolik sanitářů máte ve věznici k dispozici pro práci.
+
+object_DoubleStaffDoorBlue                   Dvojité dveře pro zaměstnance (modré)
+buildtoolbar_popup_obj_DoubleStaffDoorBlue   Dvojité dveře použitelné personálem.
+
+object_DoubleStaffDoorOrange                 Dvojité dveře pro personál (oranžové)
+buildtoolbar_popup_obj_DoubleStaffDoorOrange Dvojité dveře použitelné personálem.
+
+d11_staffalert_summary_CalamityHeatwave01    Začíná tu být horko? Ujistěte se, že vaši vězni a rostliny mají dostatek vody.
+d11_staffalert_title_CalamityHeatwave01      Vlna veder
+d11_staffalert_details_CalamityHeatwave01    Během vlny veder může nastat několik problémů. Kov se může extrémně rozpálit, proto buďte opatrní na všechny kovové předměty a dveře. Dbejte také na to, aby vězni a zaměstnanci byli hydratovaní, protože by mohli být pomalí.
+d11_staffalert_hint_CalamityHeatwave01       Požár se silným větrem by se mohl ukázat jako katastrofa, nezapomeňte mu předejít a připravte se na něj.
+
+buildtoolbar_AutomatedEmergencyService       Automatizovaná služba
+
+weather_instrument_title                     Předpověď podle:
+
+dlc_name_polly                               Dokonalá bouře
+buildtoolbar_stayIndoorsCalamity             Kalamita
+
+codex_tooltip_startingSeason                 Zvolte si počáteční období. Počasí se bude přirozeně vyvíjet v jednotlivých ročních obdobích.
+
+object_AirPestControlHeli                    Ochrana proti vzdušným škůdcům
+
+# ====================================
+# ====================================
+# ----------------------------------- KIMBER BATCH 1 -----------------
+# ====================================
+# ====================================
+
+dlc_name_kimber					Gangs	
+# ====================================
+# OBJECTS
+# ======================================
+
+object_Beagle                               Juliette
+buildtoolbar_popup_obj_Beagle               Spíše lovec svačin než lovec zločinců.
+
+object_Doberman                             Fen
+buildtoolbar_popup_obj_Doberman             Dobrman je dokonalý policejní pes.
+
+object_ChocolateLabrador                    Blue
+buildtoolbar_popup_obj_ChocolateLabrador    Miluje navazování nových přátelství, ještě zábavnější je, když ten přítel utíká.
+
+object_BlackShepherd                        Luna
+buildtoolbar_popup_obj_BlackShepherd        Možná vypadají roztomile, ale pokosí každého, kdo se jim připlete do cesty.
+
+object_TattooRemovalMachine                 Stroj na odstraňování tetování
+buildtoolbar_popup_obj_TattooRemovalMachine Tento předmět je nezbytný k nápravě člena gangu. Odstranění jejich tetování je prvním krokem k jejich nápravě.
+
+object_MetalStool                           Kovová stolička
+buildtoolbar_popup_obj_MetalStool           Pěkná malá kovová stolička.
+
+equipment_TattooRemovalTool                 Nástroj na odstranění tetování
+
+room_TheCage                                Klec
+buildtoolbar_popup_room_TheCage             Pro vězně, kteří jsou na samotce. Tato venkovní jednotka slouží ke cvičení a zároveň zachovává vyloučení vězně z ostatních vězňů.
+
+quickbuild_TheCage                          Klec
+buildtoolbar_quickbuild_TheCage             Venkovní jednotka, kterou může používat jeden vězeň ke cvičení, přičemž je zachována jeho izolace od ostatních vězňů.
+
+material_CageFence                          Klecový plot
+buildtoolbar_popup_mat_CageFence            Řetězový plot určený k zadržení vězňů při cvičení.
+
+room_TattooRemovalRoom                      Místnost pro odstraňování tetování
+buildtoolbar_popup_room_TattooRemovalRoom   Místnost, kde mohou vaši vězni projít bolestivým a zdlouhavým procesem odstraňování gangsterských tetování.
+
+quickbuild_TattooRemovalRoom                Místnost pro odstraňování tetování
+buildtoolbar_quickbuild_TattooRemovalRoom   Kde mohou vaši vězni projít bolestivým a zdlouhavým procesem odstraňování gangsterských tetování.
+
+object_PullUpBars                           Pull-Up Tyč
+buildtoolbar_popup_obj_PullUpBars           Levné cvičební nářadí oblíbené u otrlejších vězňů.
+
+object_KneeRaise                            Zvedání kolenních kloubů
+buildtoolbar_popup_obj_KneeRaise            Levné cvičební nářadí oblíbené u otrlejších vězňů.
+
+object_PushUpStones                         Klikové kameny
+buildtoolbar_popup_obj_PushUpStones         Levné cvičební nářadí oblíbené u otrlejších vězňů.
+
+object_GangGraffiti                         Gangové graffiti
+d11_hover_info_gang_graffiti_1              +15% Síla v území pro členy gangu.
+d11_hover_info_gang_graffiti_2              +15% Houževnatost v území pro členy gangu
+
+object_FightRing                            Bojový kruh
+buildtoolbar_popup_obj_FightRing            Pokud vaši vězni bojují v ringu, nebudou bojovat v křídle.\n -Uspokojuje potřeby cvičení a rekreace.
+
+quickbuild_FightClubRoom                    Místnost pro klub rváčů
+buildtoolbar_quickbuild_FightClubRoom       O této místnosti se nikdy nemluví.
+
+room_FightClubRoom                          Místnost pro klub rváčů
+buildtoolbar_popup_room_FightClubRoom       O této místnosti se nikdy nemluví.
+
+object_CageGate                           Brána klece
+buildtoolbar_popup_obj_CageGate           Brána, která skvěle funguje s ploty. Funguje stejně jako brána.
+
+buildtoolbar_popup_obj_RemoteDoor         Tato brána je určena pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
+
+object_RemoteDoorOrange                   Dálkové dveře (oranžové)
+buildtoolbar_popup_obj_RemoteDoorOrange   Tyto dveře jsou určeny pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
+object_RemoteDoorRed                      Dálkové dveře (červené)
+buildtoolbar_popup_obj_RemoteDoorRed      Tyto dveře jsou určeny k přístupu pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
+object_RemoteDoorYellow                   Dálkové dveře (žluté)
+buildtoolbar_popup_obj_RemoteDoorYellow   Tyto dveře jsou určeny pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
+object_RemoteDoorWhite                    Dálkové dveře (bílé)
+buildtoolbar_popup_obj_RemoteDoorWhite    Tyto dveře jsou určeny pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
+quickbuild_Gymnasium                      Tělocvična
+
+object_GymInstructor                      Instruktor tělocviku
+
+object_FilingCabinetFancy                 Skříň na dokumenty (Přepychová)
+buildtoolbar_popup_obj_FilingCabinetFancy Odměňte své zaměstnance tím, že jim dáte přepychovou kartotéku.
+
+# ====================================
+# Materials
+# ======================================
+
+material_LongGrass							Dlouhá tráva
+
+# ==============================================================
+# Menu strings
+# ==============================================================
+
+codex_tooltip_gangsEnhanced                Nyní můžete změnit počet vězňů, kteří se připojí k vašim gangům. Když budete mít ve vězení více členů gangu, bude nábor do gangu rychlejší a vaše vězení bude chaotičtější a nebezpečnější.\n\n- Původní - Zažijte obtížnost gangu jako dříve (Novic) \n- 'Nízké' (Výchozí) - Ideální pro nováčky nebo středně pokročilé hráče \n- Střední - Zkušení hráči \n- Vysoké - Zkušení hráči, kteří hledají pořádnou výzvu.
+codex_tooltip_morelieutenants              Poručíci hrají velkou roli při dobývání nových území pro svůj gang. Pokud chcete, aby gangy byly aktivnější, zvažte snížení počtu členů potřebných na jednoho poručíka. Počty menší než 6 volte pouze v případě, že chcete, aby to byla výzva.
+codex_option_morelieutenants               Více poručíků
+codex_tooltip_codex_option_morelieutenants Poručíci hrají velkou roli při dobývání nových území pro svůj gang. Pokud chcete, aby gangy byly aktivnější, zvažte snížení počtu členů potřebných na jednoho poručíka. Počty menší než 6 volte pouze v případě, že chcete, aby to byla výzva.
+
+codex_option_GangSpecialReputations        Zvláštní pověst gangu
+codex_tooltip_GangSpecialReputations       Gangy získávají nové reputace, které upravují způsob, jakým se členové chovají ve vašem vězení.
+
+codex_option_AllDogs                       Všichni psi
+codex_tooltip_AllDogs                      Výběrem této možnosti povolíte všechny dostupné psy a náhodně vyberete každého nájemce.
+codex_tooltip_RandomWardens                Výběr této možnosti vám náhodně vybere dozorce.
+
+# Boiling Point
+interfacecontraband_BoilingPoint           Bod varu
+buildtoolbar_contraband_BoilingPoint       Zobrazuje oblasti zlepšení pro nespokojené vězně.
+
+Boilingpoint_header                        BOD VARU
+boilingpoint_OverallTemperature            Celková teplota
+boilingpoint_Needs                         Potřeby
+boilingpoint_ProgramCompletion             Ukončené programy
+boilingpoint_StatusEffects                 Účinky stavu
+boilingpoint_RoomQuality                   Kvalita místnosti
+
+boilingpoint_OverallTemperature_popup    Existuje několik věcí, které nemůžeme ovlivnit, pokud jde o to, aby naši vězni byli šťastní a klidní, jako je jejich osobnost nebo počet jejich odsouzení. Čím je každý vězeň naštvanější, tím vyšší bude teplota vězení a tím větší je pravděpodobnost, že se bude chovat špatně.
+boilingpoint_Needs_popup                 V současné době máte *X vězňů, kteří nemohou uspokojit své potřeby.\n\nProsím, zajistěte jim přístup k místnostem nebo předmětům, aby mohli uspokojit své potřeby.
+boilingpoint_ProgramCompletion_popup     Aktuálně máte *X vězňů, kteří nedokončili žádný program.\n\nČím více programů vězeň absolvoval, tím je pravděpodobnější, že bude klidný. Přidejte jim nějaké programy, aby se jich mohli účastnit, a ujistěte se, že jim to režim umožňuje. Některé programy lze opakovat.
+boilingpoint_StatusEffects_popup         V současné době máš *X vězňů, kteří trpí negativními účinky.\n\nZvaž, zda máš přísnější dohled na kontraband, zejména na alkohol nebo drogy.\n\nKdyž mají vězni pozitivní účinky, je méně pravděpodobné, že se budou chovat špatně.
+boilingpoint_RoomQuality_popup           V současné době máš *X vězňů, kteří mají špatné pokoje.\n\nZvyš kvalitu jejich pokojů, aby byli spokojenější a klidnější. Někteří vězni nebudou mít nárok na vysoce kvalitní pokoje. Ke snížení požadavků můžete použít Úpravy věznice.
+
+buildtoolbar_popup_help_BoilingPoint_1   Zobrazení bodu varu zobrazuje aktuální teplotu věznice. Tato nabídka upozorňuje na problematické oblasti v naší věznici, jako je kvalita cel, potřeby, stavové efekty a úroveň účasti v programech.\n\n
+buildtoolbar_popup_help_BoilingPoint_2   ~Pokud stále nemůžete ovládat konkrétního vězně, zvažte jeho umístění do samotky nebo Uzamčení v cele, aby se zchladil.\n\n
+buildtoolbar_popup_help_BoilingPoint_3   ^Tipy
+buildtoolbar_popup_help_BoilingPoint_4   - Zajistěte, aby všichni vězni měli přístup ke svým základním potřebám.
+buildtoolbar_popup_help_BoilingPoint_5   - Investujte do nápravných, terapeutických, léčebných a pracovních programů a zajistěte, aby jim režim umožnil se jich účastnit.
+buildtoolbar_popup_help_BoilingPoint_6   - Vězni s nízkou ostrahou budou mít vyšší toleranci, protože mají kratší tresty.
+
+boilingpoint_advisor_onboarding          Tento vězeň vyvádí, zdá se, že dosáhl bodu varu. Možná pro naše vězně neděláme dost, zajistěte uspokojení jejich potřeb, zlepšete jejich životní podmínky a dejte jim něco na práci. Další informace naleznete v nabídce Zpravodajství bodu varu.
+
+# ==============================================================
+# Security Menu strings
+# ==============================================================
+
+interfacecontraband_SecurityMenu        Bezpečnostní menu
+buildtoolbar_contraband_SecurityMenu    Zobrazení seznamu všech vězňů, kteří jsou považováni za nebezpečné nebo ohrožené, a použití bezpečnostních opatření na všechny, kteří vyžadují další správu.
+
+securitymenu_header                     Bezpečnostní menu
+
+securitymenu_popup_prisonerSelect       Levým tlačítkem myši vyberete vězně.
+securitymenu_popup_dangerousReputations Nebezpečná pověst:
+securitymenu_popup_dangerousTraits      Nebezpečné vlastnosti:
+securitymenu_popup_crimesCommitted      Zločiny:
+securitymenu_popup_recentMisconduct     Nedávné přestupky:
+
+securitymenu_PrisonerType               Typ vězně:
+securitymenu_PrisonerTypeDefault        Výchozí
+securitymenu_PrisonerTypeDangerous      Nebezpečný
+securitymenu_PrisonerTypeVulnerable     Zranitelný
+
+securitymenu_MarkingTypeUnmarked        Neoznačený
+securitymenu_SelectArea                 Vybrat oblast
+securitymenu_SelectAreaCancel           Zrušit výběr oblasti
+
+securitymenu_RestrictAccess             Omezit přístup:
+securitymenu_TransferPrisoners          Přemístění vězně(ů):
+securitymenu_transferSecurityLevel      Úroveň zabezpečení
+securitymenu_GuardAssignment            Přidělení stráže:
+securitymenu_MarkPrisoner               Označit vězně:
+securitymenu_RemovePrisoner             Odstranit vězně:
+securitymenu_RemovePrisonerButton       Odstranit vězně
+securitymenu_RemovedPrisoner            Odstraněný vězeň
+
+securitymenu_RemovePrisoner_message     Odstranit vězně\n\nJedná se o poslední možnost, jak se vypořádat s nejhoršími pachateli, za drahý poplatek budete moci tohoto vězně poslat do samostatného zařízení. Tuto akci lze provést pouze jednou za 5 dní.
+
+securitymenu_RestrictAccess_tooltip     Zablokovat vstup do určitých oblastí, což vybranému vězni (vězňům) neumožní přístup, aniž by se je strážci pokusili zkrotit. Členům gangu nelze omezit přístup do jejich vlastních oblastí / území.
+securitymenu_TransferPrisoner_tooltip   Přesunout vybrané vězně do určitého bezpečnostního systému, abyste je mohli lépe spravovat.
+securitymenu_MarkPrisoner_tooltip       Připojit k vybraným vězňům vizuální značku, která vám umožní lépe sledovat jedince, kteří jsou nebezpečnější nebo jsou naopak sami v nebezpečí.
+
+rapsheet_assignguard                    Přidělení stráže
+rapsheet_assignguard_end                Zrušit přiřazení stráže
+
+job_PrisonerAssignment                  Přiřazení vězně
+assignment_confirm_message              Přejete si přidělit strážce?
+assignment_description_message          Pokud chcete na tohoto vězně dohlížet, můžete mu přiřadit stráž. Ujistěte se, že máte k dispozici dostatek strážných.
+assignment_error_message                Tomuto vězni nelze v současné době přidělit stráž. Zkuste to prosím později.\n\nBuď právě dorazil, nebo je spoutaný, nebo je v uzamčení.
+
+buildtoolbar_popup_help_securitymenu_1  Bezpečnostní menu obsahuje seznam všech členů věznice, kteří jsou považováni za nebezpečné nebo zranitelné členy vězeňské populace. Prostřednictvím této nabídky lze na vězně aplikovat určité akce, které jim poskytnou další podporu a umožní lepší správu těchto vězňů.\n\n
+buildtoolbar_popup_help_securitymenu_2  ~Ve výchozím nastavení jsou nebezpeční i zranitelní vězni uvedeni společně, ale volba "typ vězně" umožňuje použít akci na konkrétní skupiny.\n\n
+buildtoolbar_popup_help_securitymenu_3  ~Některé akce lze použít na skupinu, zatímco jiné pouze na vybrané jednotlivce, zvýrazněte vězně a klikněte na něj levým tlačítkem myši.\n\n
+buildtoolbar_popup_help_securitymenu_4  ^Tipy
+buildtoolbar_popup_help_securitymenu_5  - Možnost přiřazení strážce pomůže zajistit bezpečnost vězňů před ostatními a zároveň dohlížet na ostatní, aby se předešlo jakýmkoli přestupkům. Strážci nebudou zůstávat po boku vězňů během jejich soukromého času, jako je spánek a sprchování.
+buildtoolbar_popup_help_securitymenu_6  - Pokud vězeň způsobuje ve věznici příliš mnoho problémů a je příliš obtížné se s ním vypořádat, možnost Odstranit vězně ho pošle pryč. Tato akce má časové omezení a nelze ji provádět každý den a má také peněžní náklady.
+
+# ==============================================================
+# Kimber todo list help objectives
+# ==============================================================
+objectiveWindow_FilterButton_4_title                   O gangu
+objectiveWindow_FilterButton_4_tooltip                 Vše, co potřebujete vědět o gangách
+
+objective_HelpGangBehaviourAndType                     Chování gangů
+objective_HelpGangBehaviourAndType_Description         Byly zavedeny nové gangy, z nichž každý se chová trochu jinak než ostatní.
+objective_HelpGangBehaviourAndType_child_1             Zmije
+objective_HelpGangBehaviourAndType_child_1_Description Zmije jsou zákeřná banda, která se zaměřuje na zamořování svých věznic narkotiky, jež ovládá, a zároveň je sama individuálně smrtelně nebezpečná.
+objective_HelpGangBehaviourAndType_child_2             Lamači kostí
+objective_HelpGangBehaviourAndType_child_2_Description Lamače kostí lze považovat za svalnaté grázly, kteří se zaměřují spíše na násilí a ničení než na cokoli jiného.
+objective_HelpGangBehaviourAndType_child_3             Šakalové
+objective_HelpGangBehaviourAndType_child_3_Description Šakalové jsou z těchto gangů nejvynalézavější, zaměřují se na kontrolu území a prodej kontrabandu, aby zvýšili svou finanční moc.
+
+objective_HelpGangActivities                           Aktivity gangu
+objective_HelpGangActivities_Description               Aktivity gangu budou zahrnovat provozování a správu vlastních území, velké hry proti klíčovým členům věznice, vznášení požadavků na hráče a podobné akce.
+objective_HelpGangActivities_child_1                   Specializované činnosti
+objective_HelpGangActivities_child_1_Description       Každý gang se bude podílet na specializovaných činnostech v závislosti na své odlišné osobnosti, Zmije se zaměří na výrobu a prodej narkotik, Lamači kostí na boj a ničení a Šakalové se zaměří spíše na území a získávání peněz.
+objective_HelpGangActivities_child_2                   Aktivity na území
+objective_HelpGangActivities_child_2_Description       S novými územími přichází i nové chování. Gangy nyní budou "hlídat" všechna území, která ovládají, a dohlížet na to, aby se ostatní vězni chovali slušně a platili za používání jakýchkoli předmětů uvnitř, a to i v pracovní době. Členové gangu budou také získávat velké množství kontrabandu na základě místnosti, kterou ovládají, přičemž se objeví "překupníci", kteří budou tyto předměty prodávat ostatním vězňům.
+objective_HelpGangActivities_child_3                   Požadavky gangu
+objective_HelpGangActivities_child_3_Description       Jakmile gang získá ve věznici dostatečnou moc a důvěru, začne vznášet určité požadavky, které se budou pohybovat od získání nového vybavení až po více času na dvoře nebo volno, přičemž hráč má na vyřešení těchto požadavků určitý čas. Pokud hráč tyto požadavky nesplní, okamžitě začnou následky, přičemž gang obvykle způsobí nějakou formu destrukce nebo násilí. 
+
+objective_HelpCrookedGuards                     Nepoctivé stráže
+objective_HelpCrookedGuards_Description         Ačkoli bychom si rádi mysleli, že naši stateční zaměstnanci jsou čistí a nezlomní, bohužel tomu tak vždy není.
+objective_HelpCrookedGuards_child_1             Podplácení stráží
+objective_HelpCrookedGuards_child_1_Description Standardní stráže lze podplatit, aby se 48 hodin dívaly jinam než na určité prohřešky, nechávaly vězňům kontraband, i když ho najdou, a usnadňovaly gangům obsazování území. Naštěstí lze pomocí informátorů na podezřelé stráže upozornit, což hráči dává možnost všechny podplacené stráže vyhodit.
+objective_HelpCrookedGuards_child_2             Zkorumpování stráží
+objective_HelpCrookedGuards_child_2_Description Některé stráže mohou být zkorumpovány přílišnou interakcí se členy gangu, přičemž jsou podplaceny za pašování kontrabandu pro gangy. Informátoři pro vás mohou podezřelé stráže označit, zatímco detektory kontrabandu a strážní psi budou schopni tento kontraband najít i v době, kdy ho budou mít u sebe.
+
+objective_HelpGangIntelligence                  Zpravodajství gangů
+objective_HelpGangIntelligence_Description      Vzhledem k tomu, že ve věznici je tolik možností k páchání přestupků, je zpravodajství vždy klíčem k zajištění bezpečnosti ve vašem zařízení. Nabídka Zpravodajství gangů poskytne informace o každém gangu ve vaší věznici, uvede počet členů, které má, jejich finanční prostředky a také základní počty přestupků, kterých se dopustili během pobytu ve věznici. Zobrazuje také veškeré pohyby nebo aktivity, kterých se některý z gangů účastní, a pomáhá tak zobrazit míru nebezpečnosti jednotlivých gangů.
+
+objective_HelpSecurityOptions                   Možnosti zabezpečení
+objective_HelpSecurityOptions_Description       V rámci nové nabídky se zobrazí seznam "důležitých vězňů", v němž jsou uvedeni všichni vězni, kteří jsou považováni za nebezpečné pro ostatní nebo jsou sami nebezpeční pro ostatní. Pomocí této nabídky lze označit vězně, kterým by měla být věnována zvýšená pozornost, aby je bylo možné snadněji sledovat během běžného hraní, provádět další akce, jako je omezení přístupu vězňů do určitých oblastí, přesunutí skupin do určitých úrovní zabezpečení a dokonce odstranění problematických vězňů jejich odesláním do jiného zařízení, ačkoli to bude vyžadovat zaplacení vysoké pokuty.
+
+objective_HelpPrograms                          Programy
+objective_HelpPrograms_Description              Abyste pomohli zabezpečit a podpořit své vězně, mohou nyní dozorci získat nový výcvik, který jim umožní snadno odzbrojit vybavené vězně. Vězni budou mít k dispozici také nové programy, přičemž rekreační programy jim pomohou s nápravou a jinak se pokusí pomoci vězně uklidnit nebo jim umožní zbavit se určitého stresu a také rehabilitační programy, které pomohou vězně odklonit od života v gangu a umožní jim dokončit trest klidnějším a konstruktivnějším způsobem.
+
+# =============================================================================
+# Grants
+# =============================================================================
+objective_grant_positiveEnergyGrant                 Pozitivní energie
+objective_grant_positiveEnergyGrant_Description     Členové gangu potřebují soustředit svou mysl (a energii) na cvičení, nikoli na násilí. Výzkum prokázal, že cvičení snižuje počet takových činů. Postavte na dvoře nějaké venkovní cvičební zařízení.
+objective_grant_positiveEnergyGrant_yard            Vybudování dvora
+objective_grant_positiveEnergyGrant_bench           Přidejte posilovací lavičku
+
+objective_grant_advancedProtectionGrant             Pokročilá ochrana
+objective_grant_advancedProtectionGrant_Description Ochrana zaměstnanců je při jednání s organizovanými gangy nejdůležitější. Musíme zajistit, aby naši zaměstnanci byli v zájmu své bezpečnosti vyškoleni na nejvyšší úrovni.
+objective_grant_advancedProtectionGrant_training    Úspěšně vyškolte 20 strážných v certifikaci odzbrojování.
+
+objective_grant_gangWelfareGrant                    Péče o gangy
+objective_grant_gangWelfareGrant_Description        Přeměnit válku gangů na jejich sociální péči je nejvyšší prioritou. Členové gangů mají velkou šanci na nápravu, když se zapojí do programů, které je mohou přimět k odchodu z tohoto života.
+objective_grant_gangWelfareGrant_exGangMembers      Úspěšně reformujte 15 členů gangu na bývalé členy gangu.
+
+objective_grant_exGangProtectionGrant               Program ochrany bývalých členů gangu
+objective_grant_exGangProtectionGrant_Description   Vláda nabízí finanční prostředky na vybudování ochranného křídla pro ochranu bývalých členů gangu na cestě k nápravě.
+objective_grant_protectionCells                     Vybudování 10 cel v sektoru, který je pouze chráněný.
+objective_grant_protectionShower                    Postavit sprchu v sektoru, který je pouze chráněný
+objective_grant_protectionCanteen                   Postavte jídelnu v sektoru, který je pouze chráněný.
+objective_grant_protectionKitchen                   Postavte kuchyň v sektoru, který je pouze chráněný.
+objective_grant_protectionYard                      Postavte dvorek v sektoru, který je pouze chráněný.
+objective_grant_protectionGuards                    Přidělení stráže do sektoru, který je pouze chráněný.
+objective_grant_protectionExGang                    Přidělit 1 bývalému členovi gangu úroveň zabezpečení Ochranná vazba
+
+grant_category_adminHired                           Přijatý administrátor:
+
+# =============================================================================
+# Reform Programs
+# =============================================================================
+
+reformprogram_TattooRemovalProgram                    Program odstranění tetování
+reformprogram_TattooRemovalProgram_text               Pokud vaši vězni litují toho, že si nechali udělat skupinové tetování, můžete jim usnadnit rehabilitaci tím, že jim poskytnete sezení na odstranění tetování. Absolvování tohoto programu z nich udělá cíl.
+
+reformprogram_HandToHandCombat                        Certifikace odzbrojení
+reformprogram_HandToHandCombat_text                   Když jde do tuhého, přitvrdíme. Vyškolte své strážce v pokročilých technikách odzbrojování vězňů.
+
+reformprogram_GangRehabilitation                      Rehabilitace gangů
+reformprogram_GangRehabilitation_text                 Pokud člen gangu působí ve věznici příliš mnoho problémů, pokuste se ho přimět k absolvování tohoto programu. Je to první krok k přerušení vazeb s jejich gangem a k tomu, aby se obrátili k novému životu. Absolvování tohoto programu z nich udělá cíl. Typ doporučení: Násilí a destrukce.
+reform_program_intake_ReferralGangViolenceDestruction Doporučení: Pouze gangy Násilí a Destrukce.
+reform_program_intake_GangOnly                        Pouze gangy
+
+reformprogram_FaithProgram                            Program víry
+reformprogram_FaithProgram_text                       Vězni, kteří se účastní tohoto intenzivního programu, budou ochotnější rozloučit se se svým špatným životním stylem a přijmout lepší život. Pokud tento program absolvují, možná budou chtít zúžit své vazby na gang.
+
+reformprogram_BreatheProgram                          Dýchací terapie
+reformprogram_BreatheProgram_text                     Naučte své vězně dýchat a relaxovat. Po každé lekci se vaši vězni budou cítit mnohem klidněji, možná dokonce zváží, zda se budou chovat lépe.
+
+
+reformprogram_FightClub                               Klub Rváčů
+reformprogram_FightClub_text                          Cílem těchto tréninků je nasměrovat destruktivní energii vašich vězňů do boje v kontrolovaném prostředí. Po skončení mohou být příliš unavení na to, aby bojovali. Počkat... jaké že bylo to první pravidlo?
+
+reform_program_properties_TeacherUsesSameEquipment    Učitel vyžaduje *X
+reform_program_properties_GangMemberCanAttend         Členové gangu se mohou zúčastnit akce.
+reform_program_properties_RequiresAllStudentsPresent  Vyžaduje přítomnost všech žáků
+
+object_KayuMalamTree                                  Strom Kayu Malam 
+buildtoolbar_popup_obj_KayuMalamTree                  Mohutný strom s krásnou tmavou barvou. Není vhodný pro stavbu postele
+object_EbonyLog                                       Ebenová kláda
+object_EbonyWood                                      Ebenové dřevo
+object_TreeVines                                      Strom (Vinice)
+buildtoolbar_popup_obj_TreeVines                      Tento typ stromu je nezbytný pro správné tropické vězení.
+# ============================================================== 
+# Gang Demands 
+# ==============================================================
+gang_vipers				Zmije
+gang_bonebreakers		Lamači kostí
+gang_jackals			Šakalové
+gang_red				Červená
+gang_blue				Modrá
+gang_green				Zelená
+gang_yellow				Bývalí členové gangu
+
+# ==============================================================
+# Gang Demands 
+# ==============================================================
+objective_GangDemand                                     Požadavky gangů
+objective_GangDemand_description                         Povzbuzení vůdci gangů vznesou řadu požadavků na zlepšení kvality života ve vězení. Nevyhovění těmto požadavkům může vyústit ve vzpouru, ujistěte se, že pokud k ní dojde, je vaše věznice připravena.
+GangDemand_announcement                                  Členové gangů způsobí spoustu problémů, pokud jejich požadavkům nevyhovíme.
+
+# - G refers to gang name, X is a numerical value. Separate strings due to plurals etc
+# - Escalated appears as own string but will be filtered out by tool.
+
+objective_Gang_ContrabandToolsPunishment_child           *G - Sníží trest za nalezení nástrojů na *X hodin.
+objective_Gang_ContrabandToolsPunishment_Escalated_child *G - Sníží trest za nalezení nástrojů na žádný.
+
+objective_Gang_MurderPunishment_child                    *G - Sníží trest za vraždu na *X hodin.
+objective_Gang_MurderPunishment_Escalated_child          *G - Sníží trest za Vraždu na *X hodin.
+
+objective_Gang_MoreYardTime_child                        *G - Zvyšuje dobu režimu na dvoře na *X hodin.
+objective_Gang_MoreYardTime_Escalated_child              *G - Prodlouží režimovou dobu na dvoře na *X hodin.
+
+objective_Gang_PullUpBars_child                          *G - Mít *X Pull-Up Tyčí.
+objective_Gang_PullUpBars_Escalated_child                *G - Mít *X Pull-Up Tyčí.
+
+objective_Gang_TyreApparatus_child                       *G - Mít *X pneumatik.
+objective_Gang_TyreApparatus_Escalated_child             *G - Mít *X pneumatik.
+
+objective_Gang_PunchBag_child                            *G - Mít *X boxovacích pytlů.
+objective_Gang_PunchBag_Escalated_child                  *G - Mít *X boxovacích pytlů.
+
+objective_Gang_PushUpStones_child                        *G - Mějte *X klikových kamenů.
+objective_Gang_PushUpStones_Escalated_child              *G - Mít *X klikových kamenů.
+
+# - X in this case will refer to a room name
+objective_Gang_RequireYard_child                         *G - Mít *X.
+objective_Gang_RequireYard_Escalated_child               *G - Mít *X.
+
+objective_Gang_RequireLibrary_child                      *G - Mít *X.
+objective_Gang_RequireLibrary_Escalated_child            *G - Mít *X.
+
+objective_Gang_RequireMailRoom_child                     *G - Mít *X.
+objective_Gang_RequireMailRoom_Escalated_child           *G - Mít *X.
+
+d11_gangdemand_success                                   Za vyřízení této situace jsme obdrželi nějaké peníze.
+d11_gangdemand_fail                                      Zajistěte, aby se tato situace neopakovala.
+d11_gangCompensation                                     Kompenzace pro gangy
+
+# ==============================================================
+# Gang Menu 
+# ==============================================================
+d11_gang_goal              Cíl gangu:
+d11_gang_bonebreakers_goal Destrukce
+d11_gang_jackals_goal      Kontrola vězení
+
+d11_gang_traits            Vlastnosti gangu:
+d11_gang_officer           Příslušníci gangu:
+d11_gang_territories       Území:
+d11_gang_misconduct        Chybné chování:
+d11_gang_kills             Zabití gangu:
+
+# ==============================================================
+# Gang Menu : HeatMap
+# ==============================================================
+d11_heatmap_gang   Zapojený gang:
+d11_heatmap_deaths Úmrtí:
+d11_heatmap_day    Den, kdy došlo k úmrtí:
+d11_heatmap_time   Nastal čas:
+
+d11_gang_event_pr .gf Boj gangů
+d11_gang_event_g  .tc Změna území
+# ==============================================================
+# Gang Segregation
+# ==============================================================
+
+gangSegregationMessage                  Vyberte, které gangy mají obvykle povolen vstup do určitých oblastí.
+interfacedeployment_GangSegregation     Segregace gangů
+buildtoolbar_deployment_GangSegregation Pro zajištění určité úrovně kontroly nad rozdělením gangů lze gangy přiřadit k různým obytným prostorům, což jim umožní držet se od sebe dál, aby nedocházelo ke zbytečnému podněcování.
+
+# ==============================================================
+# Crooked Guards
+# ==============================================================
+
+research_StaffVetting                      Prověřování zaměstnanců
+researchtooltip_StaffVetting               Snižuje pravděpodobnost zkorumpování nových strážců. Odemkne funkci Vyšetřování stráží, která vám umožní odhalit zkorumpované stráže pomocí informátorů.
+
+buildtoolbar_GuardInvestigation            Vyšetřování stráží
+buildtoolbar_tooltip_GuardInvestigation    Spolupracujte s informátory a šéfem bezpečnosti na vyšetřování stráží a odhalování korupce. Čím větší pokrytí budou mít vaši aktivní informátoři, tím více křivých stráží odhalíte. Šéf nesmí pořádat program ani se účastnit popravy.
+buildtoolbar_CI_requirement                Alespoň jeden informátor.
+
+guardinvestigation_underway                PROBÍHÁ VYŠETŘOVÁNÍ STRÁŽNÝCH
+guardinvestigation_investigated            Vyšetřeno *A/*B stráží
+
+informant_investigating                    Vyšetřuje
+crookedguard_fired_reward                  Nepoctivý strážce vyhozen
+crookedguard_advisor_onboarding            Objevili jsme nepoctivého strážce spolupracujícího s gangem. Označil jsem je na kartě Personál ve vašich hlášeních. Ujistěte se, že je vyhodíte.
+
+buildtoolbar_popup_staff_doghandler        Psovodi a jejich psí společníci mohou odhalit kontraband u vězňů, kteří procházejí v jejich těsné blízkosti.
+buildtoolbar_popup_staff_kimber_doghandler Psovodi a jejich psí společníci mohou odhalit kontraband na vězních a pokřivených strážných procházejících v těsné blízkosti.
+# ==============================================================
+# Prisoner Intake
+# ==============================================================
+d11_prisoner_replacement			Výměna vězňů
+d11_prisoner_replacement_tooltip	Hodnota počtu vězňů bude doplněna na požadovaný počet, přičemž poměr bezpečnostních stupňů zůstane pokud možno stejný. Případný přebytek vězňů bude vyžádán podle standardního systému
+
+# ==============================================================
+# Interface
+# ==============================================================
+
+interface_action_CleanGraffiti                     Vyčištění
+job_cleanupobject                                  Vyčištění *X
+interfacetopbar_tension_angrygangmembersgraffiti   + *X ČLENŮ GANGU JE NAŠTVÁNO (Graffiti vyčištěno)
+interfacetopbar_tension_angrygangmembersleadercell + *X ČLENŮ GANGU JE NAŠTVÁNO (Vůdce převeden do buňky nižší kvality)
+research_CCTVImprovement                           Zlepšení CCTV
+researchtooltip_CCTVImprovement                    Zlepšení využití zařízení CCTV. Umožňuje zobrazit zorné kužely CCTV a označit v jejich zorném poli špatně se chovající vězně.
+
+d11_cctv_cone                                      Kužel CCTV vidění
+d11_toggle_cctv_cone_detail                        Přepínání zorných kuželů CCTV kamery
+d11_left_click_to_clean                            Levé kliknutí pro čištění
+
+# ==============================================================
+# Advisor messages
+# ==============================================================
+
+d11_gang_graffiti_message                   Gangy si označují své území, takže jsou při jeho obraně zuřivější. Pošlete údržbáře, až to bude bezpečné, aby se s nepořádkem vypořádal. Gangy nebudou nadšené z toho, že jejich "umění" bylo odstraněno - mohou se mstít.
+d11_gangBulkIntake_advisor_onboarding       Vězeňská komise převádí problematické vězně do jiných věznic s kompetentnějším vedením, věřím, že tyto nové přírůstky hravě zvládnete. Kontroly vězňů se nyní provádějí každý týden.
+d11_gangBulkIntake_staffAlert               Přijíždí autobus pro příjem členů gangů.
+d11_gangdealer_advisor_onboarding           Identifikovali jsme dealera na území gangu. Byla u něj zabavena velká částka peněz.
+
+D11_CI_advisor_onboarding                   Spolupracujte se svými důvěrnými informátory a odhalte všechny zkorumpované stráže. Budou vysláni do kanceláře náčelníka, aby se podělili o informace, které mají. Ujistěte se, že jste informátory naverbovali, pro více informací se podívejte na ikonu (?) v nabídce rozvědky.
+
+d11_LeaderAssassination_advisor_onboarding  Gangy začínají být příliš agresivní a plánují zavraždit vůdce druhého gangu. Pokud se jim to podaří, ovlivní to jejich aktuální území.
+d11_GangTargetting_advisor_onboarding       Členové gangu se sdružují, protože mají podobné zájmy, někdy se jim také nelíbí konkrétní trestné činy, a pokusí se na tyto osoby zaměřit.	
+
+# ==============================================================
+# Staff Alerts
+# ==============================================================
+
+d11_staffalert_title_making_move          Gang se stěhuje.
+d11_staffalert_summary_making_move        Máme informaci, že gang provádí přesun.
+d11_staffalert_summary_gangdealer         Byl objeven dealer, kterému bylo uděleno 500 dolarů.
+
+d11_staffalert_summary_TerritoryPlacement Tuto místnost si vyžádal gang a je pro naše pracovníky příliš nebezpečná. Vyžeňte je z místnosti.	
+# ==============================================================
+# Gang Shakedown
+# ==============================================================
+crisisSector_CustomSearchArea        Vlastní oblast vyhledávání
+crisisSector_ScheduleSearch          Vlastní plán vyhledávání
+
+schedulesearch_menu_TargettedArea    Cílová oblast
+schedulesearch_menu_StartTime        Čas spuštění
+schedulesearch_menu_Frequency        Frekvence
+schedulesearch_menu_ExistingSchedule Existující plán
+schedulesearch_menu_CurrentTime      Aktuální čas
+schedulesearch_menu_CurrentFrequency Aktuální frekvence
+
+
+crisisSector_UnlockedOnly            Pouze odemčené
+schedulesearch_menu_SaveSelection    Uložit výběr
+
+# ==============================================================
+# Reputations & traits
+# ==============================================================
+reputation_Recruiter                    Náborář
+reputationtooltip_Recruiter             Tento vězeň, pokud je součástí gangu, bude s větší pravděpodobností získávat další vězně do svého gangu.
+reputation_Resourceful                  Vynalézavý
+reputationtooltip_Resourceful           Tento vězeň bude s větší pravděpodobností trávit čas čtením knih, bude také vědět, kde se bude nacházet kontraband, a mohl by ho zachytit pro svůj gang.
+reputation_ExGangMember                 Bývalý člen gangu
+reputationtooltip_ExGangMember          Tento vězeň se rozhodl, že život v gangu není pro něj, ale gang z toho nemá radost.
+reputation_CunninglyBrutal              Mazaně brutální
+reputationtooltip_CunninglyBrutal       Zmije se pokusí zaútočit na cíle v mrtvých bodech zabezpečení.
+reputation_SneakThief                   Zloděj
+reputationtooltip_SneakThief            Všichni Šakalové mají schopnost kapsářství bez ohledu na reputaci.
+reputation_BattleTendency               Tendence k bitvám
+reputationtooltip_BattleTendency        Pokud Šakalové v některém křídle věznice převyšují počet strážných, budou vůči personálu tohoto křídla násilnější.
+reputation_DisrepectSurroundings        Vandal
+reputationtooltip_DisrepectSurroundings Lamači Kostí budou poškozovat předměty, když nebudou uspokojeny některé jejich potřeby.
+reputation_UnderCoverDon                Tajný Don
+reputationtooltip_UnderCoverDon         Vůdce Zmijí bude skrytý jako voják gangu a odhalí se až při trestu.
+reputation_Enforcer                     Vymahač
+reputationtooltip_Enforcer              Tento vězeň bude zastrašovat ostatní vězně, pokud nepatří ke stejnému gangu. Jsou také velmi dobří při přebírání území pro gangy.
+reputation_GymRat                       Krysa z posilovny
+reputationtooltip_GymRat                Lamači kostí budou trávit období volného času v tělocvičně nebo na dvoře.
+reputation_Loyal                        Loajální
+reputationtooltip_Loyal                 Tento vězeň bude s větší pravděpodobností zůstávat v Gangu a bude se rozčilovat, pokud bude jeho vůdce Gangu potrestán.
+
+
+traits_violent                          Násilný
+traits_lethal                           Smrtící
+
+# =============================================================================
+# Expense popups
+# =============================================================================
+finance_cost_gangdealer					Odhalený dealer gangu
+
+# ==============================================================
+# Free Update - Kimber
+# ==============================================================
+
+ object_PrisonerLetter               Vězeňský dopis
+ object_LoveLetter                   Milostný dopis
+ object_LoveLetterOpened             Milostný dopis (otevřený)
+ interface_prisonerWritingLetter     Píše svým milovaným
+ interface_prisonerWritingLoveLetter Psaní někomu VELMI výjimečnému
+
+warden_wardengsjlocks_name       Captain J. Locks
+warden_wardengsjlocks_desc       Zaměstnanci pod Locksovým velením jsou schopni překonávat své hranice a z vězňů se stávají vzorní vězni. \n\n- +30 % výdrže personálu (vyžaduje o 10 % více odpočinku). \n- -10 % k šanci vězně na recidivu.
+warden_wardengsjlocks_desc_short - Zaměstnanci mají větší výdrž. \n- Vězni mají o 10 % menší pravděpodobnost recidivy.
+
+warden_wardengangscook_name         Dylan Cook
+warden_wardengangscook_desc         Tento pán uhladí každého, podaří se mu získat nejlepší ceny pro vaši věznici. Raději věřte, že používá kupony v supermarketu! \n\n- Náklady na potraviny snížil o 25 %. \n- Programy, které vyžadují externí učitele, stojí o 20 % méně.
+warden_wardengangscook_desc_short   - Náklady na potraviny snížené o 25 % \n- Programy, které vyžadují externí učitele, stojí o 20 % méně.
+
+# ==============================================================
+# Manual Cell Swap
+# ==============================================================
+
+rapsheet_manualCellSwap_hint    Vyberte, zda chcete vězně jednoduše upgradovat nebo downgradovat a přesunout ho do nové dostupné cely, nebo zda chcete ručně vybrat celu, do které má být přesunut.
+rapsheet_cellUpgrade            Vylepšit celu
+rapsheet_cellDowngrade          Zhoršit celu
+rapsheet_cellChoice             Vybrat novou celu
+rapsheet_ChangeCell             Změna cely
+
+ChangeCellUpgradeSuccessful     Úspěšně jste upgradovali *X na lepší celu.
+ChangeCellDowngradeSuccessful   Úspěšně jste snížili *X na horší celu.
+ChangeCellNoAvailableRooms      Nejsou žádné volné místnosti, do kterých by bylo možné *X přesunout. Chcete použít vlastní nabídku výměny místností.
+ChangeCellDowngradingGangLeader Chystáte se přesunout vůdce gangu do cely horší kvality, což rozruší jeho gang a mohlo by způsobit problémy ve vaší věznici.
+
+freeCell_movePrisoner           Kliknutím pravým tlačítkem myši přesunete vězně do této cely.
+occupiedCell_movePrisoner       Kliknutím pravým tlačítkem myši vyměníte vězně s obyvatelem této cely.
+occupiedCell_selectablePrisoner Kliknutím pravým tlačítkem myši vyberete tohoto vězně a zvolíte, kam ho chcete přesunout.
+
+# ==============================================================
+# Kimber Mutator
+# ==============================================================
+mutator_name_NoMinRoomSize           Žádná velikost místnosti
+mutator_tooltip_NoMinRoomSize        Žádné další požadavky na velikost místnosti! Stále však musíte získat požadované položky, aby místnost fungovala.
+
+object_KayuMalamTree                 Strom Kayu Malam
+buildtoolbar_popup_obj_KayuMalamTree Mohutný strom s krásnou tmavou barvou. Není vhodný pro stavbu postele
+object_EbonyLog                      Ebenová kláda
+object_EbonyWood                     Ebenové dřevo
+object_TreeVines                     Strom (Vinice)
+buildtoolbar_popup_obj_TreeVines     Tento typ stromu je nezbytný pro správné tropické vězení.
+# ============================================================== 
+# Missing Action strings
+# ==============================================================
+action_Withdrawal      Absťák
+action_GangBusiness    Business gangu
+action_GangRecruitment Nábor do gangu
+action_GangPromotion   Propagace gangu
+action_ActionHerb      Manipulace
+action_LoadBaby        Nosit dítě
+action_WarmUp          Zahřívání
+
+action_ListenToRadio   Poslouchá rádio
+action_GetSnack        Získat jídlo
+action_Drink           Získat nápoj
+action_DoPullUps       Shyby
+action_KneeRaises      Přítahy kolen
+action_PushUps         Kliky
+
+# ====================================
+# ====================================
+# ----------------------------------- KIMBER BATCH 2 -----------------
+# ====================================
+# ====================================
+
+# ==========================
+# Table Claiming
+# ==========================
+
+d11_tableClaim_title              Kontrolováno *G
+d11_tableClaim_desc               Pro jejich vystěhování ze stolů je přesuňte nebo demontujte.
+d11_tableClaim_desc_cont          Ačkoli to v nich vyvolá hněv.
+
+#Schedule Menu
+schedulesearch_menu_ClearSchedule Vymazat rozvrh
+
+# ====================================
+# ====================================
+# ----------------------------------- SUNSET UPDATE 1 BATCH 1 -----------------
+# ====================================
+# ====================================
+
+ageCategory_Young                 Mladý
+ageCategory_Senior                Senior
+ageCategory_Elderly               Starší
+causeofdeath_naturalcauses        Přírodní příčiny
+codex_option_prisonerAging        Stárnutí vězňů
+codex_tooltip_prisonerAging       Povolení této možnosti umožní vězňům fyzicky stárnout s přibývajícími roky, přičemž se stanou méně energickými a slabšími než v mládí.
+
+Interfacemode_electricity         Elektrický
+interfacemode_water               Voda
+interfacemode_connections         Elektroinstalace
+
+interface_rectangle_cost          Náklady
+interface_rectangle_width         Šířka
+interface_rectangle_height        Výška
+
+scheduler_prisonerandstaff        Vězni a personál
+
+codex_option_plotGridCoords_title Mřížka pozemku / Souřadnice
+codex_plotGrid                    Překrytí mřížky
+codex_plotCoords                  Souřadnice
+codex_plotGridAndCoords           Obojí povoleno
+
+interfaceplanning_fence           Ploty
+
+mutator_name_DailyHearse          Vytáhněte své mrtvé!
+mutator_tooltip_DailyHearse       Pohřebáky nyní přijíždějí každý den ve 20:00, pokud jsou propuštěni, vrátí se následující den.
+
+security_menu_default             Vyberte kategorii
+
+codex_tooltip_DynamicReputations  Vězni mají během pobytu ve vězení šanci získat nebo ztratit jedinečné vlastnosti reputace na základě svých aktivit a zkušeností ve vězení.\n\n Nízká - Vězni začínají s dynamickou reputací, která je extrémně nízká a získává se pomaleji. Počet legendárních vězňů je výrazně snížen.\n\n Střední - Vězni začínající s dynamickou reputací mají nízkou. Pověsti jsou získávány průměrnou rychlostí. Počet Legendárních vězňů je střední.\n\n Vysoká - Vězňů začínajících s Dynamickou pověstí je střední. Pověst se získává průměrnou rychlostí. Počet potenciálně zavedených Legendárních vězňů je vysoký.
+regime_eatLockdown                Jídlo/Pobyt na cele
+regime_showerLockdown             Sprcha/Pobyt na cele
+
+regimetooltip_eatLockdown         Vězni se musí pro jídlo vydat do přidělené jídelny nebo využít jiných zařízení v rámci jídelny. Po skončení jídla jsou vězni omezeni na své cely, jako by byli pod "Pobyt na cele".
+regimetooltip_showerLockdown      Vězni se jdou pořádně umýt do sprch a poté se obléknou do čisté uniformy, pokud je k dispozici. Po skončení sprchování jsou vězni omezeni na své cely, jako by byli pod "Pobyt na cele".
+
+rooms_AllRooms                    Všechny pokoje
+
+# ==============================================================
+# SUNSET UPDATE 1 NEW OBJECTS
+# ==============================================================
+
+object_searchlight                          Bezpilotní světlomet
+buildtoolbar_popup_obj_searchlight          Otáčivé světlo, které je aktivní v noci. Pomáhá vám ve tmě odhalit špatně se chovající vězně.
+
+material_DarkWoodFloor                      Podlaha z tmavého dřeva
+buildtoolbar_popup_mat_DarkWoodFloor        Podlaha z masivního dřeva, ideální do kanceláří.
+
+buildtoolbar_popup_obj_BarbedWire           Špičatý doplněk, který pomůže vašim stěnám vypadat impozantněji a bezpečněji.
+
+object_SofaChairDoubleBrown                 Široká pohovka (hnědá)
+buildtoolbar_popup_obj_SofaChairDoubleBrown Velká měkká konstrukce, na které se pohodlně sedí. Vhodná pro dvě osoby.
+
+# ==============================================================
+# SUNSET UPDATE - Guard Rank
+# ==============================================================
+
+interface_action_rank Pořadí
+rank_title            Hodnosti
+rank_subtitle         Změnit hodnost na:
+rank_senior           Senior strážný
+rank_officer          Důstojník
+rank_specialista      Důstojník specialista
+
+rank_popup_text_1     Senior strážní, důstojníci a důstojníci specialisté budou silnější a bude těžší je zabít. Pokud však budou mít možnost, budou dávat přednost klidnějším oblastem věznice.\n\n
+rank_popup_text_2     Všichni strážní musí pro zahájení procesu povyšování absolvovat certifikaci na strážný taser. Důstojníci musí mít za sebou alespoň 10 dní ve věznici, důstojníci specialisté potřebují 20 dní.\nNemůže být povýšen každý, pouze 4 z 10 starších strážných se mohou stát důstojníky a pouze 1 ze 3 důstojníků se může stát důstojníkem specialistou.
+
+finance_cost_gun      Vybavení: Zbraň
+
+# ==============================================================
+# SUNSET UPDATE 1 - Updated room strings
+# ==============================================================
+
+buildtoolbar_popup_room_medicalward        Prostor pro práci lékařského personálu. Vězni v bezvědomí budou potřebovat více času na zotavení, ale nebojte se, jsou v dobrých rukou.
+buildtoolbar_popup_room_laundry            Údržbáři a vězni přidělení do prádelny sem přinesou špinavé uniformy, vyčistí je, vyžehlí a pak je znovu rozdělí.
+buildtoolbar_popup_room_visitation         Místo, kde se vězni mohou setkávat se svými rodinami. Pozor, rodiny mohou návštěvy využívat jako způsob, jak do věznice propašovat kontraband.
+buildtoolbar_popup_room_cleaningcupboard   Skladuje úklidové pomůcky. Úklidová skříň je nutná předtím, než můžeme vězeňské pracovníky přidělit k úklidové službě.
+buildtoolbar_popup_room_armoury            V této místnosti budou pobývat vaši ozbrojení strážci, když nebudou ve službě. Zde jsou uloženy všechny balistické zbraně.
+buildtoolbar_popup_room_staffroom          Zaměstnanci, kteří se unaví prací, si zde mohou odpočinout a relaxovat. Pro správné chování personálu při jídle musí být místnost pro personál nastavena na "Pouze pro personál" (sektor nasazení) a musí být spojena s kuchyní pro sběr táců a úklid.
+buildtoolbar_popup_room_forestry           Místo pro pěstování stromů, stromy mohou být použity k vytvoření výrobků v Dílně, které se budou prodávat.
+buildtoolbar_popup_room_classroom          Místo pro učení, kde se vězni mohou účastnit vzdělávacích reformních programů.
+buildtoolbar_popup_room_exports            Veškeré zboží vytvořené dělníky nebo vězni se sem přinese k odběru.
+buildtoolbar_popup_room_mailroom           Umožňuje vězňům přijímat poštu. V poštovní místnosti pracují také vězni.
+buildtoolbar_popup_room_psychiatristoffice Prostor pro vašeho psychiatra, který diagnostikuje duševně choré zločince. Odemkněte a umístěte do Psychiatrické ordinace další objekty, abyste zlepšili léčbu kriminálně nepříčetných vězňů. Předměty se odemykají prostřednictvím kriminálně nepříčetných vězňů, kteří navštěvují psychiatrické konzultační programy.
+
+# ==============================================================
+# SunSet EventLogging
+# ==============================================================
+d11_logging_caption            Povolit vězeňský protokol
+d11_logging_caption_tooltip    Živý záznam všech důležitých událostí ve věznici, od úmrtí a přestupků až po propuštění vězňů.
+d11_logging_header             Vězeňský deník
+
+d11_logging_murder             [*T] *X zavraždil *Y
+d11_logging_murder_weapon      [*T] *X zavraždil *Y pomocí *Z
+d11_logging_envriomentalDeath  [*T] *X : *Y
+d11_logging_gangFight          [*T] *X z *Y byl agresorem při rvačce gangů.
+d11_logging_gangTeritory       [*T] *X si nárokoval nové území
+d11_logging_joinGang           [*T] *X se připojil k *Y
+d11_logging_leaveGang          [*T] *X se rozhodl opustit *Y
+d11_logging_newLeader          [*T] *X se stal novým vůdcem *Y
+d11_logging_leaderKilled       [*T] Vůdce *X byl zabit.
+d11_logging_programPass        [*T] *X prošel *Y
+d11_logging_prisonerRelease    [*T] *X byl propuštěn z vězení
+d11_logging_prisonerReformed   [*T] *X byl napraven
+d11_logging_prisonerReoffended [*T] *X se dopustil recidivy a vrátil se do vězení
+d11_logging_prisonerEscaped    [*T] *X utekl z vězení
+d11_logging_misconduct         [*T] *X Špatné chování: *Y
+
+rapsheet_tab_events            Záznam o vězni
+
+# ==============================================================
+# Sunset Create New Prison Overhaul
+# ==============================================================
+
+codex_basegamesettings     Základní nastavení
+codex_dlcsettings          Nastavení DLC
+codex_savepreferences      Předvolby ukládání
+codex_loadpreferences      Načíst předvolby
+codex_new_gender           Pohlaví
+codex_new_uniformpicker    Výběr uniforem
+
+codex_new_fakebuttonleft   <
+codex_new_fakebuttonright  >
+
+uniform_color_33           Purpurová
+
+Uniform_Picker_Selection   Výběrem této možnosti se nahradí aktuální svazek uniforem.
+Uniform_Picker_DLCRequired *X je vyžadováno pro odemčení tohoto svazku uniforem.
+
+uniformPack_Default        Klasické uniformy
+uniformPack_Default_desc   Změní uniformy vězňů a zaměstnanců základní hry na výchozí vězeňské oblečení.
+
+# ==============================================================
+# Equipment Names
+# ==============================================================
+equipment_GarbageBag    Pytel na odpadky
+equipment_SafetyGoggles	Ochranné brýle
+
+# ==============================================================
+# SunSet Objects
+# ==============================================================
+
+material_DarkWoodFloor                    Tmavá dřevěná podlaha
+buildtoolbar_popup_mat_DarkWoodFloor      Masivní dřevěná podlaha, ideální pro kanceláře.
+
+
+# ====================================
+# ====================================
+# ----------------------------------- SUNSET UPDATE 1 BATCH 2 -----------------
+# ====================================
+# ====================================
+
+mainMenu_upsell        Koupit nyní!
+
+equipment_crate        Bedna
+equipment_logPile      Hromada klád
+equipment_box          Box
+equipment_brick        Cihla
+equipment_mailUnsorted Poštovní taška
+equipment_export       Export
+equipment_food         Potraviny
+equipment_waterBucket  Kbelík na vodu
+
+dlc_name_qol1          Free for Life
+
+# ====================================
+# ====================================
+# ----------------------------------- SUNSET UPDATE 2 ZOMBIES -----------------
+# ====================================
+# ====================================
+
+warden_wardenzombieskeller_name             Jerome Keller
+warden_wardenzombieskeller_desc             Dobrý člověk, který jde příkladem a inspiruje ostatní. Bývalý kazatel, kterého si živí... i mrtví velmi váží. \n- -15% snížení rychlosti chůze nemrtvých \n- +10% zvýšení poškození nemrtvých \n- zvýšení hodnoty denních plateb za zajištěné nemrtvé.
+warden_wardenzombieskeller_desc_short       - -15% snížení rychlosti chůze nemrtvých \n- +10% zvýšení poškození nemrtvých \n- zvýšení hodnoty denních plateb za zajištěné nemrtvé
+object_zombie                               Nemrtvý
+interface_zombieTier                        Úroveň nemrtvých :
+status_effect_StatusRunningInFear           Útěk ve strachu
+status_effect_infected                      Nakažený
+
+material_TaintedFloor                       Zkažený
+buildtoolbar_popup_mat_TaintedFloor         Zdá se, že zde nic neroste.
+material_FenceWall                          Plotová zeď
+buildtoolbar_popup_mat_FenceWall            Tyto zdi působí obzvlášť strašidelně.
+
+material_YellowStraightLineTiles            Betonové dlaždice (rovné)
+material_YellowCornerLineTiles              Betonové dlaždice (rohové)
+buildtoolbar_popup_mat_Rotatable            Otočný stůl
+
+quickbuild_Security                         Ochranka
+quickbuild_Parole                           Podmíněné propuštění
+quickbuild_Kennel                           Psinec
+
+finances_category_zombiepayments            Nemrtvé platby
+
+dlc_name_graveyardShift                     Nemrtví
+codex_new_theUndead                         Nemrtví!
+codex_tooltip_theUndead                     Epidemie? Tohle není typický virus, doufejme, že se vám podaří přetnout toto zlo u kořene.\n\Vypnuto - Nechte mrtvé odpočívat.\n\nNízké - Snadné a zvládnutelné.\n\nStřední - Pro trochu větší výzvu.\n\nVysoké - Režim noční můry, s vyššími statistikami, rychlostí množení a také s možností nemrtvých léčit se při útoku na bezbranné jednotky.
+
+event_infect_entities                       Někteří z našich lidí se chovají trochu divně, jsou pomalí, zírají do prázdna a také mají na sobě červenou barvu.
+
+equipment_Crowbar                           Páčidlo
+equipment_BarbedWireBat                     Pálka s ostnatým drátem
+equipment_ModifiedHandgun                   Modifikovaná pistole
+equipment_ModifiedAssaultRifle              Modifikovaná útočná puška
+equipment_ChainsawWeapon                    Řetězová pila
+
+interfacecallout_BountyHunters              Lovci odměn
+object_BountyHunter                         Lovec odměn
+object_BountyHunterTrike                    Tříkolka lovců odměn
+d11_staffalert_title_BountyHunter           Věznice je zahlcena, potřebujeme pomoc se zvládáním nemrtvých, rychle!
+
+object_ZombieChum                           Bašta pro nemrtvé
+buildtoolbar_popup_obj_ZombieChum           Umístěte kus žvance dolů, abyste odlákali nemrtvé od obyvatel vězení. Rozhodně není vyroben z mozků.. ale vyléčí všechny zraněné nemrtvé.
+
+object_ornamentalgravestone                 Ozdobný náhrobek
+buildtoolbar_popup_obj_ornamentalgravestone Památka na zemřelé lidi.
+
+room_graveyard                              Hřbitov
+quickbuild_graveyard                        Hřbitov
+buildtoolbar_popup_room_graveyard           Místo posledního odpočinku některých našich obyvatel. Zda chtějí zůstat odpočívat, je jiná věc.
+
+room_empty                                    Prázdná místnost
+buildtoolbar_popup_room_empty                 Už nepotřebujete stěny a dveře k oddělení oblastí. Tuto prázdnou místnost použijte k vytvoření nových oblastí pro rozmístění a přiřazení bezpečnostních sektorů.
+
+d11_graveyard_advisor_onboarding              Na hřbitově je... nějaký pohyb... bez dalších hrobů se zdá, že mrtví chodí po zemi.
+
+
+object_DistractionContraption                 Rozptylující kontrapce
+buildtoolbar_popup_obj_DistractionContraption Zvukové zařízení sloužící ke krátkodobému odvedení pozornosti všech infikovaných jednotek v dosahu, lze použít pouze jednou za 24 hodin. Doporučuje se, ale není povinné, používat tento předmět, když se blíží půlnoc.
+d11_cooldown_name_DistractionContraption      Doba vypršení:
+d11_cooldown_hours_DistractionContraption     *X hodin
+
+object_Gate                                   Brána
+buildtoolbar_popup_obj_Gate                   Temná brána.
+
+object_DoubleGate                             Dvojitá brána
+buildtoolbar_popup_obj_DoubleGate             Dvojitá temná brána.
+
+object_SiberianHusky                          Duch
+buildtoolbar_popup_obj_SiberianHusky          Éterický pouze vzhledem. Náchylný k olizování obličejů i sebe sama, ale ne vždy v tomto pořadí.
+object_Corgi                                  Monarch
+buildtoolbar_popup_obj_Corgi                  Roztomilý a roztomilý. Nízká světlá výška pro lepší aerodynamiku. Překvapivě mrštný.
+
+interface_action_LockPosition                 Uzamknout pozici
+interface_action_UnlockPosition               Odemknout pozici
+
+action_BabySleep                              [Dítě] Spát
+action_BabyPlay                               [Dítě] Hrát
+
+casueofdeath_drowned                          Utopil se
+causeofdeath_staffKill                        Zabit personálem.
+
+graph_label_timeFrame                         Časový rozsah
+graph_allTime                                 Všechen čas
+graph_lastFive                                Posledních 5 dní
+graph_lastTen                                 Posledních 10 dní
+graph_lastTwenty                              Posledních 20 dní
+
+
+d11_logging_zombified                         [*T] *X se stal nemrtvým.
+d11_logging_infection                         [*T] Šíří se infekce nemrtvých.
+d11_logging_graveZombie                       [*T] Nemrtvý vstal z hrobu.
+
+codex_new_zombieOverlay                       Překrytí nemrtvých
+codex_new_overlay_only                        Pouze překrytí
+codex_new_overlay_all                         Plně zapnuto
+codex_tooltip_zombieOverlay                   Aplikuje překrytí, které podporuje tón hry a také nabízí vizuální zkreslení pro zvýraznění hlavních událostí ve hře.
+
+damage_eaten                                  *X% byl sněden
+uniformPack_GraveyardShift                    Nemrtvé uniformy
+uniformPack_GraveyardShift_desc               Změní uniformy personálu základní hry tak, aby vykazovaly známky opotřebení.
+
+d11_zombie_advisor_onboarding                 Děje se něco divného... připadá vám támhleta osoba v pořádku?
+
+d11_prioritise_monitoring                     Upřednostnit monitorování
+d11_prioritise_monitoring_tooltip             Pokud je tato funkce povolena, strážci upřednostní obsluhu bezpečnostních prvků, jako jsou například monitory CCTV, před ostatními úlohami.
+
+objective_undeadCount                         Nemrtví
+objective_undeadCount_infections              Infikované jednotky:
+objective_undeadCount_undead                  Nemrtvé jednotky:
+objective_undeadCount_low                     Nízká úroveň:
+objective_undeadCount_mid                     Střední úroveň:
+objective_undeadCount_high                    Vysoká úroveň:
+
+objective_undeadCount_description     Ačkoli tito nemrtví škůdci mohou způsobit trochu problémů, mějte na paměti, že za každého nemrtvého, kterého ubytujete, dostanete platbu podle jeho úrovně, pokud je tedy máte správně zajištěné.
+
+reports_privilegesPolicy_tooltip_Main Pomocí této zásady můžete omezit, ke kterým činnostem nebo zařízením mají jednotlivé úrovně zabezpečení přístup, pokud je některá možnost označena křížkem, znamená to, že k ní mají přístup, v opačném případě budou mít toto oprávnění omezeno.
+
+victory_adviserwarning_UndeadEscapes1 Právě jsem viděl nějaké "uprchlíky"... musíte přestat pouštět tyto... tyto věci... z areálu věznice. Neví se, co se stane, pokud jich uteče víc.
+victory_advisernotice_UndeadEscapes1  Je jich... příliš mnoho... jsou všude. Měl jsi šanci to zastavit a teď budeš muset zažít bolest, kterou jsi sám způsobil.
+victory_UndeadEscapes                 Nemrtví unikli
+victory_warning_UndeadEscapes         Za to se budete zodpovídat
+victory_UndeadEscapes_units           Unikli
+
+# ====================================
+# ====================================
+# ----------------------------------- SUNSET UPDATE 3 FUTURETECH BATCH 1 -----------------
+# ====================================
+# ====================================
+# ==============================================================
+# Near Future
+# ==============================================================
+d11_nearFuture_advisor_onboarding          Zvažte možnost vybavit některé z vašich zlobivějších vězňů sledovacím pásem. Budeme je sledovat prostřednictvím bezpečnostní místnosti.
+object_TrackingMonitor                     Sledovací monitor
+buildtoolbar_popup_uts_TrackingMonitor     Vyžaduje se pro nabídku Sledování.\n\n Obsluhuje ho strážce v bezpečnostní místnosti a sleduje všechny vězně, kteří mají na sobě sledovací pásy. Připojení ke směrovačům pro rozšíření dosahu sledování.
+object_HealthMonitor                       Monitor zdraví
+buildtoolbar_popup_uts_HealthMonitor       Vyžaduje se pro nabídku Sledování.\n\n Sleduje zdraví a stav vězňů, pokud jsou vybaveni sledovacím pásem. Instaluje se uvnitř ošetřovny.
+object_Router                              Směrovač
+buildtoolbar_popup_uts_Router              Vyžaduje se pro nabídku Sledování.\n\n Po připojení k monitoru sledování tento předmět sleduje všechny vybavené vězně v jeho dosahu. Dosah lze kontrolovat individuálně nebo prostřednictvím nabídky Sledování pro úplné pokrytí.
+object_VideoCallBooth                      Budka pro videohovory
+buildtoolbar_popup_uts_VideoCallBooth      Umožněte vězňům vidět své blízké, i když je nemohou navštívit.
+object_advancedsearchlight                 Pokročilé vyhledávací světlo
+buildtoolbar_popup_uts_advancedsearchlight Špičkové sledovací zařízení určené k odhalování a odrazování prchajících vězňů s využitím rozpoznávání obličejů. \n\nK tomuto objektu je nutné připojit monitor CCTV, aby fungoval.
+
+object_MedicalBox                          Lékařský box
+buildtoolbar_popup_obj_MedicalBox          Vyžaduje se pro nabídku sledování.\n\n Obsahuje 5 sledovacích pásů.
+object_TrackingBelt                        Sledovací pásy
+
+interfacecontraband_tracking               Sledování
+job_GiveTrackingBelt                       Dát vězni sledovací pás
+uniformPack_future                         Budoucí uniformy
+uniformPack_future_desc                    Změní uniformy vašeho personálu a vězňů na futurističtější design.
+policy_staffbreakguards                    Stráže: *P%
+policy_staffbreakworkmen                   Dělník : *P%
+policy_staffbreakcook                      Kuchař: *P%
+policy_staffbreakother                     Ostatní zaměstnanci: *P%
+policy_staffbreaks                         Přestávky zaměstnanců
+object_Subwoofer                           Subwoofer
+buildtoolbar_popup_obj_Subwoofer           Tento zázrak vyrobený člověkem je rychlejší a vidí lépe než normální pes. Škoda, že není tak odolný.
+object_Byte                                Byte
+buildtoolbar_popup_obj_Byte                Nejnovější trend v detekční technologii. I když je slabší než ostatní psi, jeho bystré smysly to vynahrazují.
+object_RobotDogDoo                         Psí hovínko
+
+material_GlassWall                         Skleněná stěna
+buildtoolbar_popup_mat_GlassWall           Pokud nemůžete riskovat, že vaše vězení bude bez dozoru, je tento typ stěny nejlepší.
+
+quickbuild_GlassCell                       Skleněná cela
+buildtoolbar_popup_room_GlassCell          Méně než soukromý domov pro vaše vězně.
+
+material_ElectrifiedFence                  Elektrizovaný plot
+buildtoolbar_popup_mat_ElectrifiedFence    Odstrašující prostředek s vysokým napětím. \nVyžaduje kabeláž pod každým čtvercem.
+
+interface_action_Rotate                  Otočit
+equipment_keycard                        Karta
+object_KeycardDoor                       Dveře na kartu
+buildtoolbar_popup_obj_KeycardDoor       Těmito dveřmi mohou projít strážní s kartou nebo vězni se sledovacími pásy, ačkoli přístup vězňů lze zrušit pro každé dveře samostatně.
+object_KeycardDoorLarge                  Velké dveře na kartu
+buildtoolbar_popup_obj_KeycardDoorLarge  Stráže s kartou klíčů nebo vězni se sledovacími pásy mohou projít těmito dveřmi, ačkoli přístup vězňů lze zrušit pro každé dveře samostatně.
+entity_carryingkeycard                   Nese kartu
+material_HexagonalTiles                  Šestihranné dlaždice
+buildtoolbar_popup_mat_HexagonalTiles    Čtverce jsou minulostí, přijměte hexagonální budoucnost.
+material_TriangularTiles                 Trojúhelníkové dlaždice
+buildtoolbar_popup_mat_TriangularTiles   Čtverce jsou minulostí, přijměte trojúhelníkovou budoucnost.
+
+schedule_zone_visitoronly                Pouze pro návštěvníky
+interfacedeployment_visitoronlyzone      Pouze pro návštěvníky
+buildtoolbar_deployment_visitoronlyzone  Oblast prioritně určená pro návštěvníky a civilisty, do které mohou vstupovat pouze oni a zaměstnanci.
+
+action_videocall                         Telefonuje domů
+
+warden_WardenAlexisLin_name              Alexis Lin
+warden_WardenAlexisLin_desc              Věří, že technologie je budoucnost. Respektován kolegy, obáván vězni. \n\n-60% pomalejší rychlost odeznívání potlačení. \n-Instigátoři nezvyšují pravděpodobnost, že vězni v okolí způsobí potíže. \n-Snižuje četnost špatného chování extrémně výbušných vězňů o 50 %.
+warden_WardenAlexisLin_desc_short        - Míra potlačení slábne o 60 % pomaleji než obvykle.\n- Podněcovatelé nezvyšují šanci, že blízcí vězni budou působit potíže.\n- Snižuje četnost nevhodného chování extrémně prchlivých vězňů o 50 %.
+
+#Tracking Menu
+prisonerTracking_Title                   Menu sledování
+interfacecontraband_PrisonerTracking     Menu sledování
+buildtoolbar_contraband_PrisonerTracking Umožňuje sledovat vězně, abyste měli jistotu, že jsou zdraví a nechovají se špatně. Další informace naleznete v nápovědě
+
+prisonerTracking_AllPrisoners            Všichni vězni
+prisonerTracking_TrackedPrisoners        Sledovaní vězni
+prisonerTracking_FlightRisk              Riziko letu
+prisonerTracking_Misconduct              Chybné chování
+prisonerTracking_SubstanceAbuse          Zneužívání návykových látek
+prisonerTracking_Virus                   Viry/nemoci
+trackingmenu_ViewRange                   Přepnout rozsah
+interface_action_refuseBeltAccess        Zrušení přístupu k pásu
+
+prisonerTracking_PrisonersLists          Všichni vězni\nZměnou skupiny vězňů se seznam vězňů dále zpřesní.\n\nRiziko letu\nTito vězni zvažují nebo již plánují útěk.\n\nPřestupek\nVšichni vězni, kteří se během posledních 48 hodin dopustili přestupku. \n\nZneužívání návykových látek\nVězni, kteří se stali závislými na omamných látkách a hrozí jim tak předávkování.\n\nViry/nemoc\nTi, kteří získali nějaký negativní zdravotní stav a mohli by ohrozit sebe, ne-li ostatní.
+
+d11_trackingMenu_locked                    Aby bylo možné tuto nabídku použít, je třeba: \n - Lékař \n - Monitor zdraví \n - Lékařský box \n - Sledovací monitor a směrovač.
+
+buildtoolbar_popup_help_PrisonerTracking_1 Menu pro sledování vězňů obsahuje seznam všech vězňů ve věznici; k jeho použití je zapotřebí: Lékař, ošetřovna s monitorem zdraví a lékařským boxem a bezpečnostní místnost s monitorem sledování a směrovačem.\n
+buildtoolbar_popup_help_PrisonerTracking_2 Tyto seznamy lze měnit podle toho, k jakým informacím chce mít hráč rychlý přístup, mohou se měnit mezi Všichni, Letové riziko, Chybné chování, Zneužívání návykových látek a Viry/jiné nemoci.\n\n
+buildtoolbar_popup_help_PrisonerTracking_3 ~Zvolte vězně, kterého chcete sledovat, a nechte se upozornit, pokud odešel do části věznice, kam nesmí, nebo pokud je v ohrožení. Značka nad jeho hlavou pomůže ukázat jeho polohu.\n\n
+buildtoolbar_popup_help_PrisonerTracking_4 ^Tipy
+buildtoolbar_popup_help_PrisonerTracking_5 - Zajistěte, aby bylo vaše vězení bezpečné. Odstraňte a kontrolujte zdroje kontrabandu, abyste snížili pravděpodobnost útěku nebo zranění ostatních vězňů a zaměstnanců.\n
+buildtoolbar_popup_help_PrisonerTracking_6 - Vytvořte programy a mějte dostatek lékařů, abyste zajistili bezpečnost vězňů závislých na návykových látkách.\n\n
+
+prisonerTracking_confirm_equip             Odeslat vězně na ošetřovnu, aby byl vybaven sledovacím pásem?
+prisonerTracking_confirm_unequip           Odeslat vězně na ošetřovnu, aby mu byl odebrán sledovací pás?
+
+trackingMenu_unequipPrisoner               Vypnout vybavení vězně
+
+codex_options_clocktype_undead             Nemrtvý (analogový)
+codex_options_clocktype_future             Budoucnost (analogový)
+graph_axis_EscapedUndead                   Nemrtví Uprchlí
+graph_axis_TotalEscapedUndead              Celkem uniklých nemrtvých
+
+#Stun Baton
+equipment_stunbaton                        Omračující obušek
+finance_cost_stunbaton                     Vybavení: Omračující obušek
+d11_stun_baton_caption                     Vybavit omračujícími obušky
+d11_stun_baton_tooltip                     Tato možnost umožní vybavit stráže omračujícím obuškem, který jim poskytne dodatečnou podporu při zadržování neukázněných vězňů, vyžaduje zbrojnici a také stojí $*X na strážného. Spolu se standardními strážemi budou těmito novými obušky vybaveny i strážci pořádku, aniž by jejich služby stály více.
+
+dlc_name_futureTech                        Future Tech
+
+roomgrading_Cell_HasGlassWalls             [*E] Obklopen skleněnými stěnami.
+roomgrading_Dormitory_HasGlassWalls        [*E] Obklopeno skleněnými stěnami
+roomgrading_Canteen_HasGlassWalls          [*E] Obklopeno skleněnými stěnami
+roomgrading_Gymnasium_HasGlassWalls        [*E] Obklopeno skleněnými stěnami
+roomgrading_CommonRoom_HasGlassWalls       [*E] Obklopeno skleněnými stěnami
+roomgrading_Classroom_HasGlassWalls        [*E] Obklopeno skleněnými stěnami
+
+# ====================================
+# ====================================
+# ----------------------------------- SUNSET UPDATE 3 FUTURETECH BATCH 2 
+# ====================================
+# ====================================
+
+d11_staffalert_title_ArmouryPlaced       Omračujícíc obušky
+d11_staffalert_summary_ArmouryPlaced     Pokud si někdy myslíte, že vaši dozorci potřebují trochu více šokové síly, můžete povolit vězeňskou politiku, aby byli vybaveni omračovacími obušky.
+
+#ONBOARDING GRANT
+objective_Grant_TrackerPilot             Pilotní program pro sledovače
+objective_Grant_TrackerPilot_description Velká technologická společnost pilotně zavádí nové zařízení pro "pohodu" vězňů. Nabízí grant všem věznicím, které jsou ochotny zařízení zátěžově otestovat a podělit se o shromážděné údaje.
+objective_Grant_Tracker_Infirmary        Postavit ošetřovnu
+objective_Grant_Tracker_Doctor           Najměte lékaře
+objective_Grant_Tracker_MedicalBox       Nainstalujte do ošetřovny lékařský box.
+objective_Grant_Tracker_HealthMonitor    Nainstalujte do ošetřovny zdravotní monitor.
+objective_Grant_Tracker_Router           Umístěte směrovač(e), abyste zvýšili dosah sledování vězňů.
+objective_Grant_Tracker_TrackingMonitor  Nainstalujte a připojte sledovací monitor do bezpečnostní místnosti.
+objective_Grant_Tracker_TrackingBelt     Přiřaď sledovací pásy 3 vězňům prostřednictvím nabídky Zpravodajství > Sledování
+objective_Grant_Tracker_SecurityRoom     Postavte bezpečnostní místnost
+
+# ====================================
+# ====================================
+# ----------------------------------- SUNSET UPDATE 4 JUNGLE BATCH 1 -----------------
+# ====================================
+# ====================================
+
+object_Toby                                   Toby
+buildtoolbar_popup_obj_Toby                   Chytání podvodníků je pro našeho Sluníčkového kluka radost.
+
+object_cinemascreen                           Promítací plátno
+buildtoolbar_popup_obj_cinemascreen           Velké bílé plátno k promítání filmů. Spárujte jej s projektorem a přehrávejte vězňům filmy.
+object_cinemaprojector                        Projektor
+buildtoolbar_popup_obj_cinemaprojector        Každý kinosál potřebuje projektor. Musí být v dosahu 10 dlaždic promítacího plátna, aby bylo možné přehrávat filmy.
+
+deploymentscheduler_slot_caption              Časové bloky nasazení
+deploymentscheduler_description               Časové bloky nasazení slouží k vytvoření postupů nasazení pro různé hodiny dne. Před přiřazením změn nasazení zaměstnanců je třeba nejprve přesunout šipku času na požadovanou hodinu časového režimu hodinu. Poté můžete vybrat jeden z časových bloků a přiřadit konkrétní rutinu nasazení pro daný čas, jinak bude toto nasazení přidáno do všech časů.
+codex_options_clocktype_jungle                Džungle (Analogové)
+
+
+room_visitorreception                         Recepce pro návštěvníky
+buildtoolbar_popup_room_visitorreception      Prostor pro návštěvníky, kteří se mohou přihlásit a případně být prohledáni, aby se zajistilo, že nepředstavují pro věznici žádné nebezpečí, ať už prostřednictvím kontrabandu, nebo svého zdraví.
+
+room_cinema                                   Kino
+quickbuild_Cinema                             Kino
+buildtoolbar_popup_room_Cinema                Světla, kamera, akce! Vaši vězni se nyní mohou těšit na klasické filmy, jako je "Velký příjem", "Modrá míle", "Je středa, vole" a mnoho dalších.
+
+object_BambooGuardTower                       Strážní věž (dřevěná)
+buildtoolbar_popup_obj_BambooGuardTower       Věž, ze které mohou vaši odstřelovači (najatí zvlášť) hlídat vězení.\n\nV této věži budou jen vlhčí.
+
+material_WeatheredStoneFlooring               Zvětralý kámen
+buildtoolbar_popup_mat_WeatheredStoneFlooring Zvětralá kamenná podlaha, aby váš chrám v džungli působil autentičtěji.
+
+material_ColouredStoneTiles                   Barevné kamenné dlaždice
+buildtoolbar_popup_mat_ColouredStoneTiles     Díky tak skvělému řemeslnému zpracování nikdo nepozná, že byly skutečně vyrobeny nedávno společností Clive v Kentu.
+
+material_JunglePath                           Cesta džunglí
+buildtoolbar_popup_mat_JunglePath             Tato stará a vyšlapaná stezka je překvapivě pohodlná pro nohy.
+
+material_ConcreteMossFlooring                 Beton (mech)
+buildtoolbar_popup_mat_ConcreteMossFlooring   Tuto betonovou podlahu si podmanila příroda.
+
+material_ConcreteLeavesFlooring               Beton (Listy)
+buildtoolbar_popup_mat_ConcreteLeavesFlooring Tuto betonovou podlahu předběhla příroda.
+
+material_RustyFenceConcrete                   Rezavý plot (beton)
+buildtoolbar_popup_mat_RustyFenceConcrete     Úseky plotu s tímto rezavým plotem.
+
+material_RustyFenceGrass                      Rezavý plot (tráva)
+buildtoolbar_popup_mat_RustyFenceGrass        Sekce plotu s tímto rezavým plotem.
+
+material_RustyFenceLongGrass                  Rezavý plot (dlouhá tráva)
+buildtoolbar_popup_mat_RustyFenceLongGrass    Sekce plotu s tímto rezavým plotem.
+
+material_MurkyWater                       Kalná voda
+buildtoolbar_popup_mat_MurkyWater         Vytvářejte potoky, řeky a další neprůchodné vodní plochy.
+
+material_MurkyWaterLarge                  Kalná voda (velká)
+buildtoolbar_popup_mat_MurkyWaterLarge    Vytvářejte velké vodní plochy, jezera a oceány.
+
+material_MurkyWaterShallow                Kalná voda (mělká)
+buildtoolbar_popup_mat_MurkyWaterShallow  Vytvářejte mělké vodní plochy, abyste vytvořili hezčí pobřeží, mezi písečnou a vodní podlahou. Po těchto dlaždicích lze na rozdíl od standardních vodních dlaždicích chodit.
+
+object_CctvCamo                           CCTV Kamera (Maskovaná)
+buildtoolbar_popup_uts_CctvCamo           Dohlížejte na své vězení, aniž by stráže musely být všude najednou. Tato kamera se dodává v kamuflážním provedení. \n\nPro fungování této kamery je nutné k ní připojit monitor CCTV.
+
+object_JungleTable                        Bambusový stůl
+buildtoolbar_popup_obj_JungleTable        K jezení. Skvěle se hodí k bambusové lavičce.
+object_JungleBench                        Bambusová lavička
+buildtoolbar_popup_obj_JungleBench        K sezení. Skvěle se hodí k bambusovému stolu.
+object_JungleServingTable                 Bambusový servírovací stolek
+buildtoolbar_popup_obj_JungleServingTable Nandejte jídlo svým vězňům.
+
+object_jaildoorrusty                      Vězeňské dveře (rezavé)
+buildtoolbar_popup_obj_jaildoorrusty      Rezavé dveře vězení také udrží vaše vězně tam, kde mají být, jen nebudou vypadat tak dobře.
+object_jaildoorlargerusty                 Velké dveře do vězení (rezavé)
+buildtoolbar_popup_obj_jaildoorlargerusty Velké rezavé dveře vězení také udrží spoustu vašich vězňů tam, kde by měli být, jen nebudou vypadat tak dobře.
+
+codex_option_tropicalFever                Tropická horečka
+dlc_name_jungle                           Jungle Pack
+codex_tooltip_tropicalFever               Ačkoli tropické klima nemusí každému vyhovovat, není to jediné nebezpečí. Cokoli nebo kdokoli nový přicházející do věznice má šanci tuto nemoc rozšířit, hlídejte si své dodávky a návštěvníky.
+
+warden_WardenKarrHide_name                Karr Hide
+warden_WardenKarrHide_desc                Zkušený muž, který strávil více času v džungli než mimo ni. Sám sebe popisuje jako lovce velké "zvěře" a má schopnosti, které tomu odpovídají.\n\n-Zlepšuje dosah odstřelovačů \n-Zlepšuje "potlačovací" efekt odstřelovačů.
+warden_WardenKarrHide_desc_short          - Zlepšuje dosah odstřelovačů.\n- Zlepšuje "potlačovací" efekt odstřelovačů.
+
+uniformPack_jungle                        Uniformy pro džungli
+uniformPack_jungle_desc                   Mění uniformy vašeho štábu a vězňů na divočejší design.
+
+object_FirePit                            Ohnivá jáma
+buildtoolbar_popup_obj_FirePit            Kamenná stavba, která bude produkovat světlo bez elektřiny a zároveň udrží hmyz daleko od vašich vězňů. Součástí je dřevěné palivo.
+
+buildtoolbar_popup_obj_bookshelf                  Polička na knihy. Čtení literatury je uspokojující.
+
+object_CampBed                                    Táborová postel
+buildtoolbar_popup_obj_CampBed                    Je pohodlnější, než vypadá (vážně).
+object_NettedBed                                  Táborová postel (síťovaná)
+buildtoolbar_popup_obj_NettedBed                  Nezbytná výbava v každém tropickém podnebí. Poskytuje malé pohodlí a chrání před hmyzem.
+
+reformprogram_TropicalFeverTreatmentProgram       Vakcína proti tropické horečce
+reformprogram_TropicalFeverTreatmentProgram_text  Průběžná léčebná kúra určená k boji proti notoricky známé tropické horečce, která je běžná v džunglích a tropickém podnebí. Vězni získají na 21 dní odolnost vůči tomuto onemocnění a po uplynutí této doby se budou muset znovu vrátit, aby zůstali v bezpečí.
+
+object_WoodDrain                                  Dřevěný odtok
+buildtoolbar_popup_obj_WoodDrain                  Odstraňuje vodu z podlahy.
+
+job_CheckVisitorFever                             Zkontrolovat návštěvnickou horečku
+
+tropicalfever_contaminated                        Tropická horečka - kontaminovaný
+tropicalfever_ill                                 Tropická horečka - nemocný
+tropicalfever_early                               Tropická horečka - raná fáze
+tropicalfever_mid                                 Tropická horečka - střední stadium
+tropicalfever_late                                Tropická horečka - pozdní stadium
+tropicalfever_immune                              Tropická horečka - dočasná imunita
+tropicalfever_Dead                                Tropická horečka
+
+event_tropicalfever_onboarding_contaminatedobject Našli jsme kontaminovaný předmět, který bude třeba co nejdříve odstranit. Každý takto kontaminovaný předmět může šířit nákazu na každého nic netušícího vězně, který se k němu příliš přiblíží.
+event_tropicalfever_onboarding_afflictedprisoner  Některé z našich vězňů postihla nebezpečná horečka, musíme jim zajistit potřebnou lékařskou péči. Zavedli jsme program očkování, aby naši vězni byli v budoucnu v bezpečí.
+
+
+action_WatchCinema                                Sledování filmu
+
+material_MurkyWaterBed                            Vodní postel
+# ============================================================== 
+# End of File (do not remove new line at the end)
+# ==============================================================
