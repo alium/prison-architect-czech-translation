@@ -2865,3 +2865,391 @@ objective_intake_closedriot				Příjem během vězeňské vzpoury nedostupný
 
 #==========GM bugs 15/02======= 
 reputation_swimmer_high						Plavec
+
+# =========================================================================================================================================================
+# 																Shelby DLC
+# =========================================================================================================================================================
+
+# =============================================================================
+# Materials (inc. descriptions)
+# =============================================================================
+
+# =============================================================================
+# Objects (inc. descriptions)
+# =============================================================================
+
+object_TherapyAnimal                Terapeutické zvíře
+object_TherapyAnimalContainer       Kontejner pro terapeutická zvířata
+object_AnimalTherapist              Terapeutické zvíře
+object_RestaurantCustomer           Civilní zákazník
+object_DisplayCounter               Počítadlo displejů
+object_RehabilitatedPrisoner        Napravený vězeň
+object_Oven                         Oven
+object_DoughMixer                   Míchačka těsta
+object_Dough                        Těsto
+object_BreadLoaf                    Bochník chleba
+object_BreadBun                     Chlebová buchta
+object_Cake                         Dort
+object_Cupcake                      Dortík
+object_Baguette                     Bageta
+object_CivilianChild                Delikvent
+object_RestaurantMeal               Restaurační Jídlo
+object_RestaurantIngredientsCooking Restaurační jídlo (Vaření)
+object_RestaurantPlateDirty         Talíř (Špinavý)
+object_CakeStand                    Stojan na dort
+object_GrassBridge                  Travnatý silniční most
+object_DiningTableVelký             jídelní stůl (Velký)
+object_DiningTableSmall             Jídelní stůl (Malý)
+object_DinerBooth                   Stánek pro večeři
+object_DiningChair                  Jídelní židle
+object_SaloonDoor                   Dveře do salonu (dvojité)
+object_OrnateLantern                Zdobená lucerna
+object_Chandelier                   Lustr
+object_WallPanel                    Nástěnný panel (červený)
+object_WallPanelWood                Nástěnný panel (dřevo)
+object_WallPanelStone               Nástěnný panel (Kámen)
+object_WallPanelCorner_A            Nástěnný panel rohový typ A (červený)
+object_WallPanelWoodCorner_A        Nástěnný panel rohový typ A (dřevo)
+object_WallPanelStoneCorner_A       Roh stěnového panelu typu A (kámen)
+object_WallPanelCorner_B            Roh stěnového panelu typ B (červený)
+object_WallPanelWoodCorner_B        Roh stěnového panelu typu B (dřevo)
+object_WallPanelStoneCorner_B       Roh stěnového panelu typ B (kámen)
+object_ShopCounter                  Prodejní pult
+object_NoEntrySign                  Značka (bez vstupu)
+object_GymSign                      Nápis (tělocvična)
+object_PhoneSign                    Značka (telefon)
+object_RestaurantSign               Značka (restaurace)
+object_BakerySign                   Značka (pekárna)
+object_VisitationSign               Značka (návštěva)
+object_BakeryRawProduct             Surový pekařský výrobek
+object_BakeryCookedProduct          Pečený pekařský výrobek
+object_Flour                        Mouka
+
+buildtoolbar_popup_obj_DisplayCounter         Servírovací jednotka, která se používá k ukládání pečiva.
+buildtoolbar_popup_obj_Oven                   Specializovaná varná jednotka používaná k přípravě pečiva.
+buildtoolbar_popup_obj_DoughMixer             Přeměňuje mouku (a další skryté přísady) na těsto pro pečené výrobky.
+buildtoolbar_popup_obj_CakeStand              Stojan na vystavení lahodných sladkých dobrot.
+buildtoolbar_popup_obj_GrassBridge            Most krytý trávou, který umožňuje bezpečný přechod přes cesty.
+buildtoolbar_popup_obj_DiningTableLarge       Vysoce kvalitní stůl, který dodá každému jídlu vyšší úroveň.
+buildtoolbar_popup_obj_DiningTableSmall       Vysoce kvalitní stůl, který dodá každému jídlu vyšší úroveň.
+buildtoolbar_popup_obj_DinerBooth             Stůl k sezení ve stylu klasických amerických jídelen.
+buildtoolbar_popup_obj_DiningChair            Vysoce kvalitní židle, která vnese do jakéhokoli jídla vyšší úroveň.
+buildtoolbar_popup_obj_SaloonDoor             Dvojité dřevěné dveře ve stylu starého saloonu.
+buildtoolbar_popup_obj_OrnateLantern          Vysoce kvalitní nástěnná lucerna, která vnese do jakéhokoli prostoru vyšší úroveň.
+buildtoolbar_popup_obj_Chandelier             Vysoce kvalitní stropní svítidlo, které vnese do jakéhokoli prostoru vyšší úroveň.
+buildtoolbar_popup_obj_NoEntrySign            Nástěnná cedule se symbolem zákazu vstupu.
+buildtoolbar_popup_obj_GymSign                Nástěnná cedule se symbolem tělocvičny.
+buildtoolbar_popup_obj_PhoneSign              Nástěnná cedule se symbolem telefonu.
+buildtoolbar_popup_obj_RestaurantSign         Nástěnná cedule se symbolem restaurace.
+buildtoolbar_popup_obj_BakerySign             Nástěnná cedule se symbolem pekárny.
+buildtoolbar_popup_obj_VisitationSign         Nástěnná cedule se symbolem návštěvy.
+buildtoolbar_popup_obj_WallPanel              Krátké jednotlivé stěnové panely sloužící k vytvoření oddělených oblastí bez vymazání dlaždic místnosti.
+buildtoolbar_popup_obj_WallPanelWood          Krátké jednotlivé stěnové panely sloužící k vytvoření oddělených oblastí bez vymazání dlaždic místnosti.
+buildtoolbar_popup_obj_WallPanelStone         Krátké jednotlivé stěnové panely sloužící k vytvoření oddělených oblastí bez vymazání dlaždic místnosti.
+buildtoolbar_popup_obj_WallPanelCorner_A      Jednotlivé rohové díly stěnových panelů, které se používají k vytvoření oddělených oblastí bez vymazání dlaždic místnosti.
+buildtoolbar_popup_obj_WallPanelWoodCorner_A  Jednotlivé rohové díly pro stěnové panely, které se používají k vytvoření oddělených oblastí bez vymazání dlaždic místnosti.
+buildtoolbar_popup_obj_WallPanelStoneCorner_A Jednotlivé rohové díly pro stěnové panely, které se používají k vytvoření oddělených oblastí bez vymazání dlaždic místnosti.
+buildtoolbar_popup_obj_WallPanelCorner_B      Jednotlivé rohové díly pro stěnové panely, slouží k vytvoření oddělených oblastí bez vymazání dlaždic místnosti.
+buildtoolbar_popup_obj_WallPanelWoodCorner_B  Jednotlivé rohové díly pro stěnové panely, používané k vytvoření oddělených oblastí bez vymazání dlaždic místnosti.
+buildtoolbar_popup_obj_WallPanelStoneCorner_B Jednotlivé rohové díly pro stěnové panely, které se používají k vytvoření oddělených oblastí bez vymazání dlaždic místnosti.
+buildtoolbar_popup_obj_ShopCounter            Počítadlo pro obchodní transakce, které nevyžaduje umístění stěny. 
+
+# =============================================================================
+# Rooms (inc. descriptions)
+# =============================================================================
+room_Restaurant                     Restaurace
+room_Bakery                         Pekárna
+room_TherapyRoom                    Zasedací místnost
+
+
+d11_restaurant_work                 Restaurace
+d11_restaurant_work_desc            Přidělení vězňů k práci v jedné z našich restaurací, kde vaří a obsluhují civilní zákazníky. Musí však mít pracovní zkušenosti buď s vařením, nebo s obsluhou zákazníků.
+d11_bakery_work                     Pekárna
+d11_bakery_work_desc                Přiřaďte vězně k práci v jedné z našich pekáren, kde budou připravovat pečivo pro civilní zákazníky. Musí však mít pracovní zkušenosti s vařením nebo obsluhou zákazníků.
+
+buildtoolbar_popup_room_TherapyRoom "Bezpečný prostor" pro konání sezení a diskusí s bývalými vězni v rámci Terapie se zvířaty.
+buildtoolbar_popup_room_Restaurant  Vězni se zkušenostmi s vařením nebo obsluhou zákazníků mohou připravovat a podávat jídlo civilním zákazníkům.
+buildtoolbar_popup_room_Bakery      Vězni se zkušenostmi s vařením nebo obsluhou zákazníků mohou péct chléb a koláče a prodávat je civilním zákazníkům.
+
+# =============================================================================
+# Quick Build Room
+# =============================================================================
+	
+quickbuild_Therapy    Zasedací místnost
+quickbuild_Restaurant Restaurace
+quickbuild_Bakery     Pekárna
+
+#Already translated
+quickbuild_Reception					Recepce 	
+# =============================================================================
+# Reform Programs (inc. descriptions)
+# =============================================================================
+
+reformprogram_AnimalTherapy                     Terapie se zvířaty
+reformprogram_AnimalTherapy_text                Vězni mohou mít často problém ovládnout svůj temperament nebo jiné negativní myšlenky. Doufejme, že díky těmto sezením a vazbám, které se při nich vytvářejí, se vězni naučí, jak zachovat klid a deeskalovat jakoukoli situaci, ve které se ocitnou, dříve než se stane násilnou.
+
+ReformProgram_ConflictResolution                Řešení konfliktů
+reformProgram_ConflictResolution_text           Bývalý vězeň, který se nyní napravil, přijde promluvit o možných potížích, které se vyskytnou po propuštění. Budou se hrát různé problematické scénáře, aby se vězni naučili, jak se neuchýlit k násilí.
+
+ReformProgram_ReformedPrisonerConsultation      Konzultace s reformovanými vězni
+reformProgram_ReformedPrisonerConsultation_text Smyslem tohoto programu je změnit myšlení současných vězňů tím, že bývalý vězeň, který se nyní napravil, promluví o svých zkušenostech a novém životě.
+
+reformProgram_juvenilecorrection                Program tří trestných činů
+reformProgram_juvenilecorrection_text           Umožnění interakce mezi vězni a civilními "delikventy" by mělo mít pozitivní vliv na oba, pokud jsou vězni buď vyškoleni, nebo mají správnou úroveň zkušeností s obsluhou zákazníků, aby mohli s těmito "delikventy" komunikovat.
+
+reformProgram_socialtraining                    Školení o tří trestných činech
+reformProgram_socialtraining_text               Umožnění vězňům komunikovat s civilisty, kteří k nim nemají žádný vztah, může být pro mnohé znepokojující, a proto tento program učí, které činnosti jsou a které nejsou v pořádku; zároveň zvyšuje zkušenosti vězňů s obsluhou zákazníků.
+
+reformProgram_RehabilitatedPrisoner_text        Tento bývalý vězeň se napravil ve vzorného občana a spolu se svým současným zaměstnáním se rozhodl využít svůj čas k pomoci ostatním, kteří se snaží napravit, jako vězeňský konzultant.
+reformProgram_Occupation                        Pracoviště:
+
+# =============================================================================
+# Sentence Reductions & Extensions (inc. descriptions)
+# =============================================================================
+
+report_Sentences                     Úpravy vět
+
+sentences_tooltip_onOff              Přepnutím této možnosti povolíte nebo zakážete úpravu trestu odnětí svobody VYPNUTO/ZAPNUTO.
+sentences_tooltip_resetCriteria      Vrátit kritéria úprav zpět na hodnoty navržené věznicí.
+sentences_tooltip_extensionValue     Zvolte dobu, o kterou bude vězni prodloužen trest, jakmile splní požadovaná kritéria.
+sentences_tooltip_reductionValue     Vyberte dobu, o kterou bude vězni zkrácen trest, jakmile splní požadovaná kritéria.
+
+sentences_description                Nastavte kritéria pro úpravu trestu vězně, ať už jde o zkrácení za dobré chování nebo prodloužení za špatné chování.\nProdloužení i zkrácení trestu může proběhnout ve stejném týdnu, ale oba typy úprav mají 7denní lhůtu na vychladnutí.
+sentences_unavailable                N/A
+
+reduction_caption                    Hodnota snížení
+extension_caption                    Hodnota prodloužení
+
+adjustment_criteria                  Kritéria úpravy
+
+goodBehaviour_DaysInLabour           Dny v práci
+goodBehaviour_LoweredRate            Snížená míra recidivy
+
+sentences_resetCriteria              Kritéria pro resetování
+
+misconduct_tooltip_InjuredStaff      Vězni budou mít nárok na prodloužení trestu, pokud určitý početkrát napadli některého ze zaměstnanců.
+misconduct_tooltip_InjuredPrisoner   Vězni budou mít nárok na prodloužení trestu, pokud napadli jiné vězně stanovený početkrát.
+misconduct_tooltip_SeriousInjury     Vězni budou mít nárok na prodloužení trestu, pokud způsobili vážné zranění stanovený početkrát.
+misconduct_tooltip_Murder            Vězni budou mít nárok na prodloužení trestu, pokud se ve věznici určitý početkrát dopustili vraždy.
+misconduct_tooltip_EscapeAttempt     Vězni budou mít nárok na prodloužení trestu, pokud se určitý početkrát pokusili o útěk z vězení.
+
+goodBehaviour_tooltip_NoIncident     Vězni budou mít nárok na zkrácení trestu, pokud u nich nebyl po stanovený počet dní zaznamenán žádný incident.
+goodBehaviour_tooltip_ProgramsPassed Vězni budou mít nárok na snížení trestu, pokud absolvovali stanovený počet programů.
+goodBehaviour_tooltip_DaysInLabour   Vězni budou mít nárok na snížení trestu, pokud se po stanovený počet dní postupně účastnili vězeňských prací.
+goodBehaviour_tooltip_LoweredRate    Vězni budou mít nárok na snížení trestu, pokud se míra jejich recidivy snížila o určenou částku.
+
+sentences_tooltip_criteriaMet        Nastavením této hodnoty rozhodnete, kolik kritérií musí vězeň splnit, aby mu byl trest upraven.
+
+# =============================================================================
+# Work stuffs
+# =============================================================================
+
+# Menu title for the menu that show a prisoner work and education information
+work_and_education  Práce a vzdělávání
+d11_work_experience Pracovní zkušenosti
+
+# These are title for prisoner's experiences in certain work field
+experience_WorkCook      Zkušenosti s vařením
+experience_WorkCleaner   Zkušenosti s úklidem
+experience_WorkCraftsman Řemeslné zkušenosti
+experience_WorkLabourer  Pracovní zkušenosti
+experience_WorkRCS       Zkušenosti s obsluhou zákazníků
+
+experience_WorkReform    Absolvování tohoto programu zvýší pracovní zkušenosti vězně o 50 % pro obor *X.
+
+# These are tooltips for each specific experience type 
+
+experience_WorkCook_desc      Vězni, kteří mají 50 % zkušeností v tomto oboru, mohou pracovat přímo v kuchyni, restauraci nebo pekárně. Vyšší zkušenost také zvyšuje jejich výkonnost v přidružených pracích.
+experience_WorkCleaner_desc   Vězni, kteří získají zkušenosti v tomto oboru, zvýší svou efektivitu v souvisejících úklidových pracích.
+experience_WorkCraftsman_desc Vězni, kteří mají v tomto oboru 50% zkušeností, mohou přímo pracovat v dílně, další zkušenosti také zvyšují jejich efektivitu.
+experience_WorkLabourer_desc  Vězni, kteří získají zkušenosti v tomto oboru, zvýší svou efektivitu při manuálních pracích.
+experience_WorkRCS_desc       Vězni, kteří mají 50 % zkušeností v tomto oboru, se mohou přímo podílet na programu Tří Trestných činů a na pracích ve službách, další zkušenosti také zvyšují jejich efektivitu v pracích souvisejících s obsluhou zákazníků.
+
+# Name of prisoner's previous jobs before going to jail
+d11_cleaner   Čistič
+d11_craftsman Řemeslník
+d11_labourer  Dělník
+d11_RACS      Zákaznický servis
+
+# Hover tip explain prisoner's total work experience percentage *X will be replaced by a number .e.g 50
+experiencefactor_FactorWorkExperience   	má *X % pracovních zkušeností ve všech odborných oblastech
+
+# =============================================================================
+# Reform Menu
+# =============================================================================
+
+# Reform Menu Misc. Hints
+d11_reform_reformation								Reformace
+
+# Reform Menu Statistic Subtitles
+d11_reform_average_reoffending_rate_x_days Průměrná míra opakovaného páchání trestné činnosti v % (-*X dní)
+d11_reform_average_punishment_grade        Průměrný stupeň trestu
+d11_reform_average_health_grade            Průměrný stupeň zdraví
+d11_reform_average_security_grade          Průměrný stupeň bezpečnosti
+d11_reform_average_exp_grade               Průměrná známka z praxe
+d11_reform_average_reform_grade            Průměrná známka z reformy
+d11_reform_progrom_live                    Živé reformní programy
+d11_reform_program_places                  Místa reformního programu 
+d11_reform_program_attendance              Návštěvnost reformního programu 
+d11_reform_program_pass_rate               Míra úspěšnosti reformního programu
+
+# Design Info
+d11_reform_released_prisoners_design_info			Po propuštění vězně z vaší věznice budete informováni o jeho dalších krocích v závislosti na tom, zda znovu spáchal trestný čin, nebo se napravil a úspěšně si našel práci. Vaše věznice bude pokutována, respektive odměněna.
+
+# Released Prisoners Page
+d11_reform_prisoners_action_reformed             REFORMOVÁNO!
+d11_reform_prisoners_action_reoffended           RECIVIDTA!
+d11_reform_prisoners_action_reoffended_returned  *X byl poslán zpět do vaší věznice.
+d11_reform_prisoners_outcome_reformed            Našli si práci v městské *X.
+d11_reform_prisoners_outcome_reoffended          Byli zatčeni a vrátí se do vězení.
+d11_reform_prisoners_outcome_reoffended_returned Buďte opatrní, protože s přibývajícími pobyty se vězni stávají nebezpečnějšími.
+d11_reform_reformed_prisoner_rewards             Odměny za reformovaného vězně (včera)
+d11_reform_reformed_reoffending_prisoner_fines   Pokuty vězňů, kteří se dopustili trestného činu (včera)
+
+#PC only
+d11_reform_reoffending_stats_title				Statistika opakovaného páchání trestné činnosti v %
+
+d11_reform_initial_reoffending_chance Počáteční recidiva %:
+d11_reform_current_reoffending_chance Současná recidiva %
+d11_reform_reoffending_chance_delta   Změna recividity %:
+
+# Outcomes
+d11_reform_job_outcome_cook      Restaurace
+d11_reform_job_outcome_cleaner   Úklidová agentura
+d11_reform_job_outcome_craftsman Továrna
+d11_reform_job_outcome_labourer  Stavební firma
+d11_reform_job_outcome_RAC       Nákupní centrum
+d11_reform_job_outcome_default   Pošta
+
+# Reform Menu Misc.
+d11_reform_required_reoffending_rate_title Hranice podmíněného propuštění %:
+d11_reform_no_prisoners_found              Žádní vězni nenalezeni!
+
+# =============================================================================
+# Wage rating
+# =============================================================================
+
+d11_all_prisoner_wages        Všechny mzdy vězňů
+d11_report_policy_wage_hint   Vyšší mzdy motivují vězně k účasti na vězeňských pracovních a pracovních programech.
+d11_wage                      Mzda
+d11_adjust_wage_description   Vězňům je vyplácena mzda za jejich účast na pracích v okolí věznice.  Mzdu lze upravit individuálně nebo globálně pro každý typ práce. Vyšší mzdy motivují vězně k účasti na pracovních a s prací souvisejících programech ve věznici.
+# =============================================================================
+# Custom Intake
+# =============================================================================
+
+d11_intake_arrival_caption				Příjezd příjmu
+d11_intake_arrival_tooltip				Standardní čas příchodu nových vězňů do věznice je 8:00, tato možnost vám umožní přizpůsobit tento čas potřebám vaší věznice.
+
+d11_intake_restrictions_caption			Odstranění omezení příjmu
+d11_intake_restrictions_tooltip			Problémové události, jako jsou nepokoje vězňů nebo stávka zaměstnanců, obvykle zablokují příjem vězňů do dalšího volného dne. Tato možnost umožní odesílání vězňů do vaší věznice za jakýchkoli okolností, pokud je k dispozici oblast pro doručení).
+
+# =============================================================================
+# Reoffending Prisoners
+# =============================================================================
+
+#Reoffendering Prisoners
+rapsheet_stint                 Stint
+reform_reward                  Odměna za reformovaného vězně 
+help_warning_prisonerreleased  Reformní programy jsou klíčem k úspěšnému návratu vězňů do společnosti. Někteří pachatelé začnou úspěšně žít nový život, zatímco jiní se vrátí do starých kolejí a znovu se dopustí trestné činnosti. Napravení vězni přinesou další peněžní odměnu, ale někteří vězni, kteří se znovu dopustí trestné činnosti, se mohou do vaší věznice vrátit. Nejenže vám za jejich neúspěšnou nápravu hrozí pokuta, ale mohou si také během pobytu venku osvojit další špatné návyky.
+finances_category_reformed     Napravení vězni
+finances_category_reoffended  Recidivující vězni Pokuty za trestnou činnost
+finances_category_prisonerbonus Prémie pro vězně
+
+# =============================================================================
+# Labour Management Menu
+# =============================================================================
+
+d11_labour_management                          Řízení práce
+d11_LabourManagementDescription                Tato nabídka poskytuje kontrolu nad vězni, kteří zde mohou pracovat, časy práce a možnosti rychlého nasazení stráží.
+d11_HighestSecurityLevel                       Nejvyšší úroveň zabezpečení
+
+d11_LabourManagement_RegimeActivity_hint       Zvolte dostupné režimové sloty, ve kterých mohou zákazníci přijít, mezi Práce, Volný čas nebo obojí.
+d11_LabourManagement_HighestSecurityLevel_hint Maximální úroveň zabezpečení vězňů, kteří zde mohou pracovat a nemohou přepsat bezpečnostní sektor místnosti.
+d11_LabourManagement_MealType_hint             Zákazníci zaplatí více za vysokou kvalitu a budou také spokojenější, ale vyšší kvalita vyžaduje delší dobu vaření.
+d11_LabourManagement_GuardDeployment_hint      Rychlý způsob, jak přidělit stráže do oblasti, když jsou přítomni civilisté.
+
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+
+#quantity per hour
+d11_dollar_per_hour						$*X/ Hodinu
+
+d11_incomplete							Neúplné
+
+d11_restaurant_payment_desc             Civilní obchod
+finances_category_civilian_commerce     Civilní obchod
+
+d11_mealquality                    		Kvalita jídla
+
+policy_staff_keys						Povolení klíčů pro zaměstnance
+d11_report_policy_staffKeys_hint		Pokud je to povoleno, budou mít všichni najatí zaměstnanci klíče. \Tato možnost sice zvýší efektivitu ve věznici, ale zároveň přináší další bezpečnostní riziko v podobě většího počtu klíčů v oběhu.  
+
+# PC - Only 
+codex_new_uniformColour                 Barva uniformy
+codex_new_defaultColour					Výchozí barva: 
+
+# =============================================================================
+# Uniform Colours - PC - Non Console translations only. 
+# =============================================================================
+uniform_color_1  Šedá
+uniform_color_2  Oranžová
+uniform_color_3  Červená
+uniform_color_4  Žlutá
+uniform_color_5  Bordó
+uniform_color_6  Černá
+uniform_color_7  Bílá
+uniform_color_9  Růžová
+uniform_color_10 Hnědá
+uniform_color_11 Zelená
+uniform_color_12 Modrá
+uniform_color_13 Nebesky modrá
+uniform_color_14 Lososová
+uniform_color_15 Sametová
+uniform_color_16 Fialová
+uniform_color_17 Limetková
+uniform_color_18 Žhavě růžová
+uniform_color_19 Aqua
+uniform_color_20 Pistolový kov
+uniform_color_21 Písek
+uniform_color_22 Burgundy
+uniform_color_23 Slop
+uniform_color_24 Kyselina
+uniform_color_25 Bouře
+uniform_color_26 Fialová
+uniform_color_27 Špína
+uniform_color_28 Ocel
+uniform_color_29 Lilac
+uniform_color_30 Vaječná skořápka
+uniform_color_31 Oceán
+uniform_color_32 Gruel
+
+# =============================================================================
+# In Game Messaging for Shelby
+#
+#	Localization notes:
+#	- objective_.. (IE: objective_WorkCredentials) is the same as objective_WorkCredentials_x_SubTitle
+#		- only exception to this is the NewRooms ones, which for PC is a concatenation of for example, "objective_NewRooms_1_SectionTitle" + " - " + "objective_NewRooms_1_Subtitle"
+#	- objective_WorkCredentials_1_Description on console is identical to objective_WorkCredentials_child_1_Description and objective_WorkCredentials_2_Description is identical to objective_WorkCredentials_child_2_Description
+#	- d11_tooltip_.. on console is not used on PC
+#
+# =============================================================================
+
+# Same as d11_todo_title_shelby on Console
+objectiveWindow_FilterButton_2_title				O Second Chances
+
+objectiveWindow_FilterButton_2_toolTip				Nápověda a informace týkající se nového DLC Second Chances.
+
+
+# Work Experience
+
+objective_WorkExperience                     Pracovní zkušenosti
+
+objective_WorkExperience_child_1             Úvod do pracovní zkušenosti
+objective_WorkExperience_child_1_Description Vězni budou mít nyní zaznamenány pracovní zkušenosti, které jim mohou pomoci při nápravě ve vzorné občany a mohou jim pomoci i ve vězení. Například po získání zkušeností v určitém oboru budou vězni vykonávat práce spojené s tímto oborem práce efektivněji než dříve. Vězni s 50 % v oboru vaření, řemeslné práce nebo obsluha zákazníků mohou vykonávat jakoukoli související práci, aniž by museli absolvovat související školení. Vězni také získají body do recidivy, když dosáhnou 50 % a 100 % zkušeností v jakémkoli pracovním oboru.
+
+objective_WorkExperience_child_2             Jak získat pracovní zkušenosti
+objective_WorkExperience_child_2_Description Existují 3 způsoby, jak mohou vězni získat pracovní zkušenosti: \n\nPředchozí pracovní pověření - vězni až do úrovně nejvyšší ostrahy mohou mít pracovní zkušenosti díky svým předchozím zaměstnáním. \n\nŠkolící programy - Vězni, kteří absolvují 1 ze 3 školících programů (Bezpečnost v dílně, Bezpečnost v kuchyni nebo Školení o třech úderech), získají 50 % požadované praxe v příslušném oboru (Kuchař, Řemeslník nebo Obsluha zákazníků). \n\nPráce ve vězení - Každý vězeň, který se účastní pracovních prací, získá každou hodinu zkušenosti v příslušném oboru.
+
+# New Rooms
