@@ -546,7 +546,7 @@ interfacedeployment_insaneseczone                  Pouze choromyslní
 interfacetopbar_PrisonerCells_insaneSecOnly	Kapacita choromyslných: *X
 
 roomgrading_PsychiatristOffice_info				Odemkni si dodatečné předměty a rozmísti je v kanceláři psychiatra, čímž se zlepší péče o choromyslné vězně.\n
-												Items are unlocked via criminally insane inmates attending Psychiatric Consultation Programs.
+												Předměty se odemykají prostřednictvím choromyslných vězňů, kteří navštěvují psychiatrické konzultační programy.
 roomgrading_PsychiatristOffice_Item				Položka : *X
 roomgrading_PsychiatristOffice_Quality			Schopnost psychiatra: *Q
 roomgrading_PsychiatristOffice_Upgrade			Vylepši kancelář psychiatra a zvyš jeho schopnosti.
@@ -696,7 +696,7 @@ researchtooltip_Psychiatrist					Pokročilý zaměstnanec, který našim choromy
 # Misc
 # =============================================================================
 
-doortimer_security_Insane			            Šílený
+doortimer_security_Insane			            Choromyslný
 
 buildtoolbar_header_foundationmain				Hlavní
 buildtoolbar_header_foundationmore				Větší
@@ -933,12 +933,12 @@ room_gymnasium									Tělocvična
 buildtoolbar_popup_room_gymnasium				Místo, kde se vězni mohou vyřádit a uvolnit svou nahromaděnou agresi nebo se naučit řešit neshody postaru.
 
 
-buildtoolbar_popup_help_CellStatus_1 Zobrazení stavu buňky zobrazuje obsazené (oranžová), volné (červená) a neobsazené (zelená) buňky.
+buildtoolbar_popup_help_CellStatus_1 Zobrazení stavu cely zobrazuje obsazené (oranžová), volné (červená) a neobsazené (zelená) cely.
 
 object_punchbag_blocked              Boxovací pytel nelze dosáhnout (Objekt_punchbag_blokován)
 object_trainingdummy_blocked         Tréninkový panák nelze dosáhnout
 
-gangCell                             *X buňka
+gangCell                             *X cela
 gangMember                           Člen gangu
 gangSoldier                          Voják gangu
 gangLieutenant                       Poručík gangu
@@ -1073,7 +1073,7 @@ quickbuild_Visitation Návštěvní místnost
 # Build Toolbar
 # =============================================================================
 
-buildtoolbar_affectsGradingNegativly    -SNÍŽÍ známku vězeňské buňky.
+buildtoolbar_affectsGradingNegativly    -SNÍŽÍ známku vězeňské cely.
 
 buildtoolbar_popup_obj_ovalStaffTable   Skvěle se hodí k židlím v prostorách pro personál.
 buildtoolbar_popup_obj_painting1        To, že je to vězení, neznamená, že to nemůžeme udržet na úrovni.
@@ -1963,16 +1963,16 @@ buildtoolbar_popup_obj_AutoScythe           Robotický zemědělský nástroj, k
 
 
 buildtoolbar_popup_obj_CropCarrotPlant  Vypěstujte si vlastní mrkev! Zakoupíte-li balíček 20 semen, z nichž každé při sklizni obvykle dává 1 přísadu, sklizenou mrkev lze prodat za 4 dolary za kus.
-buildtoolbar_popup_obj_CropPotatoPlant  Vypěstujte si vlastní brambory! Zakoupeno jako balení 20 semen, která při sklizni obvykle dávají po 3 bramborách, sklizené brambory lze prodat za 3 USD/kus.
-buildtoolbar_popup_obj_CropTomatoPlant  Vypěstujte si vlastní rajčata! Zakoupeno jako balení 10 semen, které obvykle při sklizni dávají po 5 rajčatech, sklizená rajčata lze prodat za 4 USD/kus.
+buildtoolbar_popup_obj_CropPotatoPlant  Vypěstujte si vlastní brambory! Zakoupeno jako balení 20 semen, která při sklizni obvykle dávají po 3 bramborách, sklizené brambory lze prodat za 3 $/kus.
+buildtoolbar_popup_obj_CropTomatoPlant  Vypěstujte si vlastní rajčata! Zakoupeno jako balení 10 semen, které obvykle při sklizni dávají po 5 rajčatech, sklizená rajčata lze prodat za 4 $/kus.
 buildtoolbar_popup_obj_CropCabbagePlant Vypěstujte si vlastní zelí! Zakoupeno v balení po 30 semenech, která při sklizni obvykle dávají po 1 přísadě, sklizené zelí lze prodat za 4 dolary za kus.
 buildtoolbar_popup_obj_CropAppleTree    Vyroste ve strom, který pak nepřetržitě pěstuje jablka! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 10 jablek, sklizená jablka lze prodat za 4 $/kus.
-buildtoolbar_popup_obj_CropBananaTree   Vyroste ve strom, který pak nepřetržitě pěstuje banány! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 16 banánů, sklizené banány lze prodat za 6 USD/kus.
-buildtoolbar_popup_obj_CropPeachTree    Vyroste ve strom, který pak nepřetržitě pěstuje Broskve! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 10 broskví, sklizené broskve lze prodat za 6 USD/kus.
-buildtoolbar_popup_obj_CropOrangeTree   Vyroste ve strom, který pak nepřetržitě pěstuje pomeranče! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 8 pomerančů, sklizené pomeranče lze prodat za 3 USD/kus.
-buildtoolbar_popup_obj_CropCornPlant    Vypěstujte si vlastní kukuřici! Zakoupeno jako balení 10 semen, z nichž každé při sklizni obvykle dává 5 klasů kukuřice, sklizenou kukuřici lze prodat za 5 USD/kus.
+buildtoolbar_popup_obj_CropBananaTree   Vyroste ve strom, který pak nepřetržitě pěstuje banány! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 16 banánů, sklizené banány lze prodat za 6 $/kus.
+buildtoolbar_popup_obj_CropPeachTree    Vyroste ve strom, který pak nepřetržitě pěstuje Broskve! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 10 broskví, sklizené broskve lze prodat za 6 $/kus.
+buildtoolbar_popup_obj_CropOrangeTree   Vyroste ve strom, který pak nepřetržitě pěstuje pomeranče! Kupuje se jako balení 5 semen. Obvyklý výnos každého stromu je 8 pomerančů, sklizené pomeranče lze prodat za 3 $/kus.
+buildtoolbar_popup_obj_CropCornPlant    Vypěstujte si vlastní kukuřici! Zakoupeno jako balení 10 semen, z nichž každé při sklizni obvykle dává 5 klasů kukuřice, sklizenou kukuřici lze prodat za 5 $/kus.
 buildtoolbar_popup_obj_CropWheatPlant   Vypěstujte si vlastní pšenici! Zakoupeno jako balení 20 semen, která při sklizni obvykle dávají po 4 kusech pšenice, sklizenou pšenici lze prodat za 6 dolarů za kus.
-buildtoolbar_popup_obj_CropBarleyPlant  Vypěstujte si vlastní ječmen! Zakoupeno jako balení 20 semen, která obvykle při sklizni dávají po 2 kusech ječmene, sklizený ječmen lze prodat za 3 USD/kus.
+buildtoolbar_popup_obj_CropBarleyPlant  Vypěstujte si vlastní ječmen! Zakoupeno jako balení 20 semen, která obvykle při sklizni dávají po 2 kusech ječmene, sklizený ječmen lze prodat za 3 $/kus.
 
 buildtoolbar_popup_obj_TallFridge   Přísady na jídlo lze nyní skladovat ve výšce hlavy!
 buildtoolbar_popup_obj_StorageShelf Skvělé pro zvětšení úložného prostoru.
@@ -2494,14 +2494,14 @@ d11_staffalert_tooltip_POWER02             Zvýšení napájení [[*X]]
 d11_staffalert_tooltip_DEATHROW01a         Postavit řadu smrti [[*X]]
 d11_staffalert_tooltip_DEATHROW01b         Výzkum řady smrti [[*X]]
 d11_staffalert_tooltip_STAFF01             Postavte místnost pro personál [[*X]]
-d11_staffalert_tooltip_NEEDS12             Vytvořit další buňky [[*X]]
+d11_staffalert_tooltip_NEEDS12             Vytvořit další cely [[*X]]
 d11_staffalert_tooltip_NEEDS19             Vybudování knihovny [[*X]]
 d11_staffalert_tooltip_NEEDS05             Postavit telefonní budky [[*X]]
 d11_staffalert_tooltip_NEEDS07             Zobrazení potřeb vězňů [[*X]]
 d11_staffalert_tooltip_NEEDS15             Zahájení farmakologické terapie [[*X]]
 d11_staffalert_tooltip_NEEDS16             Zahájení skupinové terapie alkoholiků [[*X]]
 d11_staffalert_tooltip_NEEDS18             Zahájení programu duchovního vedení [[*X]].
-d11_staffalert_tooltip_PRISONERS03         Zlepšit buňky [[*X]]
+d11_staffalert_tooltip_PRISONERS03         Zlepšit cely [[*X]]
 d11_staffalert_tooltip_DOCTOR01            Najměte lékaře [[*X]]
 d11_staffalert_tooltip_OBJECTS02           Sestavte zásobníky [[*X]]
 d11_staffalert_summary_MONEY01             Dochází nám hotovost.
@@ -3752,7 +3752,7 @@ objective_grant_emergencyProtocols_stayIndoor     Během kalamity 3x aktivujte p
 
 objective_grant_disasterRelief                    Pomoc při katastrofách
 objective_grant_disasterRelief_description        Vzhledem k nedávným škodám způsobeným nepříznivým počasím byl všem místním podnikům zpřístupněn grant na pomoc při katastrofách.
-objective_grant_disasterRelief_moneySpent         Investujte celkem 17 500 USD do modernizace věznice pro boj s budoucími katastrofami.
+objective_grant_disasterRelief_moneySpent         Investujte celkem $17 500 do modernizace věznice pro boj s budoucími katastrofami.
 
 objective_grant_heatwaveGrant                     Grant na vlnu veder
 objective_grant_heatwaveGrant_description         Požár představuje pro každé zařízení velké nebezpečí. Investicemi do požární bezpečnosti musíme zajistit bezpečnost našich zaměstnanců a vězňů.
@@ -3817,11 +3817,11 @@ object_BoomBoxRoundHouse                 Magneťák
 buildtoolbar_popup_obj_StaffDoorBlue     Zamčené dveře, které může otevřít kterýkoli zaměstnanec, nejen strážný.
 buildtoolbar_popup_obj_StaffDoorOrange   Uzamčené dveře, které může otevřít kterýkoli člen personálu, nejen Stráže.
 buildtoolbar_popup_obj_SofaChairBrown    Měkká konstrukce, na které se pohodlně sedí.
-buildtoolbar_popup_obj_WoodenWindowSmall K zahlédnutí slunce. Okna směřující ven zlepšují stupeň komfortu buňky.
-buildtoolbar_popup_obj_WoodenWindowLarge K průhledu na slunce. Okna směřující ven zvyšují komfort buňky.
-buildtoolbar_popup_obj_StainGlassWindow  Vypadá venku mnohem lépe, než ve skutečnosti je. Okna směřující ven zlepšují stupeň komfortu buňky. Vyhovuje potřebě "svobody".
+buildtoolbar_popup_obj_WoodenWindowSmall K zahlédnutí slunce. Okna směřující ven zlepšují stupeň komfortu cely.
+buildtoolbar_popup_obj_WoodenWindowLarge K průhledu na slunce. Okna směřující ven zvyšují komfort cely.
+buildtoolbar_popup_obj_StainGlassWindow  Vypadá venku mnohem lépe, než ve skutečnosti je. Okna směřující ven zlepšují stupeň komfortu cely. Vyhovuje potřebě "svobody".
 buildtoolbar_popup_obj_SwivelChair       Židle, která se vyrovná se středem stolu.
-buildtoolbar_popup_obj_ChairYellow       Skvěle se hodí ke stolu a zlepší stupeň komfortu buňky.
+buildtoolbar_popup_obj_ChairYellow       Skvěle se hodí ke stolu a zlepší stupeň komfortu cely.
 buildtoolbar_popup_obj_FancyDesk         Vaši zaměstnanci si potřebují hodně zapisovat a zároveň se jim kancelář bude líbit.
 buildtoolbar_popup_obj_BoomBoxRoundHouse Umožní vašim vězňům poslouchat jejich oblíbené chlapecké kapely při jejich každodenní práci. Díky tomu jsou všichni vězni v jedné místnosti o něco šťastnější.
 
@@ -4026,11 +4026,11 @@ LS_1_advisor               Gratulujeme ke zvládnutí této kalamity. V nejbliž
 LS_2_advisor               Gratulujeme ke zvládnutí této kalamity. Vzhledem k tomu, jak dobře jste tuto situaci zvládli, vám nebude po dobu následujících 15 dnů účtován související plán krytí.
 LS_3_advisor               Gratulujeme vám, že jste tuto kalamitu zvládli. Nyní se nebudete muset obávat, že se tato kalamita bude opakovat nejméně 10 dní.
 
-HW_1_advisor               Gratulujeme ke zvládnutí této kalamity. Přijměte prosím tento bonus ve výši 10 000 USD, abyste pokračovali v dobré práci.
+HW_1_advisor               Gratulujeme ke zvládnutí této kalamity. Přijměte prosím tento bonus ve výši $10 000, abyste pokračovali v dobré práci.
 HW_2_advisor               Gratulujeme ke zvládnutí této kalamity. Vaši vězni jsou vám vděční za vaši péči a budou mít po dobu následujících 5 dní posíleny své potřeby.
 HW_3_advisor               Gratulujeme ke zvládnutí této kalamity. Nyní se nebudete muset obávat, že se tato kalamita bude opakovat nejméně 20 dní.
 
-R_1_advisor                Gratulujeme ke zvládnutí této kalamity. Přijměte prosím tento bonus ve výši 10 000 USD, abyste pokračovali v dobré práci.
+R_1_advisor                Gratulujeme ke zvládnutí této kalamity. Přijměte prosím tento bonus ve výši $10 000, abyste pokračovali v dobré práci.
 R_2_advisor                Gratulujeme ke zvládnutí této kalamity, vaši vězni jsou vám vděční za vaši péči a budou mít po následující 3 dny posíleny své potřeby.
 R_3_advisor                Gratulujeme ke zvládnutí této kalamity, díky tvé tvrdé práci se na tvé vězně bude následujících 5 dní vztahovat pozitivní efekt.
 
@@ -4146,7 +4146,7 @@ buildtoolbar_popup_room_TattooRemovalRoom   Místnost, kde mohou vaši vězni pr
 quickbuild_TattooRemovalRoom                Místnost pro odstraňování tetování
 buildtoolbar_quickbuild_TattooRemovalRoom   Kde mohou vaši vězni projít bolestivým a zdlouhavým procesem odstraňování gangsterských tetování.
 
-object_PullUpBars                           Pull-Up Tyč
+object_PullUpBars                           Hrazda
 buildtoolbar_popup_obj_PullUpBars           Levné cvičební nářadí oblíbené u otrlejších vězňů.
 
 object_KneeRaise                            Zvedání kolenních kloubů
@@ -4423,8 +4423,8 @@ objective_Gang_MurderPunishment_Escalated_child          *G - Sníží trest za 
 objective_Gang_MoreYardTime_child                        *G - Zvyšuje dobu režimu na dvoře na *X hodin.
 objective_Gang_MoreYardTime_Escalated_child              *G - Prodlouží režimovou dobu na dvoře na *X hodin.
 
-objective_Gang_PullUpBars_child                          *G - Mít *X Pull-Up Tyčí.
-objective_Gang_PullUpBars_Escalated_child                *G - Mít *X Pull-Up Tyčí.
+objective_Gang_PullUpBars_child                          *G - Mít *X Hrazd.
+objective_Gang_PullUpBars_Escalated_child                *G - Mít *X Hrazd.
 
 objective_Gang_TyreApparatus_child                       *G - Mít *X pneumatik.
 objective_Gang_TyreApparatus_Escalated_child             *G - Mít *X pneumatik.
@@ -4513,7 +4513,7 @@ d11_prisoner_replacement_tooltip	Hodnota počtu vězňů bude doplněna na poža
 interface_action_CleanGraffiti                     Vyčištění
 job_cleanupobject                                  Vyčištění *X
 interfacetopbar_tension_angrygangmembersgraffiti   + *X ČLENŮ GANGU JE NAŠTVÁNO (Graffiti vyčištěno)
-interfacetopbar_tension_angrygangmembersleadercell + *X ČLENŮ GANGU JE NAŠTVÁNO (Vůdce převeden do buňky nižší kvality)
+interfacetopbar_tension_angrygangmembersleadercell + *X ČLENŮ GANGU JE NAŠTVÁNO (Vůdce převeden do cely nižší kvality)
 research_CCTVImprovement                           Zlepšení CCTV
 researchtooltip_CCTVImprovement                    Zlepšení využití zařízení CCTV. Umožňuje zobrazit zorné kužely CCTV a označit v jejich zorném poli špatně se chovající vězně.
 
