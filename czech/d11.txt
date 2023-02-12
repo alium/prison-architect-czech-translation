@@ -3253,3 +3253,760 @@ objective_WorkExperience_child_2             Jak získat pracovní zkušenosti
 objective_WorkExperience_child_2_Description Existují 3 způsoby, jak mohou vězni získat pracovní zkušenosti: \n\nPředchozí pracovní pověření - vězni až do úrovně nejvyšší ostrahy mohou mít pracovní zkušenosti díky svým předchozím zaměstnáním. \n\nŠkolící programy - Vězni, kteří absolvují 1 ze 3 školících programů (Bezpečnost v dílně, Bezpečnost v kuchyni nebo Školení o třech úderech), získají 50 % požadované praxe v příslušném oboru (Kuchař, Řemeslník nebo Obsluha zákazníků). \n\nPráce ve vězení - Každý vězeň, který se účastní pracovních prací, získá každou hodinu zkušenosti v příslušném oboru.
 
 # New Rooms
+
+objective_NewRooms                     Nové pokoje
+
+objective_NewRooms_child_2             Nové pokoje - Kompatibilní vězni
+objective_NewRooms_child_2_Description Vězni, kteří mají požadované zkušenosti v oblasti zákaznického servisu nebo vaření, budou moci pracovat v pekárně nebo restauraci. Požadovaná úroveň zkušeností pro oba obory je 50 %, které mohou vězni dosáhnout absolvováním příslušného školicího programu.
+
+objective_NewRooms_child_3             Nové pokoje - Správa těchto pokojů
+objective_NewRooms_child_3_Description Správa pracovních místností je dílčí nabídka v rámci vězeňské logistiky práce. \n\nPomocí této dílčí nabídky mohou hráči nastavit pracovní dobu místnosti, spolu s úrovní bezpečnosti vězňů, kteří mají povoleno v místnosti pracovat, kvalitu a rychlost výroby a počet strážných rozmístěných v místnosti. Vzhledem k možnosti přítomnosti značného počtu vězňů a civilistů existuje možnost, že se vězni v určitých situacích změní v násilníky.
+
+objective_NewRooms_child_9             Restaurační místnost - spokojenost zákazníků
+objective_NewRooms_child_9_Description Počet příchozích zákazníků se odvíjí od spokojenosti předchozí skupiny. Zákazníci, kteří nebudou obslouženi, budou mít nízkou spokojenost, jídla nízké kvality poskytnou střední úroveň spokojenosti a jídla vysoké kvality poskytnou zákazníkům vysokou spokojenost.
+
+# Juvenile Correction Program
+
+objective_ScaredStraight                     Program tří trestných činů
+
+objective_ScaredStraight_child_1             Jak program funguje
+objective_ScaredStraight_child_1_Description Program zve civilisty, kteří mají poslední varování před zákonem, do věznice, aby se přímo od vězňů dozvěděli o realitě vězeňského života. Vězni musí projít školicím programem, aby se mohli o své znalosti podělit se skupinami civilistů. Vzhledem k tomu, že Program tří trestných činů je sociální program, mohou se programu zúčastnit všichni vězni, kteří již mají požadované zkušenosti v oblasti "služeb zákazníkům", aniž by museli absolvovat školení. Na hladký a řádný průběh skupinových sezení bude dohlížet dozorce.
+
+objective_ScaredStraight_child_3             Výhody absolvování programu
+objective_ScaredStraight_child_3_Description Za úspěšné absolvování programu obdrží odsouzení malé zvýšení míry recidivy a odpovídající zvýšení pracovní praxe. Kromě toho se vězňům sníží také bod varu a obdrží také bonus k potřebám rodiny a/nebo svobody.
+
+# Behavioural Programs
+
+objective_BehaviouralPrograms                     Nové behaviorální programy
+
+objective_BehaviouralPrograms_child_1             Program terapie zvířaty
+objective_BehaviouralPrograms_child_1_Description Terapie zvířaty je podobná ostatním stávajícím programům, ale přináší další podněty pro chovance, kteří úspěšně absolvují kurz. \n\nProgram je rozdělen do několika sezení. Vězni, kteří se programu zúčastní a dokončí ho, zaznamenají snížení míry recidivy, snížení bodu varu, získají malou podporu potřeb Pohodlí, Svobody a Luxusu - a také mají šanci odstranit jakoukoli negativní reputaci, kterou vězeň v současné době může mít.
+
+objective_BehaviouralPrograms_child_2             Program řešení konfliktů
+objective_BehaviouralPrograms_child_2_Description Cílem programu Řešení konfliktů je naučit vězně, jak nejlépe řešit obtížné situace v reálném světě, aniž by se uchýlili k násilí. Tento program vedou bývalí vězni, což umožňuje otevřenější a konstruktivnější sezení. Program je rozdělen do více sezení. Po úspěšném absolvování vězni: zaznamenají snížení bodu varu a také šanci na odstranění jakékoli reputace založené na násilí.
+
+objective_BehaviouralPrograms_child_3             Konzultace s bývalými vězni.
+objective_BehaviouralPrograms_child_3_Description Bývalí vězni, kteří se po opuštění věznice úspěšně napravili, jsou pozváni zpět, aby jako hosté přednášeli aktuálně vězněným osobám. Vězni více oceňují, když slova pronáší "někdo z nich", a jsou ochotnější být otevření a sdílet své myšlenky s učitelem, který byl ve stejné situaci. \n\nProgram je rozdělen do několika sezení. Po úspěšném absolvování vězni: zaznamenají snížení míry recidivy, zlepšení nebo snížení specifických potřeb, jako je rodina, svoboda a bezpečí, a také šanci na odstranění negativní pověsti v oblasti chování.
+
+# Sentence Reductions
+
+objective_SentenceReductions						Zkrácení a prodloužení trestu odnětí svobody 
+
+objective_SentenceReductions_child_1				Přidávání a zkracování doby trestu vězňů prostřednictvím jejich chování
+objective_SentenceReductions_child_1_Description	Chování vězně může přímo ovlivnit délku zbývajícího trestu. \Kritéria chování, hodnotu kritéria a parametry zkrácení trestu lze upravit v nabídce Úpravy trestu. Dodržováním nastavených kritérií dobrého chování bude vězeň odměněn snížením trestu. \n\nVězni, kteří nedodrží nastavená kritéria a způsobí nesprávné chování, mohou čelit zvýšení svého aktuálního trestu. Zatímco drobné přestupky se vyhnou trestu, závažné trestné činy způsobí prodloužení délky trestu vězně.
+
+# Released Prisoners
+
+objective_ReleasedPrisoners				Propuštění vězni
+
+objective_ReleasedPrisoners_child_1				Odměny a tresty za nápravu a opětovné spáchání trestného činu 
+objective_ReleasedPrisoners_child_1_Description			Propuštění vězni buď začnou nový život, nebo se vrátí ke starým návykům a vrátí se do vězení. \Za každého vězně, který se úspěšně napraví, bude vyplacena peněžní prémie. \n\nZa každého vězně, který znovu spáchá trestný čin a vrátí se do vězení, bude udělena pokuta za neúspěšnou nápravu.
+
+objective_ReleasedPrisoners_child_2			Vracející se vězni
+objective_ReleasedPrisoners_child_2_Description			Osvobození vězni, kteří znovu spáchají trestný čin a vrátí se do věznice, mohou získat další špatné návyky, když jsou venku. \n\nVězni by se mohli vrátit s další reputací nebo si vylepšit stávající reputaci - například být "silný" při propuštění a "extrémně silný" po návratu. Tyto vězně lze poznat podle ikony nad jejich hlavou a lze je také najít pomocí oznámení v nabídce Propuštění vězni.
+
+# Prison Labour Wages
+
+objective_LabourWages 			Mzdy vězňů
+
+objective_LabourWages_child_1				Úprava mezd a její dopady
+objective_LabourWages_child_1_Description				Za každou odvedenou práci dostane vězeň hodinovou mzdu.Mzdy lze přizpůsobit jednotlivým typům práce prostřednictvím nabídky Finance. Vyšší mzda motivuje vězně k účasti na pracovních programech ve věznici. zvýšení mzdy za práci v kuchyni zvýší zájem o hygienický program, zvýšení mzdy za práci v pekárně a restauraci zvýší zájem o hygienický program a program tří trestných činů, zatímco zvýšení mzdy za práci v dílně a knihovně zvýší zájem o bezpečnostní a vzdělávací program.    
+
+
+# Prisoner Grant Bonus
+
+objective_PrisonerGrantBonus 		Prémie za vězně
+
+objective_PrisonerGrantBonus_child_1			Výhody nízké míry opakovaného páchání trestné činnosti 
+objective_PrisonerGrantBonus_child_1_Description			Věznice, které mají úspěšný rehabilitační program, budou mít nízkou míru trestné činnosti oceněnou zvýšením hodnoty vyplácené za každý den na vězně. Čím nižší je míra věznění, tím vyšší je denní bonus.\nTento dodatečný příjem naleznete v nabídce Finance pod názvem Prémie za vězně.
+
+objective_PrisonerGrantBonus_child_2			Specifické platby 
+objective_PrisonerGrantBonus_child_2_Description			Denní platby budou poskytovány v závislosti na úrovni bezpečnosti vězňů a na tom, zda je u těchto vězňů míra recidivy nižší než 30 %, 20 % a 10 %. U vězňů s minimální ostrahou budou tyto bonusové platby činit 10, 20 a 50 dolarů, u vězňů se střední ostrahou 20, 30 a 50 dolarů, u vězňů s maximální ostrahou 30, 50 a 100 dolarů a u vězňů se supermaximální ostrahou 40, 60 a 100 dolarů.
+		
+
+# Drug Bust / Narcotic Search
+crisisToolbarTitle_DrugBust   Vyhledávání narkotik
+buildtoolbar_DrugBust         Narkotické vyhledávání
+buildtoolbar_tooltip_DrugBust Pošlete příkaz všem dostupným psovodům, aby prohledali věznici a našli případný skrytý narkotický kontraband.
+drug_bust_underway            PROBÍHÁ VYHLEDÁVÁNÍ NARKOTIK
+
+# =============================================================================
+# Grants
+# =============================================================================
+
+objective_grant_bakeryProduction                   Pekařské výrobní dovednosti
+objective_grant_bakeryProduction_description       Pečení a prodej skvěle chutnajících výrobků platícím zákazníkům je pro vězně, kteří hledají potenciální kariérní cestu po propuštění, dovedností i úspěchem.\n\nVězni si vydělají mzdu a věznice bude mít příjmy.
+objective_grant_bakeryProduction_bakery            Vybudovat pekárnu
+objective_grant_bakeryProduction_bakedGoods        Prodej 25 druhů pečiva zákazníkům.
+
+objective_grant_restaurantService                  Schéma restaurační služby
+objective_grant_restaurantService_description      Umožnit vězňům vydělat si mzdu a poskytovat služby navštěvujícím civilistům je skvělý způsob, jak do života vězňů vrátit trochu normality.\n\nVěznice bude mít také prospěch z příjmů z prodaných výrobků.
+objective_grant_restaurantService_restaurant       Vybudování restaurace
+objective_grant_restaurantService_restaurant       Obsloužení 30 civilistů
+
+objective_grant_reformedPrisoner                   Iniciativa za nápravu vězňů
+objective_grant_reformedPrisoner_description       Vláda se zaměřuje na přínosy investic do vězňů a chce podpořit úspěch věznic, které úspěšně reformují vězně. \n\nProgramy Napravený vězeň hrají zásadní roli v nápravě vězňů po jejich propuštění z vězení. Poskytují vězňům nejlepší příležitost změnit svůj život.
+objective_grant_reformedPrisoner_reformedPrisoners Dosáhnout 100 napravených vězňů po propuštění z výkonu trestu.
+
+objective_grant_prisonerReoffendRate               Míra recidivy vězňů po propuštění z výkonu trestu
+objective_grant_prisonerReoffendRate_description   Snížení míry recidivy vězňů je dobré pro všechny zúčastněné. Pravděpodobnost recidivy vězňů se snižuje, pokud je o ně dobře postaráno, pokud jde o zdravotní péči, jsou jim poskytnuty příležitosti v oblasti životních dovedností a nápravných programů a jsou chráněni před újmou díky odpovídajícímu zabezpečení.
+objective_grant_prisonerReoffendRate_reduceRate    Snížení průměrné míry recidivy na 30 %.
+
+objective_grant_reformProgramResearch                            Výzkum reformního programu
+objective_grant_reformProgramResearch_description                Předběžné studie ukázaly, že programy, které jsou schopny snížit násilné sklony a omezit konflikty, nabízejí jednu z nejlepších příležitostí pro vězně, jak se úspěšně znovu začlenit do společnosti. n\n\nZavedení řady reformních programů, které budou zkoumat jejich pozitivní účinky.
+
+objective_grant_reformProgramResearch_enrollAnimalTherapy        Nástup 10 vězňů do programu Terapie zvířaty 
+objective_grant_reformProgramResearch_passAnimalTherapy          1 vězeň absolvoval Terapii zvířaty
+
+objective_grant_reformProgramResearch_enrollJuvenileCorrection   Zařazení 10 vězňů do programu Tří trestných činů
+objective_grant_reformProgramResearch_passJuvenileCorrection     1 vězeň prošel programem Tří trestných činů
+
+objective_grant_reformProgramResearch_enrollPrisonerConsultation Zapsání 10 vězňů do programu Konzultace s polepšenými vězni
+objective_grant_reformProgramResearch_passPrisonerConsultation   1 Vězeň absolvoval Konzultace s polepšenými vězni
+
+grant_category_ReformPassed                                      Alespoň jeden vězeň prošel
+
+
+# =============================================================================
+# Shelby Batch 2
+# =============================================================================
+
+dlc_name_shelby								Second Chances
+
+# =============================================================================
+# Halloween Items
+# =============================================================================
+
+object_JackOLantern                  Jack-o'-lantern (lucerna)
+object_DecoratedTree                 Zdobený strom (strašidelný)
+object_CoffinBed                     Postel s rakví
+object_SpiderWeb                     Pavučina
+
+buildtoolbar_popup_obj_JackOLantern  Strašidelné a případně jedlé zdroje světla.
+buildtoolbar_popup_obj_DecoratedTree Starý strašidelný strom s příslušnými ozdobami.
+buildtoolbar_popup_obj_CoffinBed     Strašidelná, ale poněkud pohodlná postel pro vězně.
+buildtoolbar_popup_obj_SpiderWeb     Přidání trochu strašidelného faktoru na stěny.
+
+# =============================================================================
+# Reform Menu Tooltips - PC Only
+# =============================================================================
+
+d11_reform_design_info                      Čím nižší je pravděpodobnost recidivy, tím větší je pravděpodobnost úspěšné nápravy vězňů.
+
+# Prisoners Popup
+# Reads "%" on console due to lack of space, but "chance" on PC
+
+d11_reform_punishment_grade_tooltip_title   Průměrný stupeň trestu
+d11_reform_punishment_grade_tooltip         Robustní tresty udržují vězně na uzdě a udržují ve věznici vládu zákona.
+
+d11_reform_reform_grade_tooltip_title       Průměrný stupeň nápravy
+d11_reform_reform_grade_tooltip             Vězni, kteří se účastní a absolvují dostupné nápravné programy, mají větší šanci se po propuštění z vězení napravit.
+
+d11_reform_work_exp_grade_tooltip_title     Průměrná známka z pracovní zkušenosti
+d11_reform_work_exp_grade_tooltip           Životní dovednosti jsou důležitou součástí reformy. Poskytování pracovních míst vězňům v rámci věznice zlepší průměrnou známku Stupně pracovní zkušenosti.
+
+d11_reform_security_grade_tooltip_title     Průměrná známka z bezpečnosti
+d11_reform_security_grade_tooltip           Zajišťování bezpečnosti vězňů uvnitř věznice zvýší celkový stupeň bezpečnosti.
+
+d11_reform_health_grade_tooltip_title       Průměrný stupeň zdraví
+d11_reform_health_grade_tooltip             Péče o celkovou pohodu vězňů a léčba závislostí zlepší průměrnou známku Zdraví ve věznici.
+
+d11_reform_reoffending_chance_tooltip_title Průměrné % recidivy ve věznici
+d11_reform_reoffending_chance_tooltip       Čím vyšší je procento, tím větší je pravděpodobnost opakování trestné činnosti.
+
+# =============================================================================
+# Misc.
+# =============================================================================
+score_tooltip_WorkExperience Vězni budou mít nyní zaznamenané pracovní zkušenosti, což jim může pomoci při nápravě ve vzorné občany a může jim to pomoci i ve vězení. Například po získání zkušeností v určitém oboru budou vězni vykonávat práce spojené s tímto oborem efektivněji než dříve. Vězni s 50 % v oboru vaření, řemeslné práce nebo obsluha zákazníků mohou vykonávat jakoukoli související práci, aniž by museli absolvovat související školení. Vězni také získají body do recidivy, když dosáhnou 50 % a 100 % zkušeností v jakémkoli pracovním oboru.
+d11_on                      	ZAPNUTO
+d11_off                     	VYPNUTO
+
+# ====================================
+# SHELBY BATCH 3
+# ======================================
+
+d11_work_credentials        Pracovní pověření
+
+d11_staffalert_hint_NEEDS14 Svěží a čistá uniforma může mít velký vliv na kvalitu života vězně. Prádelna má zásadní význam pro uspokojení potřeby vězňů "Oblečení".
+d11_shakedown_searched      Prohledáno *A/*B míst
+
+equipment_whisk             Metla
+equipment_rollingpin        Váleček na maso
+
+# ====================================
+# SHELBY BATCH 4
+# ======================================
+
+interfacetopbar_timesincetransaction	[před *X sekundami]
+
+# ====================================
+# ====================================
+# ----------------------------------- POLLY BATCH 1 -----------------
+# ======================================
+# ====================================
+
+dlc_name_polly							Perfect Storm
+
+event_rollingblackout             Bouře si zahrávají s místní elektrickou sítí. Instalace záložních generátorů je dobrou pojistkou. Musíme se snažit, aby do věznice proudil i v nouzových situacích.
+event_frozenpeople_cold           Nemyslím si, že by někdo měl být v takovém mrazu venku. Měli bychom všechny dostat dovnitř, jinak bychom mohli mít na svědomí smrt.
+event_frozenpeople_die            Někdo venku umrzl. Je to tragédie, které se mělo předejít. Je vaší odpovědností řídit blaho vězňů a zaměstnanců uvnitř těchto zdí. V těchto podmínkách by nikdo neměl být venku.
+event_frozensmallpipe_frozenvalve Části potrubí jsou zamrzlé. Pokud nemají žádnou izolaci, je pravděpodobné, že při poklesu teploty zamrznou mnohem rychleji.
+event_damage_cable_advisor        Vypadá to, že máme vadné vedení. Instalace kabelů pro vysoké zatížení by byla dobrým nápadem, ale jejich opravu zvládne každý, kdo má patřičné vzdělání.
+event_rat_droppings_advisor       Právě jsem viděl krysu... možná bychom měli uvažovat o investici do nějakého odstrašujícího prostředku?
+event_rat_stealFood_advisor       Právě jsem viděl krysu, jak se plazí s nějakým jídlem. Asi dělají nájezdy na kuchyně...
+event_rat_chewFence_advisor       Běžná kontrola odhalila, že krysy prokousávají díry v plotech. Je samozřejmé, že to představuje potenciální bezpečnostní riziko.
+event_rat_illnessWarning_advisor  Problém s krysami je nyní zamořen. Pokud se jejich počet nesníží, je jen otázkou času, kdy přenesou nemoc na vězně.
+event_rat_illnessOutbreak_advisor Vypadá to, že několik vězňů trpí nemocemi způsobenými přítomností krys. Měli bychom se zaměřit na léčbu nakažených a doporučuji důkladnou očistu, zejména kuchyní nebo prostor pro přípravu jídla.
+event_rat_escapeTunnels_advisor   Z bloku přicházejí zvěsti, že vězni pozorují krysy a hledají místa, kde by se daly snáze vytunelovat.
+
+event_deepfreeze_flu_outbreak     Objevují se zprávy, že několik vězňů může mít chřipku, možná bude potřeba přijmout opatření, aby byla pod kontrolou!
+event_deepfreeze_flu_onboarding   Chladné počasí s sebou přináší riziko, že se vězni nakazí sezónní chřipkou. Je důležité snažit se udržet nakažené vězně odděleně od zbytku vězeňské populace, a pokud je to možné, nasměrovat je na ošetřovnu k ošetření.
+
+event_deepfreeze_construction_onboarding Venku jsou obtížné podmínky. Vzhledem k tomu, že půda je zmrzlá, rychlost výstavby se zpomalí.
+event_deepfreeze_gardening_onboarding    Půda je zmrzlá, je obtížné nyní cokoli sázet.
+event_deepfreeze_frozentunnel_onboarding Jediná dobrá věc na tomto počasí je, že zpomalí každého, kdo se plánuje prokopat ven.
+event_deepfreeze_frozenpump_onboarding   Zamrzlé vodní čerpadlo blokuje průtok vody. Bez jakékoliv izolace je pravděpodobnější, že předměty při poklesu teploty zamrznou.
+event_pipe_burst_onboarding              V důsledku prasklého potrubí dochází ke značnému zaplavení. Nevidím, že by to v dohledné době ustoupilo, pokud nezavoláte někoho, kdo by vodu odčerpal.
+event_heatwave_meltingroad_onboarding    Silnice začínají být nebezpečné. Všechna vozidla projíždějící věznicí budou muset jet mnohem pomaleji, dokud se podmínky nezlepší. Možná bude vhodné najmout pohotovostní údržbu, aby se situace zlepšila.
+event_deepfreeze_sprinklers              V tak chladných podmínkách mohou vězeňské postřikovače zamrznout a ohrozit životy. Ujistěte se, že máte personál s odpovídajícím požárním výcvikem pro případ takového scénáře. Špatné výsledky v oblasti požární bezpečnosti pověsti věznice neprospějí.
+event_deepfreeze_road                    Silnice začínají být nebezpečné. Všechna vozidla projíždějící kolem věznice budou muset jet mnohem pomaleji, dokud se podmínky nezlepší. Možná by bylo vhodné najmout pohotovostní údržbu, aby se situace zlepšila.
+event_heatwave_heatstroke                Toto intenzivní horko může mít na lidi nebezpečné účinky, například způsobit úpal. Budeme muset zajistit, aby všichni byli hydratovaní, a mít v pohotovosti zdravotnický personál.
+event_heatwave_SwollenDoors              Toto horko způsobilo, že se naše kovové dveře roztáhly. Musíme přimět pracovníky, aby je ochladili, jinak je nebudeme moci používat.
+
+
+objective_fluoutbreak                 Epidemie chřipky
+objective_fluoutbreak_child           Počet vězňů s chřipkou:
+objective_heatstroke                  Oběti úpalu Oběti úpalu
+objective_heatstroke_child            Počet vězňů s úpalem:
+objective_foodpoisoning               Oběti otravy jídlem
+objective_foodpoisoning_child         Počet vězňů s otravou jídlem:
+objective_RatInfestation              Zamoření krysami
+objective_RatInfestation_child        Hrubý počet krys ve věznici: ≈
+
+event_buildingmaterialdeliverysurplus Kvůli nějaké logistické chybě dostáváme zásoby navíc.
+event_ingredientsdeliverysurplus      Kvůli nějaké logistické chybě dostáváme zásoby navíc.
+event_prisoneruniformdeliverysurplus  Z důvodu nějaké logistické chyby dostáváme zásoby navíc.
+
+event_tunnelreveal                    Sesuv půdy odhalil tunel, který vězeň kopal.
+
+weather_popup_title                   Počasí - předpověď
+weather_current_title                 Aktuální počasí
+weather_predicted_title               Předpověď počasí
+weather_topbar_hover_hint             Kliknutím se dostanete k podrobné předpovědi počasí
+weather_warning_title                 Vydáno varování před počasím
+weather_forcasted_title               Předpověď počasí:
+weather_temp_range_title              Rozsah teplot:
+weather_precipitation_title           Srážky:
+weather_windspeed_title               Rychlost větru:
+weather_visibility_title              Viditelnost:
+weather_deepfreeze_1                  Slabá vánice
+weather_deepfreeze_2                  Sněhová bouře
+weather_deepfreeze_3                  Silná vánice
+weather_lightningstorm_1              Slabá bouře
+weather_lightningstorm_2              Bouřka
+weather_lightningstorm_3              Silná bouřka
+weather_calamityheatwave_1            Horká vlna
+weather_calamityheatwave_2            Vlna veder
+weather_calamityheatwave_3            Silná vlna veder
+weather_windspeed_mph                 MPH
+weather_windspeed_ms                  m/s
+weather_level                         Level *X
+weather_north                         Sever
+weather_south                         Jih
+weather_west                          Západ
+weather_east                          Východ
+weather_northwest                     Severozápad
+weather_northeast                     Severovýchod
+weather_southwest                     Jihozápad
+weather_southeast                     Jihovýchod
+weather_duration                      Doba trvání:
+weather_data_calamity_active          Nelze předpovědět budoucí počasí během kalamity, zkontrolujte prosím později, až se podmínky uklidní.
+weather_data_no_predictions           S aktuální úrovní přístrojů pro zjišťování počasí není možné předpovídat počasí.
+
+# Weather Visibility
+weather_vis_good   Dobrý
+weather_vis_okay   Okay
+weather_vis_poor   Špatný
+weather_vis_severe Vážné
+weather_vis_mild   Mírný
+
+# New renamed weather types?
+weather_Clear        Jasné
+weather_Cloudy       Oblačno
+weather_PartialSun   Částečné slunce
+weather_Sun          Slunečno
+weather_LightShowers Lehké přeháňky
+weather_HeavyRain    Silný déšť
+weather_ThunderStorm Bouřka Bouřka
+weather_SnowShowers  Sněhové přeháňky
+weather_HeavySnow    Silné sněžení
+
+# We have loc strings that are similar, but some countries might use other terms then category in the context of weather, e.g Sweden uses "Class X Warning"
+weather_severity_category		Kategorie: *X
+
+
+interfacecallout_pestcontrol                  Kontrola škůdců
+interfacecallout_airpestcontrol               Kontrola škůdců vzduchu
+interfacecallout_reconstructionspecialists    Opraváři
+interfacecallout_airreconstructionspecialists Opraváři vzduchu
+interfacecallout_drainagespecialists          Instalatéři
+interfacecallout_airdrainagespecialists       Vzduchotechnici Instalatéři
+
+mutator_name_DoggieDoo                        Psí hovínko!
+mutator_tooltip_DoggieDoo                     Psi budou mít nyní vlastní malou kalamitu, která poskytne další práci uklízečům a bude mít malý dopad na potřebu Hygieny v oblastech s vězni. Strážní psi i psi z programů mohou kakat!
+
+d11_prisoner_programs                         Programy pro vězně
+d11_staff_programs                            Programy pro zaměstnance
+
+
+# ==============================================================
+# Objects
+# ==============================================================
+
+object_PestControlTruck                   Nákladní auto na hubení škůdců
+object_PestControlWorker                  Pracovník ochrany proti škůdcům
+equipment_PoisonWand                      Fumigátor
+equipment_FirstAidKit                     Souprava první pomoci
+
+object_damagedelectricalcable             Poškozený elektrický kabel
+
+object_Rat                                Krysa
+object_RatTrap                            Past na krysy
+object_RatDroppings                       Krysí trus
+object_DogDoo                             Psí hovínko
+object_BackupGenerator                    Záložní generátor
+object_SonicDeterrent                     Zvukový plašič krys
+object_FirstAidStation                    Stanice první pomoci
+object_WeatherMachine                     Stroj na počasí
+object_Sprinkler                          Protipožární postřikovače
+object_FireAlarm                          Požární poplach
+interface_action_range                    Rozsah
+
+object_PipeSmallLagged                    Izolace potrubí (malá)
+object_PipeHotLagged                      Izolace potrubí (horké)
+object_PipeValveLagged                    Izolace ventilu potrubí
+object_WaterStationLagged                 Izolace vodního čerpadla
+object_WaterBoilerLagged                  Izolace vodního kotle
+object_CropSprinkler                      Venkovní zavlažovač
+object_LightningRod                       Hromosvod
+object_HeavyDutyElectricalCable           Ochrana kabelů
+object_TrainingElectricalCable            Cvičný poškozený elektrický kabel
+object_GritBin                            Zásobník na štěrk
+object_mysterycrate                       Záhadná bedna
+
+object_ConstructionVan                    Opravárenská dodávka
+object_ConstructionHeli                   Opravný vrtulník
+object_Repairman                          Opravář
+
+object_DrainageVan                        Instalatérská dodávka
+object_DrainageHeli                       Instalatérská helikoptéra
+object_Waterman                           Instalatér
+object_waterman_hosehelp_intro            Instalatér vypustí veškerou vodu v okolí
+object_waterman_hosehelp                  Stiskněte H pro zvýšení rychlosti
+
+object_BorderPlantA                       Hraniční rostlina A
+object_BorderPlantB                       Hraniční rostlina B
+object_BorderPlantC                       Hraniční rostlina C
+
+object_EntityDeliveryMan                  Dostavník
+object_birthdayPresent                    Narozeninový dárek
+
+buildtoolbar_popup_uts_PipeSmallLagged    Vrstva izolace chrání potrubí před stejně rychlým zamrznutím v podmínkách pod nulou.
+buildtoolbar_popup_uts_PipeHotLagged      Vrstva izolace chrání potrubí teplé vody před stejně rychlým zamrznutím v podmínkách pod nulou.
+buildtoolbar_popup_uts_PipeValveLagged    Zachovává volný průtok funkcí ventilu v podmínkách pod nulou.
+buildtoolbar_popup_uts_WaterStationLagged Tepelná izolace odolávající podmínkám pod nulou. Aplikujte na stávající vodní čerpací stanici, abyste ji ochránili před budoucím zamrznutím.
+buildtoolbar_popup_uts_WaterBoilerLagged  Tepelná izolace odolávající podmínkám pod bodem mrazu. Použijte na stávající vodní kotel k ochraně proti budoucímu zamrznutí.
+buildtoolbar_popup_obj_CropSprinkler      Automaticky postřikuje plochu za účelem zavlažování trávy, rostlin a listí.
+buildtoolbar_popup_obj_LightningRod       Tento prvek přesměruje a bezpečně absorbuje údery blesku.
+
+
+buildtoolbar_popup_obj_RatTrap                  Pokud zaměstnanci absolvovali program Odstraňování škůdců, budou schopni tato zařízení nastavit a humánně odstranit všechny chycené obyvatele.
+buildtoolbar_popup_uts_BackupGenerator          Ukládá solární energii, která po připojení k elektrickým kabelům věznice automaticky napájí v případě výpadku proudu. Záložní generátory jsou omezeny na jeden na obvod.
+double_click                                    DVOJKLIK:
+buildtoolbar_popup_obj_SonicDeterrent           Vydává vysokou frekvenci, která zabrání krysám vstoupit do oblasti, v níž je umístěn.
+buildtoolbar_popup_uts_WeatherMachine           Stroj na počasí poskytuje pokročilou předpověď počasí. Předpoví dobu trvání, teplotu, srážky, rychlost větru a podmínky viditelnosti. Kromě toho poskytne odpočet pro jakoukoli znepokojivou povětrnostní událost, která by mohla přijít.
+object_WeatherAntenna                           Anténa počasí
+buildtoolbar_popup_obj_WeatherAntenna           Meteorologická anténa poskytuje vynikající předpověď počasí. Předpovídá dobu trvání, teplotu, srážky, rychlost větru a podmínky viditelnosti.
+
+buildtoolbar_popup_obj_WindSock                 Větrná ponožka poskytuje 1 hodinu dopředu varování před přicházející kalamitou a ukazuje směr/rychlost větru.
+
+object_DrinkingFountain                         Fontána na pití
+buildtoolbar_popup_obj_DrinkingFountain         Nástěnná fontánka na vodu, která udržuje vězně a personál osvěžené a hydratované.
+
+buildtoolbar_popup_obj_FireAlarm                Upozorní vás a všechny jednotky v okolí, když je v okolí detekován aktivní požár.
+buildtoolbar_popup_uts_HeavyDutyElectricalCable Kabely, které rozvádějí elektřinu po věznici, budou odolné proti poškození krysami nebo náhlým elektrickým přepětím díky chráničům kabelů nainstalovaným na stávající kabeláž.
+
+buildtoolbar_popup_obj_GritBin                  Vyškolený personál může rozvážet posypový materiál, aby zabránil vzniku námrazy na silnicích, cestách a dalších venkovních plochách.
+buildtoolbar_popup_obj_FirstAidStation          Pokud zaměstnanci prošli školením první pomoci, budou si odtud moci vzít lékárničky k ošetření drobných zranění a stabilizaci těch v kritickém stavu.
+
+buildtoolbar_popup_obj_BorderPlantA             Dekorativní květina, kterou můžete použít k ohrazení malé zahrádky.
+buildtoolbar_popup_obj_BorderPlantB             Dekorativní květina, kterou můžete použít k oplocení malé zahrádky.
+buildtoolbar_popup_obj_BorderPlantC             Dekorativní květina, kterou můžete použít k oplocení malé zahrádky.
+
+buildtoolbar_popup_obj_birthdayPresent          Dárek na oslavu narozenin vězně.
+
+equipment_GritBucket                            Kbelík na štěrk
+
+# ==============================================================
+# Reinforcement
+# ==============================================================
+
+material_RebarReinforcement               Výztuž z prutů
+buildtoolbar_popup_mat_RebarReinforcement Použití této výztuže zvýší strukturální integritu stěn a základů a sníží pravděpodobnost poškození vlivem událostí.
+
+subsidence_tooltip_Damaged                Sesedání/poškození krysami
+
+#ROOMS
+room_WeatherCentre                    Centrum počasí
+buildtoolbar_popup_room_WeatherCentre Místnost s vybavením pro předpověď počasí, která poskytuje předběžné varování před extrémními povětrnostními jevy.
+room_TrainingRoom                     Školící místnost
+buildtoolbar_popup_room_TrainingRoom  Místo pro vzdělávání zaměstnanců, kde mohou získat nové dovednosti.
+
+#QuickRooms
+quickbuild_WeatherCentre			Meteorologické centrum
+buildtoolbar_quickbuild_WeatherCentre		Místnost se zařízením pro předpověď počasí, které poskytuje předběžné varování před extrémními povětrnostními jevy.
+
+
+# duplicated stirng with pest control worker but the localization should filter this out and deal with duplication
+object_pestcontrolteacher			Pracovník pro kontrolu škůdců
+
+
+d11_generator_charge_text               Nabití generátoru: *X%
+
+event_SubsidenceFirstTime               Vypadá to, že věznice má problémy s propadáním. Nezapomeňte na své stavby umístit výztuhy, aby se nepropadaly, nebo si najměte Opraváře.
+
+object_FireExtinguisher                 Hasicí zařízení
+equipment_FireExtinguisher              Hasicí přístroj
+buildtoolbar_popup_obj_FireExtinguisher Požár jsme nezaložili, ale můžeme pomoci zastavit hoření pomocí programu Požární bezpečnost.
+
+object_FireSafetyTeacher                Učitel požární bezpečnosti
+
+codex_tooltip_ratInfestation            Špinavé vězení přitahuje krysy, dbejte na to, aby vaše vězení bylo čisté, jinak přijdou a způsobí spoušť. Krysí nákaza může začít, jakmile najmeš prvního údržbáře a budeš mít 20 vězňů.
+
+job_EmptyRatTrap                        Vypustit krysy
+job_FixSwollenDoor                      Ochlazení dveří
+
+# ==============================================================
+# Staff alerts
+# ==============================================================
+
+d11_staffalert_summary_DeepFreeze01          Dávejte si pozor na možná nebezpečí, která s sebou přináší chladné počasí... Zima se blíží.
+d11_staffalert_title_DeepFreeze01            Hluboké mrazy
+d11_staffalert_details_DeepFreeze01          Při výskytu těchto silných mrazů může dojít k promrznutí nebo úplnému zamrznutí mnoha částí věznice. U vězňů bude také vyšší pravděpodobnost, že onemocní a v extrémních případech sami zmrznou.
+d11_staffalert_hint_DeepFreeze01             Vždy je nejlepší mít k dispozici boxy s posypem, mít ve věznici řádně izolované užitkové předměty a mít po ruce kvalitní lékařskou pomoc.
+
+d11_staffalert_summary_LightningStorm01      Blíží se bouřka, dejte si pozor na problémy s elektřinou a možné poškození konstrukcí.
+d11_staffalert_title_LightningStorm01        Blesková bouře
+d11_staffalert_details_LightningStorm01      Bouřky mohou věznici způsobit nejrůznější problémy. Mohou narušit elektrické předměty, způsobit škody a požáry, pokud do nich udeří blesk, zničit celé prostory vaší věznice a dokonce mohou zasáhnout lidi elektrickým proudem.
+d11_staffalert_hint_LightningStorm01         Během těchto bouřek budete muset věznici zabezpečit a nainstalovat hromosvody, abyste co nejvíce minimalizovali škody.
+
+d11_staffalert_summary_RatInfestationLevel01 Krysy, ačkoli jsou roztomilé, mohou ve vašem vězení způsobit katastrofu, takže buďte opatrní.
+d11_staffalert_title_RatInfestationLevel01   Krysí nákaza
+d11_staffalert_details_RatInfestationLevel01 Ačkoli špinavé vězení dělá vašim vězňům radost, krysy jsou z něj nesmírně šťastné. Dávejte si pozor na jejich pobíhání kolem, protože mohou vašim vězňům způsobit nemoc, pomáhat si s uskladněnými potravinami a prokousávat se kabely a ploty.
+d11_staffalert_hint_RatInfestationLevel01    Abyste krysám zabránili, dbejte na to, aby bylo vězení vždy čisté a aby byly co nejrychleji odstraněny všechny tunely. V opačném případě by bylo potřeba provést nějakou deratizaci.
+
+d11_staffalert_title_WeatherDetected         Zjištěno nepříznivé počasí
+d11_staffalert_details_WeatherDetected       Zjištěna příchozí povětrnostní událost...
+
+d11_staffalert_title_ShortCircuit            Záložní generátor zkratoval.
+
+d11_staffalert_title_granterror              Chyba grantu
+d11_staffalert_details_granterror            V důsledku administrativní chyby byl náš bonus za dokončení zdvojnásoben!
+
+d11_staffalert_title_MysteryCrate            Spadl ze zad.
+d11_staffalert_details_MysteryCrate          Vypadá to, že předmět určený pro jiné zařízení spadl z projíždějícího nákladního auta, protože toto zařízení dostane za tuto chybu plnou náhradu, znamená to, že jsme získali dobrotu zdarma. Zajímalo by mě, co je uvnitř.  
+
+# ==============================================================
+# Polly todo list help objectives
+# ==============================================================
+objectiveWindow_FilterButton_3_title			O Perfect Storm
+objectiveWindow_FilterButton_3_tooltip			Sbírka informací popisujících a vysvětlujících kalamity a další klíčové rysy Perfect Storm.
+
+objective_HelpCalamities                     Dokonalá bouře
+objective_HelpCalamities_child_1             Hluboký mráz
+objective_HelpCalamities_child_1_Description Při tomto silném mrazu může dojít k promrznutí nebo úplnému zamrznutí mnoha částí věznice. Vězni budou mít také vyšší šanci onemocnět a v extrémních případech sami zmrznout. Vždy je lepší mít k dispozici boxy s posypem, mít ve věznici řádně izolované užitkové předměty a mít po ruce dobrou úroveň lékařské podpory.
+objective_HelpCalamities_child_2             Blesková bouře
+objective_HelpCalamities_child_2_Description Bouřky mohou vaší věznici způsobit nejrůznější problémy. Bouře mohou narušit elektrické předměty, způsobit škody a požáry, pokud padne nějaký blesk, zničit celé prostory vašeho vězení a v extrémních případech mohou dokonce zabít lidi. Budete muset zabezpečit své vězení, nainstalovat hromosvody, které blesky přesměrují, a snažit se zabránit co největším škodám.
+objective_HelpCalamities_child_3             Vlna veder
+objective_HelpCalamities_child_3_Description Toto intenzivní horko může být velmi nebezpečné, dávejte pozor na své vězně a zaměstnance, protože pokud budou v tomto horku dehydratovaní, může se situace stát kritickou. Měli byste si také dávat pozor na požáry, které vznikají v okolí věznice, na poškození silnice, a dokonce byste měli dávat pozor na jakýkoli kov v okolí věznice... například na všechny ty pěkné vězeňské dveře, které máme.
+objective_HelpCalamities_child_4             Zamoření krysami
+objective_HelpCalamities_child_4_Description Ačkoli špinavá věznice dělá vašim vězňům radost, krysy z ní mají obrovskou radost. Dávejte si pozor na jejich pobíhání kolem, protože mohou vašim vězňům způsobit nemoc, pomáhat si s uskladněným jídlem a prokousat si cestu skrz kabely a ploty. Abyste potkany odradili, dbejte na to, aby bylo vězení vždy čisté a aby byly co nejrychleji odstraněny případné tunely. V opačném případě by bylo potřeba použít nějaký druh ochrany proti škůdcům.
+
+objective_HelpCalamityPrevention             Prevence kalamit
+objective_HelpCalamityPrevention_Description K dispozici jsou nové systémy, které varují před některými kalamitami, a doporučujeme je používat, kdykoli je to možné. Umožní vám to přesunout ohrožené osoby do bezpečnějších oblastí a uvést do chodu plány na zmírnění a možná i úplné zabránění vzniku velkých problémů.
+objective_HelpEmergencyServices              Nové nouzové služby
+objective_HelpEmergencyServices_Description  Na podporu vaší věznice v nouzi jsou nyní k dispozici nové služby. Mohou pomoci s problémy spojenými se škůdci, stavebními a elektrickými škodami, vodovodními sítěmi a mohou také udržovat vaše silnice.
+objective_HelpCoveragePlans                  Plány pokrytí
+objective_HelpCoveragePlans_Description      Prostřednictvím denních plateb si můžete přizpůsobit vlastní plány pokrytí, které pomohou podpořit vaši věznici. Pokud je věznice v nebezpečí, můžete si nechat automaticky přivolat příslušný zásahový tým a zároveň získat slevy na položky a mzdy zaměstnanců, které vám pomohou v problematických obdobích.
+objective_HelpStafftraining                  Školení a vybavení personálu
+objective_HelpStafftraining_Description      Zaměstnanci se budou moci naučit nové dovednosti, které jim umožní používat specializované vybavení, jako jsou hasicí přístroje, zásobníky na posypový materiál a pasti na krysy, a také opravovat poškozené elektrické kabely.
+
+
+# =============================================================================
+# Polly Grants
+# =============================================================================
+
+objective_grant_emergencyProtocols                Nouzové protokoly
+objective_grant_emergencyProtocols_description    Bezpečnost vězňů a personálu je v případě nouze prvořadá. Bezpečnost osob ve vaší péči musíte zajistit tím, že se budou držet dál od potenciálního nebezpečí.
+objective_grant_emergencyProtocols_stayIndoor     Během kalamity 3x aktivujte příkaz "Zůstaňte uvnitř", abyste ochránili personál a vězně před nebezpečným počasím.
+
+objective_grant_disasterRelief                    Pomoc při katastrofách
+objective_grant_disasterRelief_description        Vzhledem k nedávným škodám způsobeným nepříznivým počasím byl všem místním podnikům zpřístupněn grant na pomoc při katastrofách.
+objective_grant_disasterRelief_moneySpent         Investujte celkem 17 500 USD do modernizace věznice pro boj s budoucími katastrofami.
+
+objective_grant_heatwaveGrant                     Grant na vlnu veder
+objective_grant_heatwaveGrant_description         Požár představuje pro každé zařízení velké nebezpečí. Investicemi do požární bezpečnosti musíme zajistit bezpečnost našich zaměstnanců a vězňů.
+objective_grant_heatwaveGrant_training            Proškolení 10 zaměstnanců v programu Požární bezpečnost.
+objective_grant_heatwaveGrant_build               Postavte 30 hasicích přístrojů.
+
+objective_grant_advancedStaffTraining             Pokročilé školení personálu.
+objective_grant_advancedStaffTraining_description Abyste podpořili věznici při mimořádných událostech, je nejlepší mít personál připravený na každou situaci.
+objective_grant_advancedStaffTraining_child       Mějte 5 zaměstnanců, kteří absolvují buď školení pro kontrolu chladu, nebo školení pro kontrolu škůdců, nebo školení pro elektrikáře.
+
+objective_grant_subsidence                        Grant v případě propadu půdy
+objective_grant_subsidence_description            Pomocí vládního Grantu v případě propadu půdy obnovte škody, které věznice utrpěla na zdech nebo oplocení.
+objective_grant_subsidence_hire                   Najmi si opraváře, aby opravili poškozené zdi a ploty.
+
+objective_grant_utilityretrofit                   Dotace na modernizaci veřejných budov
+objective_grant_utilityretrofit_description       Napadení může vést k vážným problémům v produkci místních podniků. Místním podnikům byl poskytnut grant na ochranu jejich Utility.
+objective_grant_utilityretrofit_build             Postavte 50 dlaždic kabelových chrániček.
+
+objective_grant_AdvancedFarming_buy               Zakupte buď položku Kapkovací potrubí, nebo venkovní zavlažovač.
+
+calamity_grants_onboarding                        Počasí je v posledních letech stále nevyzpytatelnější. Tentokrát jsme měli štěstí, ale věznice by měla být připravena na každou eventualitu. Některé granty jsou po nepříznivém počasí nabízeny místním podnikům. Věřím, že je využijete, jakmile budou k dispozici.
+
+grant_category_CollapsedWallFence                 Zřícený plot:
+grant_category_HasObject                          Má:
+grant_category_EverHadObject                      Má:
+grant_category_CalamityHappened                   Stala se kalamita:
+
+# ==============================================================
+# Missing Action strings
+# ==============================================================
+action_brewing              Pivovarnictví
+action_fight                Boj
+action_electricalsabotaging Sabotování
+job_failed_frozen           Hluboké zmrazení probíhá
+action_readbook             Čtení knihy
+action_FlowerGarden         Relaxace
+action_EatSnack             Získání svačiny
+action_ClimbTyreApparatus   Cvičení
+action_PassiveBookShelf     Čtení knihy
+action_PassiveCanvas        Relaxace
+action_ListenToBird         Relaxace
+action_ListenToBirdTwo      Relaxace
+action_PlayTableTennis      Hraní hry
+action_PlayTableFootball    Hraní hry
+action_UseDummy             Cvičení
+
+#================================================================
+# FREE UPDATE - OCTOBER
+#=================================================================
+
+object_StaffDoorBlue                     Personální dveře (modré)
+object_StaffDoorOrange                   Personální dveře (oranžové)
+object_SofaChairBrown                    Pohovka (hnědá)
+object_WoodenWindowSmall                 Dřevěné okno (malé)
+object_WoodenWindowLarge                 Dřevěné okno (velké)
+object_StainGlassWindow                  Vitrážové okno
+object_SwivelChair                       Otočná židle
+object_ChairYellow                       Chair (Žlutá)
+object_FancyDesk                         Stůl (Přepychový)
+object_BoomBoxRoundHouse                 Magneťák
+
+buildtoolbar_popup_obj_StaffDoorBlue     Zamčené dveře, které může otevřít kterýkoli zaměstnanec, nejen strážný.
+buildtoolbar_popup_obj_StaffDoorOrange   Uzamčené dveře, které může otevřít kterýkoli člen personálu, nejen Stráže.
+buildtoolbar_popup_obj_SofaChairBrown    Měkká konstrukce, na které se pohodlně sedí.
+buildtoolbar_popup_obj_WoodenWindowSmall K zahlédnutí slunce. Okna směřující ven zlepšují stupeň komfortu buňky.
+buildtoolbar_popup_obj_WoodenWindowLarge K průhledu na slunce. Okna směřující ven zvyšují komfort buňky.
+buildtoolbar_popup_obj_StainGlassWindow  Vypadá venku mnohem lépe, než ve skutečnosti je. Okna směřující ven zlepšují stupeň komfortu buňky. Vyhovuje potřebě "svobody".
+buildtoolbar_popup_obj_SwivelChair       Židle, která se vyrovná se středem stolu.
+buildtoolbar_popup_obj_ChairYellow       Skvěle se hodí ke stolu a zlepší stupeň komfortu buňky.
+buildtoolbar_popup_obj_FancyDesk         Vaši zaměstnanci si potřebují hodně zapisovat a zároveň se jim kancelář bude líbit.
+buildtoolbar_popup_obj_BoomBoxRoundHouse Umožní vašim vězňům poslouchat jejich oblíbené chlapecké kapely při jejich každodenní práci. Díky tomu jsou všichni vězni v jedné místnosti o něco šťastnější.
+
+
+# ==============================================================
+# Calamity weather
+# ==============================================================
+
+weather_DeepFreeze                      Hluboký mráz
+weather_LightningStorm                  Blesková bouře
+weather_CalamityHeatwave                Vlna veder
+
+weather_any								Jakékoliv
+
+# ==============================================================
+# New Training Program strings
+# ==============================================================
+
+reformprogram_ElectricianTraining      Školení elektrikářů
+reformprogram_ElectricianTraining_text Absolvováním tohoto programu se zaměstnanci naučí, jak si poradit s vadnou elektroinstalací. Umožní jim opravit veškeré nebezpečné elektrické zařízení.
+reformprogram_FirstAidTraining         Školení první pomoci
+reformprogram_FirstAidTraining_text    Absolvováním tohoto programu se zaměstnanci naučí poskytovat první pomoc poté, co se vybaví na stanici první pomoci. První pomoc může léčit drobná zranění a stabilizovat zranění v kritickém stavu.
+
+reform_program_intake_Workers          Pouze pro pracovníky
+reform_program_intake_PestControlStaff Pro údržbáře, zahradníky a dělníky
+
+reformprogram_PestControlTraining      Školení v oblasti ochrany proti škůdcům
+reformprogram_PestControlTraining_text Absolvováním tohoto programu se pracovníci naučí instalovat a vyprazdňovat pasti na hubení škůdců. Naučí se připravovat mechanismy a následně bezpečně manipulovat se škůdci.
+
+reform_program_intake_GenericStaff     Pouze pro generický personál
+reformprogram_FireSafetyTraining       Školení v oblasti požární bezpečnosti
+reformprogram_FireSafetyTraining_text  Absolvováním tohoto programu se zaměstnanci naučí bezpečně používat hasicí přístroje a v případě nouze je budou schopni použít ke zmírnění šíření případného požáru.
+
+
+reform_program_intake_Janitors         Pouze pro uklízeče
+reformprogram_ColdControlTraining      Školení v oblasti kontroly chladu
+reformprogram_ColdControlTraining_text Absolvováním tohoto programu se zaměstnanci naučí, jak postupovat v prostorách zasažených mrazem. Umožní jim odstranit některé oblasti ledu a vypořádat se se zmrzlými předměty.
+
+# ==============================================================
+# Coverage Menu strings
+# ==============================================================
+
+report_Coverage                           Pokrytí
+d11_coverage_title                        Plány krytí vězeňství
+d11_coverage_design_info                  Každý plán vyžaduje denní platby, ale poskytuje možnost automatického volání záchranné služby, když je vaše věznice v nouzi, spolu s poskytováním slev na veškeré mzdy zaměstnanců a položky spojené s každým plánem. Slevy se nesčítají.
+d11_coverage_plan_service_unavailable     Pro tento plán nejsou v současné době k dispozici žádné pohotovostní služby.
+
+ArsonAccidentsPlan                        Plán žhářství a nehod
+PreservationPlan                          Plán ochrany věznic
+RestorationPlan                           Plán restaurování věznic
+HealthSafetyPlan                          Plán zdraví a bezpečnosti
+PestControlPlan                           Plán ochrany proti škůdcům
+
+ArsonAccidentsPlan_hint                   Kromě automatického vyžádání pohotovostních služeb poskytuje tento plán také několik slev, které snižují pořizovací cenu hasicích přístrojů, alarmů, úhradu za požární sezení a také denní mzdu pro pracovníky.
+PreservationPlan_hint                     Kromě automatického vyžádání pohotovostních služeb poskytuje tento plán také několik slev, snížení nákupní ceny zásobníků na posypový materiál, platbu za sezení kontroly chladu a také denní mzdu dělníků.
+RestorationPlan_hint                      Kromě automatického vyžádání havarijních služeb poskytuje tento plán také několik slev, snížení nákupní ceny za těžké kabely, výztuže, platbu za školení elektrikářů a také denní mzdu dělníků.
+HealthSafetyPlan_hint                     Kromě automatického vyžádání pohotovostních služeb poskytuje tento plán také několik slev, snížení pořizovací ceny stanic první pomoci, platbu za školení první pomoci a taserů a také denní mzdu pro lékaře a sanitáře.
+PestControlPlan_hint                      Kromě automatického vyžádání pohotovostních služeb poskytuje tento plán také několik slev, které snižují nákupní cenu pastí na krysy, zvukových plašičů, platbu za školení na hubení škůdců a také denní mzdu pro údržbáře a zahradníky.
+
+d11_coverage_automatic_emergency_services Automatické pohotovostní služby
+d11_coverage_squads_requested             Vyžádané čety
+d11_coverage_request_condition            Požadavek na stav
+d11_coverage_injury_condition             Stav zranění
+d11_coverage_active_fire_alarms           Aktivní požární poplachy
+d11_coverage_firefighters                 Hasiči
+d11_coverage_reconstruction_specialists   Opraváři
+d11_coverage_structural_damage            *X strukturálních škod
+d11_coverage_injured                      *X zraněných
+d11_coverage_injured_target               Zraněný cíl
+d11_coverage_prisoners_only               Pouze vězni
+d11_coverage_staff_only                   Pouze personál
+d11_coverage_prisoner_and_staff           Vězni a personál
+d11_coverage_rioting                      *X Vzpouřených vězňů
+d11_coverage_calamity_surface             *X Zmrzlých/rozteklých silničních dlaždic
+d11_coverage_flooded_area                 *X Zaplavených oblastí
+
+d11_coverage_small_fire                   Malý požár
+d11_coverage_medium_fire                  Střední požár
+d11_coverage_big_fire                     Velký požár
+d11_coverage_rats                         *X Krys
+d11_coverage_heat                         *X Teplo
+
+d11_coverage_grand_total       	Celkový součet
+
+adviser_name_foreman            Předák
+adviser_name_gardener           Zahradník
+adviser_name_Janitor            Údržbář
+
+need_name_hydration             Hydratace
+need_name_staffhydration        Hydratace
+needs_help_hydration            Každý potřebuje pít, zejména v horku. Udržování nízké potřeby hydratace snižuje riziko získání úpalu, ale také zvyšuje jejich potřebu močového měchýře. Zkuste po věznici umístit fontánky s pitím, aby se vězni mohli napít ve volném čase.
+needs_help_staffhydration       Každý potřebuje pít, zejména v horku. Udržování nízké potřeby hydratace snižuje riziko získání úpalu, ale také zvyšuje jejich potřebu močového měchýře. Zaměstnanci se během přestávky napijí pomocí automatu na nápoje v místnosti pro zaměstnance.
+
+finances_category_coverageplans Plány pokrytí věznice
+
+# ==============================================================
+# Visitation Policy Menu strings
+# ==============================================================
+reports_visitationpolicytitle     Politika návštěv
+reports_visitation_info           Upravit návštěvní hodiny:
+visitation_title                  Návštěvní hodiny
+visitation_desc                   Vyšší návštěvní doba zajistí vyšší zvýšení potřeb a délku trvání zvýšení. S možností návštěv pouze od 8 do 20 hodin.
+reports_visitation_primaryerror   Současný režim neumožňuje návštěvy v této délce.
+reports_visitation_secondaryerror Současný režim umožní pouze *X návštěvních sezení o této délce trvání.
+
+# ==============================================================
+# Polly Status effects 
+# ==============================================================
+status_effect_heatstroke			Úpal
+status_effect_calamityflu			Chřipka
+
+
+# ==============================================================
+# Menu strings
+# ==============================================================
+codex_new_weathertype              Počasí a intenzita
+codex_tooltip_weathertype          Během hry se mohou vyskytnout různé druhy počasí. Pro náročnější hru můžete zvolit možnost Vysoká, Střední nebo Nízká. Pokud chcete jen zažít počasí, zvolte Původní.
+codex_new_startingseason           Počáteční sezóna
+codex_tooltip_temperature          Povoluje teplotu pro vaše vězení. Vaši vězni a personál nyní budou mít potřebu Teploty. Kupte si nějaké radiátory a nedělejte ve vězení příliš velký průvan.
+
+
+codex_new_weathertype_disabled     Zakázáno
+codex_new_weathertype_legacynormal Původní
+
+# ==============================================================
+# Stay Indoors 
+# ==============================================================
+
+buildtoolbar_StayIndoors			Zůstaňte uvnitř
+buildtoolbar_tooltip_StayIndoors	Všichni vězni a neživotní personál upřednostňují aktivity uvnitř budov, aby zůstali v bezpečí během kalamit. Tento příkaz přijmou pouze během kalamity.
+
+# ==============================================================
+# Fallen Tree
+# ==============================================================
+object_FallenTree					Padlé stromy
+object_FallenTreeBig				Padlé stromy
+
+
+# ==============================================================
+# Road Maintenance
+# ==============================================================
+
+object_roadmaintenancevehicle     Údržbářský vůz
+interfacecallout_roadmaintenance  Údržba silnic
+interface_roadMaintenance_no_grit Údržba je k dispozici pouze jednou za 12 hodin.
+
+# ==============================================================
+# Visibility (Deep Freeze)
+# ==============================================================
+event_deep_freeze_vis_sniper_tower      Odstřelovací věž hlásí špatnou viditelnost. Jejich schopnost zpozorovat potenciální uprchlíky bude snížena, dokud se počasí nevyjasní.
+event_deep_freeze_vis_outside_guard     Stráže na venkovní hlídce hlásí problémy s viditelností. Zdá se, že nemohou spatřit vězně příliš daleko před sebou.
+event_lightning_storm_vis_sniper_tower  Naši odstřelovači nahoře ve věži mají v tomto počasí problémy s viditelností. Rozhodně nevidí tak daleko jako za normálních podmínek.
+event_lightning_storm_vis_outside_guard Všichni strážní venku hlásí v tomto počasí nedostatečnou viditelnost. Něco, co je třeba mít na paměti, pokud se někdo pokusí o útěk.
+
+# ==============================================================
+# Polly Free Update
+# ==============================================================
+research_NonLethalSniper                  Nesmrtící odstřelovač
+researchtooltip_NonLethalSniper           Nová munice, která poskytuje odstřelovačům možnost plně využívat svou zbraň bez obav ze smrtelných zranění. Pokud nebyl vydán příkaz k volné střelbě, mohou střely odstřelovače vždy způsobit pouze bezvědomí vězňů.
+
+material_FieldGrass                       Polní tráva
+buildtoolbar_popup_mat_FieldGrass         Zarostlý trs trávy.
+
+material_LaminateFlooringFR               Laminátová podlaha (ohnivzdorná)
+buildtoolbar_popup_mat_LaminateFlooringFR Dřevěná podlaha s ohnivzdornými vlastnostmi.
+
+material_CarpetFR                         Koberec (odolný proti ohni)
+buildtoolbar_popup_mat_CarpetFR           Položte pohodlný koberec. Ideální pro prostory pro zaměstnance. Má také ohnivzdorné vlastnosti.
+
+object_Shiba                              Doge
+buildtoolbar_popup_obj_Shiba              Mladý, ale zkušený čichací pes, který si potrpí na pamlsky na bázi kuřete a sýra.
+
+object_BlackSetter                        Dodge
+buildtoolbar_popup_obj_BlackSetter        Pronásledovatel drobných klacíků a útěkářů.
+
+object_FernBush                           Kapradinový keř
+buildtoolbar_popup_obj_FernBush           Tento keř rád roste ve stínu.
+
+object_WillowTree                         Vrbový strom
+buildtoolbar_popup_obj_WillowTree         Tento strom by vypadal skvěle vedle vodní plochy nebo jako součást elegantní zahrady.
+
+survey_letter_1                           Vážený pane řediteli,\n\n\nDěkuji vám za vaši účast při testování nových funkcí a systémů věznice.\n\nJako generální ředitel jsem zodpovědný za shromažďování zpětné vazby od všech dozorců, abychom mohli dále zlepšovat naše zkušenosti.\n\nUvítám, když věnujete několik minut vyplnění dotazníku, který jsem pro vás vytvořil.\n\nGenerální ředitel,\nPrison Architects Corp.
+survey_letter_2                           Vážený pane řediteli,\n\n\nDěkuji Vám ještě jednou za Vaši trvalou účast na testování nových funkcí a systémů věznice. \Vzhledem k tomu, že testování nových funkcí a systémů věnujeme více času, ocenil bych vaši aktuální zpětnou vazbu v tomto průzkumu.\n\nThe CEO,\nPrison Architects Corp.
+dialog_openPrůzkum                        Otevřít průzkum
+object_Ivy                                Břečťan
+buildtoolbar_popup_obj_Ivy                Dekorativní keř s hustým olistěním.
+
+buildtoolbar_popup_uts_Radiator           Umístěte je kolem věznice, v místnostech bude příjemně teplo.
