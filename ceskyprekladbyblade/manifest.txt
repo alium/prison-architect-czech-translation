@@ -1,7 +1,7 @@
 Name                 "Cesky preklad by Blade [2023]"
 Author               "Bladesheng"
-Description          "UPOZORNENI: Pokud vam nefunguje diakritika, tak si nainstalujte mod Font fix for Czech language od Kwej_cz\n\nCestina do Prison Architect\nVychazi z oficialni cestiny, ktera uz neni podporovana\n\nCzech translation for Prison Architect\n\nThis mod is based on the official Czech language translation which is no longer supported"
+Description          "UPOZORNENI: Pro spravne fungovani diakritiky je potreba mod Font fix for Czech language od Kwej_cz\n\nCestina do Prison Architect\nRozsiruje oficialni cestinu, ktera prestala byt podporovana v roce 2020\n\nCzech translation for Prison Architect\n\nThis mod is based on the official Czech language translation which is no longer supported"
 Version              v1.0
-Date                 11/02/2023
+Date                 12/02/2023
 URL                  https://github.com/Bladesheng/prison-architect-czech-translation
 IsTranslation        true
