@@ -17,7 +17,7 @@ dialog_y                                Y
 dialog_z								Z
 dialog_w                                Š
 dialog_h                                V
-dialog_exit                             Odejít
+dialog_exit                             Ukončit
 dialog_cancel                           Zrušit
 dialog_ok                               OK
 dialog_open                             Otevřít
@@ -848,8 +848,8 @@ codex_developer_save                    (Pro vývojáře) Uložit mapu
 codex_developer_clearach                (Pro vývojáře) Smazat achievementy
 codex_contacts                          Kontakty
 codex_materials                         Materiály
-codex_play                              Přehrát
-codex_play_escape                       Přehrát režim útěku
+codex_play                              Hrát
+codex_play_escape                       Hrát režim útěku
 codex_polaroids                         Fotografie
 codex_introduction                      Úvod
 codex_restartintroduction               Opakovat úvod
@@ -938,8 +938,8 @@ codex_options_enableturbomode			Zapnout Turbo mód
 codex_nitgs_authwarning                 Důležité: Pokud jsi nedávno změnil/a jméno ve vstupu do hry, bude muset projít autorizací, než se zobrazí v seznamu.
 
 codex_nitgs_filtercaption               Filtrovat
-codex_nitgs_filterall                   Všechny
-codex_nitgs_filtermen                   Muže
+codex_nitgs_filterall                   Všichni
+codex_nitgs_filtermen                   Muži
 codex_nitgs_filterwomen                 Ženy
 
 codex_nitgs_checkingforupdate           Kontrola aktualizace...
@@ -953,7 +953,7 @@ codex_disabled                          Vypnuto
 
 codex_option_intake                     Soustavný příjem vězňů
 codex_tooltip_intake                    Pokud tuto funkci aktivuješ, bude ti každý den přijíždět náhodný počet vězňů... donekonečna.\n\nJestliže tuto možnost vypneš, budeš moci ovládat příjem vězňů ručně, příslušné tlačítko najdeš na obrazovce hlášení na záložce Příjem.
-codex_option_fogofwar                   Opar neznáma
+codex_option_fogofwar                   Mlha (Fog of War)
 codex_tooltip_fogofwar                  Pokud někde nemáš strážného nebo bezpečnostní kameru, neuvidíš, co se tam děje.
 codex_option_lakes                      Vytvořit jezera
 codex_tooltip_lakes                     Různé části mapy budou blokovat náhodně rozmístěná jezera. VAROVÁNÍ: Tato funkce je teprve v testování.
@@ -967,12 +967,12 @@ codex_option_unlimitedfunds             Neomezené prostředky
 codex_tooltip_unlimitedfunds            Ryzí sandboxový režim! Hned od začátku můžeš utrácet neomezené množství prostředků. Nemusíš si dělat žádné starosti ani čekat, až potřebnou částku vyděláš.
 codex_option_gangs                      Gangy
 codex_tooltip_gangs                     Někteří vězni jsou členy různých gangů a budou útočit na každého, kdo patří k jejich rivalům. Extra výzva.
-codex_option_events                     Výjimečné události
-codex_tooltip_events                    Během hry dochází k různým výjimečným událostem, jež ti nedopřejí chvíli klidu. Hra je díky tomu obtížnější a obsahuje prvek náhody.
+codex_option_events                     Náhodné události
+codex_tooltip_events                    Během hry dochází k různým náhodným událostem, jež ti nedopřejí chvíli klidu. Hra je díky tomu obtížnější a obsahuje prvek náhody.
 codex_option_weather                    Počasí a teplota
 codex_tooltip_weather                   Přidává vězení měnící se počasí a různé teploty, což vyžaduje zamyslet se nad vytápěním.
 codex_option_enablecheats				Povolit nástroje a cheaty
-codex_tooltip_enablecheats				Povolí vývojářské nástroje a cheaty v tomto vězení. Pokud vybereš tuto možnost, nelze ji vypnout, nebudeš dostávat ocenění a nemůžeš vězení prodat.
+codex_tooltip_enablecheats				Povolí vývojářské nástroje a cheaty v tomto vězení. Pokud vybereš tuto možnost, nelze ji vypnout, nebudeš dostávat Achievmenty a nemůžeš vězení prodat.
 codex_option_staffneeds                 Potřeby zaměstnanců
 codex_tooltip_staffneeds                Aktivujte potřeby pro své stráže což znamená, že budou vyžadovat jídlo, odpočinek a další pohodlí, aby svoji práci dělali pořádně.
 codex_option_escapeplans                Plány útěku
@@ -1120,7 +1120,7 @@ codex_trending_failedtogetlist_msg      Nepodařilo se získat seznam oblíbený
 
 codex_settings                          Nastavení map
 codex_settings_gangs                    Aktivovat gangy
-codex_settings_events                   Aktivovat výjimečné události
+codex_settings_events                   Aktivovat náhodné události
 codex_settings_weather                  Aktivovat počasí
 codex_settings_staffneeds               Zapnout potřeby zaměstnanců
 codex_settings_escapeplans              Zapnout plány útěku
@@ -3551,31 +3551,31 @@ mutator_name_morevolatileprisoners      Labilní vězni
 mutator_name_endlesswinter              Nekonečná zima
 mutator_name_norevealedreps             Neprozrazeny žádné reputace
 mutator_name_allrepsrevealed            Prozrazeny všechny reputace
-mutator_name_indestructabletrees        Zóna chráněné přírody
+mutator_name_indestructabletrees        Chráněná krajinná oblast
 mutator_name_alllegendary               VELKÝ dům
 mutator_name_slowdeliveries             Pomalé doručení nákladu
 mutator_name_fastdeliveries             Rychlé doručení nákladu
-mutator_name_extremelyneedyprisoners    Potřební vězni
+mutator_name_extremelyneedyprisoners    Chamtiví vězni
 mutator_name_slowtime                   Pomalý čas
 mutator_name_burnthedead                Spálit mrtvé
 mutator_name_gangwarfare                Válka gangů
-mutator_name_massescapes                Dostaňte mě odtud!
+mutator_name_massescapes                Pusťte mě odsud!
 mutator_name_notunnels                  Žádné tunely
 mutator_name_morecontraband             Více kontrabandu
 mutator_name_nocontrabandlimits         Žádné omezení kontrabandu
 mutator_name_highdanger                 Nebezpečná zóna
-mutator_name_superdrugs                 Do %$#!
+mutator_name_superdrugs                 Dobrej matroš
 mutator_name_weirdreputations           Reputace navíc
-mutator_name_nopausing                  Pauzu nelze udělat
-mutator_name_norelease                  Žádné dozvuk
+mutator_name_nopausing                  Žádné pauzy
+mutator_name_norelease                  Žádné propuštění
 mutator_name_fastrelease                Krátké tresty
 mutator_name_acidrain                   Kyselý déšť
-mutator_name_permanentday               Stálý den
-mutator_name_permanentnight             Stálá noc
+mutator_name_permanentday               Nekonečný den
+mutator_name_permanentnight             Nekonečná noc
 mutator_name_spreadingtrees             Divoký růst
 mutator_name_contrabanddetectors        Skenery kontrabandu
 mutator_name_superguards                Super-stráže
-mutator_name_oldschoolintake            Zastaralý příjem
+mutator_name_oldschoolintake            Původní příjem vězňů
 mutator_name_noclipstaff                Nadpřirození zaměstnanci
 
 mutator_tooltip_bigheads                Vězni pak začnou být namyšlení!
@@ -3584,17 +3584,17 @@ mutator_tooltip_noviolentprisoners      Přijmout pouze vězně, kteří nemají
 mutator_tooltip_fastwalking             Každý ve vězení chodí dvakrát tak rychle.
 mutator_tooltip_biggerfights            Nutí vězně s mnohem větší pravděpodobností zapojit se do rvaček, než s rvačkou přestat.
 mutator_tooltip_morevolatileprisoners   Nutí zhruba polovinu vězňů být labilní a pak dělat potíže jen pro zábavu.
-mutator_tooltip_endlesswinter           Vrací obávaný efekt způsobený vystavením a uvrhne svět do nekonečné mrazivé zimy. (Nestane se, pokud je vypnuté počasí.)
+mutator_tooltip_endlesswinter           Vrací obávaný efekt způsobený vystavením chladu a uvrhne svět do nekonečné mrazivé zimy. (Nestane se, pokud je vypnuté počasí.)
 mutator_tooltip_norevealedreps          O reputaci vězňů vystupujících z autobusu nebudeš vědět nic.
 mutator_tooltip_allrepsrevealed         Vězni vystupující z autobusu budou mít vždycky viditelnou reputaci.
-mutator_tooltip_indestructabletrees     Místní zákony na ochranu přírody zakazují porazit stromy v této oblasti. Musíš prostě stavět kolem nich!
+mutator_tooltip_indestructabletrees     Místní zákony na ochranu přírody zakazují kácet stromy v této oblasti. Musíš prostě stavět kolem nich!
 mutator_tooltip_alllegendary            Všichni vězni jsou legendární. Hodně štěstí!
 mutator_tooltip_slowdeliveries          Každá věc, kterou koupíš, musí přijet nákladním autem.
 mutator_tooltip_fastdeliveries          Žádné další čekání na nákladní auta; všechno přijede přímo do vězení, pokud pro to máš místo.
-mutator_tooltip_extremelyneedyprisoners Potřeby vězňů se zvýší daleko rychlejším tempem.
+mutator_tooltip_extremelyneedyprisoners Potřeby vězňů se zvyšují daleko rychlejším tempem.
 mutator_tooltip_slowtime                Zpomaluje herní hodiny, takže dny jsou mnohem delší.
 mutator_tooltip_burnthedead             Každý zabitý ve vězení začne spontánně hořet.
-mutator_tooltip_gangwarfare             Do vězení přijdou pouze členové gangů. (Nestane se, pokud jsou gangy vypnuté.)
+mutator_tooltip_gangwarfare             Do vězení budou přicházet pouze členové gangů. (Nemá efekt, pokud jsou gangy vypnuté.)
 mutator_tooltip_massescapes             Vězni se daleko pravděpodobněji pokusí prokopat z vězení, odstraní obvyklá omezení na únikové tunely.
 mutator_tooltip_notunnels               Vězni nemohou kopat únikové tunely.
 mutator_tooltip_morecontraband          Do vězení se pašuje více kontrabandu a vězni daleko pravděpodobněji ukradnou kontraband, dostanou-li k tomu příležitost.
@@ -3621,7 +3621,7 @@ mutator_title_lightentheload_tooltip    Tyto mutátory usnadní správu vězení
 mutator_title_changetherules            Změna pravidel
 mutator_title_changetherules_tooltip    Tyto mutátory změní některá základní pravidla hry,
 mutator_title_somethingdifferent        Něco... jiného
-mutator_title_somethingdifferent_tooltip    Tohle je divná věc. Možná to nedává smysl, ale život pak bude zajímavější.
+mutator_title_somethingdifferent_tooltip    Tohle jsou divné věci. Možná nedávají smysl, ale život pak bude zajímavější.
 
 # =============================================================================
 # Attract screen

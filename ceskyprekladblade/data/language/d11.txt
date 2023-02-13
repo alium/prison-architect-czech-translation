@@ -247,7 +247,7 @@ double_click_add_door							Dvakrát klikněte levým tlačítkem k přidání d
 codex_option_bureaucracyresearched				Správa věznice vyzkoumána
 codex_tooltip_bureaucracyresearched				Zahajte novou hru, ve které bude celá Správa věznice plně vyzkoumána.
 
-codex_option_jungle						Pozemek džungle
+codex_option_jungle						Džungle
 codex_tooltip_jungle						Vytvořte počáteční pozemek, připomínající hustou džungli.
 
 codex_option_snowy						Zasněžený pozemek
@@ -255,7 +255,7 @@ codex_tooltip_snowy						Vytvořte počáteční pozemek, který je pokryt sněh
 
 codex_option_default						Výchozí
 codex_option_plotType						Typ pozemku
-codex_tooltip_plotType						Toto vám umožní vygenerovat konkrétní výchozí plochu. Výchozí bude mít hlínu a trávu, Džungle připomíná hustou džungli, Zasněžené bude pokrytý sněhem, Poušť bude písečná poušť, Lunar se podobá měsíčnímu povrchu, Ostrov bude obklopen vodou, místo silnice bude používat lodní přístaviště a Připojený ostrov bude obklopen vodou s mostem spojeným se silnicí.
+codex_tooltip_plotType						Toto vám umožní vygenerovat konkrétní výchozí plochu. Výchozí bude mít hlínu a trávu, Džungle připomíná hustou džungli, Zasněžený bude pokrytý sněhem, Poušť bude písečná poušť, Měsíční se podobá měsíčnímu povrchu, Ostrov bude obklopen vodou, místo silnice bude používat lodní přístaviště a Připojený ostrov bude obklopen vodou s mostem spojeným se silnicí.
 
 # =============================================================================
 # Misc
@@ -1562,8 +1562,8 @@ object_CheckPoint            Kontrolní bod
 # Interface Mode
 # =============================================================================
 
-codex_option_islandNoBridge             Pozemek ostrova
-codex_option_islandBridge               Připojený ostrovní pozemek
+codex_option_islandNoBridge             Ostrov
+codex_option_islandBridge               Připojený ostrov
 
 codex_tooltip_islandNoBridge            Vygeneruje počáteční pozemek obklopený vodou, na tomto pozemku se místo silnice použije lodní dok.
 
@@ -2776,7 +2776,7 @@ objectiveWindow_FilterButton_1_tooltip Sbírka informací popisujících a vysv�
 mutator_name_Noir        Noir
 mutator_tooltip_Noir     Temný a špinavý filtr, který z vězení odstraní většinu barev.
 mutator_name_RoofView    Pohled na střechu
-mutator_tooltip_RoofView Aplikuje efekt podobný válečné mlze, ale místo "mlhy" zobrazuje střechy budov v oblastech se špatnou viditelností.
+mutator_tooltip_RoofView Aplikuje efekt podobný mlze, ale místo mlhy zobrazuje střechy budov v oblastech se špatnou viditelností.
 
 # =============================================================================
 # Miscellaneous
@@ -3552,7 +3552,7 @@ interfacecallout_airreconstructionspecialists Opraváři vzduchu
 interfacecallout_drainagespecialists          Instalatéři
 interfacecallout_airdrainagespecialists       Vzduchotechnici Instalatéři
 
-mutator_name_DoggieDoo                        Psí hovínko!
+mutator_name_DoggieDoo                        Psí hovínka!
 mutator_tooltip_DoggieDoo                     Psi budou mít nyní vlastní malou kalamitu, která poskytne další práci uklízečům a bude mít malý dopad na potřebu Hygieny v oblastech s vězni. Strážní psi i psi z programů mohou kakat!
 
 d11_prisoner_programs                         Programy pro vězně
@@ -3940,7 +3940,7 @@ status_effect_calamityflu			Chřipka
 codex_new_weathertype              Počasí a intenzita
 codex_tooltip_weathertype          Během hry se mohou vyskytnout různé druhy počasí. Pro náročnější hru můžete zvolit možnost Vysoká, Střední nebo Nízká. Pokud chcete jen zažít počasí, zvolte Původní.
 codex_new_startingseason           Počáteční sezóna
-codex_tooltip_temperature          Povoluje teplotu pro vaše vězení. Vaši vězni a personál nyní budou mít potřebu Teploty. Kupte si nějaké radiátory a nedělejte ve vězení příliš velký průvan.
+codex_tooltip_temperature          Zapíná teplotu pro vaše vězení. Vaši vězni a personál nyní budou mít potřebu Teploty. Kupte si nějaké radiátory a nedělejte ve vězení příliš velký průvan.
 
 
 codex_new_weathertype_disabled     Zakázáno
@@ -4636,7 +4636,7 @@ occupiedCell_selectablePrisoner Kliknutím pravým tlačítkem myši vyberete to
 # ==============================================================
 # Kimber Mutator
 # ==============================================================
-mutator_name_NoMinRoomSize           Žádná velikost místnosti
+mutator_name_NoMinRoomSize           Žádné omezení velikosti místnosti
 mutator_tooltip_NoMinRoomSize        Žádné další požadavky na velikost místnosti! Stále však musíte získat požadované položky, aby místnost fungovala.
 
 object_KayuMalamTree                 Strom Kayu Malam
@@ -5080,8 +5080,8 @@ prisonerTracking_confirm_unequip           Odeslat vězně na ošetřovnu, aby m
 
 trackingMenu_unequipPrisoner               Vypnout vybavení vězně
 
-codex_options_clocktype_undead             Nemrtvý (analogový)
-codex_options_clocktype_future             Budoucnost (analogový)
+codex_options_clocktype_undead             Nemrtvý (Analogoé)
+codex_options_clocktype_future             Budoucnost (Analogové)
 graph_axis_EscapedUndead                   Nemrtví Uprchlí
 graph_axis_TotalEscapedUndead              Celkem uniklých nemrtvých
 

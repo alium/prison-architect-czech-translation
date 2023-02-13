@@ -991,7 +991,7 @@ multiplayer_incorrectpassword      Nesprávné heslo
 multiplayer_disconnected           Ztraceno spojení se serverem.
 multiplayer_syncerror              Odpojeno z důvodu chyby synchronizace.\n\nProsím, zkuste se znovu připojit ke hře.
 multiplayer_hostonly               Dostupné pouze pro hostitelského hráče.
-multiplayer_modsdisabled           Mods are disabled for online play (mody jsou pro online hru zakázány).
+multiplayer_modsdisabled           Mody jsou pro online hru zakázány.
 multiplayer_mutatorsdisabled       Mutátory jsou pro online hru zakázány.
 multiplayer_kicked                 Byl jsi vyhozen ze hry.
 multiplayer_kick                   Vykopnuto
