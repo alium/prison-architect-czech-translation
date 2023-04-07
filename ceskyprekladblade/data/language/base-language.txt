@@ -2563,7 +2563,7 @@ object_shopgoods                         Zboží v obchodu
 object_shopshelf                         Regál v obchodu
 object_playmat                           Hrací podložka
 object_guardtower                        Strážní věž
-object_waterboiler                       Varná konvice
+object_waterboiler                       Bojler
 object_pipehotwater                      Vedení horké vody
 object_stafffood                         Jídlo pro zaměstnance
 object_stafffoodboxed                    Jídlo pro zaměstnance
