@@ -935,7 +935,7 @@ buildtoolbar_popup_room_gymnasium				Místo, kde se vězni mohou vyřádit a uvo
 
 buildtoolbar_popup_help_CellStatus_1 Zobrazení stavu cely zobrazuje obsazené (oranžová), volné (červená) a neobsazené (zelená) cely.
 
-object_punchbag_blocked              Boxovací pytel nelze dosáhnout (Objekt_punchbag_blokován)
+object_punchbag_blocked              Boxovací pytel nelze dosáhnout
 object_trainingdummy_blocked         Tréninkový panák nelze dosáhnout
 
 gangCell                             *X cela
@@ -1871,46 +1871,46 @@ object_CompostBin            Kompostovací koš
 object_RecyclingBin          Recyklační koš
 object_RecyclingBag          Recyklační pytel
 
-objekt_GardenGnome              Zahradní trpaslík
-objekt_TopiaryBush              Tvarovaný keř
-objekt_TopiaryBushBall          Tvarovaný keř (Koule)
-objekt_TopiaryBushWarden        Tvarovaný keř (Správce)
-objekt_TopiaryBushSwan          Tvarovaný keř (Labuť)
-objekt_TopiaryBushDeer          Tvarovaný keř (Jelen)
-objekt_TopiaryBushDog           Tvarovaný keř (Pes)
-objekt_TopiaryBushCat           Tvarovaný keř (Kočka)
-objekt_TopiaryBushRex           Tvarovaný keř (Rex)
-objekt_SolarLight               Světlo (Solární)
-objekt_PinkFlamingo             Růžový plameňák
-objekt_HayBale                  Balík sena
-objekt_FlowerPlanterWateringCan Květináč (konev)
-objekt_FlowerPlanterWellies     Květináč (gumovky)
-objekt_FlowerPlanterWheelbarrow Květináč (trakař)
-objekt_SmallServingTable        Servírovací stolek (Malý)
-objekt_TrayDispenser            Zásobník na tácky
-objekt_SolarWallLight           Nástěnné světlo (Solární)
+object_GardenGnome              Zahradní trpaslík
+object_TopiaryBush              Tvarovaný keř
+object_TopiaryBushBall          Tvarovaný keř (Koule)
+object_TopiaryBushWarden        Tvarovaný keř (Správce)
+object_TopiaryBushSwan          Tvarovaný keř (Labuť)
+object_TopiaryBushDeer          Tvarovaný keř (Jelen)
+object_TopiaryBushDog           Tvarovaný keř (Pes)
+object_TopiaryBushCat           Tvarovaný keř (Kočka)
+object_TopiaryBushRex           Tvarovaný keř (Rex)
+object_SolarLight               Světlo (Solární)
+object_PinkFlamingo             Růžový plameňák
+object_HayBale                  Balík sena
+object_FlowerPlanterWateringCan Květináč (konev)
+object_FlowerPlanterWellies     Květináč (gumovky)
+object_FlowerPlanterWheelbarrow Květináč (trakař)
+object_SmallServingTable        Servírovací stolek (Malý)
+object_TrayDispenser            Zásobník na tácky
+object_SolarWallLight           Nástěnné světlo (Solární)
 
-objekt_BowtieBandit             Bowtie Bandit (motýlek)
-objekt_Shepherd                 Pastýř
-objekt_DumpObject               Objekt skládky
-objekt_FlowerRoseBush           Růžový keř
-objekt_FlowerSunflower          Slunečnice
-objekt_FlowerMixedBegonias      Smíšené begonie
-objekt_FlowerHeatherBushes      Vřesové keře
-objekt_FlowerHydrangeaPlant     Rostlina hortenzie
-objekt_BarnDoor                 Dveře stodoly
-objekt_FlowerRoseBushSeed       Semena růžových keřů
-objekt_FlowerSunflowerSeed      Semena slunečnice
-objekt_FlowerMixedBegoniasSeed  Smíšená semena begónie
-objekt_FlowerHeatherBushesSeed  Semena vřesu
-objekt_FlowerHydrangeaPlantSeed Semena hortenzie
+object_BowtieBandit             Bowtie Bandit (motýlek)
+object_Shepherd                 Pastýř
+object_DumpObject               Objekt skládky
+object_FlowerRoseBush           Růžový keř
+object_FlowerSunflower          Slunečnice
+object_FlowerMixedBegonias      Smíšené begonie
+object_FlowerHeatherBushes      Vřesové keře
+object_FlowerHydrangeaPlant     Rostlina hortenzie
+object_BarnDoor                 Dveře stodoly
+object_FlowerRoseBushSeed       Semena růžových keřů
+object_FlowerSunflowerSeed      Semena slunečnice
+object_FlowerMixedBegoniasSeed  Smíšená semena begónie
+object_FlowerHeatherBushesSeed  Semena vřesu
+object_FlowerHydrangeaPlantSeed Semena hortenzie
 
-objekt_WhitePicketGate          Bílá brána s plůtky
-objekt_DoubleDoor               Dvojité dveře
-objekt_DoubleStaffDoor          Dvojité dveře s personálem
-objekt_DoubleVisitorDoor        Dvojité dveře pro návštěvníky
-objekt_SellUtility              Prodej komunálních služeb
-objekt_quickconnect             Rychlé připojení
+object_WhitePicketGate          Bílá brána s plůtky
+object_DoubleDoor               Dvojité dveře
+object_DoubleStaffDoor          Dvojité dveře s personálem
+object_DoubleVisitorDoor        Dvojité dveře pro návštěvníky
+object_SellUtility              Prodej komunálních služeb
+object_quickconnect             Rychlé připojení
 
 equipment_trowel                Stěrka
 equipment_handFork              Ruční vidle
@@ -2345,7 +2345,7 @@ d11_staffalert_title_NEEDS03         Příliš mnoho vězňů si stěžuje na ne
 d11_staffalert_title_NEEDS01         Příliš mnoho vězňů si stěžuje na nedostatek toalet.
 d11_staffalert_title_NEEDS02         Příliš mnoho vězňů si stěžuje na nedostatek toalet.
 d11_staffalert_title_NEEDS08         Naši vězni nejsou příliš čistotní.
-d11_staffalert_title_OBJEKTY04       Věznici chybí systém kontroly dveří.
+d11_staffalert_title_OBJECTS04       Věznici chybí systém kontroly dveří.
 d11_staffalert_title_ROOMS01         Místnost ve vaší věznici nesplňuje požadovaná kritéria.
 d11_staffalert_title_INFORMANTS01    Informátor je ve vážném nebezpečí.
 d11_staffalert_title_HOLDINGCELL01   V zadržovacích celách je umístěno příliš mnoho vězňů.
@@ -2358,7 +2358,7 @@ d11_staffalert_title_NEEDS11         Vězni si potřebují během volného času
 d11_staffalert_title_POWER01         Oblasti věznice jsou bez proudu.
 d11_staffalert_title_WATER01         Některé oblasti věznice jsou bez tekoucí vody.
 d11_staffalert_title_CELLS01         Věznice není v provozu na maximální kapacitu.
-d11_staffalert_title_OBJEKTY03       Ve věznici chybí komplexní kamerový systém.
+d11_staffalert_title_OBJECTS03       Ve věznici chybí komplexní kamerový systém.
 d11_staffalert_title_OBJECTS01       Ve věznici nejsme vybaveni pro případ požáru.
 d11_staffalert_title_POWER02         Jedna z našich elektrocentrál je přetížená.
 d11_staffalert_title_DEATHROW01      Zvažte, zda do věznice nepřidat celu smrti.
