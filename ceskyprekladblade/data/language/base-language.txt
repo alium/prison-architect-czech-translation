@@ -1338,8 +1338,8 @@ research_contraband                     Prohledávání
 research_policy                         Pravidla věznice
 research_armoury                        Zbrojnice
 research_bodyarmour                     Neprůstřelné vesty
-research_tazers                         Tazery
-research_tazersforeveryone              Vydávání tazerů
+research_tazers                         Tasery
+research_tazersforeveryone              Vydávání taserů
 research_bankloans                      Úvěr
 research_lowertaxes1                    Daňová úleva
 research_lowertaxes2                    Daňový ráj
@@ -1379,8 +1379,8 @@ researchtooltip_contraband              Naučí tvé dozorce efektivněji odhalo
 researchtooltip_policy                  Zpřístupňuje hlášení o stávajících pravidlech, umožňuje zvyšovat a snižovat tresty za všechny typy prohřešků, a pokud nějaký vězeň poruší pravidla, dojde automaticky k jeho osobní prohlídce a prohlídce jeho cely.\n\nNavíc ti poskytuje kontrolu nad jídelníčkem vězňů, můžeš tedy měnit četnost a rozmanitost podávaných jídel.
 researchtooltip_armoury                 Zpřístupňuje zbrojnici a umožňuje rozmisťovat po věznici ozbrojené stráže.
 researchtooltip_bodyarmour              Vybaví všechny tvé stráže, ozbrojené stráže a psovody neprůstřelnými vestami. Díky nim jsou odolnější v boji, ovšem za cenu nižší rychlosti pohybu.\n\nStráže získají toto vybavení po návštěvě zbrojnice, za každou tímto způsobem zakoupenou vestu budeš muset zaplatit.
-researchtooltip_tazers                  Umožňuje vybavit ozbrojené stráže tazery – silnými jednorannými zbraněmi, po jejichž zásahu většina cílů okamžitě upadne do bezvědomí. Z tazeru lze vystřelit jen jednou, poté se musí hodinu nabíjet.\n\nStráže získají toto vybavení po návštěvě zbrojnice, za každý tímto způsobem zakoupený tazer budeš muset zaplatit.
-researchtooltip_tazersforeveryone       Rozšiřuje využití tazerů, takže je mohou nosit k obranným účelům i běžní strážní.\n\nStráže získají toto vybavení po návštěvě zbrojnice, za každý tímto způsobem zakoupený tazer budeš muset zaplatit.
+researchtooltip_tazers                  Umožňuje vybavit ozbrojené stráže tasery – silnými jednorannými zbraněmi, po jejichž zásahu většina cílů okamžitě upadne do bezvědomí. Z taseru lze vystřelit jen jednou, poté se musí hodinu nabíjet.\n\nStráže získají toto vybavení po návštěvě zbrojnice, za každý tímto způsobem zakoupený taser budeš muset zaplatit.
+researchtooltip_tazersforeveryone       Rozšiřuje využití taserů, takže je mohou nosit k obranným účelům i běžní strážní.\n\nStráže získají toto vybavení po návštěvě zbrojnice, za každý tímto způsobem zakoupený taser budeš muset zaplatit.
 researchtooltip_bankloans               Umožňuje ti půjčit si od banky velkou částku peněz výměnou za každodenní splátky úroků. Splacením půjčky se zvýší tvůj úvěrový limit, později si tedy budeš moci půjčit větší částku.
 researchtooltip_lowertaxes1             Využívá vládní daňové pobídky a snižuje daň právnických osob na pouhých 15 %.\n\nZa každých $10 000 denního zisku ušetříš na daních $1500.
 researchtooltip_lowertaxes2             Tvá účetní se bude pohybovat na samotné hranici pravidel a převede všechny tvé oficiální účty a obchodní aktivity do země s velice výhodnou daňovou sazbou. Tvé efektivní daňové zatížení klesne zhruba na 1 %.\n\nZa každých $10 000 denního zisku ušetříš na daních $3000.
@@ -1938,7 +1938,7 @@ status_effect_goodfood					Najedený
 status_effect_drunk						Opilý
 status_effect_high                      Pod vlivem drog
 status_effect_withdrawal				S abstinenčními příznaky
-status_effect_tazed                     Zasažen tazerem
+status_effect_tazed                     Zasažen taserem
 status_effect_overdosed                 Předávkovaný
 status_effect_surrendered               Vzdává se
 status_effect_calming                   Zklidňuje se
@@ -2112,7 +2112,7 @@ reputation_swimmer						Plavec
 
 reputationtooltip_legendary             Tento vězeň je ve zločineckém podsvětí legendou a má mnoho schopností a dovedností, které z něj činí velice nebezpečného protivníka.
 reputationtooltip_strong                Tento vězeň během boje rozdává čím dál silnější rány.
-reputationtooltip_tough                 Tento vězeň v boji vydrží mnohem více ran než ostatní. Občas ho dokonce neskolí ani zásah tazerem.
+reputationtooltip_tough                 Tento vězeň v boji vydrží mnohem více ran než ostatní. Občas ho dokonce neskolí ani zásah taserem.
 reputationtooltip_volatile              Tohoto vězně může kdykoliv bez varování popadnout záchvat vzteku.
 reputationtooltip_stoical               Zavření na samotku nepřiměje tohoto vězně k poslušnosti. Je mu to jedno.
 reputationtooltip_snitch                O tomto vězni se všeobecně ví, že je informátorem, a jeho život je tedy v ohrožení. Nenechávej ho příliš dlouho o samotě s ostatními vězni.
@@ -2287,7 +2287,7 @@ objective_grant_advancedsecurity_description        Zabezpečení ostrahy velké
 objective_grant_advancedsecurity_guards             Zvyš počet svých strážných
 objective_grant_advancedsecurity_researchcctv       Zpřístupni si ve Správě věznice možnost Bezpečnostní kamery
 objective_grant_advancedsecurity_researchbodyarmour Zpřístupni si ve Správě věznice možnost Neprůstřelné vesty
-objective_grant_advancedsecurity_researchtazers     Zpřístupni si ve Správě věznice možnost Tazery
+objective_grant_advancedsecurity_researchtazers     Zpřístupni si ve Správě věznice možnost Tasery
 objective_grant_advancedsecurity_office             Vybuduj místnost ostrahy
 objective_grant_advancedsecurity_cctvmonitor        Nainstaluj monitor bezpečnostních kamer
 objective_grant_advancedsecurity_cctvcameras        Rozmísti po věznici bezpečnostní kamery
@@ -2689,7 +2689,7 @@ equipment_scissors                       Nůžky
 equipment_medicine                       Léky
 equipment_shotgun                       Brokovnice
 equipment_moneybag                      Vak na peníze
-equipment_tazer                         Tazer
+equipment_tazer                         Taser
 equipment_guarduniform                  Uniforma stráží
 equipment_stabvest                      Neprůstřelná vesta
 equipment_rifle                         Puška
@@ -2719,12 +2719,12 @@ reformprogram_kitcheninduction          Bezpečnost práce a hygiena v kuchyni
 reformprogram_therapy                   Behaviorální terapie
 reformprogram_methadone                 Farmakologická léčba drogové závislosti
 reformprogram_alcoholicsmeeting         Protialkoholní skupinová terapie
-reformprogram_tazertraining             Výcvik strážných v používání tazerů
+reformprogram_tazertraining             Výcvik strážných v používání taserů
 reformprogram_spiritualguidance         Duchovní vedení
 reformprogram_parolehearing             Slyšení před komisí
 reformprogram_deathrowappeal            Odvolání ohledně trestu smrti
 
-reformprogram_tazertrained              Certifikace: tazer
+reformprogram_tazertrained              Certifikace: taser
 
 reformprogram_workshopinduction_text    Bezpečnost především! Aby mohli vězňové pracovat v dílně, musí nejprve projít tímto kurzem.
 reformprogram_foundationeducation_text  Mnozí vězni neumí ani pořádně číst, psát a počítat. Tento kurz jim zajistí plnou gramotnost. Po dokončení tohoto kurzu budou vězni moci pracovat v knihovně.
@@ -3287,7 +3287,7 @@ adviser_deathrow_setupexecution8        Je mi to líto.
 # =============================================================================
 
 finance_cost_prisonsale                 Prodat předchozí věznici
-finance_cost_equiptazer                 Vybavení: tazer
+finance_cost_equiptazer                 Vybavení: taser
 finance_cost_equipbodyarmour            Vybavení: neprůstřelná vesta
 finance_cost_exports                    Expedice
 finance_cost_foundations                Základy budov
