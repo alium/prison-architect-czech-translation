@@ -171,11 +171,11 @@ buildtoolbar_deployment_Dogs			Přidělit psovody do sektorů vaší věznice.
 interfacedeployment_ArmedGuards			Přidělit ozbrojené strážné
 buildtoolbar_deployment_ArmedGuards		Přidělit ozbrojené strážné do sektorů vaší věznice.
 interfacedeployment_patrols                     Přidělit strážné
-buildtoolbar_deployment_Patrols			Přidělit strážné k Hlídkovým trasám vaší věznice.
+buildtoolbar_deployment_Patrols			Přidělit strážné k hlídkovým trasám vaší věznice.
 interfacedeployment_dogpatrols                  Přidělit psovody
-buildtoolbar_deployment_DogPatrols		Přidělit psovody k Hlídkovým trasám vaší věznice.
+buildtoolbar_deployment_DogPatrols		Přidělit psovody k hlídkovým trasám vaší věznice.
 interfacedeployment_armedpatrols                Přidělit ozbrojené strážné
-buildtoolbar_deployment_ArmedPatrols		Přidělit ozbrojené strážné k Hlídkovým trasám vaší věznice.
+buildtoolbar_deployment_ArmedPatrols		Přidělit ozbrojené strážné k hlídkovým trasám vaší věznice.
 
 buildtoolbar_popup_help_Guards_1        Nástroj strážných vám umožní rozmístit strážné v zónách. Rozmístění strážní se budou pohybovat po svých přiřazených zónách náhodně a budou vykonávat jakékoli úkoly strážných v této oblasti, jako například otevírání dveří.\n\n
 buildtoolbar_popup_help_Guards_2        ~Kliknutím levého tlačítka myši zvýšíš počet psovodů zařazených do zóny. Kliknutím pravého tlačítka myši odstraníš stráž.\n\n
@@ -973,10 +973,10 @@ material_CliffEdge      Hrana útesu
 # =============================================================================
 
 object_ovalStaffTable     Tabulka (Oval)
-object_Painting1          Malování
-object_Painting2          Malování
+object_Painting1          Obraz
+object_Painting2          Obraz
 object_ChessTable         Šachový stůl
-object_GlassWindow        Okno Sklo
+object_GlassWindow        Okno (Sklo)
 object_GlassWindowLarge   Okenní sklo (velké)
 object_GymMat             Tělocvičná podložka
 object_SinkMirror         Umyvadlo a zrcadlo
@@ -1506,7 +1506,7 @@ action_EatSnack									Svačí
 
 report_staff_multidelete						Jediným kliknutím levým tlačítkem myši můžete vyhodit jednoho zaměstnance nebo tažením a podržením myši vyhodit více zaměstnanců.
 
-codex_language_unsupported				---JIŽ NENÍ AKTUALIZOVÁNÍ---
+codex_language_unsupported				---JAZYK NENÍ AKTUALIZOVÁN---
 codex_language_mod						---KOMUNITOU VYTVOŘENÉ JAZYKOVÉ MODY---
 
 codex_language_unsupportedString		Tento jazyk není oficiálně podporován, některé překlady mohou chybět.
@@ -1769,7 +1769,7 @@ codex_tooltip_landExpansion			                Rozšíří půdu vašeho pozemku 
 
 
 quickbuild_smallIsland								Ostrov (Malý)
-quickbuild_mediumIsland								Ostrov (Středín)
+quickbuild_mediumIsland								Ostrov (Střední)
 quickbuild_largeIsland								Ostrov (Velký)
 quickbuild_smallLand								Země (Malá)
 quickbuild_largeLand								Země (Velká)
@@ -1793,7 +1793,7 @@ material_ReclaimedWoodWall    Stěna z regenerovaného dřeva
 material_BottleWall           Stěna z lahví
 material_WhitePicketFence     Bílý plaňkový plot
 material_ReclaimedBrickFloor  Recyklovaná cihla
-material_ReclaimedRubberFloor Recelovaná podlaha z gumy
+material_ReclaimedRubberFloor Recylovaná podlaha z gumy
 
 material_HayBailWall          Stěna z balíků sena
 material_WoodenFence          Dřevěný plot
@@ -1907,7 +1907,7 @@ object_FlowerHydrangeaPlantSeed Semena hortenzie
 
 object_WhitePicketGate          Bílá brána s plůtky
 object_DoubleDoor               Dvojité dveře
-object_DoubleStaffDoor          Dvojité dveře s personálem
+object_DoubleStaffDoor          Dvojité dveře pro personál
 object_DoubleVisitorDoor        Dvojité dveře pro návštěvníky
 object_SellUtility              Prodej komunálních služeb
 object_quickconnect             Rychlé připojení
@@ -1920,7 +1920,7 @@ equipment_BoozeBag              Sáček na alkohol
 equipment_Orange                Pomeranč
 equipment_ProducedDrugs         Produkované drogy
 equipment_ProducedBooze         Vyrobený alkohol
-equipment_ProducedNarcotics     Přísada do chlastu
+equipment_ProducedNarcotics     Přísada drog
 
 equipment_HerbPlant             Drogy
 
@@ -2410,7 +2410,7 @@ d11_staffalert_details_CELLS01c      Můžeme umístit *A více vězňů s nejvy
 d11_staffalert_details_CELLS01d      Můžeme umístit *A více vězňů s nejvyšší ostrahou.
 d11_staffalert_details_CELLS01e      Můžeme umístit *A více vězňů odsouzených k smrti.
 d11_staffalert_details_CELLS01f      Můžeme ubytovat *A více vězňů s ochrannou ostrahou.
-d11_staffalert_details_OBJECTS03     Potřebujeme více kamer CCTV.
+d11_staffalert_details_OBJECTS03     Potřebujeme více CCTV kamer.
 d11_staffalert_details_OBJECTS01     Věznice nemá zřízen sprinklerový systém.
 d11_staffalert_details_POWER02       Výkon elektrocentrály ve věznici je na úrovni *A.
 d11_staffalert_details_DEATHROW01    Přidáním elektrického křesla do věznice můžete přijímat vězně s vysokou hodnotou rozsudku smrti.
@@ -2882,13 +2882,13 @@ object_TherapyAnimal                Terapeutické zvíře
 object_TherapyAnimalContainer       Kontejner pro terapeutická zvířata
 object_AnimalTherapist              Terapeutické zvíře
 object_RestaurantCustomer           Civilní zákazník
-object_DisplayCounter               Počítadlo displejů
+object_DisplayCounter               Prodejní vitrína
 object_RehabilitatedPrisoner        Napravený vězeň
 object_Oven                         Oven
 object_DoughMixer                   Míchačka těsta
 object_Dough                        Těsto
 object_BreadLoaf                    Bochník chleba
-object_BreadBun                     Chlebová buchta
+object_BreadBun                     Buchta
 object_Cake                         Dort
 object_Cupcake                      Dortík
 object_Baguette                     Bageta
@@ -2898,8 +2898,8 @@ object_RestaurantIngredientsCooking Restaurační jídlo (Vaření)
 object_RestaurantPlateDirty         Talíř (Špinavý)
 object_CakeStand                    Stojan na dort
 object_GrassBridge                  Travnatý silniční most
-object_DiningTableVelký             jídelní stůl (Velký)
-object_DiningTableSmall             Jídelní stůl (Malý)
+object_DiningTableVelký             Jídelní stůl (velký)
+object_DiningTableSmall             Jídelní stůl (malý)
 object_DinerBooth                   Stánek pro večeři
 object_DiningChair                  Jídelní židle
 object_SaloonDoor                   Dveře do salonu (dvojité)
@@ -2907,7 +2907,7 @@ object_OrnateLantern                Zdobená lucerna
 object_Chandelier                   Lustr
 object_WallPanel                    Nástěnný panel (červený)
 object_WallPanelWood                Nástěnný panel (dřevo)
-object_WallPanelStone               Nástěnný panel (Kámen)
+object_WallPanelStone               Nástěnný panel (kámen)
 object_WallPanelCorner_A            Nástěnný panel rohový typ A (červený)
 object_WallPanelWoodCorner_A        Nástěnný panel rohový typ A (dřevo)
 object_WallPanelStoneCorner_A       Roh stěnového panelu typu A (kámen)
@@ -2963,7 +2963,7 @@ room_TherapyRoom                    Zasedací místnost
 
 
 d11_restaurant_work                 Restaurace
-d11_restaurant_work_desc            Přidělení vězňů k práci v jedné z našich restaurací, kde vaří a obsluhují civilní zákazníky. Musí však mít pracovní zkušenosti buď s vařením, nebo s obsluhou zákazníků.
+d11_restaurant_work_desc            Přidělení vězňů k práci v jedné z našich restaurací, kde vaří a obsluhují civilní zákazníky. Musí však mít pracovní zkušenosti buď s vařením nebo s obsluhou zákazníků.
 d11_bakery_work                     Pekárna
 d11_bakery_work_desc                Přiřaďte vězně k práci v jedné z našich pekáren, kde budou připravovat pečivo pro civilní zákazníky. Musí však mít pracovní zkušenosti s vařením nebo obsluhou zákazníků.
 
@@ -3098,7 +3098,7 @@ d11_reform_released_prisoners_design_info			Po propuštění vězně z vaší v�
 
 # Released Prisoners Page
 d11_reform_prisoners_action_reformed             REFORMOVÁNO!
-d11_reform_prisoners_action_reoffended           RECIVIDTA!
+d11_reform_prisoners_action_reoffended           RECIVIDITA!
 d11_reform_prisoners_action_reoffended_returned  *X byl poslán zpět do vaší věznice.
 d11_reform_prisoners_outcome_reformed            Našli si práci v městské *X.
 d11_reform_prisoners_outcome_reoffended          Byli zatčeni a vrátí se do vězení.
@@ -4514,10 +4514,10 @@ interface_action_CleanGraffiti                     Vyčištění
 job_cleanupobject                                  Vyčištění *X
 interfacetopbar_tension_angrygangmembersgraffiti   + *X ČLENŮ GANGU JE NAŠTVÁNO (Graffiti vyčištěno)
 interfacetopbar_tension_angrygangmembersleadercell + *X ČLENŮ GANGU JE NAŠTVÁNO (Vůdce převeden do cely nižší kvality)
-research_CCTVImprovement                           Zlepšení CCTV
-researchtooltip_CCTVImprovement                    Zlepšení využití zařízení CCTV. Umožňuje zobrazit zorné kužely CCTV a označit v jejich zorném poli špatně se chovající vězně.
+research_CCTVImprovement                           Zlepšení CCTV kamer
+researchtooltip_CCTVImprovement                    Zlepšení využití zařízení CCTV. Umožňuje zobrazit zorné kužely CCTV kamery a označit v jejich zorném poli špatně se chovající vězně.
 
-d11_cctv_cone                                      Kužel CCTV vidění
+d11_cctv_cone                                      Kužel vidění CCTV kamery
 d11_toggle_cctv_cone_detail                        Přepínání zorných kuželů CCTV kamery
 d11_left_click_to_clean                            Levé kliknutí pro čištění
 
@@ -4763,7 +4763,7 @@ buildtoolbar_popup_room_medicalward        Prostor pro práci lékařského pers
 buildtoolbar_popup_room_laundry            Údržbáři a vězni přidělení do prádelny sem přinesou špinavé uniformy, vyčistí je, vyžehlí a pak je znovu rozdělí.
 buildtoolbar_popup_room_visitation         Místo, kde se vězni mohou setkávat se svými rodinami. Pozor, rodiny mohou návštěvy využívat jako způsob, jak do věznice propašovat kontraband.
 buildtoolbar_popup_room_cleaningcupboard   Skladuje úklidové pomůcky. Úklidová skříň je nutná předtím, než můžeme vězeňské pracovníky přidělit k úklidové službě.
-buildtoolbar_popup_room_armoury            V této místnosti budou pobývat vaši ozbrojení strážci, když nebudou ve službě. Zde jsou uloženy všechny balistické zbraně.
+buildtoolbar_popup_room_armoury            V této místnosti budou pobývat vaši ozbrojení strážci, když nebudou ve službě. Zde jsou uloženy všechny střelné zbraně.
 buildtoolbar_popup_room_staffroom          Zaměstnanci, kteří se unaví prací, si zde mohou odpočinout a relaxovat. Pro správné chování personálu při jídle musí být místnost pro personál nastavena na "Pouze pro personál" (sektor nasazení) a musí být spojena s kuchyní pro sběr táců a úklid.
 buildtoolbar_popup_room_forestry           Místo pro pěstování stromů, stromy mohou být použity k vytvoření výrobků v Dílně, které se budou prodávat.
 buildtoolbar_popup_room_classroom          Místo pro učení, kde se vězni mohou účastnit vzdělávacích reformních programů.
@@ -4961,7 +4961,7 @@ uniformPack_GraveyardShift_desc               Změní uniformy personálu zákla
 d11_zombie_advisor_onboarding                 Děje se něco divného... připadá vám támhleta osoba v pořádku?
 
 d11_prioritise_monitoring                     Upřednostnit monitorování
-d11_prioritise_monitoring_tooltip             Pokud je tato funkce povolena, strážci upřednostní obsluhu bezpečnostních prvků, jako jsou například monitory CCTV, před ostatními úlohami.
+d11_prioritise_monitoring_tooltip             Pokud je tato funkce povolena, strážci upřednostní obsluhu bezpečnostních prvků, jako je například monitorování CCTV kamer před ostatními úlohami.
 
 objective_undeadCount                         Nemrtví
 objective_undeadCount_infections              Infikované jednotky:
@@ -5002,10 +5002,10 @@ buildtoolbar_popup_uts_advancedsearchlight Špičkové sledovací zařízení ur
 
 object_MedicalBox                          Lékařský box
 buildtoolbar_popup_obj_MedicalBox          Vyžaduje se pro nabídku sledování.\n\n Obsahuje 5 sledovacích pásů.
-object_TrackingBelt                        Sledovací pásy
+object_TrackingBelt                        Sledovací náramek
 
 interfacecontraband_tracking               Sledování
-job_GiveTrackingBelt                       Dát vězni sledovací pás
+job_GiveTrackingBelt                       Dát vězni sledovací náramek
 uniformPack_future                         Budoucí uniformy
 uniformPack_future_desc                    Změní uniformy vašeho personálu a vězňů na futurističtější design.
 policy_staffbreakguards                    Stráže: *P%
@@ -5025,7 +5025,7 @@ buildtoolbar_popup_mat_GlassWall           Pokud nemůžete riskovat, že vaše 
 quickbuild_GlassCell                       Skleněná cela
 buildtoolbar_popup_room_GlassCell          Méně než soukromý domov pro vaše vězně.
 
-material_ElectrifiedFence                  Elektrizovaný plot
+material_ElectrifiedFence                  Elektrický plot
 buildtoolbar_popup_mat_ElectrifiedFence    Odstrašující prostředek s vysokým napětím. \nVyžaduje kabeláž pod každým čtvercem.
 
 interface_action_Rotate                  Otočit
@@ -5118,7 +5118,7 @@ objective_Grant_Tracker_MedicalBox       Nainstalujte do ošetřovny lékařský
 objective_Grant_Tracker_HealthMonitor    Nainstalujte do ošetřovny zdravotní monitor.
 objective_Grant_Tracker_Router           Umístěte směrovač(e), abyste zvýšili dosah sledování vězňů.
 objective_Grant_Tracker_TrackingMonitor  Nainstalujte a připojte sledovací monitor do bezpečnostní místnosti.
-objective_Grant_Tracker_TrackingBelt     Přiřaď sledovací pásy 3 vězňům prostřednictvím nabídky Zpravodajství > Sledování
+objective_Grant_Tracker_TrackingBelt     Přiřaď sledovací náramky 3 vězňům prostřednictvím nabídky Zpravodajství > Sledování
 objective_Grant_Tracker_SecurityRoom     Postavte bezpečnostní místnost
 
 # ====================================
