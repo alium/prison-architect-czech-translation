@@ -1232,7 +1232,7 @@ roomgrading_messaging							Vylepšením této místnosti se zlepší i hodnocen
 roomGrading_prisonerTransfer					Upgrady motivují pouze vězně s nainstalovaným DLC "Cleared For Transfer" a zapnutou možností "Přesuny vězňů" v nabídce Nastavení mapy.
 
 roomgrading_Cell_BadWalls            [*E] Obklopen depresivními stěnami
-roomgrading_Cell_OutsideWindow_Large [*E]*Y Velké 
+roomgrading_Cell_OutsideWindow_Large [*E]*Y Velké okno 
 roomgrading_Cell_HasWindow_None      [*E] Žádná okna
 roomgrading_Dormitory_BadWalls       [*E] Obklopeno depresivními stěnami
 roomgrading_Dormitory_Mattress       [*E] Většina nekvalitních postelí
