@@ -976,8 +976,8 @@ object_ovalStaffTable     Tabulka (Oval)
 object_Painting1          Malování
 object_Painting2          Malování
 object_ChessTable         Šachový stůl
-object_GlassWindow        Okno Sklo
-object_GlassWindowLarge   Okenní sklo (velké)
+object_GlassWindow        Okno skleněné (malé)
+object_GlassWindowLarge   Okno skleněné (velké)
 object_GymMat             Tělocvičná podložka
 object_SinkMirror         Umyvadlo a zrcadlo
 object_TableFootball      Fotbalový stůl
@@ -1864,7 +1864,7 @@ object_PowerExportMeter      Měřič exportu energie
 object_PracticeSolarPanel    Solární panel pro praxi
 
 object_TallFridge            Vysoká lednice
-object_StorageShelf          Skladovací police
+object_StorageShelf          Úložný regál
 object_DripPipe              Odkapávací potrubí
 
 object_CompostBin            Kompostovací koš
