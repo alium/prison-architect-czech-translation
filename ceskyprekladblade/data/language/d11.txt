@@ -962,10 +962,10 @@ material_decayedWall    Zeď (zchátralá)
 material_flowerfield    Kvetoucí pole
 material_FenceAndGrass  Plot (s pruhem trávy)
 material_WallMinSec     Zeď (minimální ost.)
-material_WallMedSec     Wall (střední ost.)
+material_WallMedSec     Zeď (střední ost.)
 material_WallMaxSec     Zeď (maximální ost.)
 material_WallInsaneSec  Zeď (choromyslní)
-material_WallProtective Wall (žlutá)
+material_WallProtective Zeď (žlutá)
 material_CliffEdge      Hrana útesu
 
 # =============================================================================
@@ -1011,7 +1011,7 @@ object_TrainingDummy      Výcviková figurína
 object_StoneWaterSpout    Kamenný výtok vody
 object_WindSock           Větrná ponožka
 object_ComfyBed           Pohodlná postel
-object_IndoorTreePlanter  Interiérový květináč na stromy
+object_IndoorTreePlanter  Květináč na stromy (do interiéru)
 object_OldBed             Stará postel
 object_CameraPillar       Kamerový sloupek
 object_Blackboard         Tabule
@@ -1116,7 +1116,7 @@ buildtoolbar_popup_obj_ComfyBed           Luxusní postel s matrací z paměťov
 buildtoolbar_popup_obj_IndoorTreePlanter  Zapuštěný květináč pro pěstování stromů v interiéru.
 buildtoolbar_popup_obj_OldBed             Staromódní vězeňská postel. Pohodlnější než pěnová matrace, ale méně než standardní postel.
 buildtoolbar_popup_obj_Blackboard         Žádná učebna se bez ní neobejde.
-buildtoolbar_popup_obj_JailDoorWhite      Barevné vězeňské dveře, které vám pomohou označit bloky pro choromyslné.
+buildtoolbar_popup_obj_JailDoorJailDoorWhite      Barevné vězeňské dveře, které vám pomohou označit bloky pro choromyslné.
 buildtoolbar_popup_obj_JailDoorLargeWhite Barevné vězeňské dveře, které vám pomohou označit bloky pro choromyslné.
 buildtoolbar_popup_obj_camerapillar       Umístění na otevřených místech a následné připevnění kamery po stranách.
 
@@ -1867,7 +1867,7 @@ object_TallFridge            Vysoká lednice
 object_StorageShelf          Úložný regál
 object_DripPipe              Odkapávací potrubí
 
-object_CompostBin            KKompostér
+object_CompostBin            Kompostér
 object_RecyclingBin          Recyklační koš
 object_RecyclingBag          Recyklační pytel
 
