@@ -105,10 +105,10 @@ material_gratefloor								Mřížoví
 object_snowyconifertree							Strom (Zasněžený jehličnan)
 object_palmtree									Strom (Palma)
 object_plant									Rostlina
-object_bush										Keř
+object_bush									Keř
 object_streetlamp								Pouliční lampa
 object_floodlight								Světlo (Reflektor)
-object_bleachers								Lavice
+object_bleachers								Tribuny pro dvůr (lavice)
 object_smallbench								Lavička (Malá)
 object_smalltable								Stůl (Malý)
 object_showerpillar								Sprchový sloupek
@@ -976,10 +976,10 @@ object_ovalStaffTable     Tabulka (Oval)
 object_Painting1          Obraz
 object_Painting2          Obraz
 object_ChessTable         Šachový stůl
-object_GlassWindow        Okno (Sklo)
-object_GlassWindowLarge   Okenní sklo (velké)
+object_GlassWindow        Okno skleněné (malé)
+object_GlassWindowLarge   Okno skleněné (velké)
 object_GymMat             Tělocvičná podložka
-object_SinkMirror         Umyvadlo a zrcadlo
+object_SinkMirror         Umyvadlo se zrcadlem
 object_TableFootball      Fotbalový stůl
 object_TableTennis        Stolní tenis
 object_TyreApparatus      Přístroj na pneumatiky
@@ -1232,7 +1232,7 @@ roomgrading_messaging							Vylepšením této místnosti se zlepší i hodnocen
 roomGrading_prisonerTransfer					Upgrady motivují pouze vězně s nainstalovaným DLC "Cleared For Transfer" a zapnutou možností "Přesuny vězňů" v nabídce Nastavení mapy.
 
 roomgrading_Cell_BadWalls            [*E] Obklopen depresivními stěnami
-roomgrading_Cell_OutsideWindow_Large [*E]*Y Velké okno
+roomgrading_Cell_OutsideWindow_Large [*E]*Y Velké 
 roomgrading_Cell_HasWindow_None      [*E] Žádná okna
 roomgrading_Dormitory_BadWalls       [*E] Obklopeno depresivními stěnami
 roomgrading_Dormitory_Mattress       [*E] Většina nekvalitních postelí
@@ -1860,14 +1860,14 @@ object_Transformer           Transformátor
 object_WindTurbine           Větrná turbína
 object_SolarWindHybrid       Hybridní solární větrná elektrárna
 object_Battery               Baterie
-object_PowerExportMeter      Měřič exportu energie
-object_PracticeSolarPanel    Solární panel pro praxi
+object_PowerExportMeter      Měřič energie pro export
+object_PracticeSolarPanel    Solární panel pro výuku
 
 object_TallFridge            Vysoká lednice
-object_StorageShelf          Skladovací police
+object_StorageShelf          Úložný regál
 object_DripPipe              Odkapávací potrubí
 
-object_CompostBin            Kompostovací koš
+object_CompostBin            KKompostér
 object_RecyclingBin          Recyklační koš
 object_RecyclingBag          Recyklační pytel
 
@@ -2840,7 +2840,7 @@ object_PaperDragonBody Drak (tělo)
 object_PaperDragonTail Drak (ocas)
 object_PaperLantern    Papírová lucerna
 object_CoupletBanner   Bannerový kuplet
-object_FoodTrayPack    Balení zásobníků na potraviny
+object_FoodTrayPack    Tácy na jídlo
 
 buildtoolbar_popup_obj_OxStatue        Socha zvěrokruhu představující mocného vola
 buildtoolbar_popup_obj_PaperDragonHead Výřez z papíru v podobě dračí hlavy
@@ -2881,7 +2881,7 @@ reputation_swimmer_high						Plavec
 object_TherapyAnimal                Terapeutické zvíře
 object_TherapyAnimalContainer       Kontejner pro terapeutická zvířata
 object_AnimalTherapist              Terapeutické zvíře
-object_RestaurantCustomer           Civilní zákazník
+object_RestaurantCustomer           Zákazník restuarace
 object_DisplayCounter               Prodejní vitrína
 object_RehabilitatedPrisoner        Napravený vězeň
 object_Oven                         Oven
@@ -2922,7 +2922,7 @@ object_RestaurantSign               Značka (restaurace)
 object_BakerySign                   Značka (pekárna)
 object_VisitationSign               Značka (návštěva)
 object_BakeryRawProduct             Surový pekařský výrobek
-object_BakeryCookedProduct          Pečený pekařský výrobek
+object_BakeryCookedProduct          Upečený pekařský výrobek
 object_Flour                        Mouka
 
 buildtoolbar_popup_obj_DisplayCounter         Servírovací jednotka, která se používá k ukládání pečiva.
@@ -3806,8 +3806,8 @@ action_UseDummy             Cvičení
 object_StaffDoorBlue                     Personální dveře (modré)
 object_StaffDoorOrange                   Personální dveře (oranžové)
 object_SofaChairBrown                    Pohovka (hnědá)
-object_WoodenWindowSmall                 Dřevěné okno (malé)
-object_WoodenWindowLarge                 Dřevěné okno (velké)
+object_WoodenWindowSmall                 Okno dřevěné (malé)
+object_WoodenWindowLarge                 Okno dřevěné (velké)
 object_StainGlassWindow                  Vitrážové okno
 object_SwivelChair                       Otočná židle
 object_ChairYellow                       Chair (Žlutá)
@@ -3918,7 +3918,7 @@ needs_help_staffhydration       Každý potřebuje pít, zejména v horku. Udrž
 finances_category_coverageplans Plány pokrytí věznice
 
 # ==============================================================
-# Visitation Policy Menu strings
+# Visitation oy Menu strings
 # ==============================================================
 reports_visitationpolicytitle     Politika návštěv
 reports_visitation_info           Upravit návštěvní hodiny:
