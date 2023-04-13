@@ -93,7 +93,7 @@ mm_updatenotes_10								Doufáme, že se ti hra bude s těmito vylepšeními l�
 
 material_newmud									Bahno
 material_mud									Bahno
-material_yutaniwall								Zeď (Yutani)
+material_yutaniwall								Zeď (yutani)
 material_solacofloor							Solaco
 material_gratefloor								Mřížoví
 
@@ -102,28 +102,28 @@ material_gratefloor								Mřížoví
 # =============================================================================
 
 
-object_snowyconifertree							Strom (Zasněžený jehličnan)
-object_palmtree									Strom (Palma)
+object_snowyconifertree							Strom (zasněžený jehličnan)
+object_palmtree									Strom (palma)
 object_plant									Rostlina
-object_bush										Keř
+object_bush									Keř
 object_streetlamp								Pouliční lampa
-object_floodlight								Světlo (Reflektor)
-object_bleachers								Lavice
-object_smallbench								Lavička (Malá)
-object_smalltable								Stůl (Malý)
+object_floodlight								Světlo (reflektor)
+object_bleachers								Tribuny pro dvůr (lavice)
+object_smallbench								Lavička (malá)
+object_smalltable								Stůl (malý)
 object_showerpillar								Sprchový sloupek
 object_doorMat									Rohožka
 object_GuardPavilion							Pavilon strážných
-object_GuardPavilionCorner						Pavilon strážných (Roh)
-object_OfficeChair								Židle (Kancelář)
+object_GuardPavilionCorner						Pavilon strážných (rohový)
+object_OfficeChair								Křeslo do kanceláře
 object_visitorDoor								Dveře pro návštěvníky
-object_ironingBoardShort						Žehlicí prkno (Malé)
-object_fencegatestaff							Brána plotu (Pro zaměstnance)
-object_fencegatestandard						Brána plotu (Standardní)
-object_fencegatevisitor							Brána plotu (Pro návštěvníky)
+object_ironingBoardShort						Žehlicí prkno (malé)
+object_fencegatestaff							Brána plotu (pro zaměstnance)
+object_fencegatestandard						Brána plotu (standardní)
+object_fencegatevisitor							Brána plotu (pro návštěvníky)
 object_walllight								Nástěnné osvětlení
-object_securedoor								Dveře (Zabezpečené)
-object_secretdoor								Dveře (Tajné)
+object_securedoor								Dveře (zabezpečené)
+object_secretdoor								Dveře (tajné)
 
 # =============================================================================
 # Build Toolbar
@@ -774,7 +774,7 @@ object_prisoner_freshfish						Vězeň (nová krev)
 total_Connections								Celkový počet připojení: *X
 active_Connections								Maximální počet aktivních připojení: *X
 
-interfacedeployment_VisitorDirection			Směr návštěvníků
+interfacedeployment_VisitorDirection			Směr chůze návštěvníků
 
 interface_action_move							Přesunout
 
@@ -954,32 +954,32 @@ material_RunningTrack   Běžecká dráha
 material_BambooFloor    Bambusová podlaha
 material_pipewall       Stěna (potrubí)
 material_overgrownwall  Zeď (zarostlá)
-material_derelictwall   Zeď (Opuštěná)
-material_slumwall       Zeď (Slum)
-material_rustywall      Zeď (Rezavá)
-material_bamboofence    Plot (Bambusový)
-material_decayedWall    Zeď (Zchátralá)
+material_derelictwall   Zeď (opuštěná)
+material_slumwall       Zeď (slum)
+material_rustywall      Zeď (rezavá)
+material_bamboofence    Plot (bambusový)
+material_decayedWall    Zeď (zchátralá)
 material_flowerfield    Kvetoucí pole
-material_FenceAndGrass  Plot (Tráva)
-material_WallMinSec     Zeď (Minimální ost.)
-material_WallMedSec     Wall (Střední ost.)
-material_WallMaxSec     Zeď (Maximální ost.)
-material_WallInsaneSec  Zeď (Choromyslní)
-material_WallProtective Wall (Žlutá)
+material_FenceAndGrass  Plot (s pruhem trávy)
+material_WallMinSec     Zeď (minimální ost.)
+material_WallMedSec     Zeď (střední ost.)
+material_WallMaxSec     Zeď (maximální ost.)
+material_WallInsaneSec  Zeď (choromyslní)
+material_WallProtective Zeď (žlutá)
 material_CliffEdge      Hrana útesu
 
 # =============================================================================
 # Objects - Names
 # =============================================================================
 
-object_ovalStaffTable     Tabulka (Oval)
+object_ovalStaffTable     Tabulka (ovál)
 object_Painting1          Obraz
 object_Painting2          Obraz
 object_ChessTable         Šachový stůl
-object_GlassWindow        Okno (Sklo)
-object_GlassWindowLarge   Okenní sklo (velké)
+object_GlassWindow        Okno skleněné (malé)
+object_GlassWindowLarge   Okno skleněné (velké)
 object_GymMat             Tělocvičná podložka
-object_SinkMirror         Umyvadlo a zrcadlo
+object_SinkMirror         Umyvadlo se zrcadlem
 object_TableFootball      Fotbalový stůl
 object_TableTennis        Stolní tenis
 object_TyreApparatus      Přístroj na pneumatiky
@@ -995,7 +995,7 @@ object_PunchBag           Boxovací pytel
 object_WardenStatue       Socha správce
 object_WaterCooler        Chladič vody
 object_SnackMachine       Stroj na občerstvení
-object_Mattress           Postel (Pěnová matrace)
+object_Mattress           Matrace
 object_MetalBarrel        Kovový sud
 object_WoodenBarrel       Dřevěný sud
 object_MooringBollard     Kotvící sloupek
@@ -1011,7 +1011,7 @@ object_TrainingDummy      Výcviková figurína
 object_StoneWaterSpout    Kamenný výtok vody
 object_WindSock           Větrná ponožka
 object_ComfyBed           Pohodlná postel
-object_IndoorTreePlanter  Interiérový květináč na stromy
+object_IndoorTreePlanter  Květináč na stromy (do interiéru)
 object_OldBed             Stará postel
 object_CameraPillar       Kamerový sloupek
 object_Blackboard         Tabule
@@ -1232,7 +1232,7 @@ roomgrading_messaging							Vylepšením této místnosti se zlepší i hodnocen
 roomGrading_prisonerTransfer					Upgrady motivují pouze vězně s nainstalovaným DLC "Cleared For Transfer" a zapnutou možností "Přesuny vězňů" v nabídce Nastavení mapy.
 
 roomgrading_Cell_BadWalls            [*E] Obklopen depresivními stěnami
-roomgrading_Cell_OutsideWindow_Large [*E]*Y Velké okno
+roomgrading_Cell_OutsideWindow_Large [*E]*Y Velké okno 
 roomgrading_Cell_HasWindow_None      [*E] Žádná okna
 roomgrading_Dormitory_BadWalls       [*E] Obklopeno depresivními stěnami
 roomgrading_Dormitory_Mattress       [*E] Většina nekvalitních postelí
@@ -1521,11 +1521,11 @@ rapsheet_category_PrisonerTransfer				Legendární vězeň!
 # Materials - Names
 # =============================================================================
 
-material_WoodenDockFloor						Doky (Wooden)
+material_WoodenDockFloor						Dřevěná palubní podlaha
 material_waterBed								Dno vody
-material_WaterShallow							Voda (Shallow)
-material_WaterLarge								Voda (Large)
-material_WaterWalkable			Schůzná voda
+material_WaterShallow							Mělká voda
+material_WaterLarge							Velká voda	
+material_WaterWalkable			Voda (schůdná)
 
 # =============================================================================
 # Objects - Names
@@ -1553,7 +1553,7 @@ object_Fountain              Fontána
 object_SteppingStoneLillyPad Krokové kameny (lekníny)
 object_SteppingStoneIceBlock Krokové kameny (led)
 object_SteppingStone         Krokové kameny
-object_SteppingStonePallet   Krokové kameny (Paleta)
+object_SteppingStonePallet   Krokové kameny (paleta)
 object_ScannerMonitor        Monitor skeneru
 object_ScannerMachine        Skenovací zařízení
 object_CheckPoint            Kontrolní bod
@@ -1768,11 +1768,11 @@ codex_option_landExpansion		                	Rozšíření pozemků
 codex_tooltip_landExpansion			                Rozšíří půdu vašeho pozemku jednou za každou stranu, takže váš počáteční pozemek bude od samého začátku mnohem větší.
 
 
-quickbuild_smallIsland								Ostrov (Malý)
-quickbuild_mediumIsland								Ostrov (Střední)
-quickbuild_largeIsland								Ostrov (Velký)
-quickbuild_smallLand								Země (Malá)
-quickbuild_largeLand								Země (Velká)
+quickbuild_smallIsland								Ostrov (malý)
+quickbuild_mediumIsland								Ostrov (střední)
+quickbuild_largeIsland								Ostrov (velký)
+quickbuild_smallLand								Země (malá)
+quickbuild_largeLand								Země (velká)
 
 
 buildtoolbar_quickbuild_smallIsland						Masově vyráběný ostrov obklopený mělkou vodou, který by se nehodil na žádné souostroví.
@@ -1860,35 +1860,35 @@ object_Transformer           Transformátor
 object_WindTurbine           Větrná turbína
 object_SolarWindHybrid       Hybridní solární větrná elektrárna
 object_Battery               Baterie
-object_PowerExportMeter      Měřič exportu energie
-object_PracticeSolarPanel    Solární panel pro praxi
+object_PowerExportMeter      Měřič energie pro export
+object_PracticeSolarPanel    Solární panel pro výuku
 
 object_TallFridge            Vysoká lednice
-object_StorageShelf          Skladovací police
+object_StorageShelf          Úložný regál
 object_DripPipe              Odkapávací potrubí
 
-object_CompostBin            Kompostovací koš
+object_CompostBin            Kompostér
 object_RecyclingBin          Recyklační koš
 object_RecyclingBag          Recyklační pytel
 
 object_GardenGnome              Zahradní trpaslík
 object_TopiaryBush              Tvarovaný keř
-object_TopiaryBushBall          Tvarovaný keř (Koule)
-object_TopiaryBushWarden        Tvarovaný keř (Správce)
-object_TopiaryBushSwan          Tvarovaný keř (Labuť)
-object_TopiaryBushDeer          Tvarovaný keř (Jelen)
-object_TopiaryBushDog           Tvarovaný keř (Pes)
-object_TopiaryBushCat           Tvarovaný keř (Kočka)
-object_TopiaryBushRex           Tvarovaný keř (Rex)
-object_SolarLight               Světlo (Solární)
+object_TopiaryBushBall          Tvarovaný keř (koule)
+object_TopiaryBushWarden        Tvarovaný keř (správce)
+object_TopiaryBushSwan          Tvarovaný keř (labuť)
+object_TopiaryBushDeer          Tvarovaný keř (jelen)
+object_TopiaryBushDog           Tvarovaný keř (pes)
+object_TopiaryBushCat           Tvarovaný keř (kočka)
+object_TopiaryBushRex           Tvarovaný keř (dinosaurus)
+object_SolarLight               Světlo (solární)
 object_PinkFlamingo             Růžový plameňák
 object_HayBale                  Balík sena
 object_FlowerPlanterWateringCan Květináč (konev)
 object_FlowerPlanterWellies     Květináč (gumovky)
 object_FlowerPlanterWheelbarrow Květináč (trakař)
-object_SmallServingTable        Servírovací stolek (Malý)
+object_SmallServingTable        Servírovací stolek (malý)
 object_TrayDispenser            Zásobník na tácky
-object_SolarWallLight           Nástěnné světlo (Solární)
+object_SolarWallLight           Nástěnné světlo (solární)
 
 object_BowtieBandit             Bowtie Bandit (motýlek)
 object_Shepherd                 Pastýř
@@ -2840,7 +2840,7 @@ object_PaperDragonBody Drak (tělo)
 object_PaperDragonTail Drak (ocas)
 object_PaperLantern    Papírová lucerna
 object_CoupletBanner   Bannerový kuplet
-object_FoodTrayPack    Balení zásobníků na potraviny
+object_FoodTrayPack    Tácy na jídlo
 
 buildtoolbar_popup_obj_OxStatue        Socha zvěrokruhu představující mocného vola
 buildtoolbar_popup_obj_PaperDragonHead Výřez z papíru v podobě dračí hlavy
@@ -2881,7 +2881,7 @@ reputation_swimmer_high						Plavec
 object_TherapyAnimal                Terapeutické zvíře
 object_TherapyAnimalContainer       Kontejner pro terapeutická zvířata
 object_AnimalTherapist              Terapeutické zvíře
-object_RestaurantCustomer           Civilní zákazník
+object_RestaurantCustomer           Zákazník restuarace
 object_DisplayCounter               Prodejní vitrína
 object_RehabilitatedPrisoner        Napravený vězeň
 object_Oven                         Oven
@@ -2893,14 +2893,14 @@ object_Cake                         Dort
 object_Cupcake                      Dortík
 object_Baguette                     Bageta
 object_CivilianChild                Delikvent
-object_RestaurantMeal               Restaurační Jídlo
-object_RestaurantIngredientsCooking Restaurační jídlo (Vaření)
-object_RestaurantPlateDirty         Talíř (Špinavý)
+object_RestaurantMeal               Jídlo v restauraci
+object_RestaurantIngredientsCooking Jídlo v restauraci (vaření)
+object_RestaurantPlateDirty         Špinavý talíř
 object_CakeStand                    Stojan na dort
 object_GrassBridge                  Travnatý silniční most
 object_DiningTableVelký             Jídelní stůl (velký)
 object_DiningTableSmall             Jídelní stůl (malý)
-object_DinerBooth                   Stánek pro večeři
+object_DinerBooth                   Posezení (souprava stolu a pohodlných lavic)
 object_DiningChair                  Jídelní židle
 object_SaloonDoor                   Dveře do salonu (dvojité)
 object_OrnateLantern                Zdobená lucerna
@@ -2922,7 +2922,7 @@ object_RestaurantSign               Značka (restaurace)
 object_BakerySign                   Značka (pekárna)
 object_VisitationSign               Značka (návštěva)
 object_BakeryRawProduct             Surový pekařský výrobek
-object_BakeryCookedProduct          Pečený pekařský výrobek
+object_BakeryCookedProduct          Upečený pekařský výrobek
 object_Flour                        Mouka
 
 buildtoolbar_popup_obj_DisplayCounter         Servírovací jednotka, která se používá k ukládání pečiva.
@@ -3806,12 +3806,12 @@ action_UseDummy             Cvičení
 object_StaffDoorBlue                     Personální dveře (modré)
 object_StaffDoorOrange                   Personální dveře (oranžové)
 object_SofaChairBrown                    Pohovka (hnědá)
-object_WoodenWindowSmall                 Dřevěné okno (malé)
-object_WoodenWindowLarge                 Dřevěné okno (velké)
+object_WoodenWindowSmall                 Okno dřevěné (malé)
+object_WoodenWindowLarge                 Okno dřevěné (velké)
 object_StainGlassWindow                  Vitrážové okno
-object_SwivelChair                       Otočná židle
-object_ChairYellow                       Chair (Žlutá)
-object_FancyDesk                         Stůl (Přepychový)
+object_SwivelChair                       Otočné křeslo
+object_ChairYellow                       Židle (žlutá)
+object_FancyDesk                         Stůl (přepychový)
 object_BoomBoxRoundHouse                 Magneťák
 
 buildtoolbar_popup_obj_StaffDoorBlue     Zamčené dveře, které může otevřít kterýkoli zaměstnanec, nejen strážný.
