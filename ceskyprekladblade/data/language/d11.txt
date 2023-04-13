@@ -1116,7 +1116,7 @@ buildtoolbar_popup_obj_ComfyBed           Luxusní postel s matrací z paměťov
 buildtoolbar_popup_obj_IndoorTreePlanter  Zapuštěný květináč pro pěstování stromů v interiéru.
 buildtoolbar_popup_obj_OldBed             Staromódní vězeňská postel. Pohodlnější než pěnová matrace, ale méně než standardní postel.
 buildtoolbar_popup_obj_Blackboard         Žádná učebna se bez ní neobejde.
-buildtoolbar_popup_obj_JailDoorJailDoorWhite      Barevné vězeňské dveře, které vám pomohou označit bloky pro choromyslné.
+buildtoolbar_popup_obj_JailDoorWhite      Barevné vězeňské dveře, které vám pomohou označit bloky pro choromyslné.
 buildtoolbar_popup_obj_JailDoorLargeWhite Barevné vězeňské dveře, které vám pomohou označit bloky pro choromyslné.
 buildtoolbar_popup_obj_camerapillar       Umístění na otevřených místech a následné připevnění kamery po stranách.
 
