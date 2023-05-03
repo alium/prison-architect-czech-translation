@@ -972,13 +972,13 @@ material_CliffEdge      Hrana útesu
 # Objects - Names
 # =============================================================================
 
-object_ovalStaffTable     Tabulka (ovál)
+object_ovalStaffTable     Stůl (oválný)
 object_Painting1          Obraz
 object_Painting2          Obraz
 object_ChessTable         Šachový stůl
 object_GlassWindow        Okno skleněné (malé)
 object_GlassWindowLarge   Okno skleněné (velké)
-object_GymMat             Tělocvičná podložka
+object_GymMat             Podložka pro cvičení
 object_SinkMirror         Umyvadlo se zrcadlem
 object_TableFootball      Fotbalový stůl
 object_TableTennis        Stolní tenis
@@ -1815,17 +1815,17 @@ object_farmer                Farmář
 object_CompostFertilizer     Kompostové hnojivo
 object_HighQualityFertilizer Vysoce kvalitní hnojivo
 
-object_CropCarrotPlant       Rostlina mrkve
-object_CropPotatoPlant       Rostlina bramboru
-object_CropTomatoPlant       Rostlina rajčete
-object_CropCabbagePlant      Rostlina zelí
+object_CropCarrotPlant       Sazenice mrkve
+object_CropPotatoPlant       Sazenice brambor
+object_CropTomatoPlant       Sazenice rajčat
+object_CropCabbagePlant      Sazenice zelí
 object_CropAppleTree         Jabloň
 object_CropBananaTree        Banánovník
 object_CropOrangeTree        Pomerančovník
 object_CropPeachTree         Broskvoňový strom
-object_CropCornPlant         Rostlina kukuřice
-object_CropWheatPlant        Rostlina pšenice
-object_CropBarleyPlant       Rostlina ječmene
+object_CropCornPlant         Sazenice kukuřice
+object_CropWheatPlant        Sazenice pšenice
+object_CropBarleyPlant       Sazenice ječmene
 
 object_CropAppleTreeSeed     Semena jabloní
 object_CropBananaTreeSeed    Semeno banánovníku
