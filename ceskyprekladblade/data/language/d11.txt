@@ -395,7 +395,7 @@ buildtoolbar_popup_mat_redCarpet				Polož pohodlný koberec. Skvělý do oblast
 buildtoolbar_popup_mat_brownCarpet				Polož pohodlný koberec. Skvělý do oblastí pro zaměstnance.
 buildtoolbar_popup_mat_paddedfloor				Hodí se k polstrovaným zdím a vytváří dokonalou polstrovanou celu pro choromyslné vězně.
 buildtoolbar_popup_mat_grassstones				Travnatá oblast s dlaždicemi.
-buildtoolbar_popup_mat_grassscornerfloor		Travnatý roh s hlínou. Hodí se pro křivé cestičky.
+buildtoolbar_popup_mat_grasscornerfloor			Travnatý roh s hlínou. Hodí se pro křivé cestičky.
 buildtoolbar_popup_mat_grasscornerfloor1		Travnatý roh s hlínou. Hodí se pro křivé cestičky.
 buildtoolbar_popup_mat_grasscornerfloor2		Travnatý roh s hlínou. Hodí se pro křivé cestičky.
 buildtoolbar_popup_mat_grasscornerfloor3		Travnatý roh s hlínou. Hodí se pro křivé cestičky.
@@ -587,8 +587,8 @@ warden_wardeninsanehudson_name					 Dr. Hudson
 warden_wardeninsanehudson_desc                   Dr. Hudson je připraven udělat to, co nedokáže žádný jiný strážce...\n\n - Tísňové služby fungují o 20 % rychleji a dorazí dříve\n - Náklady za opravy jsou o 10 % nižší
 warden_wardeninsanehudson_desc_short             - Rychlejší reakční doba a nižší náklady na opravy.
 
-warden_wardenfarmer_name		Botanik
-warden_wardenfarmer_desc		Botanik jako člověk s bohatými zkušenostmi v oblasti zemědělství může mít velmi pozitivní vliv na vězeňské zemědělství. Zvyšuje vývozní cenu jednotlivých plodin, šanci, že plodiny vypustí semena, a také prodlužuje dobu vadnutí a kažení pěstovaných plodin a sklizených ingrediencí.
+warden_wardenfarmer_name		Zahradník
+warden_wardenfarmer_desc		Zahrádník je člověk s bohatými zkušenostmi v oblasti zemědělství, a může mít velmi pozitivní vliv na vězeňské zemědělství. Zvyšuje vývozní cenu jednotlivých plodin, šanci, že plodiny vypustí semena, a také prodlužuje dobu vadnutí a kažení pěstovaných plodin a sklizených ingrediencí.
 warden_wardenfarmer_desc_short		- Zdvojnásobí vývozní cenu všech vězeňsky vypěstovaných produktů.
 
 warden_wardengreenpower_name		Ekologický pracovník
@@ -1217,7 +1217,7 @@ customsectorwindow_minseccaption		Min. ost.
 customsectorwindow_medseccaption		Stř. ost.
 customsectorwindow_maxseccaption		Max. ost.	
 customsectorwindow_supermaxcaption	SuperMax ost.
-customsectorwindow_deathrowcaption	Cela srmti
+customsectorwindow_deathrowcaption	Cela smrti
 customsectorwindow_protectivecaption	Ochranná vazba
 customsectorwindow_insanecaption		Choromyslní
 
@@ -1531,23 +1531,23 @@ material_WaterWalkable			Voda (schůdná)
 # Objects - Names
 # =============================================================================
 
-object_FerryDock             Trajektový dok
-object_FerryBoat             Doprava trajektem
-object_SupplyBoat            Zásobovací loď
-object_PrisonBoat            Převoz vězňů
-object_VisitorBoat           Návštěvnická loď
-object_VisitorHeli           Návštěvnická helikoptéra
-object_SupplyHeli            Zásobovací vrtulník
-object_PrisonHeli            Vězeňská helikoptéra
-object_FireHeli              Vzdušní hasiči
-object_EliteOpsHeli          Elitní operační tým
-object_SoldiersHeli          Národní garda
-object_HearseBoat            Pohřební loď
-object_HearseHeli            Helikoptéra pro pohřební službu
-object_ParamediciHeli        Letecká záchranná služba
-object_Helipad               Heliport
-object_BoatDock              Lodní dok
-object_EliteOps              Elitní operace
+object_FerryDock			Přístaviště trajektů
+object_FerryBoat			Doprava trajektem
+object_SupplyBoat			Zásobovací loď
+object_PrisonBoat			Přeprava vězňů
+object_VisitorBoat			Loď pro návštěvníky
+object_VisitorHeli			Vrtulník pro návštěvníky
+object_SupplyHeli			Zásobovací vrtulník
+object_PrisonHeli			Vězeňská helikoptéra
+object_FireHeli				Letecký hasičský sbor
+object_EliteOpsHeli			Elitní operační tým
+object_SoldiersHeli			Národní garda
+object_HearseBoat			Loď pohřební služby
+object_HearseHeli			Pohřební vrtulník
+object_ParamedicsHeli			Letecká záchranná služba
+object_Helipad				Heliport
+object_BoatDock				Lodní dok
+object_EliteOps				Elitní jednotky
 
 object_Fountain              Fontána
 object_SteppingStoneLillyPad Krokové kameny (lekníny)
@@ -1662,10 +1662,10 @@ d11_emergencies_hints_eliteOps_heli          Vrtulník s x*A elitními vojáky. 
 d11_squad_name_EliteOps                      Elitní operační tým
 
 
-interfacecallout_FireHeli                    Vzdušní hasiči
-interfacecallout_EliteOps                    Elitní operační tým
-interfacecallout_AirParamedics               Vzdušní záchranáři
-interfacecallout_AirSoldiers                 Vzdušní vojáci
+interfacecallout_FireHeli                       Letecký hasičský sbor
+interfacecallout_EliteOps                       Elitní operační tým
+interfacecallout_AirParamedics                  Letecká záchranná služba
+interfacecallout_AirSoldiers                    Letečtí vojáci
 
 buildtoolbar_Logistics_DeliveryTargeting Propojení zón Dodávky, Odpad a Export s heliporty, doky a silnicemi. Tímto způsobem můžete řídit, kam budou dodávky odváženy a jakým způsobem budou exporty opouštět vaše vězení.
 buildtoolbar_Logistics_VehiclePurpose    Ovládejte, které služby budou zpracovávat konkrétní doky, helipady nebo silnice. To vám umožní přijímat konkrétní zboží nebo vězně do různých míst v okolí vaší věznice, po moři i vzduchem.
@@ -1693,7 +1693,7 @@ quickbuild_River								Řeka
 # CODEX - Menu Entries
 # =============================================================================
 
-codex_options_hud_waypoints           Hud body
+codex_options_hud_waypoints           HUD body
 codex_options_hud_waypoints_all       Vše zapnuto
 codex_options_hud_waypoints_important Nejdůležitější
 codex_options_hud_waypoints_off       Vše vypnuto
@@ -1789,7 +1789,7 @@ online_check_fail									V současné době nemáte oprávnění k přístupu k
 # Materials - Names
 # =============================================================================
 
-material_ReclaimedWoodWall    Stěna z regenerovaného dřeva
+material_ReclaimedWoodWall    Stěna z recyklovaného dřeva
 material_BottleWall           Stěna z lahví
 material_WhitePicketFence     Bílý plaňkový plot
 material_ReclaimedBrickFloor  Recyklovaná cihla
@@ -3007,7 +3007,7 @@ reformProgram_Occupation                        Pracoviště:
 # Sentence Reductions & Extensions (inc. descriptions)
 # =============================================================================
 
-report_Sentences                     Úpravy vět
+report_Sentences                     Úpravy trestů
 
 sentences_tooltip_onOff              Přepnutím této možnosti povolíte nebo zakážete úpravu trestu odnětí svobody VYPNUTO/ZAPNUTO.
 sentences_tooltip_resetCriteria      Vrátit kritéria úprav zpět na hodnoty navržené věznicí.
@@ -3379,7 +3379,7 @@ dlc_name_shelby								Second Chances
 
 object_JackOLantern                  Jack-o'-lantern (lucerna)
 object_DecoratedTree                 Zdobený strom (strašidelný)
-object_CoffinBed                     Postel s rakví
+object_CoffinBed                     Postel ve tvaru rakve
 object_SpiderWeb                     Pavučina
 
 buildtoolbar_popup_obj_JackOLantern  Strašidelné a případně jedlé zdroje světla.
@@ -3908,7 +3908,7 @@ d11_coverage_grand_total       	Celkový součet
 
 adviser_name_foreman            Předák
 adviser_name_gardener           Zahradník
-adviser_name_Janitor            Údržbář
+adviser_name_Janitor            Uklízeč
 
 need_name_hydration             Hydratace
 need_name_staffhydration        Hydratace
@@ -4183,7 +4183,7 @@ object_RemoteDoorWhite                    Dálkové dveře (bílé)
 buildtoolbar_popup_obj_RemoteDoorWhite    Tyto dveře jsou určeny pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
 quickbuild_Gymnasium                      Tělocvična
 
-object_GymInstructor                      Instruktor tělocviku
+object_GymInstructor                      Instruktor v tělocvičně
 
 object_FilingCabinetFancy                 Skříň na dokumenty (Přepychová)
 buildtoolbar_popup_obj_FilingCabinetFancy Odměňte své zaměstnance tím, že jim dáte přepychovou kartotéku.
@@ -5242,6 +5242,59 @@ event_tropicalfever_onboarding_afflictedprisoner  Některé z našich vězňů p
 action_WatchCinema                                Sledování filmu
 
 material_MurkyWaterBed                            Vodní postel
+
+buildtoolbar_popup_help_CropDistribution_1 		V okně Správa distribuce můžete také měnit procenta distribuce a kontrolovat, do kterých místností se sklizené plodiny přesunou.
+buildtoolbar_popup_help_DeliveryTargeting_1		Propojení zón pro doručování, odpad a vývoz s přistávacími plochami pro vrtulníky, doky a silnicí. Díky tomu můžete kontrolovat, kam se dodávky odvážejí a jak vývoz opouští vaše vězení.
+buildtoolbar_popup_help_VehiclePurpose_1		Řídit, které služby budou obsluhovány konkrétními doky, přistávacími plochami pro vrtulníky nebo silnicí. To vám umožní přijímat konkrétní zboží nebo vězně na různých místech v okolí věznice, a to po moři i letecky.
+buildtoolbar_popup_help_LabourManagement_1 		Tato nabídka poskytuje kontrolu nad vězni, kteří zde mohou pracovat, nad dobou práce a nad možnostmi rychlého nasazení stráží.
+buildtoolbar_Logistics_Jobs				Zobrazení Práce ve vězení ukazuje, do kterých místností mohou být vězni přiděleni na práci a kolik vězňů je tam aktuálně přiděleno.
+buildtoolbar_Logistics_TargettingLaundry 		Zobrazení Rozdělení prádelen ukazuje, které bloky, ubytovny a recepce jsou určeny pro které prádelny.
+buildtoolbar_Logistics_TargettingFood			Zobrazení Distribuce potravin ukazuje, které bloky jsou zásobovány kterými jídelnami a které jídelny jsou zásobovány kterými kuchyněmi. Můžete si také prohlédnout aktuální zásobování a potřeby aktuálně aktivních kuchyní a jídelen (vaření začíná 4 hodiny před dalším režimem Jídlo).
+buildtoolbar_Logistics_RoomQuality			Zobrazení Kvalita místností zobrazuje hodnocení kvality všech místností ve věznici, které lze vylepšit. Čím vyšší číslo, tím lepší kvalita. Po najetí myší na místnost se zobrazí faktory, které se podílejí na určení její kvality, a co můžete přidat, abyste tuto kvalitu zvýšili.
+buildtoolbar_Logistics_CellStatus			V zobrazení Stav cel se zobrazují obsazené (oranžová), gangové (červená) a volné (zelená) buňky.
+
+# ====================================
+# ====================================
+# ----------------------------------- SUNSET UPDATE 5 SUNSET -----------------
+# ====================================
+# ====================================
+
+mutator_name_SuperDogs			Superpsi
+mutator_tooltip_SuperDogs		Váš nejlepší přítel se právě dostal na 11. místo. Jsou větší, silnější, rychlejší a méně často si potřebují zdřímnout.
+
+material_WallDeathRowSec                Zeď (cela smrti)
+material_WallSuperMaxSec                Zeď (super max. ostraha)
+buildtoolbar_popup_mat_WallDeathRowSec  Postavte barevné stěny, které budou označovat určitý bezpečnostní sektor věznice.
+buildtoolbar_popup_mat_WallSuperMaxSec  Postavte barevné stěny, které budou označovat určitý bezpečnostní sektor věznice.
+
+object_powercapacitorMaxPlus                         	Kondenzátor Max Plus
+buildtoolbar_popup_uts_powercapacitorMaxPlus		Kondenzátor Max Plus je dvakrát účinnější než jeho předchůdce.
+
+object_RemoteDoorMaroon						Dálkově ovládané dveře (kaštanová)
+buildtoolbar_popup_obj_RemoteDoorMaroon 	Tyto dveře jsou určeny k přístupu pomocí funkčního serva. Ujistěte se, že máte dostatek ochranných prvků pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
+
+object_RemoteDoorBlack						Dálkově ovládané dveře (černé)
+buildtoolbar_popup_obj_RemoteDoorBlack 	Tyto dveře jsou určeny k přístupu pomocí funkčního serva. Ujistěte se, že máte dostatek ochranných prvků pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
+
+uniformPack_desert			Pouštní uniformy
+uniformpack_desert_desc 		Změní uniformy vězňů a stráží na pouštní vzor.
+		
+buildtoolbar_popup_obj_dogcrate				Útulná přepravka na spaní pro vaše těžce pracující psy K-9.
+buildtoolbar_popup_uts_phonebooth			Umožňuje vězňům mluvit se svými rodinami a naplnit tak jejich potřebu "rodiny".
+buildtoolbar_popup_obj_LaundryMachine		Je potřeba vést prádelnu a prát vězňům špinavé uniformy.
+buildtoolbar_popup_obj_LaundryBasket		Pracovníci věznice a uklízeči budou nosit špinavé uniformy do prádelny a čisté uniformy zpět do vězeňského bloku.
+buildtoolbar_popup_obj_IroningBoard			Je potřeba provozovat prádelnu, kde se žehlí čisté uniformy, než se pošlou zpět vězňům.
+buildtoolbar_popup_obj_VisitorTable			Stůl, u kterého mohou vězni sedět naproti své rodině. Tento stůl se používá také při slyšeních o podmínečném propuštění vězňů.
+buildtoolbar_popup_uts_visitortablesecure	Zabraňuje pašování kontrabandu přes návštěvní stůl, ale je jen z poloviny tak účinný při uspokojování potřeb "rodiny" jako návštěvní stůl. Návštěvní boxy mohou zabránit pašování kontrabandu pouze v případě, že jsou obě strany boxu přehrazeny buď stěnou, nebo jiným návštěvním boxem.
+buildtoolbar_popup_obj_WorkshopSaw			Dílenský nástroj, který vězni používají k přeměně špalků na dřevěná prkna nebo plechů na poznávací značky.
+buildtoolbar_popup_obj_WorkshopPress		Dílenský nástroj používaný vězni k lisování nápisů na poznávací značky.
+buildtoolbar_popup_obj_CarpenterTable		Dílenský nástroj, který vězni používají k přeměně klád na lepší lůžko.
+buildtoolbar_popup_obj_GuardLocker			Požadavek na zbrojnici. Každý ozbrojenec musí mít vlastní skříňku.
+buildtoolbar_popup_obj_DrinkMachine			Nutné pro všechny základní prostory pro zaměstnance. Skladuje také ingredience pro alkohol vyráběný vězni.
+buildtoolbar_popup_obj_librarybookshelf		Velká police na knihy. V knihovně jich budete potřebovat několik.
+buildtoolbar_popup_obj_ShopShelf			Vysoké regály, které se používají k uskladnění zásob pro obchod.
+buildtoolbar_popup_obj_ShopFront			Umístěte výlohu na stěnu, která stojí mezi prodejnou a prostorem, který je přístupný zákazníkům. Vězni budou k výloze přistupovat, pokud si budou chtít koupit zboží.
+
 # ============================================================== 
 # End of File (do not remove new line at the end)
 # ==============================================================
