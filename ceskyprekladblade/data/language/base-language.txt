@@ -560,7 +560,6 @@ buildtoolbar_popup_staff_psychologist	Administrativní pracovník, jehož prost�
 buildtoolbar_popup_staff_accountant		Administrativní pracovnice, která ti poskytuje hlášení o peněžních tocích.
 buildtoolbar_popup_staff_lawyer			Administrativní pracovník, který ti pomáhá obcházet různý pravidla a získat tak lepší kontrolu nad chodem věznice.
 buildtoolbar_popup_staff_sniper         Velmi dobře vycvičený střelec, který automaticky obsadí prázdnou strážní věž, pokud je volná. Vystřelí varovné výstřely na vězně způsobující potíže za zdmi vězení, než zlikviduje cíl. Vězni na útěku takto varováni nejsou.
-
 buildtoolbar_popup_uts_powerstation		Zajišťuje věznici dodávky elektrického proudu.
 buildtoolbar_popup_uts_capacitor		Nachází-li se poblíž trafostanice, zvyšuje kapacitu dodávek elektřiny.
 buildtoolbar_popup_uts_electricalcable	Rozvádí elektřinu po věznici.
