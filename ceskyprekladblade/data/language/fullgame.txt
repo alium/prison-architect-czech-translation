@@ -314,7 +314,7 @@ adviser_riot_hostages2 					Bude to takhle. Já si o něco řeknu. Vy mi to dát
 adviser_riot_hostages3					Když budete dělat problémy, pošlete někoho dovnitř nebo tady jenom ucejtím nějakýho poldu, proženu mu hlavou kulku.
 adviser_riot_hostages4 					Chceme neoznačený vozidlo. Tmavý okna. Plnou nádrž. Do hodiny. Ještě se ozvu.
 adviser_riot_hostages5 					No vida vida.
-adviser_riot_hostages5b					Cos v dělal v tý kanceláři?
+adviser_riot_hostages5b					Cos dělal v tý kanceláři?
 adviser_riot_hostages6					Já nic nevím, přísahám.
 adviser_riot_hostages7					Měl jsem dost času pozorovat vlastní stín, abych dokázal poznat, když někdo dělá levárnu.
 adviser_riot_hostages8					Co ses to snažil zakrejt?
