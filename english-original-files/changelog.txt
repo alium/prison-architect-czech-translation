@@ -498,8 +498,8 @@ Click NEXT to see more...
 
 ~~~~~~
 
-"Jungle Pack" DLC &
-"Jailhouse" UPDATE
+"JUNGLE PACK" DLC &
+"JAILHOUSE" UPDATE
 >Welcome to the Jungle, we've got trees and stuff!
 
 >Jungle Pack - New DLC
@@ -512,6 +512,8 @@ Click NEXT to see more...
 <->Misc: New flooring, walls, doors, trees, wooden objects, a stealthier looking CCTV camera, a new clock face and a vaguely familiar looking Warden...
 
 Click NEXT to see more...
+
+
 
 >"Jailhouse" - Free Update
 >   QoL Improvements
@@ -526,6 +528,17 @@ Click NEXT to see more...
 >
 <->Misc Improvements - We've re-balanced the Identity Thief reputation, the effects that suppression has on inmates becoming insane and other improvements and fixes!
 
+~~~~~~
 
+"Sunset" Update
+>Full of QoL improvements and bug fixes!
 
+>   QoL Improvements / Features
+<->Super Dog Mutator: Due to our undeniable fondness of them, we've added a new mutator based on the Super Guard mutator which will help give our furry friends an upgrade.
+<->Capacitor 2.0: I introduce to you, the Capacitor Max Plus - an upgraded version of the capacitor which allows your Power Stations to now produce twice the amount of power than they did before.
+<->Remote Doors: We have added a coloured variant of the remote doors for both Death Row and Supermax security levels.
+<->Riot Van Speed: Due to the efficiency of air-bound emergency units we have increased the movement speed of the Riot Guard Vans, to lower their arrival time. 
+<->Updated Descriptions: After sweeping through the game we decided to update or add a number of new text strings. As such we've updated text for Item descriptions, Staff descriptions, and also Need descriptions.
 
+<->With this update we have focused on improving the player experience as much as possible. 
+We thank you all for playing Prison Architect.

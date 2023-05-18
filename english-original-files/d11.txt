@@ -1078,7 +1078,7 @@ buildtoolbar_affectsGradingNegativly			-DECREASES a prison Cell's grade.
 buildtoolbar_popup_obj_ovalStaffTable			Goes great with chairs, in staff areas.	
 buildtoolbar_popup_obj_painting1				Just because it's a prison doesn't mean we can't keep it classy.
 buildtoolbar_popup_obj_painting2				Just because it's a prison doesn't mean we can't keep it classy.
-buildtoolbar_popup_obj_chessTable				For prisoners or staff who like to think several moves ahead.
+buildtoolbar_popup_obj_chessTable				The game of kings...and naughty individuals that can't obey the law. Caters to the 'Recreation' Need.
 buildtoolbar_popup_obj_GLassWindow				To glimpse the sun through.
 buildtoolbar_popup_obj_GlassWindowLarge			To glimpse lots of the sun through.
 buildtoolbar_popup_obj_GymMat					For stretching out those aches and pains.\n -Caters to the Exercise Need
@@ -1096,7 +1096,7 @@ buildtoolbar_popup_obj_Treadmill				For prisoners to keep fit. Prisoners who tra
 buildtoolbar_popup_obj_Fan						An old-fashioned standing fan, which helps to cool the air around it, by a small amount.
 buildtoolbar_popup_obj_PunchBag					For when inmates need to let off some aggression.\n -Caters to the Exercise and Recreation Needs.
 buildtoolbar_popup_obj_WardenStatue				A tall stone statue to signify the Warden's rule over the prison. Too many of these can make inmates feel suppressed. \n -INCREASES suppression by a small amount.
-buildtoolbar_popup_obj_WaterCooler				Prisoner Architect's Water Cooler moment.
+buildtoolbar_popup_obj_WaterCooler				Prison Architect's Water Cooler moment.
 buildtoolbar_popup_obj_SnackMachine				High calorie, low quality snacks.
 buildtoolbar_popup_obj_Mattress					A semi-comfortable foam mattress. The cheapest form of bed there is, but better than the floor.
 buildtoolbar_popup_obj_MetalBarrel				Often seen around dockyards.
@@ -1108,7 +1108,7 @@ buildtoolbar_popup_obj_Buoy						Floats in water.
 buildtoolbar_popup_obj_LifeRing					Give dock areas a classic feature.
 buildtoolbar_popup_obj_ArcadeCabinet			Entertain your inmates with a cutting-edge retro Arcade Machine.\n -Caters to the Recreation and Comfort Needs
 buildtoolbar_popup_obj_CoffeeMachine			A desired feature of any over-worked staff member.
-buildtoolbar_popup_obj_ComputerStation			Caters to the "Literature" and "Comfort" Needs.
+buildtoolbar_popup_obj_ComputerStation			Caters to the Literature and Comfort Needs.
 buildtoolbar_popup_obj_PASystem					Suppress prisoners by issuing regular reminders that they are in fact still in prison.\n -INCREASES the supression felt by inmates when placed in a Cell Block or Yard.
 buildtoolbar_popup_obj_TrainingDummy			An old-fashioned Shaolin training dummy.\n -Prisoners who train hard may even learn new fighting skills!
 buildtoolbar_popup_obj_StoneWaterSpout			A stone gothic head which when attached to a water supply will spout water from its mouth.
@@ -5136,7 +5136,7 @@ object_cinemaprojector                  Projector
 buildtoolbar_popup_obj_cinemaprojector  Every cinema room needs a projector. Must be within 10 tiles of a Projector Screen to play movies.
 
 deploymentscheduler_slot_caption    Deployment Time Blocks
-deploymentscheduler_description     Use the deployment time blocks to create deployment routines for differents hours of the day. Before assigning changes to the deployment of your staff you must first move the time arrow to your desired time hour regime hour. Afterwards you can select one of the Time Blocks to assign a specific deployment routine for that time, otherwise this deployment will be added to all times.
+deploymentscheduler_description     Use the deployment time blocks to create deployment routines for differents hours of the day. Before assigning changes to the deployment of your staff you must first move the time arrow to your desired regime hour. Afterwards you can select one of the Time Blocks to assign a specific deployment routine for that time, otherwise this deployment will be added to all hours.
 codex_options_clocktype_jungle		Jungle (Analogue)
 
 
@@ -5236,12 +5236,65 @@ tropicalfever_immune		Tropical Fever - Temporary Immunity
 tropicalfever_Dead		Tropical Fever
 
 event_tropicalfever_onboarding_contaminatedobject	We've found a contaminated item, this will need removing as soon as possible. Any item contaminated like this can spread the contagion to any unsuspecting prisoner who comes too close.
-event_tropicalfever_onboarding_afflictedprisoner	Some of our prisoners have become afflicted with a dangerous fever, we need to get them the medical care they need. We set up vaccination program to keep our prisoners safe in the future.
+event_tropicalfever_onboarding_afflictedprisoner	Some of our prisoners have become afflicted with a dangerous fever, we need to get them the medical care they need. We should set up vaccination programs to keep our prisoners safe in the future.
 
 
 action_WatchCinema				Watching a movie
 
 material_MurkyWaterBed			Waterbed
+
+buildtoolbar_popup_help_CropDistribution_1 		Control which rooms harvested crops are moved to, you can also change distribution percentages via the Manage Distribution window.
+buildtoolbar_popup_help_DeliveryTargeting_1		Link Delivery, Garbage and Export zones to Helipads, Docks and the Road. Doing so allows you to control where deliveries are taken, and how exports leave your prison.
+buildtoolbar_popup_help_VehiclePurpose_1		Control which services will be handled by specific Docks, Helipads or the Road. Doing so allows you to recieve specific goods or prisoners to various locations around your prison, by sea and air.
+buildtoolbar_popup_help_LabourManagement_1 		This menu provides you with control over the inmates allowed to work here, the labour times, along with quick guard deployment options.
+buildtoolbar_Logistics_Jobs				The Prison Labour view shows you which rooms can have prisoners assigned for work, and how many prisoners are currently assigned there.
+buildtoolbar_Logistics_TargettingLaundry 		The Laundry Distribution view shows you which cell blocks, dormitories and receptions are being targeted by which laundry rooms.
+buildtoolbar_Logistics_TargettingFood			The Food Distribution view shows you which cell blocks are being served by which canteens, and which canteens are being supplied by which kitchens. You can also see the current supply and demand of currently active kitchens and canteens (cooking starts 4 hours before the next Eat regime).
+buildtoolbar_Logistics_RoomQuality			The Room Quality view shows you the quality rating of all upgrade-able rooms in your prison. The higher the number, the better the quality. Mousing over a room will show you the factors that went into determining it's quality, and what you can add to increase that quality.
+buildtoolbar_Logistics_CellStatus			The Cell Status view shows you cells occupied (orange), gang (red) and vacant (green).
+
+# ====================================
+# ====================================
+# ----------------------------------- SUNSET UPDATE 5 SUNSET -----------------
+# ====================================
+# ====================================
+
+mutator_name_SuperDogs			Super-dogs
+mutator_tooltip_SuperDogs		Mans best friend just got turned up to 11. They're bigger, stronger, faster, and less likely to need a nap.
+
+material_WallDeathRowSec                Wall (Death Row Sec)
+material_WallSuperMaxSec                Wall (Super Max Sec)
+buildtoolbar_popup_mat_WallDeathRowSec  Build coloured walls to inidicate a certain security sector of the prison.
+buildtoolbar_popup_mat_WallSuperMaxSec  Build coloured walls to inidicate a certain security sector of the prison.
+
+object_powercapacitorMaxPlus                         	Capacitor Max Plus
+buildtoolbar_popup_uts_powercapacitorMaxPlus		The Max Plus Capacitor is twice as efficient as its predecessor.
+
+object_RemoteDoorMaroon						Remote Door (Maroon)
+buildtoolbar_popup_obj_RemoteDoorMaroon 	This door is designed to be accessed using a working servo. Make sure you have enough guards to control the entry and exits for these types of doors or install pressure pads
+
+object_RemoteDoorBlack						Remote Door (Black)
+buildtoolbar_popup_obj_RemoteDoorBlack 	This door is designed to be accessed using a working servo. Make sure you have enough guards to control the entry and exits for these types of doors or install pressure pads
+
+uniformPack_desert	Desert Uniforms
+uniformpack_desert_desc Changes the uniforms of your Prisoners and Guards to a Desert themed design.
+		
+buildtoolbar_popup_obj_dogcrate				A cosy crate for your hard working K-9's to sleep in.
+buildtoolbar_popup_uts_phonebooth			Allows prisoners to talk to their families, fulfilling their 'Family' Need.
+buildtoolbar_popup_obj_LaundryMachine		Needed to run a Laundry Room and wash prisoner's grubby uniforms.
+buildtoolbar_popup_obj_LaundryBasket		Prison Workers and Janitors will carry dirty uniforms to the Laundry Room and clean uniforms back to the cell block.
+buildtoolbar_popup_obj_IroningBoard			Needed to run a Laundry Room, to iron clean uniforms before they are sent back to prisoners.
+buildtoolbar_popup_obj_VisitorTable			A table where prisoners can sit across from their family. This table is also used for prisoner parole hearings.
+buildtoolbar_popup_uts_visitortablesecure	Prevents contraband being smuggled in through Visitation, but is only half as effective at catering to the 'Family' Need than a Visitor Table. Visitation Booths can only block contraband if both sides of the booth are blocked off by either a wall or another Visitation Booth.
+buildtoolbar_popup_obj_WorkshopSaw			A Workshop tool used by prisoners to turn logs into wooden planks or sheet metal into license plates.
+buildtoolbar_popup_obj_WorkshopPress		A Workshop tool used by prisoners to press lettering onto license plates.
+buildtoolbar_popup_obj_CarpenterTable		A Workshop tool used by prisoners to turn logs into a Superior Bed.
+buildtoolbar_popup_obj_GuardLocker			A requirement for the Armoury. Each Armed Guard must have their own locker.
+buildtoolbar_popup_obj_DrinkMachine			Required for any basic Staff Room. Also holds ingredients for prisoner-produced Alcohol.
+buildtoolbar_popup_obj_librarybookshelf		A large shelf for books. You'll need a few of these in your Library.
+buildtoolbar_popup_obj_ShopShelf			Tall shelving units, used to store stock for the shop.
+buildtoolbar_popup_obj_ShopFront			Place the Shop Front on a wall that stands between the Shop and an area that is accessible by customers. Prisoners will approach the Shop Front if they wish to purchase goods.
+
 # ============================================================== 
 # End of File (do not remove new line at the end)
 # ==============================================================

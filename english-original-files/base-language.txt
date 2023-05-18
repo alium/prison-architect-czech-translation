@@ -525,10 +525,10 @@ buildtoolbar_popup_obj_fridge			Keep your food supplies from rotting.
 buildtoolbar_popup_obj_bin				Tidiness is important when it comes to contraband.
 buildtoolbar_popup_obj_sink				All employees are required to wash their hands. Will work faster if connected to hot water.
 buildtoolbar_popup_obj_servingtable		Dish up food to your prisoners.
-buildtoolbar_popup_obj_showerhead		The head of a shower. For showering. Showering with hot water makes your prisoners happier. 
+buildtoolbar_popup_obj_showerhead		Keeps prisoners clean and will improve the comfort grade of a cell. Don't forget to add a drain. 
 buildtoolbar_popup_obj_officedesk		Your staff need to write things down a lot. Give them a shiny office desk to do it on.
 buildtoolbar_popup_obj_filingcabinet	Your staff need to keep the things they write ordered nicely.
-buildtoolbar_popup_obj_medicalbed		A place to hold the narcotics until your prisoners steal them.
+buildtoolbar_popup_obj_medicalbed		Used to heal injured staff and prisoners. Medical Beds are also a source of Contraband.
 buildtoolbar_popup_obj_morgueslab		Ensure the dead have a respectful place to rest before moving.
 buildtoolbar_popup_obj_drain			Remove water from the floor.
 buildtoolbar_popup_obj_sprinkler		Automatically sprays the area with water in the event of a fire.
@@ -537,7 +537,7 @@ buildtoolbar_popup_obj_weightsbench		Allow your prisoners to exercise, which kee
 buildtoolbar_popup_obj_phonebooth		Prisoners might want to talk to their family, and these handy phonebooths let them.
 buildtoolbar_popup_obj_tv				Pacify your prisoners with mind-numbing mediocrity. Requires a place for prisoners to sit in front of the TV.
 buildtoolbar_popup_obj_largetv			Allow lots of your prisoners to share the experience of brain rot. Requires a place for prisoners to sit in front of the TV.
-buildtoolbar_popup_obj_radio            Lets your prisoners listen to their favourite boy bands as they go about their day. Makes all prisoners in the same room slightly happier. 
+buildtoolbar_popup_obj_radio            Lets your prisoners listen to their favourite boy bands as they go about their day. 
 buildtoolbar_popup_obj_pooltable		Remove the monotony of prison life with a game of pool. 
 buildtoolbar_popup_obj_dismantleobject	Remove an object from your prison.
 buildtoolbar_popup_obj_altar            Relays your prayers directly to your higher power of choice.
@@ -546,21 +546,20 @@ buildtoolbar_popup_obj_prayermat        Protect your prisoners from the dirty fl
 buildtoolbar_popup_obj_guardtower       A tower from which your snipers (hired separately) can watch over your prison.\n\nSelect a Guard Tower to view the range a Sniper has if stationed there. 
 buildtoolbar_popup_obj_roadbarrier      A sturdy road barricade that can stop even speeding trucks. Only closes during Lockdown.
 
-buildtoolbar_popup_staff_workman		Will build your prison for you, based on the plans you provide them.
+buildtoolbar_popup_staff_workman		Will build your prison for you, based on the plans you provide them. Workmen will also dismantle or demolish any structure or object and load/unload deliveries.
 buildtoolbar_popup_staff_guard			Used to keep your prisoners in check and out of trouble.
 buildtoolbar_popup_staff_armedguard     Armed with a shotgun, prisoners will think twice before attacking this fellow.\n\nNote: Each armed guard requires his own locker in the Armoury.
 buildtoolbar_popup_staff_doctor			Automatically heals all nearby injured people, whether they are guards or prisoners.
 buildtoolbar_popup_staff_cook			Feeds your prisoners with the meals they prepare.
 buildtoolbar_popup_staff_gardener		Keeps your prison grounds nice and tidy.
 buildtoolbar_popup_staff_janitor		Keeps the inside of your prison nice and tidy. Can also help with the prison laundry.
-buildtoolbar_popup_staff_warden			The grand overseer of your prison. Required before you can research and hire advanced staff members.
-buildtoolbar_popup_staff_chief			An advanced staff member that gives access to the deployment, CCTV, and riot guards research items.
-buildtoolbar_popup_staff_foreman		An advanced staff member that allows you to gain access to Janitors and Gardeners.
-buildtoolbar_popup_staff_psychologist	An advanced staff member that allows you to gain an insight in to the minds of your prisoners. 
-buildtoolbar_popup_staff_accountant		An advanced staff member that gives access to your financial reports.
-buildtoolbar_popup_staff_lawyer			An advanced staff member that helps you bend some of the rules for greater control over your prison.
-buildtoolbar_popup_staff_sniper         A highly trained marksman who will automatically occupy an empty Guard Tower if one is available. Will fire a number of warning shots at prisoners causing trouble within the prison walls before taking a target down. Escaping prisoners are given no such warnings.
-
+buildtoolbar_popup_staff_warden			The grand overseer of your prison. A Warden will unlock the Bureaucracy tree allowing you to hire advanced staff members that in turn will open new grants, labour, security and defense options.\n\nHiring a Warden will also unlock the Prison's Regime. 
+buildtoolbar_popup_staff_chief			An advanced staff member that gives access to important security options including the Armoury, Deployment, Intelligence and Surveillance. The Chief will unlock the ability to hire Armed Guards and Snipers.
+buildtoolbar_popup_staff_foreman		An advanced staff member that allows you to gain access to Janitors and Gardeners as well as creating new Prison Labour options.
+buildtoolbar_popup_staff_psychologist	An advanced staff member that allows you to gain an insight into the minds of your prisoners by unlocking the Needs report which highlights prisoner satisfaction levels. 
+buildtoolbar_popup_staff_accountant		An advanced staff member that gives access to your financial reports. The Accountant will allow you to take out loans, reduce the tax you pay and expand your land plot if you need more space.
+buildtoolbar_popup_staff_lawyer			An advanced staff member that helps you bend some of the rules for greater control over your prison. Lawyers can reduce the consequences of poor performance or conduct. A Lawyer is required for Death Row prisoners.
+buildtoolbar_popup_staff_sniper         A highly trained marksman who will automatically occupy an empty Guard Tower if one is available. Will fire a number of warning shots at prisoners causing trouble within the prison walls before taking a target down.\n\nSnipers may resort to lethal force if they spot prisoners attempting to escape. Enabling/Disabling Freefire will alter the level of force used in certain situations. 
 buildtoolbar_popup_uts_powerstation		Generates electricity to be used in your prison, can also be connected to a Transformer to export power.
 buildtoolbar_popup_uts_capacitor		Increases the amount of electricity generated when placed next to a power station.
 buildtoolbar_popup_uts_electricalcable	Distributes electricity around your prison.
@@ -2027,24 +2026,24 @@ needs_help_bladder                      Everyone needs to use the toilet, even p
 needs_help_bowels                       Everyone needs to use the toilet, even prisoners. Don't forget that most parts of your prison Regime are pretty strict - they can't use the toilet in their cell if they are supposed to be in the shower room, for example.
 needs_help_sleep                        Prisoners require sleep. Prisoners will only be able to sleep in the cell to which they are assigned, and will only sleep between 8pm and 8am. They'll obviously need a bed, too.
 needs_help_food                         Everyone needs to eat, and most people need to eat more than once per day. If you find that your Kitchens aren't able to keep up with the demand, try hiring more Cooks or adding more Cookers to your Kitchens. You can also tweak your food policies in the Policies tab of your Report window.
-needs_help_safety                       Even in prison, your Prisoners want to feel safe. If there are lots of fights in your prison or the overall danger level is high, prisoners will feel less safe, and may consider arming themselves. If this is becoming a problem, trying increasing the security throughout your prison by hiring more Guards, creating more patrols, or by seeing to the other needs of your Prisoners.
+needs_help_safety                       Even in prison, your Prisoners want to feel safe. If there are lots of fights in your prison or the overall danger level is high, prisoners will feel less safe, and may consider arming themselves. If this is becoming a problem, try increasing the security throughout your prison by hiring more Guards, creating more patrols, or by seeing to the other needs of your Prisoners.
 needs_help_hygiene                      Most Prisoners will want to wash regularly, especially in the mornings after they wake up. The Shower regime will force prisoners who don't have their own personal Shower to go to the nearest Shower room. If this is becoming a problem, consider expanding your Shower facilities, or adding more Freetime so Prisoners can shower as they need to.
-needs_help_exercise                     Many prisoners will want to be able to keep in shape. You can help them do this by adding a Yard to your prison. Weights Benches, either in the Yard or other common areas, will also help with this.
-needs_help_recreation                   A bored Prisoner is a dangerous Prisoner. You can see to a Prisoners need for Recreation by adding pass-times to the common areas of your prison, such as TVs or Radios.
-needs_help_comfort                      Prisoners generally want to feel comfortable, physically and emotionally. There are many ways you can aid this, such as allowing for family visitations, giving them hot showers or simply making sure they have somewhere to sit.
+needs_help_exercise                     Many prisoners will want to be able to keep in shape. You can help them do this by adding a Yard to your prison. Weights Benches and similar exercise equipment, either in the Yard or other common areas, will also help with this.
+needs_help_recreation                   A bored Prisoner is a dangerous Prisoner. You can see to a Prisoners need for Recreation by adding pass-times to the common areas of your prison, such as TVs or Radios and allowing time in the regime for these to be used.
+needs_help_comfort                      Prisoners generally want to feel comfortable, physically and emotionally. There are many ways you can aid this, such as giving your prisoners ways to relax, whether that's increasing their free time and providing items for recreation or simply making sure they have somewhere to sit and rest.
 needs_help_environment                  Prisoners hate living in dirty conditions, and with a lot of Prisoners using the same facilities, things can get messy pretty quickly. Hire some Janitors or put your Prisoners to work in a Cleaning Cupboard to keep on top of this.
 needs_help_privacy                      Sometimes Prisoners will want some time to themselves. Spending time in their cell will usually see to this, but if they are living in a Dormitory with a lot of other prisoners, they might not find much Privacy there.
-needs_help_freedom                      Even in prison, your Prisoners will want to feel as if they have some level of Freedom. You can facilitate this by adding some Freetime or Yard time to your Regime.
+needs_help_freedom                      Even in prison, your Prisoners will want to feel as if they have some level of Freedom. You can facilitate this by adding some Freetime or Yard time to your Regime. Prisoners will also faciliate this need via more specialised means, either through Farming, Fight Clubs, or the Cinema room.
 needs_help_clothing                     Prisoners are going to want clean clothes from time to time, even if it is just the same coloured jumpsuit. Adding a Laundry to your prison and either hiring Janitors or putting Prisoners to work in it will help make this dream a reality.
 needs_help_drugs                        Many prisoners have problems with drug addiction - it might even be why they are in prison in the first place. You can help treat this problem by running a Drug Treatment Program in your Infirmary. 
 needs_help_alcohol                      Many prisoners struggle with alcoholism, and will go to great lengths to get their hands on some alcohol. You can try to help alleviate this by running Alcoholic Group Therapy sessions.
 needs_help_spirituality                 Lots of prisoners have various religious beliefs. You can enable your prisoners' practice of these beliefs by adding Pews or Prayer Mats to your prison, but building a Chapel and running Spiritual Guidance programs will give the best results and generally help calm your prisoners too.
-needs_help_literacy                     Some prisoners just want to read. Adding a Library will let those Prisoners borrow books to meet this need.
+needs_help_literacy                     Some prisoners just want to read. Adding a Library will let those Prisoners borrow books to meet this need. Placing a Bookshelf within your prisoner's living area will also keep their Literacy need in check.
 needs_help_warmth                       No one wants to be cold all the time, but nature doesn't really care about that. Adding radiators to your prison will keep your buildings warm enough to stop this becoming a problem. 
 needs_help_babysleep                    Babies need to sleep more than regular prisoners. If any of your Prisoners have a Baby, make sure you have Cots available so that the Baby can sleep as needed.
 needs_help_babyplay                     Babies need engagement and entertainment. If any of your Prisoners have a Baby, make sure you have Play Mats in an accessible area.
-needs_help_family                       Most Prisoners want to keep in contact with their families in one way or another. The easiest way to let them do this is to add Phones to your prison, though adding a Visitation facility to your prison will be much more effective. A Mail Room can also help with this need.
-needs_help_luxuries                     Many Prisoners enjoy a bit of luxury from time to time. You can help them meet this need by building a Shop in your prison, and make a bit of money in the process. Prisoners who meet this need will be less likely to cause trouble, but there's no downside for ignoring it; it IS prison, after all.
+needs_help_family                       Most Prisoners want to keep in contact with their families in one way or another. The easiest way to let them do this is to add Phones to your prison, though adding a Visitation facility to your prison will be much more effective. A Mail Room can also help with this need, along with Pet Birds and Video Call Booths.
+needs_help_luxuries                     Many Prisoners enjoy a bit of luxury from time to time. You can help them meet this need by building a Shop in your prison, and make a bit of money in the process, or providing them with a Pet Bird instead. Prisoners who meet this need will be less likely to cause trouble, but there's no downside for ignoring it; it IS prison, after all.
 
 needs_help_staffbladder                 Even your Staff will need to use the toilet occassionally. They will do so whenever they are on break.
 needs_help_staffbowels                  Even your Staff will need to use the toilet occassionally. They will do so whenever they are on break.
@@ -3093,7 +3092,7 @@ quickbuild_sharedcell                   Shared Cell
 quickbuild_kitchen                      Kitchen
 quickbuild_canteen                      Canteen
 quickbuild_utilityroom                  Utility Room
-quickbuild_classroom                    Class Room
+quickbuild_classroom                    Classroom
 quickbuild_commonroom                   Common Room
 
 season_current                          Current Season: *X
