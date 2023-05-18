@@ -3530,7 +3530,7 @@ causeofdeath_overdosed              Předávkoval se
 causeofdeath_bledout                Vykrvácel
 causeofdeath_riot                   Byl zabit při vzpouře
 causeofdeath_executed               Byl popraven na elektrickém křesle
-causeofdeath_exposure               Zmrzl k smrti
+causeofdeath_exposure               Umrzl
 causeofdeath_unknown_1				Příčina smrti neznámá.
 causeofdeath_unknown_2 				Zpřístupni prohledávání a urči ji.
 
