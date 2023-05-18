@@ -1353,9 +1353,9 @@ reports_privilegesPolicy_tooltip_EducationPrograms \n-Nadační vzdělávání \
 reports_privilegesPolicy_tooltip_WellnessPrograms  \n-Behaviorální terapie \n-Skupinová terapie alkoholiků \n-Duchovní vedení
 reports_privilegesPolicy_tooltip_WorkPrograms      \n-Bezpečnost a hygiena v kuchyni \n-Instruktáž o bezpečnosti práce v dílně \n-Tesařský výcvik
 
-report_policy_categoryTooltip_Minsec               Minimální bezpečnost
-report_policy_categoryTooltip_Normal               Střední bezpečnost
-report_policy_categoryTooltip_MaxSec               Maximální bezpečnost
+report_policy_categoryTooltip_Minsec               Minimální ostraha
+report_policy_categoryTooltip_Normal               Střední ostraha
+report_policy_categoryTooltip_MaxSec               Maximální ostraha
 report_policy_categoryTooltip_Protected            Ochranná vazba
 report_policy_categoryTooltip_SuperMax             SuperMax
 report_policy_categoryTooltip_DeathRow             Odsouzení k smrti
@@ -4171,16 +4171,16 @@ buildtoolbar_popup_room_FightClubRoom       O této místnosti se nikdy nemluví
 object_CageGate                           Brána klece
 buildtoolbar_popup_obj_CageGate           Brána, která skvěle funguje s ploty. Funguje stejně jako brána.
 
-buildtoolbar_popup_obj_RemoteDoor         Tato brána je určena pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
+buildtoolbar_popup_obj_RemoteDoor         Tato brána je určena pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
 
 object_RemoteDoorOrange                   Dálkové dveře (oranžové)
-buildtoolbar_popup_obj_RemoteDoorOrange   Tyto dveře jsou určeny pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
+buildtoolbar_popup_obj_RemoteDoorOrange   Tyto dveře jsou určeny pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
 object_RemoteDoorRed                      Dálkové dveře (červené)
-buildtoolbar_popup_obj_RemoteDoorRed      Tyto dveře jsou určeny k přístupu pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
+buildtoolbar_popup_obj_RemoteDoorRed      Tyto dveře jsou určeny k přístupu pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
 object_RemoteDoorYellow                   Dálkové dveře (žluté)
-buildtoolbar_popup_obj_RemoteDoorYellow   Tyto dveře jsou určeny pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
+buildtoolbar_popup_obj_RemoteDoorYellow   Tyto dveře jsou určeny pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
 object_RemoteDoorWhite                    Dálkové dveře (bílé)
-buildtoolbar_popup_obj_RemoteDoorWhite    Tyto dveře jsou určeny pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte přítlačné podložky.
+buildtoolbar_popup_obj_RemoteDoorWhite    Tyto dveře jsou určeny pro přístup pomocí funkčního serva. Ujistěte se, že máte dostatek strážců pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
 quickbuild_Gymnasium                      Tělocvična
 
 object_GymInstructor                      Instruktor v tělocvičně
@@ -5245,13 +5245,13 @@ material_MurkyWaterBed                            Vodní postel
 
 buildtoolbar_popup_help_CropDistribution_1 		V okně Správa distribuce můžete také měnit procenta distribuce a kontrolovat, do kterých místností se sklizené plodiny přesunou.
 buildtoolbar_popup_help_DeliveryTargeting_1		Propojení zón pro doručování, odpad a vývoz s přistávacími plochami pro vrtulníky, doky a silnicí. Díky tomu můžete kontrolovat, kam se dodávky odvážejí a jak vývoz opouští vaše vězení.
-buildtoolbar_popup_help_VehiclePurpose_1		Řídit, které služby budou obsluhovány konkrétními doky, přistávacími plochami pro vrtulníky nebo silnicí. To vám umožní přijímat konkrétní zboží nebo vězně na různých místech v okolí věznice, a to po moři i letecky.
+buildtoolbar_popup_help_VehiclePurpose_1		Řídí, které služby budou obsluhovány konkrétními doky, přistávacími plochami pro vrtulníky nebo silnicí. To vám umožní přijímat konkrétní zboží nebo vězně na různých místech v okolí věznice, a to po moři i letecky.
 buildtoolbar_popup_help_LabourManagement_1 		Tato nabídka poskytuje kontrolu nad vězni, kteří zde mohou pracovat, nad dobou práce a nad možnostmi rychlého nasazení stráží.
 buildtoolbar_Logistics_Jobs				Zobrazení Práce ve vězení ukazuje, do kterých místností mohou být vězni přiděleni na práci a kolik vězňů je tam aktuálně přiděleno.
 buildtoolbar_Logistics_TargettingLaundry 		Zobrazení Rozdělení prádelen ukazuje, které bloky, ubytovny a recepce jsou určeny pro které prádelny.
 buildtoolbar_Logistics_TargettingFood			Zobrazení Distribuce potravin ukazuje, které bloky jsou zásobovány kterými jídelnami a které jídelny jsou zásobovány kterými kuchyněmi. Můžete si také prohlédnout aktuální zásobování a potřeby aktuálně aktivních kuchyní a jídelen (vaření začíná 4 hodiny před dalším režimem Jídlo).
 buildtoolbar_Logistics_RoomQuality			Zobrazení Kvalita místností zobrazuje hodnocení kvality všech místností ve věznici, které lze vylepšit. Čím vyšší číslo, tím lepší kvalita. Po najetí myší na místnost se zobrazí faktory, které se podílejí na určení její kvality, a co můžete přidat, abyste tuto kvalitu zvýšili.
-buildtoolbar_Logistics_CellStatus			V zobrazení Stav cel se zobrazují obsazené (oranžová), gangové (červená) a volné (zelená) buňky.
+buildtoolbar_Logistics_CellStatus			V zobrazení Stav cel se zobrazují obsazené (oranžová), gangové (červená) a volné (zelená) cely.
 
 # ====================================
 # ====================================
@@ -5260,10 +5260,10 @@ buildtoolbar_Logistics_CellStatus			V zobrazení Stav cel se zobrazují obsazen�
 # ====================================
 
 mutator_name_SuperDogs			Superpsi
-mutator_tooltip_SuperDogs		Váš nejlepší přítel se právě dostal na 11. místo. Jsou větší, silnější, rychlejší a méně často si potřebují zdřímnout.
+mutator_tooltip_SuperDogs		Váš nejlepší přítel se právě stal ještě silnějším. Jsou větší, silnější, rychlejší a méně často si potřebují zdřímnout.
 
 material_WallDeathRowSec                Zeď (cela smrti)
-material_WallSuperMaxSec                Zeď (super max. ostraha)
+material_WallSuperMaxSec                Zeď (SuperMax. ostraha)
 buildtoolbar_popup_mat_WallDeathRowSec  Postavte barevné stěny, které budou označovat určitý bezpečnostní sektor věznice.
 buildtoolbar_popup_mat_WallSuperMaxSec  Postavte barevné stěny, které budou označovat určitý bezpečnostní sektor věznice.
 
@@ -5271,29 +5271,29 @@ object_powercapacitorMaxPlus                         	Kondenzátor Max Plus
 buildtoolbar_popup_uts_powercapacitorMaxPlus		Kondenzátor Max Plus je dvakrát účinnější než jeho předchůdce.
 
 object_RemoteDoorMaroon						Dálkově ovládané dveře (kaštanová)
-buildtoolbar_popup_obj_RemoteDoorMaroon 	Tyto dveře jsou určeny k přístupu pomocí funkčního serva. Ujistěte se, že máte dostatek ochranných prvků pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
+buildtoolbar_popup_obj_RemoteDoorMaroon 	Tyto dveře jsou určeny k přístupu pomocí serva. Ujistěte se, že máte dostatek strážných pro ovládání vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
 
 object_RemoteDoorBlack						Dálkově ovládané dveře (černé)
-buildtoolbar_popup_obj_RemoteDoorBlack 	Tyto dveře jsou určeny k přístupu pomocí funkčního serva. Ujistěte se, že máte dostatek ochranných prvků pro kontrolu vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
+buildtoolbar_popup_obj_RemoteDoorBlack 	Tyto dveře jsou určeny k přístupu pomocí serva. Ujistěte se, že máte dostatek strážných pro ovládání vstupu a výstupu u těchto typů dveří, nebo nainstalujte tlakové podložky.
 
 uniformPack_desert			Pouštní uniformy
 uniformpack_desert_desc 		Změní uniformy vězňů a stráží na pouštní vzor.
 		
 buildtoolbar_popup_obj_dogcrate				Útulná přepravka na spaní pro vaše těžce pracující psy K-9.
 buildtoolbar_popup_uts_phonebooth			Umožňuje vězňům mluvit se svými rodinami a naplnit tak jejich potřebu "rodiny".
-buildtoolbar_popup_obj_LaundryMachine		Je potřeba vést prádelnu a prát vězňům špinavé uniformy.
+buildtoolbar_popup_obj_LaundryMachine		Je potřeba pro prádelnu a pro praní špinavých uniform vezňů.
 buildtoolbar_popup_obj_LaundryBasket		Pracovníci věznice a uklízeči budou nosit špinavé uniformy do prádelny a čisté uniformy zpět do vězeňského bloku.
-buildtoolbar_popup_obj_IroningBoard			Je potřeba provozovat prádelnu, kde se žehlí čisté uniformy, než se pošlou zpět vězňům.
-buildtoolbar_popup_obj_VisitorTable			Stůl, u kterého mohou vězni sedět naproti své rodině. Tento stůl se používá také při slyšeních o podmínečném propuštění vězňů.
-buildtoolbar_popup_uts_visitortablesecure	Zabraňuje pašování kontrabandu přes návštěvní stůl, ale je jen z poloviny tak účinný při uspokojování potřeb "rodiny" jako návštěvní stůl. Návštěvní boxy mohou zabránit pašování kontrabandu pouze v případě, že jsou obě strany boxu přehrazeny buď stěnou, nebo jiným návštěvním boxem.
+buildtoolbar_popup_obj_IroningBoard			Je potřeba pro prádelnu a pro žehlení čistých uniform, než se odešlou zpět vězňům.
+buildtoolbar_popup_obj_VisitorTable			Stůl, u kterého mohou vězni posedět se svojí rodinou. Tento stůl se používá také při slyšeních o podmínečném propuštění vězňů.
+buildtoolbar_popup_uts_visitortablesecure	Zabraňuje pašování kontrabandu přes návštěvní stůl, ale je jen z poloviny tak účinný při uspokojování potřeb "rodiny" jako obyčejný návštěvní stůl. Návštěvní boxy mohou zabránit pašování kontrabandu pouze v případě, že jsou obě strany boxu přehrazeny buď stěnou, nebo dalším návštěvním boxem.
 buildtoolbar_popup_obj_WorkshopSaw			Dílenský nástroj, který vězni používají k přeměně špalků na dřevěná prkna nebo plechů na poznávací značky.
 buildtoolbar_popup_obj_WorkshopPress		Dílenský nástroj používaný vězni k lisování nápisů na poznávací značky.
-buildtoolbar_popup_obj_CarpenterTable		Dílenský nástroj, který vězni používají k přeměně klád na lepší lůžko.
-buildtoolbar_popup_obj_GuardLocker			Požadavek na zbrojnici. Každý ozbrojenec musí mít vlastní skříňku.
-buildtoolbar_popup_obj_DrinkMachine			Nutné pro všechny základní prostory pro zaměstnance. Skladuje také ingredience pro alkohol vyráběný vězni.
-buildtoolbar_popup_obj_librarybookshelf		Velká police na knihy. V knihovně jich budete potřebovat několik.
+buildtoolbar_popup_obj_CarpenterTable		Dílenský nástroj, který vězni používají k přeměně klád na luxusní postel.
+buildtoolbar_popup_obj_GuardLocker			Požadavek pro zbrojnici. Každý ozbrojený strážný musí mít vlastní skříňku.
+buildtoolbar_popup_obj_DrinkMachine			Nutné pro základní místnost pro personál. Obsahuje také ingredience pro alkohol vyráběný vězni.
+buildtoolbar_popup_obj_librarybookshelf		Velká police na knihy. V knihovně jich budete pár potřebovat.
 buildtoolbar_popup_obj_ShopShelf			Vysoké regály, které se používají k uskladnění zásob pro obchod.
-buildtoolbar_popup_obj_ShopFront			Umístěte výlohu na stěnu, která stojí mezi prodejnou a prostorem, který je přístupný zákazníkům. Vězni budou k výloze přistupovat, pokud si budou chtít koupit zboží.
+buildtoolbar_popup_obj_ShopFront			Umístěte okénko obchodu na stěnu, která stojí mezi prodejnou a prostorem, který je přístupný zákazníkům. Vězni si mohou u okénka koupit zboží pokud budou chtít.
 
 # ============================================================== 
 # End of File (do not remove new line at the end)

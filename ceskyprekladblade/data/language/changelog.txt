@@ -1,6 +1,5 @@
-"Clink"
+Aktualizace "Clink"
 >27. června 2019
-	Aktualizace lapáku
 <->Byly přidány 4 nové typy podlah a 4 nové typy zdí.
 <->Vylepšení výkonu, která pomohou zkrátit dobu načítání.
 <->Vyšší počet předáků, které lze najmout - pro větší vězení, kde předáci také vyučují.
@@ -15,7 +14,7 @@ Doufáme, že se ti hra bude s těmito vylepšeními líbit!
 
 ~~~~~
 
-﻿Aktualizace “Basa”
+Aktualizace “Basa”
 >17. září 2019
 
 Drazí hráči Prison Architect,
@@ -65,7 +64,6 @@ Gaz, manažer herního designu v Double Eleven.
 <->Možnost mít čistší vězení.
 <->Nové zkratky z horní HUD lišty.
 <->!
-
 
 >[3/3] A navíc...
 
@@ -202,7 +200,6 @@ Klikněte na DALŠÍ a uvidíte více...
 <->Nové dveře: Bambusová brána, Bílé pruhy.
 <->Nové podlahy: Květinové pole, Běžecká dráha (rychlá), Bambus.
 <->Nová možnost plotu s trávou pod ním.
-
 
 >[2/3] Nové funkce
 
@@ -516,6 +513,8 @@ DLC "Jungle Pack" &
 
 Kliknutím na DALŠÍ se dozvíte více...
 
+
+
 >"Jailhouse" - bezplatná aktualizace
 > Vylepšení kvality života
 
@@ -529,6 +528,17 @@ Kliknutím na DALŠÍ se dozvíte více...
 >
 <->Rozmanitá vylepšení - Znovu jsme vyvážili reputaci zloděje identit, účinky, které má potlačení na to, že se z vězňů stanou šílenci, a další vylepšení a opravy!
 
+~~~~~~
 
+"Sunset" aktualizace
+>Plné QoL vylepšení a oprav chyb!
 
+>   QoL vylepšení / Funkce
+<->Super Pes Mutátor: Vzhledem k naší nepopíratelné oblibě jsme přidali nový mutátor založený na mutátoru Super Guard, který vylepší naše chlupaté kamarády.
+<->Kapacitor 2.0: Představujeme vám Kondenzátor Max Plus - vylepšenou verzi kondenzátoru, díky které nyní vaše napájecí stanice produkují dvojnásobné množství energie než dříve.
+<->Dálkové dveře: Přidali jsme barevnou variantu vzdálených dveří pro bezpečnostní úrovně Cela smrti a Supermax.
+<->Rychlost zásahovky: Vzhledem k efektivitě záchranných jednotek, které se pohybují vzduchem, jsme zvýšili rychlost pohybu dodávek Pořádkové stráže, abychom zkrátili dobu jejich příjezdu. 
+<->Aktualizované popisy: Po projití hry jsme se rozhodli aktualizovat nebo přidat řadu nových textových řetězců. Aktualizovali jsme tak texty popisů předmětů, popisů personálu a také popisů potřeb.
 
+<->Při této aktualizaci jsme se zaměřili na co největší zlepšení hráčského zážitku. 
+Děkujeme vám všem za to, že hrajete hru Prison Architect.
